@@ -32,8 +32,6 @@ Bem-vindo ao meu perfil no GitHub! Sou um desenvolvedor apaixonado por desenvolv
 ## 📈 Estatísticas do GitHub
 
 ![Estatísticas do GitHub de Kaikygr](https://github-readme-stats.vercel.app/api?username=Kaikygr&show_icons=true&theme=radical)
-![Contribuições de Kaikygr](https://github-readme-streak-stats.herokuapp.com/?user=Kaikygr&theme=radical)
-![Atividade de Kaikygr](https://activity-graph.herokuapp.com/graph?username=Kaikygr&theme=radical)
 
 ## 📌 Repositórios Fixados
 
