@@ -10,7 +10,6 @@
 
 <h3> Minhas Skills </h3>
 
-
 **Aplicações e dados**
 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
