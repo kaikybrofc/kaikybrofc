@@ -1,4 +1,5 @@
-<h2 align="center">Sobre Mim</h2>
+<!-- markdownlint-disable MD033 -->
+<h1 align="center">Sobre Mim</h1>
 
 <p align="center">
   <strong>Kaiky Brito</strong><br>
@@ -12,8 +13,8 @@
   Meu hobby é programar no meu projeto de automação no WhatsApp
 </p>
 
-<h2 align="center">Minhas Skills</h2>
 <div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
+<h2 align="center">Minhas Skills</h2>
   <img src="https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript" alt="JavaScript"/>
   <img src="https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5" alt="HTML5"/>
   <img src="https://img.shields.io/badge/-CSS-333333?style=flat&logo=CSS3&logoColor=1572B6" alt="CSS"/>
@@ -22,8 +23,8 @@
   <img src="https://img.shields.io/badge/-Node.js-333333?style=flat&logo=node.js" alt="Node.js"/>
 </div>
 
-<h2 align="center">Utilidades & Ferramentas</h2>
 <div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
+<h2 align="center">Utilidades & Ferramentas</h2>
   <img src="https://img.shields.io/badge/-Visual%20Studio%20Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC" alt="Visual Studio Code"/>
   <img src="https://img.shields.io/badge/-Postman-333333?style=flat&logo=postman" alt="Postman"/>
   <img src="https://img.shields.io/badge/-Sublime%20Text-333333?style=flat&logo=sublime-text&logoColor=FF9800" alt="Sublime Text"/>
@@ -36,31 +37,31 @@
   <img src="https://img.shields.io/badge/VPS-000000?style=flat" alt="VPS"/>
 </div>
 
-<h2 align="center">Frameworks e Bibliotecas</h2>
 <div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
+<h2 align="center">Frameworks e Bibliotecas</h2>
   <img src="https://img.shields.io/badge/-React-333333?style=flat&logo=react" alt="React"/>
   <img src="https://img.shields.io/badge/-Bootstrap-333333?style=flat&logo=bootstrap&logoColor=563D7C" alt="Bootstrap"/>
   <img src="https://img.shields.io/badge/-jQuery-333333?style=flat&logo=jquery&logoColor=0769AD" alt="jQuery"/>
   <img src="https://img.shields.io/badge/-Font%20Awesome-333333?style=flat&logo=font-awesome&logoColor=339AF0" alt="Font Awesome"/>
 </div>
 
-<h2 align="center">Ferramentas de Design e Colaboração</h2>
 <div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
+<h2 align="center">Ferramentas de Design e Colaboração</h2>
   <img src="https://img.shields.io/badge/-Canva-333333?style=flat&logo=canva" alt="Canva"/>
   <img src="https://img.shields.io/badge/-GIMP-333333?style=flat&logo=gimp&logoColor=5C5543" alt="GIMP"/>
   <img src="https://img.shields.io/badge/-Figma-333333?style=flat&logo=figma&logoColor=007ACC" alt="Figma"/>
 </div>
 
-<h2 align="center">Controle de Versão e Containerização</h2>
 <div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
+<h2 align="center">Controle de Versão e Containerização</h2>
   <img src="https://img.shields.io/badge/-Git-333333?style=flat&logo=git" alt="Git"/>
   <img src="https://img.shields.io/badge/-GitHub-333333?style=flat&logo=github" alt="GitHub"/>
   <img src="https://img.shields.io/badge/-Docker-333333?style=flat&logo=docker" alt="Docker"/>
   <img src="https://img.shields.io/badge/-Yarn-333333?style=flat&logo=yarn&logoColor=2C8EBB" alt="Yarn"/>
 </div>
 
-<h2 align="center">Onde me encontrar</h2>
 <div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
+<h2 align="center">Onde me encontrar</h2>
   <a href="mailto:kaikygomesribeiroof@gmail.com">
     <img src="https://img.shields.io/badge/-kaikygomesribeiroof%40gmail.com-D14836?style=flat&logo=Gmail&logoColor=white" alt="Gmail"/>
   </a>
@@ -93,3 +94,4 @@
 </picture>
 <hr/>
 <br/>
+<!-- markdownlint-enable MD033 -->
