@@ -1,4 +1,4 @@
-<center> 
+<div style="text-align: center;">
 
 # Sobre Mim
 
@@ -12,7 +12,7 @@ Sou fã do Linux e ativo em comunidades de código aberto
 Moro em Roraima, Brazil; possuo inglês em nível básico  
 Meu hobby é programar no meu projeto de automação no WhatsApp
 
----
+![GitHub followers](https://img.shields.io/github/followers/kaikygr)
 
 ## Minhas Skills
 
@@ -50,6 +50,12 @@ Meu hobby é programar no meu projeto de automação no WhatsApp
 
 ---
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=kaikygr&theme=radical&border=7F3FBF&background=0D1117)](https://github.com/kaikygr) [![Kaiky Top Languages](https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=kaikygr&langs_count=8&layout=compact&theme=react&border_color=7F3FBF&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866)](https://github.com/kaikygr) [![Kaiky GitHub Stats](https://denvercoder1-github-readme-stats.vercel.app/api?username=kaikygr&show_icons=true&count_private=true&theme=react&border_color=7F3FBF&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866)](https://github.com/kaikygr)
-![Kaally Graph](https://github-readme-activity-graph.vercel.app/graph?username=kaikygr&custom_title=kaikygr%20GitHub%20Activity%20Graph&bg_color=0D1117&color=7F3FBF&line=7F3FBF&point=7F3FBF&area_color=FFFFFF&title_color=FFFFFF&area=true)
-</center>
+  <p align="center">
+    <img src="https://github-profile-trophy.vercel.app/?username=kaikygr&theme=dracula" alt="Troféus"/>
+    <img src="https://github-readme-stats.vercel.app/api?username=kaikygr&show_icons=true&theme=dracula&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage" alt="Estatísticas do GitHub" width="50%"/>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaikygr&layout=pie&show_icons=true&theme=dracula" alt="Linguagens mais usadas" width="27.3%"/>
+  </p>
+  <p align="center">
+    <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fkaikygr%2Fkaikygr&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Visitas%20(Hoje%20%2F%20Total)"/>
+  </p>
+</div>
