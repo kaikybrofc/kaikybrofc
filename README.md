@@ -36,6 +36,8 @@
   <a href="mailto:kaikygomesribeiroof@gmail.com"><img src="https://img.shields.io/badge/-kaikygomesribeiroof%40gmail.com-D14836?style=flat&logo=Gmail&logoColor=white" /></a>
   <a href="https://wa.me/5595991264582"><img src="https://img.shields.io/badge/-+5595991264582-25D366?style=flat&logo=whatsapp&logoColor=white" /></a>
   <a href="https://www.instagram.com/kaikygr/"><img src="https://img.shields.io/badge/-kaikygr-E4405F?style=flat&logo=instagram&logoColor=white" /></a>
+---
+
 
   <div>
     <img src="https://github-profile-trophy.vercel.app/?username=kaikygr&theme=dracula" alt="Troféus" />
