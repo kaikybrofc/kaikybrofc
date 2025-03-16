@@ -54,8 +54,7 @@ Kaiky Brito | Nascido em 2005, Roraima - Brasil | Desenvolvedor desde 2020, foca
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kaikygr&show_icons=true&theme=dracula&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage" title="Estatísticas do GitHub">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaikygr&layout=pie&show_icons=true&theme=dracula" title="Linguagens mais usadas">
+  <img src="https://github-readme-stats.vercel.app/api?username=kaikygr&show_icons=true&theme=radical">
 </p>
 
 
