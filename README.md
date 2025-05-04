@@ -1,84 +1,79 @@
-# Kaiky Brito
-
 <p align="center">
   <img src="https://i.pinimg.com/originals/59/b8/60/59b86093b91c031e4a3f4606d9b1cbac.gif" alt="Banner Animado" width="700"> 
-  
 </p>
 
 <p align="center">
-  <strong>Desenvolvedor de Software | Roraima, Brasil 🇧🇷 | Desenvolvendo desde 2020</strong>
+  📍 Boa Vista, Roraima, Brasil 🇧🇷 | 🚀 Desenvolvendo desde 2020
 </p>
 
 <p align="center">
-  Apaixonado por desenvolvimento web, bots e automação, com forte interesse em open-source e cibersegurança. <br>
-  Experiência sólida em ambientes Linux (Arch & Ubuntu) e buscando sempre aprender novas tecnologias.
+  <strong>Desenvolvedor Back-end especializado em Node.js, Automação e Bots.</strong> <br>
+  Entusiasta Linux, apaixonado por tecnologia, explorador de Cibersegurança e contribuidor Open-Source.
 </p>
 
 ---
 
-## 🚀 Sobre Mim
+## 👨‍💻 Sobre Mim
 
-- 👨‍💻 **Foco Principal:** Desenvolvimento Back-end (Node.js) e Automação (Bots).
-- 💡 **Interesses:** Administração de Sistemas Linux, Testes de Penetração (Pentest), Cibersegurança em geral, Automações com WhatsApp.
-- 🐧 **Sistema Operacional:** Usuário diário de Linux (Arch Linux / Ubuntu).
-- 🌱 **Aprendendo:** Atualmente explorando Docker, React, Segurança de APIs.
+Sou um desenvolvedor de software focado em **Desenvolvimento Back-end** (principalmente com Node.js) e na criação de **Automações e Bots**, com experiência em plataformas como WhatsApp. Possuo um forte interesse e conhecimento prático em **Administração de Sistemas Linux** (usuário diário de Arch/Ubuntu) e exploro continuamente as áreas de **Testes de Penetração (Pentest)** e **Cibersegurança**.
+
+Estou sempre em busca de novos conhecimentos, aprimorando minhas habilidades e contribuindo para a comunidade **open-source**.
+
+- 🌱 **Atualmente Aprendendo:** Docker, React, Segurança de APIs, conceitos de DevOps e CI/CD.
 - 🌍 **Idiomas:** Português (Nativo), Inglês (Básico/Intermediário).
-- 🤝 **Comunidade:** Contribuidor ativo em projetos open-source e entusiasta de software livre.
-
-## 📚 Certificações & Cursos
-
-- Introdução à Segurança da Informação – Fundação Bradesco
-- Linux Essentials – Cisco Networking Academy
-- JavaScript Moderno – Udemy
-
-## 🧠 Projetos em Destaque
-
-- **CatBot** – Chatbot inteligente para WhatsApp com automações avançadas.
-- **CosmicAPI** – API galáctica para extração e análise de dados automatizados.
-
-## 🎯 Objetivos Atuais
-
-- Desenvolver soluções escaláveis com foco em automação e segurança.
-- Aprofundar conhecimentos em DevOps e integração contínua (CI/CD).
-- Lançar projetos open-source que impactem positivamente a comunidade.
-
-## 🎮 Fora do Código
-
-- 🚴‍♂️ Pedalo sempre que posso, sozinho ou em grupo.
-- 🎧 Curto lo-fi, techno e rock alternativo.
-- 🎲 Gosto de jogos com estratégia, especialmente sandbox e gestão.
-- ✍️ Às vezes escrevo sobre ideias de automação ou devlog pessoal.
+- 💡 **Interesses:** Automação de processos, Segurança da Informação, Software Livre, Sistemas Embarcados (curiosidade).
+- 🤝 **Disponível para:** Colaborações em projetos open-source, novas oportunidades profissionais e desafios técnicos.
 
 ---
 
-## 🛠️ Habilidades & Ferramentas
+## 🛠️ Habilidades Técnicas
 
 <p align="center">
-  <strong>Linguagens & Banco de Dados:</strong><br>
+  <strong>Linguagens & Frameworks:</strong><br>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
+  <br><br>
+  <strong>Bancos de Dados:</strong><br>
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB">
   <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite">
   <br><br>
   <strong>Ferramentas & Ambiente:</strong><br>
-  <img src="https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code">
-  <img src="https://img.shields.io/badge/Vim-019733?style=for-the-badge&logo=vim&logoColor=white" alt="Vim">
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman">
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"> 
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
   <img src="https://img.shields.io/badge/Arch%20Linux-1793D1?style=for-the-badge&logo=archlinux&logoColor=white" alt="Arch Linux">
   <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Ubuntu">
+  <img src="https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code">
+   <img src="https://img.shields.io/badge/Vim-019733?style=for-the-badge&logo=vim&logoColor=white" alt="Vim">
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman">
 </p>
 
 ---
 
-## 📊 Estatísticas do GitHub
+## 🚀 Projetos em Destaque
+
+
+- **🤖 CatBot:** Chatbot inteligente para WhatsApp projetado para automações avançadas e interações dinâmicas.
+  - *Tecnologias Principais:* Node.js, MySql
+  - [Cat Bot](https://github.com/Kaikygr/galactic-cat)
+---
+
+## 🎯 Metas Profissionais
+
+- Construir e otimizar soluções de software escaláveis, com foco em automação e segurança.
+- Aprofundar conhecimentos em arquitetura de sistemas distribuídos, DevOps e práticas de CI/CD.
+- Contribuir ativamente para projetos open-source relevantes.
+- Expandir minha expertise em cibersegurança e segurança ofensiva (pentest).
+
+---
+
+## 📊 Minhas Estatísticas no GitHub
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=kaikygr&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true" alt="Estatísticas de Kaiky no GitHub">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=kaikygr&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github" alt="Estatísticas de Kaiky no GitHub">
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaikygr&layout=compact&langs_count=8&theme=radical&hide_border=true" alt="Linguagens Mais Usadas por Kaiky">
 </p>
 <p align="center">
@@ -90,17 +85,26 @@
 
 ---
 
-## 📫 Conecte-se Comigo
+## 🎮 Hobbies & Interesses Pessoais
+
+- 🚴‍♂️ Ciclismo
+- 🎧 Música (Lo-fi, Techno, Rock Alternativo)
+- 🎲 Jogos de Estratégia / Sandbox / Gestão
+- ✍️ Escrita (Devlogs, Ideias sobre Automação)
+
+---
+
+## 📫 Como me Encontrar
+
+Estou aberto a conexões, colaborações e conversas!
 
 <p align="center">
   <a href="mailto:kaikygomesribeiroof@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail">
   </a>
-  
-  <a href="https://wa.me/5595991264582" target="_blank">
+  &nbsp; <a href="https://wa.me/5595991264582" target="_blank">
     <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
   </a>
- 
-</p>
+   &nbsp; </p>
 
 ---
