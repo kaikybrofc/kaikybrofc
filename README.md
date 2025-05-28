@@ -1,21 +1,17 @@
 <p align="center">
-  <img src="https://i.pinimg.com/originals/59/b8/60/59b86093b91c031e4a3f4606d9b1cbac.gif" alt="Banner Animado" width="700"> 
-</p>
-
-<p align="center">
   📍 Boa Vista, Roraima, Brasil 🇧🇷 | 🚀 Desenvolvendo desde 2020
 </p>
 
 <p align="center">
-  <strong>Desenvolvedor Back-end especializado em Node.js, Automação e Bots.</strong> <br>
-  Entusiasta Linux, apaixonado por tecnologia, explorador de Cibersegurança e contribuidor Open-Source.
+  <strong>Desenvolvedor Full-Stack com ênfase em Node.js & JavaScript, Automação e Bots.</strong> <br>
+  Usuário Linux dedicado, entusiasta de Cibersegurança e Pentest, apaixonado por tecnologia e contribuidor Open-Source.
 </p>
 
 ---
 
 ## 👨‍💻 Sobre Mim
 
-Sou um desenvolvedor de software focado em **Desenvolvimento Back-end** (principalmente com Node.js) e na criação de **Automações e Bots**, com experiência em plataformas como WhatsApp. Possuo um forte interesse e conhecimento prático em **Administração de Sistemas Linux** (usuário diário de Arch/Ubuntu) e exploro continuamente as áreas de **Testes de Penetração (Pentest)** e **Cibersegurança**.
+Sou um desenvolvedor de software **Full-Stack**, com um forte foco e paixão por **Node.js** e **JavaScript**. Minha experiência abrange o desenvolvimento de aplicações web completas, a criação de **Automações e Bots** (incluindo para plataformas como WhatsApp). Sou um usuário Linux convicto ("Linux forever!") com conhecimento prático em **Administração de Sistemas Linux** (usuário diário de Arch/Ubuntu). Além disso, sou um entusiasta e estudante contínuo das áreas de **Testes de Penetração (Pentest)** e **Cibersegurança**.
 
 Estou sempre em busca de novos conhecimentos, aprimorando minhas habilidades e contribuindo para a comunidade **open-source**.
 
@@ -51,14 +47,6 @@ Estou sempre em busca de novos conhecimentos, aprimorando minhas habilidades e c
   <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman">
 </p>
 
----
-
-## 🚀 Projetos em Destaque
-
-
-- **🤖 CatBot:** Chatbot inteligente para WhatsApp projetado para automações avançadas e interações dinâmicas.
-  - *Tecnologias Principais:* Node.js, MySql
-  - [Cat Bot](https://github.com/Kaikygr/galactic-cat)
 ---
 
 ## 🎯 Metas Profissionais
