@@ -20,6 +20,12 @@ Sou um desenvolvedor **Full-Stack** apaixonado por tecnologia, com foco principa
 
 Como usuário Linux dedicado 🐧 ("Linux forever!"), tenho experiência prática em **Administração de Sistemas Linux** (Arch/Ubuntu). Além disso, sou entusiasta e estudante contínuo de **Cibersegurança** e **Testes de Penetração**.
 
+### 🏆 Conquistas & Reconhecimentos
+- 🥉 **Pull Shark x2** - Contribuições significativas em projetos open-source
+- 🎯 **YOLO** - Tomando decisões ousadas no desenvolvimento
+- 🌟 **4 seguidores** ativos na comunidade GitHub
+- ⭐ **23 estrelas** em repositórios favoritos
+
 ### 🎯 Atualmente
 
 - 🌱 **Estudando:** Docker, React, Kubernetes, Segurança de APIs, DevOps e CI/CD
@@ -27,6 +33,44 @@ Como usuário Linux dedicado 🐧 ("Linux forever!"), tenho experiência prátic
 - 🌍 **Idiomas:** Português (Nativo), Inglês (Intermediário)
 - 💡 **Interesses:** Automação, Segurança da Informação, Open Source, IoT
 - 🤝 **Disponível para:** Colaborações open-source, oportunidades profissionais
+- 🏠 **Status:** Trabalhando de casa
+- 📅 **Nascimento:** 2005 (20 anos)
+- 🌐 **Localização:** Boa Vista, RR - Brasil (UTC-3)
+
+---
+
+## 👨‍💼 Experiência & Jornada
+
+### 🛤️ Minha Trajetória
+- **2020** 🚀 Início da jornada na programação
+- **2021-2022** 📚 Foco em fundamentos: HTML, CSS, JavaScript
+- **2023** 🌱 Evolução para Node.js e desenvolvimento backend
+- **2024** 🤖 Especialização em automação e bots WhatsApp
+- **2025** 🔐 Expansão para DevOps e Cibersegurança
+
+### 🎯 Especialidades Atuais
+- **Backend Development:** Node.js, Express.js, APIs RESTful
+- **Automação:** Bots WhatsApp, scripts de automação
+- **Linux Administration:** Arch Linux, Ubuntu, scripting
+- **Database Management:** MongoDB, MySQL, SQLite, Redis
+- **Security Testing:** Burp Suite, Wireshark, Postman
+
+---
+
+## 🚀 Projetos em Destaque
+
+### 🔥 [OmniZap](https://github.com/Kaikygr/omnizap)
+**Bot de WhatsApp open-source e educacional**
+- 🤖 Desenvolvido em **JavaScript** com biblioteca **Baileys**
+- 📚 Projeto educacional para estudos e desenvolvimento
+- ⭐ **1 estrela** e crescendo
+- 🎯 Foco em automação e aprendizado
+
+### ✨ [Profile Repository](https://github.com/Kaikygr/kaikygr)
+**Repositório de perfil pessoal**
+- 📋 Informações detalhadas sobre experiência e skills
+- 🎨 Design moderno e responsivo
+- ⭐ **1 estrela** da comunidade
 
 ---
 
@@ -119,6 +163,18 @@ Estou sempre aberto a **novas conexões**, **colaborações** e **oportunidades*
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5595991264582)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/kaikygr)
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/kaikygr)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/kaikygr/)
+[![Twitter/X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/kaikygomesbr)
+
+</div>
+
+---
+
+## 📊 Atividade GitHub
+
+<div align="center">
+
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=kaikygr&theme=dracula&hide_border=true)
 
 </div>
 
