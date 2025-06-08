@@ -1,98 +1,133 @@
-<p align="center">
-  📍 Boa Vista, Roraima, Brasil 🇧🇷 | 🚀 Desenvolvendo desde 2020
-</p>
+<div align="center">
 
-<p align="center">
-  <strong>Desenvolvedor Full-Stack com ênfase em Node.js & JavaScript, Automação e Bots.</strong> <br>
-  Usuário Linux dedicado, entusiasta de Cibersegurança e Pentest, apaixonado por tecnologia e contribuidor Open-Source.
-</p>
+# 👋 Olá! Eu sou Kaiky Gomes
 
----
+📍 **Boa Vista, Roraima, Brasil** 🇧🇷 | 🚀 **Desenvolvendo desde 2020**
 
-## 👨‍💻 Sobre Mim
+**Desenvolvedor Full-Stack** especializado em **Node.js & JavaScript**  
+🤖 Automação e Bots | 🐧 Linux Enthusiast | 🔐 Cybersecurity & Pentest
 
-Sou um desenvolvedor de software **Full-Stack**, com um forte foco e paixão por **Node.js** e **JavaScript**. Minha experiência abrange o desenvolvimento de aplicações web completas, a criação de **Automações e Bots** (incluindo para plataformas como WhatsApp). Sou um usuário Linux convicto ("Linux forever!") com conhecimento prático em **Administração de Sistemas Linux** (usuário diário de Arch/Ubuntu). Além disso, sou um entusiasta e estudante contínuo das áreas de **Testes de Penetração (Pentest)** e **Cibersegurança**.
+[![GitHub followers](https://img.shields.io/github/followers/kaikygr?style=social)](https://github.com/kaikygr)
+[![GitHub stars](https://img.shields.io/github/stars/kaikygr?style=social)](https://github.com/kaikygr)
 
-Estou sempre em busca de novos conhecimentos, aprimorando minhas habilidades e contribuindo para a comunidade **open-source**.
-
-- 🌱 **Atualmente Aprendendo:** Docker, React, Segurança de APIs, conceitos de DevOps e CI/CD.
-- 🌍 **Idiomas:** Português (Nativo), Inglês (Básico/Intermediário).
-- 💡 **Interesses:** Automação de processos, Segurança da Informação, Software Livre, Sistemas Embarcados (curiosidade).
-- 🤝 **Disponível para:** Colaborações em projetos open-source, novas oportunidades profissionais e desafios técnicos.
+</div>
 
 ---
 
-## 🛠️ Habilidades Técnicas
+## 🧑‍💻 Sobre Mim
 
-<p align="center">
-  <strong>Linguagens & Frameworks:</strong><br>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
-  <br><br>
-  <strong>Bancos de Dados:</strong><br>
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB">
-  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite">
-  <br><br>
-  <strong>Ferramentas & Ambiente:</strong><br>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"> 
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
-  <img src="https://img.shields.io/badge/Arch%20Linux-1793D1?style=for-the-badge&logo=archlinux&logoColor=white" alt="Arch Linux">
-  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Ubuntu">
-  <img src="https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code">
-   <img src="https://img.shields.io/badge/Vim-019733?style=for-the-badge&logo=vim&logoColor=white" alt="Vim">
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman">
-</p>
+Sou um desenvolvedor **Full-Stack** apaixonado por tecnologia, com foco principal em **Node.js** e **JavaScript**. Especializo-me no desenvolvimento de aplicações web completas e na criação de **automações e bots** (incluindo WhatsApp). 
+
+Como usuário Linux dedicado 🐧 ("Linux forever!"), tenho experiência prática em **Administração de Sistemas Linux** (Arch/Ubuntu). Além disso, sou entusiasta e estudante contínuo de **Cibersegurança** e **Testes de Penetração**.
+
+### 🎯 Atualmente
+
+- 🌱 **Estudando:** Docker, React, Kubernetes, Segurança de APIs, DevOps e CI/CD
+- 🔭 **Trabalhando em:** Projetos de automação e desenvolvimento de bots
+- 🌍 **Idiomas:** Português (Nativo), Inglês (Intermediário)
+- 💡 **Interesses:** Automação, Segurança da Informação, Open Source, IoT
+- 🤝 **Disponível para:** Colaborações open-source, oportunidades profissionais
 
 ---
 
-## 🎯 Metas Profissionais
+## 🛠️ Stack Tecnológica
 
-- Construir e otimizar soluções de software escaláveis, com foco em automação e segurança.
-- Aprofundar conhecimentos em arquitetura de sistemas distribuídos, DevOps e práticas de CI/CD.
-- Contribuir ativamente para projetos open-source relevantes.
-- Expandir minha expertise em cibersegurança e segurança ofensiva (pentest).
+<div align="center">
+
+### 💻 Linguagens & Frameworks
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+### 🗄️ Bancos de Dados
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+
+### 🔧 DevOps & Ferramentas
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+
+### 🐧 Sistemas & Editores
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=archlinux&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Vim](https://img.shields.io/badge/Vim-019733?style=for-the-badge&logo=vim&logoColor=white)
+
+### 🔐 Segurança & Testes
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
+
+</div>
+
+---
+
+## 📈 Estatísticas GitHub
+
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=kaikygr&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaikygr&layout=compact&langs_count=8&theme=radical&hide_border=true" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kaikygr&theme=radical&hide_border=true" />
+</div>
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=kaikygr&theme=dracula&no-frame=true&no-bg=true&margin-w=15&margin-h=15" />
+</div>
 
 ---
 
-## 📊 Minhas Estatísticas no GitHub
+## 🎯 Objetivos Profissionais
 
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=kaikygr&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github" alt="Estatísticas de Kaiky no GitHub">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaikygr&layout=compact&langs_count=8&theme=radical&hide_border=true" alt="Linguagens Mais Usadas por Kaiky">
-</p>
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kaikygr&theme=radical&hide_border=true" alt="Sequência de Contribuições de Kaiky">
-</p>
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=kaikygr&theme=dracula&no-frame=true&no-bg=true&margin-w=15&margin-h=15" alt="Troféus de Kaiky no GitHub">
-</p>
+- 🚀 Desenvolver soluções escaláveis com foco em **automação** e **segurança**
+- 🏗️ Aprofundar conhecimentos em **arquitetura de microsserviços** e **DevOps**
+- 🌟 Contribuir ativamente para projetos **open-source** relevantes
+- 🔒 Expandir expertise em **cibersegurança** e **ethical hacking**
+- 📚 Mentor outros desenvolvedores iniciantes
 
 ---
 
-## 🎮 Hobbies & Interesses Pessoais
+## 🎮 Interesses Pessoais
 
-- 🚴‍♂️ Ciclismo
-- 🎧 Música (Lo-fi, Techno, Rock Alternativo)
-- 🎲 Jogos de Estratégia / Sandbox / Gestão
-- ✍️ Escrita (Devlogs, Ideias sobre Automação)
+- 🚴‍♂️ **Ciclismo** - Aventuras sobre duas rodas
+- 🎧 **Música** - Lo-fi, Techno, Rock Alternativo
+- 🎲 **Gaming** - Estratégia, Sandbox, Simulação
+- ✍️ **Escrita** - Devlogs e artigos técnicos
+- 📖 **Leitura** - Livros sobre tecnologia e sci-fi
+
+---
+
+## 📫 Vamos Conversar!
+
+Estou sempre aberto a **novas conexões**, **colaborações** e **oportunidades**!
+
+<div align="center">
+
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kaikygomesribeiroof@gmail.com)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5595991264582)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/kaikygr)
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/kaikygr)
+
+</div>
 
 ---
 
-## 📫 Como me Encontrar
+<div align="center">
 
-Estou aberto a conexões, colaborações e conversas!
+*"Código limpo não é escrito seguindo um conjunto de regras. É escrito por alguém que se importa."* - **Robert C. Martin**
 
-<p align="center">
-  <a href="mailto:kaikygomesribeiroof@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail">
-  </a>
-  &nbsp; <a href="https://wa.me/5595991264582" target="_blank">
-    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
-  </a>
-   &nbsp; </p>
+**Obrigado pela visita!** ⭐ Deixe uma estrela se algo te interessou!
 
----
+</div>
