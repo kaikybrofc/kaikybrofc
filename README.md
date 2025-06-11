@@ -33,6 +33,7 @@ Como usuário Linux dedicado 🐧 ("Linux forever!"), tenho experiência prátic
 *"Código limpo não é escrito seguindo um conjunto de regras. É escrito por alguém que se importa."* - **Robert C. Martin**
 
 </div>
+
 ---
 
 
@@ -104,7 +105,6 @@ Como usuário Linux dedicado 🐧 ("Linux forever!"), tenho experiência prátic
 ## 📈 Estatísticas & Métricas
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=kaikygr&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github" />
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaikygr&layout=compact&langs_count=8&theme=radical&hide_border=true" />
 </div>
 
@@ -127,10 +127,10 @@ Como usuário Linux dedicado 🐧 ("Linux forever!"), tenho experiência prátic
 
 | Categoria | Atual | Meta 2025 | Progresso |
 |-----------|-------|-----------|-----------|
-| 📝 Commits Anuais | 400+ | 500+ | ![Progress](https://progress-bar.dev/80/) |
-| 📚 Repositórios | 13 | 20+ | ![Progress](https://progress-bar.dev/65/) |
-| ⭐ Stars Totais | 23 | 50+ | ![Progress](https://progress-bar.dev/46/) |
-| 👥 Seguidores | 4 | 25+ | ![Progress](https://progress-bar.dev/16/) |
+| 📝 Commits Anuais | 500+ | 1000+ | ![Progress](https://img.shields.io/badge/-50%25-yellow?style=flat-square) |
+| 📚 Repositórios | 13 | 20+ | ![Progress](https://img.shields.io/badge/-65%25-yellowgreen?style=flat-square) |
+| ⭐ Stars Totais | 23 | 50+ | ![Progress](https://img.shields.io/badge/-46%25-yellow?style=flat-square) |
+| 👥 Seguidores | 4 | 25+ | ![Progress](https://img.shields.io/badge/-16%25-orange?style=flat-square) |
 
 </div>
 
