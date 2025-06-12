@@ -36,8 +36,6 @@ Como usuário Linux dedicado 🐧 ("Linux forever!"), tenho experiência prátic
 
 ---
 
-
-
 ## 👨‍💼 Experiência & Jornada
 
 ### 🛤️ Minha Trajetória
@@ -102,6 +100,27 @@ Como usuário Linux dedicado 🐧 ("Linux forever!"), tenho experiência prátic
 
 ---
 
+## 🌟 Contribuições Recentes
+
+<div align="center">
+  
+[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=kaikygr&repo=omnizap&theme=radical&hide_border=true)](https://github.com/Kaikygr/omnizap)
+[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=kaikygr&repo=omnizap-site&theme=radical&hide_border=true)](https://github.com/Kaikygr/omnizap-site)
+
+</div>
+
+---
+
+## 🎯 Objetivos Profissionais
+
+- 🚀 Desenvolver soluções escaláveis com foco em **automação** e **segurança**
+- 🏗️ Aprofundar conhecimentos em **arquitetura de microsserviços** e **DevOps**
+- 🌟 Contribuir ativamente para projetos **open-source** relevantes
+- 🔒 Expandir expertise em **cibersegurança** e **ethical hacking**
+- 📚 Mentor outros desenvolvedores iniciantes
+
+---
+
 ## 📈 Estatísticas & Métricas
 
 <div align="center">
@@ -110,6 +129,14 @@ Como usuário Linux dedicado 🐧 ("Linux forever!"), tenho experiência prátic
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=kaikygr&theme=radical&hide_border=true" />
+</div>
+
+<div align="center">
+
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=kaikygr&theme=dracula&hide_border=true)
+
+![GitHub Contribution Calendar](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kaikygr&theme=dracula)
+
 </div>
 
 ### 🏆 Conquistas & Reconhecimentos
@@ -136,16 +163,6 @@ Como usuário Linux dedicado 🐧 ("Linux forever!"), tenho experiência prátic
 
 ---
 
-## 🎯 Objetivos Profissionais
-
-- 🚀 Desenvolver soluções escaláveis com foco em **automação** e **segurança**
-- 🏗️ Aprofundar conhecimentos em **arquitetura de microsserviços** e **DevOps**
-- 🌟 Contribuir ativamente para projetos **open-source** relevantes
-- 🔒 Expandir expertise em **cibersegurança** e **ethical hacking**
-- 📚 Mentor outros desenvolvedores iniciantes
-
----
-
 ## 📫 Vamos Conversar!
 
 Estou sempre aberto a **novas conexões**, **colaborações** e **oportunidades**!
@@ -162,11 +179,11 @@ Estou sempre aberto a **novas conexões**, **colaborações** e **oportunidades*
 
 ---
 
+## 👀 Visitas ao Perfil
+
 <div align="center">
-
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=kaikygr&theme=dracula&hide_border=true)
-
-![GitHub Contribution Calendar](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kaikygr&theme=dracula)
+  
+![Contador de Visitas](https://komarev.com/ghpvc/?username=kaikygr&color=blueviolet&style=flat-square&label=Visitas+ao+Perfil)
 
 </div>
 
