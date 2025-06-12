@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👋 Olá! Eu sou Kaiky Gomes
+# 👋 Olá! Eu sou Kaiky Brito
 
 📍 **Boa Vista, Roraima, Brasil** 🇧🇷 | 🚀 **Desenvolvendo desde 2020**
 
