@@ -165,6 +165,8 @@ Estou sempre aberto a **novas conexões**, **colaborações** e **oportunidades*
 
 ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=kaikygr&theme=dracula&hide_border=true)
 
+![GitHub Contribution Calendar](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kaikygr&theme=dracula)
+
 </div>
 
 
