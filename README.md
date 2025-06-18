@@ -154,7 +154,7 @@ Como usuário Linux dedicado 🐧 ("Linux forever!"), tenho experiência prátic
 
 | Categoria | Atual | Meta 2025 | Progresso |
 |-----------|-------|-----------|-----------|
-| 📝 Commits Anuais | 500+ | 1000+ | ![Progress](https://img.shields.io/badge/-50%25-yellow?style=flat-square) |
+| 📝 Commits Anuais | 600+ | 1000+ | ![Progress](https://img.shields.io/badge/-60%25-yellow?style=flat-square) |
 | 📚 Repositórios | 13 | 20+ | ![Progress](https://img.shields.io/badge/-65%25-yellowgreen?style=flat-square) |
 | ⭐ Stars Totais | 23 | 50+ | ![Progress](https://img.shields.io/badge/-46%25-yellow?style=flat-square) |
 | 👥 Seguidores | 4 | 25+ | ![Progress](https://img.shields.io/badge/-16%25-orange?style=flat-square) |
