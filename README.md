@@ -85,32 +85,6 @@ Como usuário Linux dedicado 🐧 ("Linux forever!"), tenho experiência prátic
 
 ---
 
-## 🚀 Projetos em Destaque
-
-### 🔥 [OmniZap](https://github.com/Kaikygr/omnizap)
-**Bot de WhatsApp open-source e educacional**
-- 🤖 Desenvolvido em **JavaScript** com biblioteca **Baileys**
-- 📚 Projeto educacional para estudos e desenvolvimento
-- ⭐ **1 estrela** e crescendo
-
-#### 🛠️ Tecnologias & Arquitetura
-- **Stack:** Node.js, JavaScript ES6+, Baileys, MySQL, Winston, PM2
-- **Recursos:** Reconexão automática, persistência de dados, múltiplas instâncias
-- **Banco:** Sistema completo de chats, mensagens, grupos e confirmações
-
----
-
-## 🌟 Contribuições Recentes
-
-<div align="center">
-  
-[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=kaikygr&repo=omnizap&theme=radical&hide_border=true)](https://github.com/Kaikygr/omnizap)
-[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=kaikygr&repo=omnizap-site&theme=radical&hide_border=true)](https://github.com/Kaikygr/omnizap-site)
-
-</div>
-
----
-
 ## 🎯 Objetivos Profissionais
 
 - 🚀 Desenvolver soluções escaláveis com foco em **automação** e **segurança**
@@ -154,7 +128,7 @@ Como usuário Linux dedicado 🐧 ("Linux forever!"), tenho experiência prátic
 
 | Categoria | Atual | Meta 2025 | Progresso |
 |-----------|-------|-----------|-----------|
-| 📝 Commits Anuais | 600+ | 1000+ | ![Progress](https://img.shields.io/badge/-60%25-yellow?style=flat-square) |
+| 📝 Commits Anuais | 650+ | 1000+ | ![Progress](https://img.shields.io/badge/-65%25-yellow?style=flat-square) |
 | 📚 Repositórios | 13 | 20+ | ![Progress](https://img.shields.io/badge/-65%25-yellowgreen?style=flat-square) |
 | ⭐ Stars Totais | 23 | 50+ | ![Progress](https://img.shields.io/badge/-46%25-yellow?style=flat-square) |
 | 👥 Seguidores | 4 | 25+ | ![Progress](https://img.shields.io/badge/-16%25-orange?style=flat-square) |
