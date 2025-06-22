@@ -4,7 +4,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=120&section=header&text=Kaiky%20Brito&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35"/>
 
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&li---
+  
 
 <!-- ===== ESTATÍSTICAS & MÉTRICAS ===== -->
 <div align="center">
