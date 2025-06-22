@@ -31,7 +31,6 @@
       </td>
     </tr>
   </table>
-</div>!+Eu+sou+Kaiky+Brito+👋;Full-Stack+Developer+🚀;Node.js+Specialist+💻;Automation+Expert+🤖;Linux+Enthusiast+🐧;" />
 </h1>
 
 <div align="center">
