@@ -409,318 +409,63 @@ timeline
 
 ## � Projeto em Destaque
 
-### 📱 OmniZap System v1.0.4
+### 📱 OmniZap System v1.0.5
 **Sistema Profissional de Automação WhatsApp**
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?style=for-the-badge&logo=github)](https://github.com/Kaikygr/omnizap-system)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](https://github.com/Kaikygr/omnizap-system/blob/main/LICENSE)
 [![Node.js](https://img.shields.io/badge/Node.js->=16.0.0-green?style=for-the-badge&logo=nodedotjs)](https://nodejs.org/)
 
-#### 📋 Sobre o Projeto
-Sistema robusto e profissional para automação de mensagens WhatsApp, desenvolvido com tecnologia **Baileys** para máxima compatibilidade e estabilidade. Apresenta **arquitetura modular avançada**, **sistema de cache inteligente** e **processamento de eventos independente** para performance e escalabilidade superiores.
+#### 📋 Visão Geral
+O OmniZap System é uma solução robusta e escalável para automação de mensagens no WhatsApp, construída sobre a poderosa biblioteca Baileys. Ele oferece funcionalidades essenciais para gerenciar conexões, processar mensagens, lidar com grupos e monitorar o desempenho do sistema, ideal para empresas e desenvolvedores que buscam integrar o WhatsApp em seus fluxos de trabalho.
 
-#### ✨ Principais Características
-- 🏗️ **Arquitetura Modular**: Sistema dividido em módulos independentes para máxima manutenibilidade
-- 📊 **Sistema de Logging Centralizado**: Logging avançado com Winston, rotação automática e compressão
-- 💾 **Cache Inteligente**: Sistema de cache com TTL configurável para otimização de performance
-- 🎯 **Processamento de Eventos**: Handler independente para todos os eventos WhatsApp
-- 🤖 **Sistema de Comandos**: Processamento inteligente com prefixos configuráveis
-- 🔄 **Reconexão Automática**: Sistema inteligente de reconexão e tratamento de erros
-- ⚡ **Alta Performance**: Processamento assíncrono e otimizações avançadas
+#### ✨ Funcionalidades Principais
+- **Conexão Flexível**: Suporte para conexão via QR Code e Código de Pareamento para maior conveniência e segurança.
+- **Gerenciamento de Sessão**: Persistência automática das credenciais de autenticação para reconexões rápidas e sem interrupções.
+- **Processamento de Mensagens**: Lida com o recebimento e atualização de mensagens, incluindo suporte a enquetes.
+- **Gerenciamento Avançado de Grupos**: Funções globais para acessar informações detalhadas de grupos e comando `/grupoinfo` para consulta direta.
+- **Sistema de Logs Avançado**: Logs detalhados com rotação diária de arquivos e múltiplos níveis de log.
+- **Monitoramento de Métricas**: Coleta e log de métricas de uso de CPU e memória do sistema.
+- **Reconexão Automática**: Lógica de reconexão robusta com tentativas limitadas em caso de desconexões inesperadas.
 
-#### 🛠️ Stack Tecnológica
-```javascript
-// Principais tecnologias utilizadas
-const technologies = {
-  backend: ["Node.js", "Baileys API", "Winston Logger"],
-  cache: ["Node-Cache", "TTL Management"],
-  utilities: ["Moment.js", "Chalk", "QR Code Terminal"],
-  architecture: ["Modular Design", "Event-Driven", "Async Processing"]
-};
-```
+#### 🛠️ Tecnologias Utilizadas
+- **Node.js** (>=16.0.0)
+- **Baileys** (`@whiskeysockets/baileys`)
+- **Winston** e **Winston Daily Rotate File**
+- **Dotenv** e **Envalid**
+- **Chalk** e **Node-Cache**
+- **Moment-Timezone** e **Qrcode-terminal**
 
-#### 🏗️ Arquitetura do Sistema
-- **Socket Controller**: Gerenciamento de conexão WhatsApp
-- **Event Handler**: Processamento independente de eventos
-- **Cache Manager**: Sistema de cache inteligente com estatísticas
-- **Message Controller**: Lógica de negócios e processamento de comandos
-- **Logger Module**: Sistema centralizado de logging
+#### ⚙️ Instalação
+1. **Clonar o Repositório**:
+   ```bash
+   git clone https://github.com/Kaikygr/omnizap-system.git
+   cd omnizap-system
+   ```
+2. **Instalar Dependências**:
+   ```bash
+   npm install
+   ```
+3. **Configurar Variáveis de Ambiente**:
+   Crie um arquivo `.env` na raiz do projeto, copiando o conteúdo de `.env.example` e preenchendo as variáveis conforme suas necessidades.
+4. **Criar o Diretório de Armazenamento**:
+   ```bash
+   mkdir -p ./temp
+   ```
 
-#### 📈 Métricas de Performance
-- ⚡ **Processamento Assíncrono**: Eventos não-bloqueantes
-- 📊 **Cache Hit/Miss Tracking**: Estatísticas detalhadas
-- 🔄 **Event Batching**: Processamento em lote otimizado
-- 💾 **Memory Management**: Limpeza automática de cache
+#### ▶️ Como Usar
+Para iniciar o OmniZap System, utilize o script `start_socket.sh`. Este script oferece opções para iniciar uma nova sessão ou reconectar a uma sessão existente.
 
-#### 🎯 Funcionalidades Implementadas
-- Sistema de comandos com switch/case otimizado
-- Cache de mensagens, eventos, grupos e contatos
-- Logs separados por tipo (aplicação, erro, aviso)
-- Rotação automática de arquivos de log
-- Suporte a múltiplos tipos de mídia
-- Reconexão automática inteligente
+#### 🗺️ Roadmap (Planos Futuros)
+- Expansão de Comandos do Bot
+- Integração com Banco de Dados
+- Interface de Usuário (Web UI)
+- Suporte a Múltiplos Usuários/Instâncias
+- Melhorias na Modularidade e Extensibilidade
+- Testes Automatizados
 
-<div align="center">
+#### 📄 Licença
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](https://github.com/Kaikygr/omnizap-system/blob/main/LICENSE) para mais detalhes.
 
-**[📖 Ver Documentação Completa](https://github.com/Kaikygr/omnizap-system)** | **[🚀 Começar Agora](https://github.com/Kaikygr/omnizap-system#-instalação)**
-
-</div>
-
----
-
-## �📈 Estatísticas & Métricas
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaikygr&layout=compact&langs_count=8&theme=radical&hide_border=true" />
-</div>
-
-### 🔥 Streak & Atividade
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kaikygr&theme=tokyonight&hide_border=true&background=1a1b27&stroke=70a5fd&ring=fab387&fire=abe9b3&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=70a5fd&sideLabels=c9d1d9&dates=c9d1d9" width="600"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kaikygr&custom_title=Atividade%20dos%20Últimos%2012%20Meses&bg_color=1a1b27&color=70a5fd&line=fab387&point=abe9b3&area=true&hide_border=true" width="100%"/>
-</div>
-
-### 🏆 Conquistas & Reconhecimentos
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=kaikygr&theme=tokyonight&no-frame=true&no-bg=true&margin-w=15&margin-h=15&column=4&row=2&title=Stars,Followers,Commits,Repositories,PullRequest,Issues" />
-</div>
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <img src="https://img.shields.io/badge/Pull%20Shark%20x2-FF6B35?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1b27"/>
-      </td>
-      <td align="center">
-        <img src="https://img.shields.io/badge/YOLO-00D4AA?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1b27"/>
-      </td>
-    </tr>
-  </table>
-</div>
-
-### 📊 Métricas de Performance 2025
-
-<div align="center">
-  <table>
-    <tr>
-      <th>Categoria</th>
-      <th>Atual</th>
-      <th>Meta 2025</th>
-      <th>Progresso</th>
-    </tr>
-    <tr>
-      <td>📝 Commits Anuais</td>
-      <td>650+</td>
-      <td>1000+</td>
-      <td>
-        <div align="center">
-          <img src="https://img.shields.io/badge/-65%25-yellow?style=flat-square&labelColor=1a1b27"/>
-        </div>
-      </td>
-    </tr>
-    <tr>
-      <td>📚 Repositórios</td>
-      <td>13</td>
-      <td>20+</td>
-      <td>
-        <div align="center">
-          <img src="https://img.shields.io/badge/-65%25-yellowgreen?style=flat-square&labelColor=1a1b27"/>
-        </div>
-      </td>
-    </tr>
-    <tr>
-      <td>⭐ Stars Totais</td>
-      <td>23</td>
-      <td>50+</td>
-      <td>
-        <div align="center">
-          <img src="https://img.shields.io/badge/-46%25-yellow?style=flat-square&labelColor=1a1b27"/>
-        </div>
-      </td>
-    </tr>
-    <tr>
-      <td>👥 Seguidores</td>
-      <td>4</td>
-      <td>25+</td>
-      <td>
-        <div align="center">
-          <img src="https://img.shields.io/badge/-16%25-orange?style=flat-square&labelColor=1a1b27"/>
-        </div>
-      </td>
-    </tr>
-  </table>
-</div>
-
-### 📈 Contribuições Detalhadas
-
-<div align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kaikygr&theme=tokyonight" width="100%"/>
-</div>
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kaikygr&theme=tokyonight" width="300"/>
-      </td>
-      <td align="center">
-        <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kaikygr&theme=tokyonight" width="300"/>
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=kaikygr&theme=tokyonight" width="300"/>
-      </td>
-      <td align="center">
-        <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kaikygr&theme=tokyonight&utcOffset=8" width="300"/>
-      </td>
-    </tr>
-  </table>
-</div>
-
-</details>
-
-<!-- ===== VAMOS CONVERSAR ===== -->
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"/>
-</div>
-
-<details open>
-<summary><h2>📫 Vamos Conversar!</h2></summary>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=24&height=60&section=header&text=Let's%20Connect!&fontSize=25&fontColor=ffffff"/>
-</div>
-
-<div align="center">
-  <h3>🤝 Estou sempre aberto a <b>novas conexões</b>, <b>colaborações</b> e <b>oportunidades</b>!</h3>
-</div>
-
-### 📱 Conecte-se Comigo
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" width="25%">
-        <a href="mailto:kaikygomesribeiroof@gmail.com" target="_blank">
-          <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1b27"/>
-          <br><sub>Contato Profissional</sub>
-        </a>
-      </td>
-      <td align="center" width="25%">
-        <a href="https://www.linkedin.com/in/kaiky-gomes/" target="_blank">
-          <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1a1b27"/>
-          <br><sub>Networking Profissional</sub>
-        </a>
-      </td>
-      <td align="center" width="25%">
-        <a href="https://wa.me/5595991264582" target="_blank">
-          <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=1a1b27"/>
-          <br><sub>Contato Rápido</sub>
-        </a>
-      </td>
-      <td align="center" width="25%">
-        <a href="https://t.me/kaikygr" target="_blank">
-          <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=1a1b27"/>
-          <br><sub>Chat Direto</sub>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" width="25%">
-        <a href="https://github.com/kaikygr" target="_blank">
-          <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1b27"/>
-          <br><sub>Projetos & Código</sub>
-        </a>
-      </td>
-      <td align="center" width="25%">
-        <a href="https://www.instagram.com/kaikygr/" target="_blank">
-          <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=1a1b27"/>
-          <br><sub>Conteúdo Pessoal</sub>
-        </a>
-      </td>
-      <td align="center" width="25%">
-        <a href="#" target="_blank">
-          <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white&labelColor=1a1b27"/>
-          <br><sub>Comunidades</sub>
-        </a>
-      </td>
-      <td align="center" width="25%">
-        <a href="#" target="_blank">
-          <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=1a1b27"/>
-          <br><sub>Atualizações Tech</sub>
-        </a>
-      </td>
-    </tr>
-  </table>
-</div>
-
-### 💼 Oportunidades & Colaborações
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" width="33%">
-        <img src="https://img.icons8.com/color/48/000000/briefcase.png" width="50"/>
-        <br><b>🚀 Freelance & Projetos</b>
-        <br><sub>Desenvolvimento de automações, bots WhatsApp, APIs e sistemas web</sub>
-      </td>
-      <td align="center" width="33%">
-        <img src="https://img.icons8.com/color/48/000000/handshake.png" width="50"/>
-        <br><b>🤝 Colaborações Open Source</b>
-        <br><sub>Contribuições em projetos Node.js, automação e ferramentas Linux</sub>
-      </td>
-      <td align="center" width="33%">
-        <img src="https://img.icons8.com/color/48/000000/student-male.png" width="50"/>
-        <br><b>📚 Mentoria & Ensino</b>
-        <br><sub>Orientação em desenvolvimento full-stack e tecnologias modernas</sub>
-      </td>
-    </tr>
-  </table>
-</div>
-
-### 🎯 O que Posso Oferecer
-
-- 💻 **Desenvolvimento Full-Stack** com Node.js e JavaScript
-- 🤖 **Automação e Bots** para WhatsApp e outras plataformas
-- 🐧 **Administração de Sistemas Linux** e DevOps
-- 🔐 **Consultoria em Segurança** e testes de penetração
-- 📊 **Arquitetura de Software** modular e escalável
-
-### � Entre em Contato
-
-<div align="center">
-  <a href="mailto:kaikygomesribeiroof@gmail.com?subject=Oportunidade%20de%20Colaboração&body=Olá%20Kaiky,%0A%0AGostaríamos%20de%20conversar%20sobre%20uma%20oportunidade...">
-    <img src="https://img.shields.io/badge/📧_Enviar_Email-Profissional-blue?style=for-the-badge&labelColor=1a1b27&color=70a5fd"/>
-  </a>
-  <br><br>
-  <sub><i>💡 Respondo em até 24 horas!</i></sub>
-</div>
-
-</details>
-
-<!-- ===== FOOTER ===== -->
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"/>
-</div>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=120&section=footer&text=Obrigado%20pela%20visita!&fontSize=30&fontColor=fff&animation=twinkling&fontAlignY=75"/>
-</div>
-
-<div align="center">
-  <h3>⭐ Se você gostou do meu perfil, deixe uma estrela nos meus repositórios! ⭐</h3>
-  <p><i>"A melhor forma de prever o futuro é criá-lo." - Peter Drucker</i></p>
-  
-  <img src="https://komarev.com/ghpvc/?username=kaikygr&color=blueviolet&style=for-the-badge&label=Profile+Views"/>
-  <br><br>
-  <img src="https://img.shields.io/badge/Made%20with-❤️%20%26%20☕-red?style=for-the-badge&labelColor=1a1b27"/>
-  <img src="https://img.shields.io/badge/Powered%20by-GitHub-black?style=for-the-badge&logo=github&labelColor=1a1b27"/>
-</div>
 
 
