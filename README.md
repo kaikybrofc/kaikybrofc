@@ -1,6 +1,4 @@
 <div align="center">
-  
-<!-- Header com animação e design moderno -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=120&section=header&text=Kaiky%20Brito&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35"/>
 
 <h1 align="center">
@@ -16,7 +14,6 @@
 </div>
 <br>
 
-<!-- ===== SOBRE MIM ===== -->
 <div align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"/>
 </div>
@@ -72,7 +69,6 @@
 
 </details>
 
-<!-- ===== EXPERIÊNCIA & JORNADA ===== -->
 <div align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"/>
 </div>
@@ -82,31 +78,6 @@
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=kaikygr&custom_title=Atividade%20no%20GitHub&bg_color=1a1b27&color=70a5fd&line=fab387&point=abe9b3&area=true&hide_border=true" width="100%"/>
-</div>
-
-### 🛤️ Timeline da Minha Jornada
-
-<div align="center">
-  
-```mermaid
-timeline
-    title Jornada de Desenvolvimento
-    2020 : 🚀 Início na Programação
-         : Primeiros passos no mundo tech
-    2021-2022 : 📚 Fundamentos Sólidos
-              : HTML, CSS, JavaScript
-              : Lógica de Programação
-    2023 : 🌱 Evolução Backend
-         : Node.js e desenvolvimento backend
-         : APIs RESTful
-    2024 : 🤖 Especialização em Automação
-         : Bots WhatsApp
-         : Scripts de automação
-    2025 : 🔐 Expansão DevOps & Security
-         : Docker, Kubernetes
-         : Cibersegurança
-```
-
 </div>
 
 ### 🎯 Especialidades Técnicas
@@ -145,7 +116,6 @@ timeline
 
 </details>
 
-<!-- ===== OBJETIVOS PROFISSIONAIS ===== -->
 <div align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"/>
 </div>
@@ -217,4 +187,5 @@ timeline
 </div>
 
 </div>
+
 ---
