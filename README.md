@@ -6,11 +6,11 @@
 ### 📊 Estatísticas Gerais
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kaikygr&theme=tokyonight&hide_border=true&background=1a1b27&stroke=70a5fd&ring=fab387&fire=abe9b3&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=70a5fd&sideLabels=c9d1d9&dates=c9d1d9" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kaikybrofc&theme=tokyonight&hide_border=true&background=1a1b27&stroke=70a5fd&ring=fab387&fire=abe9b3&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=70a5fd&sideLabels=c9d1d9&dates=c9d1d9" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaikygr&layout=compact&langs_count=12&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=fab387&text_color=c9d1d9&card_width=500" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaikybrofc&layout=compact&langs_count=12&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=fab387&text_color=c9d1d9&card_width=500" />
 </div>
 <br>
 
@@ -77,7 +77,7 @@
 <summary><h2>👨‍💼 Experiência & Jornada</h2></summary>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kaikygr&custom_title=Atividade%20no%20GitHub&bg_color=1a1b27&color=70a5fd&line=fab387&point=abe9b3&area=true&hide_border=true" width="100%"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kaikybrofc&custom_title=Atividade%20no%20GitHub&bg_color=1a1b27&color=70a5fd&line=fab387&point=abe9b3&area=true&hide_border=true" width="100%"/>
 </div>
 
 ### 🎯 Especialidades Técnicas
@@ -164,7 +164,7 @@
 </div>
 
 <div align="center">
-  <a href="https://github.com/kaikygr" target="_blank">
+  <a href="https://github.com/kaikybrofc" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1b27&color=333"/>
   </a>
   <a href="https://www.linkedin.com/in/kaiky-gomes/" target="_blank">
@@ -181,9 +181,9 @@
 <br>
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=kaikygr&color=blueviolet&style=for-the-badge&label=Profile+Views"/>
-  <img src="https://img.shields.io/github/followers/kaikygr?style=for-the-badge&logo=github&labelColor=1a1b27&color=70a5fd"/>
-  <img src="https://img.shields.io/github/stars/kaikygr?style=for-the-badge&logo=github&labelColor=1a1b27&color=fab387"/>
+  <img src="https://komarev.com/ghpvc/?username=kaikybrofc&color=blueviolet&style=for-the-badge&label=Profile+Views"/>
+  <img src="https://img.shields.io/github/followers/kaikybrofc?style=for-the-badge&logo=github&labelColor=1a1b27&color=70a5fd"/>
+  <img src="https://img.shields.io/github/stars/kaikybrofc?style=for-the-badge&logo=github&labelColor=1a1b27&color=fab387"/>
 </div>
 
 </div>
