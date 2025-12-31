@@ -12,11 +12,23 @@
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaikybrofc&layout=compact&langs_count=12&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=fab387&text_color=c9d1d9&card_width=500" />
 </div>
+
+<!-- Adicionado: GitHub Trophies e GitHub Stats -->
+<div align="center">
+  <!-- GitHub Trophies -->
+  <img src="https://github-profile-trophy.vercel.app/?username=kaikybrofc&theme=onedark" alt="trophies" />
+</div>
+
+<div align="center">
+  <!-- GitHub Stats -->
+  <img src="https://github-readme-stats.vercel.app/api?username=kaikybrofc&show_icons=true&theme=tokyonight&hide_border=true" alt="Kaiky's GitHub stats" />
+</div>
+
 <br>
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"/>
-</div>
+</div>"
 
 <details open>
 <summary><h2>🧑‍💻 Sobre Mim</h2></summary>
@@ -112,6 +124,12 @@
       </td>
     </tr>
   </table>
+</div>
+
+<!-- Adicionado: Tech Stack Icons -->
+<div align="center">
+  <p><b>🔧 Tech Stack & Tools</b></p>
+  <img src="https://skillicons.dev/icons?i=nodejs,javascript,react,docker,kubernetes,mongodb,linux,git,typescript" />
 </div>
 
 </details>
