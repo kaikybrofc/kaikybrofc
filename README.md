@@ -50,10 +50,6 @@ Como usuário Linux dedicado 🐧 ("Linux forever!"), possuo experiência práti
 ## 📊 Estatísticas do GitHub
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kaikybrofc&show_icons=true&theme=tokyonight&hide_border=true" alt="Kaiky's GitHub stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kaikybrofc&theme=tokyonight&hide_border=true&background=1a1b27&stroke=70a5fd&ring=fab387&fire=abe9b3&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=70a5fd&sideLabels=c9d1d9&dates=c9d1d9" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaikybrofc&layout=compact&langs_count=12&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=fab387&text_color=c9d1d9&card_width=500" />
-  <img src="https://github-profile-trophy.vercel.app/?username=kaikybrofc&theme=onedark" alt="trophies" />
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=kaikybrofc&custom_title=Atividade%20no%20GitHub&bg_color=1a1b27&color=70a5fd&line=fab387&point=abe9b3&area=true&hide_border=true" width="100%"/>
 </div>
 
