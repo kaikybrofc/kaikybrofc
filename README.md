@@ -1,11 +1,13 @@
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=120&section=header&text=Kaiky%20Brito&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35"/>
+  <br/>
+  <img src="hydra banner.jpg" alt="Hydra Banner" width="400"/>
 </div>
 
 <h1 align="center">Desenvolvedor Full-Stack</h1>
 
 <p align="center">
-  <strong>Node.js & JavaScript Specialist | Automação & Bots | Linux Expert | Cybersecurity & Pentest</strong>
+  <strong>JavaScript Specialist | Automação & Bots | Linux Expert | Cybersecurity & Pentest</strong>
 </p>
 
 <div align="center">
@@ -27,7 +29,7 @@
 
 ## 🧑‍💻 Sobre Mim
 
-Especialista em **Node.js** e **JavaScript** com foco em desenvolvimento de aplicações web completas e criação de **automações e bots**.
+Especialista em **JavaScript** com foco em desenvolvimento de aplicações web completas e criação de **automações e bots**.
 
 Como usuário Linux dedicado 🐧 ("Linux forever!"), possuo experiência prática em **Administração de Sistemas Linux** (Arch/Ubuntu). Sou entusiasta e estudante contínuo de **Cibersegurança** e **Testes de Penetração**.
 
