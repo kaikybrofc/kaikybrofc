@@ -20,7 +20,7 @@
   <a href="mailto:kaikygomesribeiroof@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1b27&color=D14836"/>
   </a>
-  <a href="https://wa.me/5595991264582" target="_blank">
+  <a href="https://wa.me/559599122954" target="_blank">
     <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=1a1b27&color=25D366"/>
   </a>
 </div>
