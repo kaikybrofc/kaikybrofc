@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=120&section=header&text=Kaiky%20Brito&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35"/>
   <br/>
-  <img src="hydra banner.jpg" alt="Hydra Banner" width="400"/>
+ 
 </div>
 
 <h1 align="center">Desenvolvedor Full-Stack</h1>
