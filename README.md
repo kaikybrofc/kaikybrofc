@@ -7,7 +7,7 @@
 <h1 align="center">Desenvolvedor Full-Stack</h1>
 
 <p align="center">
-  <strong>JavaScript Specialist | Automação & Bots | Linux Expert | Cybersecurity & Pentest</strong>
+  <strong>JavaScript | Automação | Linux | Cibersegurança</strong>
 </p>
 
 <div align="center">
@@ -29,15 +29,15 @@
 
 ## 🧑‍💻 Sobre Mim
 
-Especialista em **JavaScript** com foco em desenvolvimento de aplicações web completas e criação de **automações e bots**.
+Desenvolvedor **Full-Stack** com foco em **JavaScript** e experiência na construção de aplicações web completas, integrações e **automações**.
 
-Como usuário Linux dedicado 🐧 ("Linux forever!"), possuo experiência prática em **Administração de Sistemas Linux** (Arch/Ubuntu). Sou entusiasta e estudante contínuo de **Cibersegurança** e **Testes de Penetração**.
+Tenho prática em **Administração de Sistemas Linux** (Arch/Ubuntu) e mantenho estudos contínuos em **Cibersegurança** e **Testes de Penetração**.
 
-- 🌱 **Estudando:** Docker, React, Kubernetes, Segurança de APIs, DevOps e CI/CD
-- 🔭 **Trabalhando em:** Projetos de automação e desenvolvimento de bots
-- 🌍 **Idiomas:** Português (Nativo), Inglês (Intermediário)
-- 💡 **Interesses:** Automação, Segurança da Informação, Open Source, IoT
-- 🤝 **Disponível para:** Colaborações open-source, oportunidades profissionais
+- **Estudando:** Docker, React, Kubernetes, Segurança de APIs, DevOps e CI/CD
+- **Atuação atual:** Projetos de automação e desenvolvimento de bots
+- **Idiomas:** Português (Nativo), Inglês (Intermediário)
+- **Interesses:** Automação, Segurança da Informação, Open Source, IoT
+- **Disponível para:** Colaborações open-source e oportunidades profissionais
 
 ---
 
@@ -46,6 +46,12 @@ Como usuário Linux dedicado 🐧 ("Linux forever!"), possuo experiência práti
 <p align="center">
   <img src="https://skillicons.dev/icons?i=nodejs,express,javascript,typescript,react,docker,kubernetes,linux,git,mongodb,mysql,redis" />
 </p>
+
+---
+
+## 🚀 Projeto principal
+
+- [OmniZap System](https://github.com/kaikybrofc/omnizap-system) — repositório do projeto principal (detalhes no README do projeto).
 
 ---
 
@@ -65,8 +71,8 @@ Como usuário Linux dedicado 🐧 ("Linux forever!"), possuo experiência práti
 
 ## 🎯 Metas para 2026
 
-- 🚀 Desenvolver soluções escaláveis com foco em **automação** e **segurança**
-- 🏗️ Aprofundar conhecimentos em **arquitetura de microsserviços** e **DevOps**
-- 🌟 Contribuir ativamente para projetos **open-source** relevantes
-- 🔒 Expandir expertise em **cibersegurança** e **ethical hacking**
-- 📚 Mentorar outros desenvolvedores iniciantes
+- Desenvolver soluções escaláveis com foco em **automação** e **segurança**
+- Aprofundar conhecimentos em **arquitetura de microsserviços** e **DevOps**
+- Contribuir ativamente para projetos **open-source** relevantes
+- Expandir expertise em **cibersegurança** e **ethical hacking**
+- Mentorar outros desenvolvedores iniciantes
