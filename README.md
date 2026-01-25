@@ -36,11 +36,7 @@
   <img src="https://img.shields.io/badge/Ciberseguran%C3%A7a-1a1b26?style=for-the-badge&logo=hackthebox&logoColor=c0caf5&labelColor=1a1b26&color=9ece6a"/>
 </div>
 
-<div align="center">
-  Desenvolvedor **Full-Stack** com foco em **JavaScript** e experiência na construção de aplicações web completas, integrações e **automações**.
-  <br/>
-  Tenho prática em **Administração de Sistemas Linux** (Arch/Ubuntu) e mantenho estudos contínuos em **Cibersegurança** e **Testes de Penetração**.
-</div>
+---
 
 <div align="center">
   <img src="https://img.shields.io/badge/Estudando-Docker%20%7C%20React%20%7C%20K8s%20%7C%20Seguran%C3%A7a%20de%20APIs%20%7C%20DevOps%20%7C%20CI%2FCD-1a1b26?style=for-the-badge&logo=docker&logoColor=c0caf5&labelColor=1a1b26&color=7aa2f7"/>
