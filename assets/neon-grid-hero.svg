@@ -8,16 +8,22 @@
     <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(180 70) rotate(15) scale(520 240)">
       <stop offset="0" stop-color="#00e5ff" stop-opacity="0.5"/>
       <stop offset="1" stop-color="#00e5ff" stop-opacity="0"/>
+      <animate attributeName="gradientTransform" dur="9s" repeatCount="indefinite" values="translate(180 70) rotate(15) scale(520 240);translate(250 90) rotate(10) scale(580 260);translate(180 70) rotate(15) scale(520 240)"/>
     </radialGradient>
     <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1210 90) rotate(-15) scale(500 240)">
       <stop offset="0" stop-color="#ff2bd6" stop-opacity="0.4"/>
       <stop offset="1" stop-color="#ff2bd6" stop-opacity="0"/>
+      <animate attributeName="gradientTransform" dur="11s" repeatCount="indefinite" values="translate(1210 90) rotate(-15) scale(500 240);translate(1120 120) rotate(-10) scale(560 260);translate(1210 90) rotate(-15) scale(500 240)"/>
     </radialGradient>
     <pattern id="grid" x="0" y="0" width="36" height="36" patternUnits="userSpaceOnUse">
       <path d="M36 0H0V36" stroke="#22d3ee" stroke-opacity="0.22" stroke-width="1"/>
+      <animateTransform attributeName="patternTransform" type="translate" dur="14s" repeatCount="indefinite" values="0 0;18 18;0 0"/>
     </pattern>
     <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
       <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <filter id="softStrong" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="14"/>
     </filter>
     <linearGradient id="lineA" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#00e5ff" stop-opacity="0"/>
@@ -40,6 +46,7 @@
     <path d="M0 300H1400" stroke="url(#lineA)" stroke-width="2"/>
     <path d="M0 338H1400" stroke="url(#lineA)" stroke-width="2"/>
     <path d="M0 376H1400" stroke="url(#lineA)" stroke-width="2"/>
+    <animate attributeName="opacity" dur="4s" repeatCount="indefinite" values="0.35;0.6;0.35"/>
   </g>
 
   <g stroke="#00e5ff" stroke-opacity="0.24" stroke-width="1.2">
@@ -58,12 +65,26 @@
   <g filter="url(#soft)" opacity="0.45">
     <ellipse cx="700" cy="165" rx="260" ry="80" fill="#00e5ff"/>
     <ellipse cx="700" cy="165" rx="170" ry="44" fill="#ff2bd6"/>
+    <animate attributeName="opacity" dur="3.2s" repeatCount="indefinite" values="0.3;0.55;0.3"/>
+  </g>
+
+  <g filter="url(#softStrong)" opacity="0.4">
+    <rect x="-320" y="266" width="320" height="2" fill="#00e5ff">
+      <animate attributeName="x" dur="5.4s" repeatCount="indefinite" values="-320;1400"/>
+      <animate attributeName="opacity" dur="5.4s" repeatCount="indefinite" values="0;0.95;0.95;0"/>
+    </rect>
+    <rect x="1400" y="354" width="220" height="1.5" fill="#ff2bd6">
+      <animate attributeName="x" dur="6.8s" repeatCount="indefinite" values="1400;-220"/>
+      <animate attributeName="opacity" dur="6.8s" repeatCount="indefinite" values="0;0.75;0.75;0"/>
+    </rect>
   </g>
 
   <text x="700" y="152" text-anchor="middle" font-family="JetBrains Mono, Consolas, monospace" font-size="62" font-weight="700" fill="#e6fbff" letter-spacing="2">
     KAIKY BRITO
+    <animate attributeName="opacity" dur="2.7s" repeatCount="indefinite" values="0.86;1;0.86"/>
   </text>
   <text x="700" y="198" text-anchor="middle" font-family="JetBrains Mono, Consolas, monospace" font-size="20" font-weight="600" fill="#bff6ff" letter-spacing="1.6">
     PROFILE SYSTEM // NODE // AUTOMACAO // SEGURANCA
+    <animate attributeName="opacity" dur="3.5s" repeatCount="indefinite" values="0.72;1;0.72"/>
   </text>
 </svg>
