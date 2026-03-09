@@ -26,6 +26,44 @@
 
 Desenvolvedor Full-Stack focado em JavaScript/TypeScript, automacao e integracoes. Trabalho com sistemas web, infraestrutura Linux e praticas de ciberseguranca para entregar solucoes estaveis, seguras e escalaveis.
 
+<!--PROFILE_DYNAMIC_START-->
+## Live GitHub Snapshot
+
+Atualizado em: **2026-03-09 08:11:28 UTC**
+
+- Perfil: [Kaiky Brito](https://github.com/kaikybrofc) (@kaikybrofc)
+- Bio: 👨‍💻 Kaiky Brito, nascido em 2005, é um desenvolvedor júnior apaixonado por tecnologia 🚀 e programação 💻. Entusiasta do universo tech 🌐
+- Seguidores: 8 | Seguindo: 21
+- Repositorios: 19 (publicos: 16, privados: 3)
+- Stars totais: 13 | Forks totais: 3 | Open issues: 21
+
+**Top linguagens (repos):**
+
+JavaScript: 11 repos (57.9%) | N/A: 3 repos (15.8%) | Python: 3 repos (15.8%) | C: 1 repos (5.3%) | Rust: 1 repos (5.3%)
+
+**Top repositorios por stars:**
+
+| Repo | Stars | Language | Updated |
+| --- | ---: | --- | --- |
+| [omnizap-system](https://github.com/kaikybrofc/omnizap-system) | 6 | JavaScript | 2026-03-09 07:35:57 UTC |
+| [ayana-bot](https://github.com/kaikybrofc/ayana-bot) | 1 | Python | 2026-03-02 03:07:41 UTC |
+| [kaikybrofc](https://github.com/kaikybrofc/kaikybrofc) | 1 | N/A | 2026-03-09 07:48:11 UTC |
+| [portifolio](https://github.com/kaikybrofc/portifolio) | 1 | JavaScript | 2026-03-09 07:28:43 UTC |
+| [webp-conv](https://github.com/kaikybrofc/webp-conv) | 1 | JavaScript | 2025-12-23 22:36:33 UTC |
+| [yt-dls](https://github.com/kaikybrofc/yt-dls) | 1 | JavaScript | 2026-03-04 23:09:26 UTC |
+
+**Atividade publica recente:**
+
+- PushEvent em `kaikybrofc/kaikybrofc` (2026-03-09 07:48:09 UTC)
+- PushEvent em `kaikybrofc/omnizap-system` (2026-03-09 07:35:54 UTC)
+- ReleaseEvent em `kaikybrofc/omnizap-system` (2026-03-09 07:30:46 UTC)
+- PushEvent em `kaikybrofc/omnizap-system` (2026-03-09 07:30:43 UTC)
+- PushEvent em `kaikybrofc/omnizap-system` (2026-03-09 07:30:11 UTC)
+- PushEvent em `kaikybrofc/portifolio` (2026-03-09 07:28:39 UTC)
+
+<!--DYNAMIC_GENERATED_BY: perfil-server -->
+<!--PROFILE_DYNAMIC_END-->
+
 ## Tech Arsenal
 
 <p>
@@ -48,24 +86,6 @@ Desenvolvedor Full-Stack focado em JavaScript/TypeScript, automacao e integracoe
 | --- | --- | --- |
 | [OmniZap System](https://github.com/kaikybrofc/omnizap-system) | Plataforma para automacao e integracoes com WhatsApp com foco em produtividade operacional. | Node.js, Integracoes, API |
 
-## Performance Board
-
-<p align="center">
-  <img src="./assets/metrics.base.svg" width="100%" alt="GitHub base metrics"/>
-</p>
-
-<p align="center">
-  <img src="./assets/metrics.extended.svg" width="100%" alt="GitHub extended metrics"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kaikybrofc&hide_border=true&bg_color=070b14&color=38bdf8&line=22d3ee&point=f472b6&area=true&area_color=0ea5e9&title_color=e6f7ff&custom_title=Contribution%20Timeline" width="100%" alt="Activity graph"/>
-</p>
-
-<p align="center">
-  <img src="./assets/snake.svg" width="100%" alt="Contribution snake"/>
-</p>
-
 ## Automation
 
 Este perfil usa GitHub Actions para atualizar metricas e assets diariamente, sem manutencao manual.
@@ -73,6 +93,7 @@ Este perfil usa GitHub Actions para atualizar metricas e assets diariamente, sem
 - Workflow: `.github/workflows/profile-automation.yml`
 - Schedule: todos os dias (UTC)
 - Atualiza: `metrics.base.svg`, `metrics.extended.svg`, `snake.svg` e timestamp do README
+- Sync dinamico local: `npm run refresh:readme` (usa `GITHUB_TOKEN` do `.env`)
 
 > Last auto-sync: <!--LAST_UPDATED_START-->2026-03-09 00:00 UTC<!--LAST_UPDATED_END-->
 

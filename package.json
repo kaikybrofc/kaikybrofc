@@ -1,0 +1,19 @@
+{
+  "name": "perfil-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Express server for omnizap.xyz behind Nginx",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "refresh:readme": "node scripts/update-readme.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
+  }
+}
