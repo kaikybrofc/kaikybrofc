@@ -55,9 +55,24 @@
 ## Stack Principal
 
 <!--STACK_DYNAMIC_START-->
-<a href="https://omnizap.xyz/api/stack/current" target="_blank" rel="noopener noreferrer">
-  <img src="https://omnizap.xyz/stack/current.svg" width="100%" alt="Lista dinâmica da stack principal gerada pelo servidor"/>
-</a>
+<p align="center">
+  <a href="https://omnizap.xyz/api/stack/current" target="_blank" rel="noopener noreferrer"><img src="https://omnizap.xyz/badges/stack/nodejs.svg" alt="Badge stack Node.js"/></a>
+  <a href="https://omnizap.xyz/api/stack/current" target="_blank" rel="noopener noreferrer"><img src="https://omnizap.xyz/badges/stack/javascript.svg" alt="Badge stack JavaScript"/></a>
+  <a href="https://omnizap.xyz/api/stack/current" target="_blank" rel="noopener noreferrer"><img src="https://omnizap.xyz/badges/stack/express.svg" alt="Badge stack Express"/></a>
+  <a href="https://omnizap.xyz/api/stack/current" target="_blank" rel="noopener noreferrer"><img src="https://omnizap.xyz/badges/stack/react.svg" alt="Badge stack React"/></a>
+  <a href="https://omnizap.xyz/api/stack/current" target="_blank" rel="noopener noreferrer"><img src="https://omnizap.xyz/badges/stack/python.svg" alt="Badge stack Python"/></a>
+  <a href="https://omnizap.xyz/api/stack/current" target="_blank" rel="noopener noreferrer"><img src="https://omnizap.xyz/badges/stack/mysql.svg" alt="Badge stack MySQL"/></a>
+  <a href="https://omnizap.xyz/api/stack/current" target="_blank" rel="noopener noreferrer"><img src="https://omnizap.xyz/badges/stack/eslint.svg" alt="Badge stack ESLint"/></a>
+  <a href="https://omnizap.xyz/api/stack/current" target="_blank" rel="noopener noreferrer"><img src="https://omnizap.xyz/badges/stack/prettier.svg" alt="Badge stack Prettier"/></a>
+  <a href="https://omnizap.xyz/api/stack/current" target="_blank" rel="noopener noreferrer"><img src="https://omnizap.xyz/badges/stack/mongodb.svg" alt="Badge stack MongoDB"/></a>
+  <a href="https://omnizap.xyz/api/stack/current" target="_blank" rel="noopener noreferrer"><img src="https://omnizap.xyz/badges/stack/tailwindcss.svg" alt="Badge stack Tailwind CSS"/></a>
+  <a href="https://omnizap.xyz/api/stack/current" target="_blank" rel="noopener noreferrer"><img src="https://omnizap.xyz/badges/stack/vite.svg" alt="Badge stack Vite"/></a>
+  <a href="https://omnizap.xyz/api/stack/current" target="_blank" rel="noopener noreferrer"><img src="https://omnizap.xyz/badges/stack/c.svg" alt="Badge stack C"/></a>
+  <a href="https://omnizap.xyz/api/stack/current" target="_blank" rel="noopener noreferrer"><img src="https://omnizap.xyz/badges/stack/rust.svg" alt="Badge stack Rust"/></a>
+  <a href="https://omnizap.xyz/api/stack/current" target="_blank" rel="noopener noreferrer"><img src="https://omnizap.xyz/badges/stack/jest.svg" alt="Badge stack Jest"/></a>
+</p>
+
+<p align="center"><sub>Stack dinâmica baseada nas tecnologias detectadas nos repositórios.</sub></p>
 <!--STACK_DYNAMIC_END-->
 
 <p align="center">

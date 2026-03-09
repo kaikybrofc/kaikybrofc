@@ -50,12 +50,34 @@ function buildFocusEmbedSection() {
   ].join("\n");
 }
 
-function buildStackEmbedSection() {
+function buildStackEmbedSection(summary) {
   const baseUrl = getBadgeBaseUrl();
+  const stackItems = Array.isArray(summary?.stackTechnologies) ? summary.stackTechnologies : [];
+  const limit = Math.max(6, Math.min(24, Number(process.env.STACK_CURRENT_LIMIT || 14)));
+  const topStack = stackItems.slice(0, limit);
+
+  if (!topStack.length) {
+    return [
+      `<a href="${baseUrl}/api/stack/current" target="_blank" rel="noopener noreferrer">`,
+      `  <img src="${baseUrl}/stack/current.svg" width="100%" alt="Lista dinâmica da stack principal gerada pelo servidor"/>`,
+      "</a>"
+    ].join("\n");
+  }
+
+  const badges = topStack
+    .map((item) => {
+      const techKey = encodeURIComponent(String(item.badgeKey || item.name || "").trim());
+      const techName = toSafeText(item.name || item.badgeKey || "Stack");
+      return `<a href="${baseUrl}/api/stack/current" target="_blank" rel="noopener noreferrer"><img src="${baseUrl}/badges/stack/${techKey}.svg" alt="Badge stack ${techName}"/></a>`;
+    })
+    .join("\n  ");
+
   return [
-    `<a href="${baseUrl}/api/stack/current" target="_blank" rel="noopener noreferrer">`,
-    `  <img src="${baseUrl}/stack/current.svg" width="100%" alt="Lista dinâmica da stack principal gerada pelo servidor"/>`,
-    "</a>"
+    `<p align="center">`,
+    `  ${badges}`,
+    `</p>`,
+    "",
+    `<p align="center"><sub>Stack dinâmica baseada nas tecnologias detectadas nos repositórios.</sub></p>`
   ].join("\n");
 }
 
@@ -154,7 +176,7 @@ async function updateReadmeWithSummary(summary, options = {}) {
   const currentReadme = await fs.readFile(readmePath, "utf8");
   const aboutSection = buildAboutEmbedSection();
   const focusSection = buildFocusEmbedSection();
-  const stackSection = buildStackEmbedSection();
+  const stackSection = buildStackEmbedSection(summary);
   const advancedStatsSection = buildAdvancedStatsEmbedSection();
   const featuredSection = buildFeaturedProjectsTable(summary);
   const withAbout = replaceSection(

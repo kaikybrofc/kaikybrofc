@@ -16,6 +16,7 @@ const startedAt = new Date().toISOString();
 const host = process.env.HOST || "127.0.0.1";
 const port = Number(process.env.PORT || 3015);
 const readmePath = process.env.README_PATH || path.resolve(process.cwd(), "README.md");
+const publicDir = path.resolve(__dirname, "public");
 const autoRefreshEnabled = (process.env.README_AUTO_REFRESH || "true").toLowerCase() === "true";
 const autoRefreshIntervalMin = Number(process.env.README_REFRESH_INTERVAL_MIN || 60);
 const profileCacheTtlSec = Number(process.env.PROFILE_CACHE_TTL_SEC || 300);
@@ -1084,60 +1085,8 @@ app.get("/health", (_req, res) => {
   });
 });
 
-app.get("/", (req, res) => {
-  res.type("html").send(`<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>omnizap.xyz</title>
-  <style>
-    :root { color-scheme: dark; }
-    body {
-      margin: 0;
-      min-height: 100vh;
-      display: grid;
-      place-items: center;
-      font-family: "JetBrains Mono", Consolas, monospace;
-      background: radial-gradient(circle at 20% 20%, #0ea5e9 0%, #020617 55%);
-      color: #e2e8f0;
-    }
-    main {
-      width: min(900px, 92vw);
-      border: 1px solid rgba(226, 232, 240, 0.2);
-      border-radius: 16px;
-      padding: 32px;
-      backdrop-filter: blur(4px);
-      background: rgba(2, 6, 23, 0.65);
-      box-shadow: 0 20px 50px rgba(2, 6, 23, 0.45);
-    }
-    h1 { margin: 0 0 16px 0; font-size: clamp(1.5rem, 5vw, 2.4rem); }
-    p { margin: 8px 0; line-height: 1.5; }
-    code {
-      display: inline-block;
-      padding: 4px 8px;
-      border-radius: 8px;
-      background: rgba(14, 165, 233, 0.2);
-      border: 1px solid rgba(14, 165, 233, 0.35);
-    }
-  </style>
-</head>
-<body>
-  <main>
-    <h1>omnizap.xyz online</h1>
-    <p>Express server is running behind Nginx reverse proxy.</p>
-    <p>Host: <code>${req.headers.host || "unknown"}</code></p>
-    <p>Time (UTC): <code>${new Date().toISOString()}</code></p>
-    <p>Health endpoint: <code>/health</code></p>
-    <p>Summary endpoint: <code>/api/profile/summary</code></p>
-    <p>About endpoint: <code>/api/about/summary</code></p>
-    <p>Focus endpoint: <code>/api/focus/current</code></p>
-    <p>Stack endpoint: <code>/api/stack/current</code></p>
-    <p>Advanced stats endpoint: <code>/api/stats/advanced</code></p>
-    <p>Badge endpoint: <code>/badges/seguidores.svg</code></p>
-  </main>
-</body>
-</html>`);
+app.get("/", (_req, res) => {
+  res.sendFile(path.join(publicDir, "index.html"));
 });
 
 app.get("/api/profile/summary", async (_req, res) => {
