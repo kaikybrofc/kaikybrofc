@@ -69,51 +69,59 @@
 Classificados automaticamente com base na atividade recente no GitHub.
 
 <!--FEATURED_PROJECTS_START-->
-### 1. [kaikybrofc](https://github.com/kaikybrofc/kaikybrofc)
+### Projeto 1: [kaikybrofc](https://github.com/kaikybrofc/kaikybrofc)
 
 **Descrição:** ✨ Aqui você encontra informações sobre mim.
 
-**Tecnologias:** JavaScript
-
 ![Resumo do Projeto](https://omnizap.xyz/badges/projeto/kaikybrofc/resumo.svg) ![Atividade](https://omnizap.xyz/badges/projeto/kaikybrofc/atividade.svg) ![Estrelas](https://omnizap.xyz/badges/projeto/kaikybrofc/estrelas.svg) ![Atualizado](https://omnizap.xyz/badges/projeto/kaikybrofc/atualizado.svg)
 
-### 2. [omnizap-system](https://github.com/kaikybrofc/omnizap-system)
+<p align="center">
+  <img src="https://omnizap.xyz/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
+</p>
+
+### Projeto 2: [omnizap-system](https://github.com/kaikybrofc/omnizap-system)
 
 **Descrição:** Sistema profissional de automação WhatsApp com tecnologia Baileys
 
-**Tecnologias:** JavaScript
-
 ![Resumo do Projeto](https://omnizap.xyz/badges/projeto/omnizap-system/resumo.svg) ![Atividade](https://omnizap.xyz/badges/projeto/omnizap-system/atividade.svg) ![Estrelas](https://omnizap.xyz/badges/projeto/omnizap-system/estrelas.svg) ![Atualizado](https://omnizap.xyz/badges/projeto/omnizap-system/atualizado.svg)
 
-### 3. [portifolio](https://github.com/kaikybrofc/portifolio)
+<p align="center">
+  <img src="https://omnizap.xyz/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
+</p>
+
+### Projeto 3: [portifolio](https://github.com/kaikybrofc/portifolio)
 
 **Descrição:** Portfolio pessoal de Kaiky Brito, desenvolvido com React + Vite para apresentar projetos, habilidades e formas de contato.
 
-**Tecnologias:** JavaScript
-
 ![Resumo do Projeto](https://omnizap.xyz/badges/projeto/portifolio/resumo.svg) ![Atividade](https://omnizap.xyz/badges/projeto/portifolio/atividade.svg) ![Estrelas](https://omnizap.xyz/badges/projeto/portifolio/estrelas.svg) ![Atualizado](https://omnizap.xyz/badges/projeto/portifolio/atualizado.svg)
 
-### 4. [yt-dls](https://github.com/kaikybrofc/yt-dls)
+<p align="center">
+  <img src="https://omnizap.xyz/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
+</p>
+
+### Projeto 4: [yt-dls](https://github.com/kaikybrofc/yt-dls)
 
 **Descrição:** yt-dls é uma API simples e leve para download de vídeos do YouTube, construída em Node.js com o framework Express, que utiliza internamente a ferramenta yt-d...
 
-**Tecnologias:** JavaScript
-
 ![Resumo do Projeto](https://omnizap.xyz/badges/projeto/yt-dls/resumo.svg) ![Atividade](https://omnizap.xyz/badges/projeto/yt-dls/atividade.svg) ![Estrelas](https://omnizap.xyz/badges/projeto/yt-dls/estrelas.svg) ![Atualizado](https://omnizap.xyz/badges/projeto/yt-dls/atualizado.svg)
 
-### 5. [nebula](https://github.com/kaikybrofc/nebula)
+<p align="center">
+  <img src="https://omnizap.xyz/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
+</p>
+
+### Projeto 5: [nebula](https://github.com/kaikybrofc/nebula)
 
 **Descrição:** -
 
-**Tecnologias:** JavaScript
-
 ![Resumo do Projeto](https://omnizap.xyz/badges/projeto/nebula/resumo.svg) ![Atividade](https://omnizap.xyz/badges/projeto/nebula/atividade.svg) ![Estrelas](https://omnizap.xyz/badges/projeto/nebula/estrelas.svg) ![Atualizado](https://omnizap.xyz/badges/projeto/nebula/atualizado.svg)
 
-### 6. [ayana-bot](https://github.com/kaikybrofc/ayana-bot)
+<p align="center">
+  <img src="https://omnizap.xyz/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
+</p>
+
+### Projeto 6: [ayana-bot](https://github.com/kaikybrofc/ayana-bot)
 
 **Descrição:** 🤖 Ayana System é um bot inteligente com temática anime, focado em automação, interações avançadas, jogos e recursos modernos para servidores. Rápido, elegan...
-
-**Tecnologias:** Python
 
 ![Resumo do Projeto](https://omnizap.xyz/badges/projeto/ayana-bot/resumo.svg) ![Atividade](https://omnizap.xyz/badges/projeto/ayana-bot/atividade.svg) ![Estrelas](https://omnizap.xyz/badges/projeto/ayana-bot/estrelas.svg) ![Atualizado](https://omnizap.xyz/badges/projeto/ayana-bot/atualizado.svg)
 <!--FEATURED_PROJECTS_END-->

@@ -68,6 +68,15 @@ function buildProjectBadges(repoName) {
   ].join(" ");
 }
 
+function buildProjectDivider() {
+  const baseUrl = getBadgeBaseUrl();
+  return [
+    `<p align="center">`,
+    `  <img src="${baseUrl}/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>`,
+    `</p>`
+  ].join("\n");
+}
+
 function buildFeaturedProjectsTable(summary) {
   const ranked = Array.isArray(summary.projectsByActivity) ? summary.projectsByActivity : [];
   const projects = ranked.slice(0, Math.max(3, Math.min(6, ranked.length)));
@@ -80,14 +89,17 @@ function buildFeaturedProjectsTable(summary) {
 
   for (let index = 0; index < projects.length; index += 1) {
     const project = projects[index];
-    lines.push(`### ${index + 1}. [${project.name}](${project.htmlUrl})`);
+    lines.push(`### Projeto ${index + 1}: [${project.name}](${project.htmlUrl})`);
     lines.push("");
     lines.push(`**Descrição:** ${truncateText(project.description, 160)}`);
     lines.push("");
-    lines.push(`**Tecnologias:** ${toSafeText(project.language)}`);
-    lines.push("");
     lines.push(buildProjectBadges(project.name));
     lines.push("");
+
+    if (index < projects.length - 1) {
+      lines.push(buildProjectDivider());
+      lines.push("");
+    }
   }
 
   return lines.join("\n").trimEnd();
