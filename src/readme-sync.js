@@ -38,19 +38,21 @@ function buildFeaturedProjectsTable(summary) {
     return "_Sem projetos públicos para destacar no momento._";
   }
 
-  const lines = [
-    "| Posição | Projeto | Descrição | Tecnologias | Indicadores |",
-    "| ---: | --- | --- | --- | --- |"
-  ];
+  const lines = [];
 
   for (let index = 0; index < projects.length; index += 1) {
     const project = projects[index];
-    lines.push(
-      `| ${index + 1} | [${project.name}](${project.htmlUrl}) | ${truncateText(project.description, 110)} | ${toSafeText(project.language)} | ${buildProjectBadges(project.name)} |`
-    );
+    lines.push(`### ${index + 1}. [${project.name}](${project.htmlUrl})`);
+    lines.push("");
+    lines.push(`**Descrição:** ${truncateText(project.description, 160)}`);
+    lines.push("");
+    lines.push(`**Tecnologias:** ${toSafeText(project.language)}`);
+    lines.push("");
+    lines.push(buildProjectBadges(project.name));
+    lines.push("");
   }
 
-  return lines.join("\n");
+  return lines.join("\n").trimEnd();
 }
 
 function replaceSection(readmeContent, startMarker, endMarker, generatedSection) {

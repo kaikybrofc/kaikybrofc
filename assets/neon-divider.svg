@@ -1,0 +1,29 @@
+<svg width="1400" height="86" viewBox="0 0 1400 86" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Neon divider">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="43" x2="1400" y2="43" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#040714" stop-opacity="0"/>
+      <stop offset="0.16" stop-color="#040714" stop-opacity="0.95"/>
+      <stop offset="0.84" stop-color="#040714" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#040714" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="lineMain" x1="0" y1="43" x2="1400" y2="43" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00e5ff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00e5ff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#00e5ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="lineSub" x1="0" y1="43" x2="1400" y2="43" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff2bd6" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ff2bd6" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#ff2bd6" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blur" x="-30%" y="-300%" width="160%" height="700%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="8" width="1400" height="70" fill="url(#bg)"/>
+  <line x1="20" y1="43" x2="1380" y2="43" stroke="url(#lineMain)" stroke-width="2"/>
+  <line x1="60" y1="48" x2="1340" y2="48" stroke="url(#lineSub)" stroke-width="1.2" opacity="0.9"/>
+  <line x1="140" y1="38" x2="1260" y2="38" stroke="url(#lineSub)" stroke-width="1.2" opacity="0.8"/>
+  <line x1="350" y1="43" x2="1050" y2="43" stroke="#9ef9ff" stroke-width="5" opacity="0.35" filter="url(#blur)"/>
+</svg>
