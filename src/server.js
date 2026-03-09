@@ -17,7 +17,6 @@ const startedAt = new Date().toISOString();
 const host = process.env.HOST || "127.0.0.1";
 const port = Number(process.env.PORT || 3015);
 const readmePath = process.env.README_PATH || path.resolve(process.cwd(), "README.md");
-const publicDir = path.resolve(__dirname, "public");
 const autoRefreshEnabled = (process.env.README_AUTO_REFRESH || "true").toLowerCase() === "true";
 const autoRefreshIntervalMin = Number(process.env.README_REFRESH_INTERVAL_MIN || 60);
 const profileCacheTtlSec = Number(process.env.PROFILE_CACHE_TTL_SEC || 300);
@@ -1588,7 +1587,12 @@ app.get("/health", (_req, res) => {
 });
 
 app.get("/", (_req, res) => {
-  res.sendFile(path.join(publicDir, "index.html"));
+  res.status(200).json({
+    ok: true,
+    service: "perfil-server",
+    mode: "local",
+    message: "Servidor local ativo para renderizar assets e atualizar README."
+  });
 });
 
 app.get("/api/profile/summary", async (_req, res) => {

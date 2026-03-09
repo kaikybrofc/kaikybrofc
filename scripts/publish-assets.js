@@ -84,6 +84,33 @@ function buildPushCommand(remote, branch, remoteUrl, token) {
   };
 }
 
+function shouldUseStrictPushMode() {
+  return (process.env.AUTO_PUSH_STRICT || "false").toLowerCase() === "true";
+}
+
+function describePushFailure(errorMessage) {
+  const message = String(errorMessage || "");
+  if (/Permission to .* denied|requested URL returned error: 403/i.test(message)) {
+    return {
+      reason: "permission_denied",
+      hint:
+        "Token sem permissao de escrita via Git. Gere/edite um Fine-grained PAT com acesso ao repo e permissao Contents: Read and write."
+    };
+  }
+
+  if (/Authentication failed|401|403/i.test(message)) {
+    return {
+      reason: "auth_failed",
+      hint: "Falha de autenticacao no push. Verifique GITHUB_PUSH_TOKEN/GITHUB_TOKEN."
+    };
+  }
+
+  return {
+    reason: "push_failed",
+    hint: "Falha ao publicar no remoto. Verifique rede, remote e credenciais."
+  };
+}
+
 async function run() {
   const env = {
     ...process.env,
@@ -208,10 +235,37 @@ async function run() {
   }
 
   const pushCommand = buildPushCommand(remote, branch, remoteUrl, pushToken);
-  await runCommand("git", pushCommand.args, {
-    env,
-    displayArgs: pushCommand.displayArgs
-  });
+  try {
+    await runCommand("git", pushCommand.args, {
+      env,
+      capture: true,
+      displayArgs: pushCommand.displayArgs
+    });
+  } catch (error) {
+    const strict = shouldUseStrictPushMode();
+    const details = describePushFailure(error.message);
+    if (strict) {
+      throw error;
+    }
+
+    console.log(
+      JSON.stringify(
+        {
+          ok: true,
+          changed: true,
+          branch,
+          remote,
+          authMode: pushCommand.authMode,
+          push: "failed_non_strict",
+          reason: details.reason,
+          hint: details.hint
+        },
+        null,
+        2
+      )
+    );
+    return;
+  }
 
   console.log(
     JSON.stringify(
