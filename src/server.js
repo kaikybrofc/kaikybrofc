@@ -541,9 +541,7 @@ function buildAboutSummarySvg(about) {
   const contentHeight = lines.length * lineHeight;
   const footerY = textStartY + contentHeight + 30;
   const height = Math.max(250, footerY + 34);
-  const source = String(about?.source || "n/a");
   const generatedAtRelative = formatRelativeTime(about?.generatedAt);
-  const generatedAtIso = about?.generatedAt ? new Date(about.generatedAt).toISOString() : "sem data";
 
   const textLinesSvg = lines
     .map((line, index) => {
@@ -572,12 +570,12 @@ function buildAboutSummarySvg(about) {
   <rect width="1400" height="${height}" rx="18" fill="url(#grid)"/>
   <rect x="36" y="28" width="1328" height="${height - 56}" rx="14" fill="#020617" fill-opacity="0.52" stroke="#38bdf8" stroke-opacity="0.28"/>
   <rect x="52" y="48" width="340" height="34" rx="8" fill="#0b1221" stroke="#22d3ee" stroke-opacity="0.5"/>
-  <text x="68" y="71" fill="#bff6ff" font-family="JetBrains Mono, Consolas, monospace" font-size="16" font-weight="700">SOBRE DINAMICO // IA</text>
+  <text x="68" y="71" fill="#bff6ff" font-family="JetBrains Mono, Consolas, monospace" font-size="16" font-weight="700">SOBRE DINAMICO</text>
   <line x1="52" y1="92" x2="1348" y2="92" stroke="url(#accent)" stroke-width="2" stroke-opacity="0.8"/>
   ${textLinesSvg}
   <line x1="52" y1="${footerY - 10}" x2="1348" y2="${footerY - 10}" stroke="#38bdf8" stroke-opacity="0.32"/>
   <text x="54" y="${footerY + 14}" fill="#a8d9f4" font-family="JetBrains Mono, Consolas, monospace" font-size="16">
-    fonte: ${escapeXml(source)} // atualizado: ${escapeXml(generatedAtRelative)} // gerado_em_utc: ${escapeXml(generatedAtIso)}
+    atualizado: ${escapeXml(generatedAtRelative)}
   </text>
 </svg>`;
 }
