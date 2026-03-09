@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="repositorios: 16 publicos" width="218" height="32" viewBox="0 0 218 32">
+  <defs>
+    <linearGradient id="bgLabel" x1="0" y1="0" x2="0" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b0f1a"/>
+      <stop offset="1" stop-color="#0b0f1a"/>
+    </linearGradient>
+    <linearGradient id="bgMessage" x1="0" y1="0" x2="0" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="capsule">
+      <rect width="218" height="32" rx="8" ry="8"/>
+    </clipPath>
+    <filter id="glow" x="-30%" y="-200%" width="160%" height="500%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+  </defs>
+  <g clip-path="url(#capsule)">
+    <rect width="113" height="32" fill="url(#bgLabel)"/>
+    <rect x="113" width="105" height="32" fill="url(#bgMessage)"/>
+    <rect x="113" width="105" height="32" fill="#ffffff" opacity="0.08">
+      <animate attributeName="opacity" dur="2.6s" repeatCount="indefinite" values="0.04;0.16;0.04"/>
+    </rect>
+    <rect x="-120" y="0" width="120" height="32" fill="url(#scan)">
+      <animate attributeName="x" dur="3.6s" repeatCount="indefinite" values="-120;218"/>
+    </rect>
+  </g>
+  <line x1="113" y1="4" x2="113" y2="28" stroke="#94a3b8" stroke-opacity="0.45"/>
+  <line x1="113" y1="16" x2="183" y2="16" stroke="#ffffff" stroke-opacity="0.4" stroke-width="2" filter="url(#glow)">
+    <animate attributeName="opacity" dur="1.8s" repeatCount="indefinite" values="0.25;0.9;0.25"/>
+  </line>
+  
+  <text x="57" y="21" text-anchor="middle" fill="#c8e9ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11.4" font-weight="700" letter-spacing="0.35">repositorios</text>
+  <text x="166" y="21" text-anchor="middle" fill="#0b1020" font-family="JetBrains Mono, Consolas, monospace" font-size="11.4" font-weight="800" letter-spacing="0.25">16 publicos</text>
+</svg>

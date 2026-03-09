@@ -1,0 +1,60 @@
+<svg width="1400" height="526" viewBox="0 0 1400 526" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Estatistica avancada dinamica">
+  <defs>
+    <linearGradient id="bgStat" x1="0" y1="0" x2="1400" y2="526" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#040919"/>
+      <stop offset="0.58" stop-color="#061328"/>
+      <stop offset="1" stop-color="#081b33"/>
+    </linearGradient>
+    <linearGradient id="accentStat" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#84cc16"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <pattern id="gridStat" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" stroke="#38bdf8" stroke-opacity="0.15" stroke-width="1"/>
+      <animateTransform attributeName="patternTransform" type="translate" dur="16s" repeatCount="indefinite" values="0 0;24 24;0 0"/>
+    </pattern>
+    
+  </defs>
+  <rect width="1400" height="526" rx="18" fill="url(#bgStat)"/>
+  <rect width="1400" height="526" rx="18" fill="url(#gridStat)"/>
+  <rect x="36" y="28" width="1328" height="470" rx="14" fill="#020617" fill-opacity="0.52" stroke="#38bdf8" stroke-opacity="0.28"/>
+  <rect x="52" y="48" width="350" height="34" rx="8" fill="#0b1221" stroke="#84cc16" stroke-opacity="0.6"/>
+  <text x="68" y="71" fill="#e6fbff" font-family="JetBrains Mono, Consolas, monospace" font-size="16" font-weight="700">ESTATISTICA AVANCADA</text>
+  <rect x="416" y="48" width="318" height="34" rx="8" fill="#0b1221" stroke="#22d3ee" stroke-opacity="0.55"/>
+  <text x="432" y="71" fill="#bff6ff" font-family="JetBrains Mono, Consolas, monospace" font-size="16" font-weight="700">MARCOS RECENTES</text>
+  <line x1="52" y1="92" x2="1348" y2="92" stroke="url(#accentStat)" stroke-width="2" stroke-opacity="0.85"/>
+  <text x="54" y="124" fill="#e2f6ff" font-family="JetBrains Mono, Consolas, monospace" font-size="24" font-weight="700">MARCOS RECENTES</text>
+  <text x="54" y="146" fill="#9fd8f5" font-family="JetBrains Mono, Consolas, monospace" font-size="16" font-weight="600">Destaques das ultimas atualizacoes</text>
+  <rect x="52" y="164" width="1296" height="194" rx="12" fill="#020617" fill-opacity="0.58" stroke="#38bdf8" stroke-opacity="0.2"/>
+  <text x="68" y="186" fill="#93c5fd" font-family="JetBrains Mono, Consolas, monospace" font-size="12" font-weight="700">ULTIMOS MARCOS DETECTADOS</text>
+  <line x1="192" y1="246" x2="700" y2="246" stroke="#84cc16" stroke-opacity="0.65" stroke-width="3"/>
+<line x1="700" y1="246" x2="1208" y2="246" stroke="#84cc16" stroke-opacity="0.65" stroke-width="3"/>
+<g>
+  <circle cx="192" cy="246" r="15" fill="#02111f" stroke="#84cc16" stroke-opacity="0.8" stroke-width="2"/>
+  <circle cx="192" cy="246" r="5" fill="#84cc16"/>
+  <text x="192" y="224" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11.5" font-weight="700">30m</text>
+  <text x="192" y="284" text-anchor="middle" fill="#b8dff5" font-family="JetBrains Mono, Consolas, monospace" font-size="12">PushEvent em</text>
+<text x="192" y="302" text-anchor="middle" fill="#b8dff5" font-family="JetBrains Mono, Consolas, monospace" font-size="12">kaikybrofc/kaikybrofc</text>
+</g>
+<g>
+  <circle cx="700" cy="246" r="15" fill="#02111f" stroke="#22d3ee" stroke-opacity="0.8" stroke-width="2"/>
+  <circle cx="700" cy="246" r="5" fill="#22d3ee"/>
+  <text x="700" y="224" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11.5" font-weight="700">31m</text>
+  <text x="700" y="284" text-anchor="middle" fill="#b8dff5" font-family="JetBrains Mono, Consolas, monospace" font-size="12">kaikybrofc: Adds project</text>
+<text x="700" y="302" text-anchor="middle" fill="#b8dff5" font-family="JetBrains Mono, Consolas, monospace" font-size="12">dividers and localizes...</text>
+</g>
+<g>
+  <circle cx="1208" cy="246" r="15" fill="#02111f" stroke="#84cc16" stroke-opacity="0.8" stroke-width="2"/>
+  <circle cx="1208" cy="246" r="5" fill="#84cc16"/>
+  <text x="1208" y="224" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11.5" font-weight="700">40m</text>
+  <text x="1208" y="284" text-anchor="middle" fill="#b8dff5" font-family="JetBrains Mono, Consolas, monospace" font-size="12">PushEvent em</text>
+<text x="1208" y="302" text-anchor="middle" fill="#b8dff5" font-family="JetBrains Mono, Consolas, monospace" font-size="12">kaikybrofc/kaikybrofc</text>
+</g>
+  <text x="58" y="394" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- 30m: PushEvent em kaikybrofc/kaikybrofc</text>
+<text x="58" y="418" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- 31m: kaikybrofc: Adds project dividers and localizes featured headings</text>
+<text x="58" y="442" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- 40m: PushEvent em kaikybrofc/kaikybrofc</text>
+  <line x1="52" y1="482" x2="1348" y2="482" stroke="#38bdf8" stroke-opacity="0.32"/>
+  <text x="54" y="506" fill="#a8d9f4" font-family="JetBrains Mono, Consolas, monospace" font-size="16">
+    atualizado: 1h
+  </text>
+</svg>

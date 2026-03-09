@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Stack: Express" width="166" height="32" viewBox="0 0 166 32">
+  <defs>
+    <linearGradient id="bgLabel" x1="0" y1="0" x2="0" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b0f1a"/>
+      <stop offset="1" stop-color="#0b0f1a"/>
+    </linearGradient>
+    <linearGradient id="bgMessage" x1="0" y1="0" x2="0" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000000"/>
+      <stop offset="1" stop-color="#000000"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="capsule">
+      <rect width="166" height="32" rx="8" ry="8"/>
+    </clipPath>
+    <filter id="glow" x="-30%" y="-200%" width="160%" height="500%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+  </defs>
+  <g clip-path="url(#capsule)">
+    <rect width="66" height="32" fill="url(#bgLabel)"/>
+    <rect x="66" width="100" height="32" fill="url(#bgMessage)"/>
+    <rect x="66" width="100" height="32" fill="#ffffff" opacity="0.08">
+      <animate attributeName="opacity" dur="2.6s" repeatCount="indefinite" values="0.04;0.16;0.04"/>
+    </rect>
+    <rect x="-120" y="0" width="120" height="32" fill="url(#scan)">
+      <animate attributeName="x" dur="3.6s" repeatCount="indefinite" values="-120;166"/>
+    </rect>
+  </g>
+  <line x1="66" y1="4" x2="66" y2="28" stroke="#94a3b8" stroke-opacity="0.45"/>
+  <line x1="66" y1="16" x2="136" y2="16" stroke="#ffffff" stroke-opacity="0.4" stroke-width="2" filter="url(#glow)">
+    <animate attributeName="opacity" dur="1.8s" repeatCount="indefinite" values="0.25;0.9;0.25"/>
+  </line>
+  <rect x="72" y="7" width="18" height="18" rx="4" fill="#020617" fill-opacity="0.36" stroke="#ffffff" stroke-opacity="0.2"/>
+  <g transform="translate(75 10) scale(0.58)">
+    <path fill="#000000" d="M24 18.588a1.529 1.529 0 01-1.895-.72l-3.45-4.771-.5-.667-4.003 5.444a1.466 1.466 0 01-1.802.708l5.158-6.92-4.798-6.251a1.595 1.595 0 011.9.666l3.576 4.83 3.596-4.81a1.435 1.435 0 011.788-.668L21.708 7.9l-2.522 3.283a.666.666 0 000 .994l4.804 6.412zM.002 11.576l.42-2.075c1.154-4.103 5.858-5.81 9.094-3.27 1.895 1.489 2.368 3.597 2.275 5.973H1.116C.943 16.447 4.005 19.009 7.92 17.7a4.078 4.078 0 002.582-2.876c.207-.666.548-.78 1.174-.588a5.417 5.417 0 01-2.589 3.957 6.272 6.272 0 01-7.306-.933 6.575 6.575 0 01-1.64-3.858c0-.235-.08-.455-.134-.666A88.33 88.33 0 010 11.577zm1.127-.286h9.654c-.06-3.076-2.001-5.258-4.59-5.278-2.882-.04-4.944 2.094-5.071 5.264z"/>
+  </g>
+  <text x="33" y="21" text-anchor="middle" fill="#c8e9ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11.4" font-weight="700" letter-spacing="0.35">Stack</text>
+  <text x="124" y="21" text-anchor="middle" fill="#ecfeff" font-family="JetBrains Mono, Consolas, monospace" font-size="11.4" font-weight="800" letter-spacing="0.25">Express</text>
+</svg>

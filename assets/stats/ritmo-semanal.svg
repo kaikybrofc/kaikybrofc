@@ -1,0 +1,103 @@
+<svg width="1400" height="550" viewBox="0 0 1400 550" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Estatistica avancada dinamica">
+  <defs>
+    <linearGradient id="bgStat" x1="0" y1="0" x2="1400" y2="550" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#040919"/>
+      <stop offset="0.58" stop-color="#061328"/>
+      <stop offset="1" stop-color="#081b33"/>
+    </linearGradient>
+    <linearGradient id="accentStat" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#a855f7"/>
+    </linearGradient>
+    <pattern id="gridStat" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" stroke="#38bdf8" stroke-opacity="0.15" stroke-width="1"/>
+      <animateTransform attributeName="patternTransform" type="translate" dur="16s" repeatCount="indefinite" values="0 0;24 24;0 0"/>
+    </pattern>
+    <linearGradient id="statBarGradritmosemanal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#a855f7" stop-opacity="0.88"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="550" rx="18" fill="url(#bgStat)"/>
+  <rect width="1400" height="550" rx="18" fill="url(#gridStat)"/>
+  <rect x="36" y="28" width="1328" height="494" rx="14" fill="#020617" fill-opacity="0.52" stroke="#38bdf8" stroke-opacity="0.28"/>
+  <rect x="52" y="48" width="350" height="34" rx="8" fill="#0b1221" stroke="#38bdf8" stroke-opacity="0.6"/>
+  <text x="68" y="71" fill="#e6fbff" font-family="JetBrains Mono, Consolas, monospace" font-size="16" font-weight="700">ESTATISTICA AVANCADA</text>
+  <rect x="416" y="48" width="318" height="34" rx="8" fill="#0b1221" stroke="#a855f7" stroke-opacity="0.55"/>
+  <text x="432" y="71" fill="#bff6ff" font-family="JetBrains Mono, Consolas, monospace" font-size="16" font-weight="700">RITMO SEMANAL</text>
+  <line x1="52" y1="92" x2="1348" y2="92" stroke="url(#accentStat)" stroke-width="2" stroke-opacity="0.85"/>
+  <text x="54" y="124" fill="#e2f6ff" font-family="JetBrains Mono, Consolas, monospace" font-size="24" font-weight="700">RITMO SEMANAL</text>
+  <text x="54" y="146" fill="#9fd8f5" font-family="JetBrains Mono, Consolas, monospace" font-size="16" font-weight="600">Distribuicao por dia da semana</text>
+  <rect x="52" y="164" width="1296" height="194" rx="12" fill="#020617" fill-opacity="0.58" stroke="#38bdf8" stroke-opacity="0.2"/>
+  <text x="68" y="186" fill="#93c5fd" font-family="JetBrains Mono, Consolas, monospace" font-size="12" font-weight="700">REGISTROS POR DIA</text>
+  <g>
+  <line x1="82" y1="182" x2="1318" y2="182" stroke="#7dd3fc" stroke-opacity="0.14" stroke-width="1"/>
+  <text x="74" y="186" text-anchor="end" fill="#8fb0c8" font-family="JetBrains Mono, Consolas, monospace" font-size="11">57</text>
+</g>
+<g>
+  <line x1="82" y1="218" x2="1318" y2="218" stroke="#7dd3fc" stroke-opacity="0.14" stroke-width="1"/>
+  <text x="74" y="222" text-anchor="end" fill="#8fb0c8" font-family="JetBrains Mono, Consolas, monospace" font-size="11">42.8</text>
+</g>
+<g>
+  <line x1="82" y1="254" x2="1318" y2="254" stroke="#7dd3fc" stroke-opacity="0.14" stroke-width="1"/>
+  <text x="74" y="258" text-anchor="end" fill="#8fb0c8" font-family="JetBrains Mono, Consolas, monospace" font-size="11">28.5</text>
+</g>
+<g>
+  <line x1="82" y1="290" x2="1318" y2="290" stroke="#7dd3fc" stroke-opacity="0.14" stroke-width="1"/>
+  <text x="74" y="294" text-anchor="end" fill="#8fb0c8" font-family="JetBrains Mono, Consolas, monospace" font-size="11">14.3</text>
+</g>
+<g>
+  <line x1="82" y1="326" x2="1318" y2="326" stroke="#7dd3fc" stroke-opacity="0.32" stroke-width="1"/>
+  <text x="74" y="330" text-anchor="end" fill="#8fb0c8" font-family="JetBrains Mono, Consolas, monospace" font-size="11">0</text>
+</g>
+<g>
+  <rect x="83" y="250" width="166" height="76" rx="6" fill="url(#statBarGradritmosemanal)" opacity="0.96"/>
+  <rect x="83" y="250" width="166" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
+  <text x="166" y="242" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">31</text>
+  <text x="166" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">dom</text>
+</g>
+<g>
+  <rect x="261" y="186" width="166" height="140" rx="6" fill="url(#statBarGradritmosemanal)" opacity="0.96"/>
+  <rect x="261" y="186" width="166" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
+  <text x="344" y="178" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">57</text>
+  <text x="344" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">seg</text>
+</g>
+<g>
+  <rect x="439" y="265" width="166" height="61" rx="6" fill="url(#statBarGradritmosemanal)" opacity="0.96"/>
+  <rect x="439" y="265" width="166" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
+  <text x="522" y="257" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">25</text>
+  <text x="522" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">ter</text>
+</g>
+<g>
+  <rect x="617" y="262" width="166" height="64" rx="6" fill="url(#statBarGradritmosemanal)" opacity="0.96"/>
+  <rect x="617" y="262" width="166" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
+  <text x="700" y="254" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">26</text>
+  <text x="700" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">qua</text>
+</g>
+<g>
+  <rect x="795" y="289" width="166" height="37" rx="6" fill="url(#statBarGradritmosemanal)" opacity="0.96"/>
+  <rect x="795" y="289" width="166" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
+  <text x="878" y="281" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">15</text>
+  <text x="878" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">qui</text>
+</g>
+<g>
+  <rect x="973" y="319" width="166" height="7" rx="6" fill="url(#statBarGradritmosemanal)" opacity="0.96"/>
+  <rect x="973" y="319" width="166" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
+  <text x="1056" y="311" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">3</text>
+  <text x="1056" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">sex</text>
+</g>
+<g>
+  <rect x="1151" y="319" width="166" height="7" rx="6" fill="url(#statBarGradritmosemanal)" opacity="0.96"/>
+  <rect x="1151" y="319" width="166" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
+  <text x="1234" y="311" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">3</text>
+  <text x="1234" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">sab</text>
+</g>
+  <text x="58" y="394" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Dia mais ativo: seg (57).</text>
+<text x="58" y="418" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Dia menos ativo: sab (3).</text>
+<text x="58" y="442" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Total analisado: 160 registros.</text>
+<text x="58" y="466" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Cadencia semanal detectada com base em eventos recentes.</text>
+  <line x1="52" y1="506" x2="1348" y2="506" stroke="#38bdf8" stroke-opacity="0.32"/>
+  <text x="54" y="530" fill="#a8d9f4" font-family="JetBrains Mono, Consolas, monospace" font-size="16">
+    atualizado: 1h
+  </text>
+</svg>

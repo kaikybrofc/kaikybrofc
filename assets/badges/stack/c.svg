@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Stack: C" width="156" height="32" viewBox="0 0 156 32">
+  <defs>
+    <linearGradient id="bgLabel" x1="0" y1="0" x2="0" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b0f1a"/>
+      <stop offset="1" stop-color="#0b0f1a"/>
+    </linearGradient>
+    <linearGradient id="bgMessage" x1="0" y1="0" x2="0" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a8b9cc"/>
+      <stop offset="1" stop-color="#a8b9cc"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="capsule">
+      <rect width="156" height="32" rx="8" ry="8"/>
+    </clipPath>
+    <filter id="glow" x="-30%" y="-200%" width="160%" height="500%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+  </defs>
+  <g clip-path="url(#capsule)">
+    <rect width="66" height="32" fill="url(#bgLabel)"/>
+    <rect x="66" width="90" height="32" fill="url(#bgMessage)"/>
+    <rect x="66" width="90" height="32" fill="#ffffff" opacity="0.08">
+      <animate attributeName="opacity" dur="2.6s" repeatCount="indefinite" values="0.04;0.16;0.04"/>
+    </rect>
+    <rect x="-120" y="0" width="120" height="32" fill="url(#scan)">
+      <animate attributeName="x" dur="3.6s" repeatCount="indefinite" values="-120;156"/>
+    </rect>
+  </g>
+  <line x1="66" y1="4" x2="66" y2="28" stroke="#94a3b8" stroke-opacity="0.45"/>
+  <line x1="66" y1="16" x2="136" y2="16" stroke="#ffffff" stroke-opacity="0.4" stroke-width="2" filter="url(#glow)">
+    <animate attributeName="opacity" dur="1.8s" repeatCount="indefinite" values="0.25;0.9;0.25"/>
+  </line>
+  <rect x="72" y="7" width="18" height="18" rx="4" fill="#020617" fill-opacity="0.36" stroke="#ffffff" stroke-opacity="0.2"/>
+  <g transform="translate(75 10) scale(0.58)">
+    <path fill="#a8b9cc" d="M16.5921 9.1962s-.354-3.298-3.627-3.39c-3.2741-.09-4.9552 2.474-4.9552 6.14 0 3.6651 1.858 6.5972 5.0451 6.5972 3.184 0 3.5381-3.665 3.5381-3.665l6.1041.365s.36 3.31-2.196 5.836c-2.552 2.5241-5.6901 2.9371-7.8762 2.9201-2.19-.017-5.2261.034-8.1602-2.97-2.938-3.0101-3.436-5.9302-3.436-8.8002 0-2.8701.556-6.6702 4.047-9.5502C7.444.72 9.849 0 12.254 0c10.0422 0 10.7172 9.2602 10.7172 9.2602z"/>
+  </g>
+  <text x="33" y="21" text-anchor="middle" fill="#c8e9ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11.4" font-weight="700" letter-spacing="0.35">Stack</text>
+  <text x="119" y="21" text-anchor="middle" fill="#0b1020" font-family="JetBrains Mono, Consolas, monospace" font-size="11.4" font-weight="800" letter-spacing="0.25">C</text>
+</svg>
