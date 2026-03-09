@@ -1,5 +1,6 @@
 const fs = require("node:fs/promises");
 const path = require("node:path");
+const { STAT_DEFINITIONS } = require("./profile-stats");
 
 const FEATURED_START_MARKER = "<!--FEATURED_PROJECTS_START-->";
 const FEATURED_END_MARKER = "<!--FEATURED_PROJECTS_END-->";
@@ -9,6 +10,8 @@ const ABOUT_START_MARKER = "<!--ABOUT_AI_START-->";
 const ABOUT_END_MARKER = "<!--ABOUT_AI_END-->";
 const FOCUS_START_MARKER = "<!--FOCUS_DYNAMIC_START-->";
 const FOCUS_END_MARKER = "<!--FOCUS_DYNAMIC_END-->";
+const ADV_STATS_START_MARKER = "<!--ADV_STATS_DYNAMIC_START-->";
+const ADV_STATS_END_MARKER = "<!--ADV_STATS_DYNAMIC_END-->";
 
 function toSafeText(value) {
   if (!value) {
@@ -54,6 +57,26 @@ function buildStackEmbedSection() {
     `  <img src="${baseUrl}/stack/current.svg" width="100%" alt="Lista dinâmica da stack principal gerada pelo servidor"/>`,
     "</a>"
   ].join("\n");
+}
+
+function buildAdvancedStatsEmbedSection() {
+  const baseUrl = getBadgeBaseUrl();
+
+  return STAT_DEFINITIONS.map((definition, index) => {
+    const card = [
+      `### ${toSafeText(definition.title)}`,
+      "",
+      `<a href="${baseUrl}/api/stats/${definition.key}" target="_blank" rel="noopener noreferrer">`,
+      `  <img src="${baseUrl}/stats/${definition.key}.svg" width="100%" alt="Card dinâmico da estatística ${toSafeText(definition.title)}"/>`,
+      "</a>"
+    ];
+
+    if (index < STAT_DEFINITIONS.length - 1) {
+      card.push("", buildProjectDivider());
+    }
+
+    return card.join("\n");
+  }).join("\n\n");
 }
 
 function buildProjectBadges(repoName) {
@@ -132,6 +155,7 @@ async function updateReadmeWithSummary(summary, options = {}) {
   const aboutSection = buildAboutEmbedSection();
   const focusSection = buildFocusEmbedSection();
   const stackSection = buildStackEmbedSection();
+  const advancedStatsSection = buildAdvancedStatsEmbedSection();
   const featuredSection = buildFeaturedProjectsTable(summary);
   const withAbout = replaceSection(
     currentReadme,
@@ -151,8 +175,14 @@ async function updateReadmeWithSummary(summary, options = {}) {
     STACK_END_MARKER,
     stackSection
   );
-  const nextReadme = replaceSection(
+  const withAdvancedStats = replaceSection(
     withFocusAndStack,
+    ADV_STATS_START_MARKER,
+    ADV_STATS_END_MARKER,
+    advancedStatsSection
+  );
+  const nextReadme = replaceSection(
+    withAdvancedStats,
     FEATURED_START_MARKER,
     FEATURED_END_MARKER,
     featuredSection
@@ -175,7 +205,10 @@ module.exports = {
   ABOUT_END_MARKER,
   FOCUS_START_MARKER,
   FOCUS_END_MARKER,
+  ADV_STATS_START_MARKER,
+  ADV_STATS_END_MARKER,
   buildFeaturedProjectsTable,
   buildStackEmbedSection,
+  buildAdvancedStatsEmbedSection,
   updateReadmeWithSummary
 };

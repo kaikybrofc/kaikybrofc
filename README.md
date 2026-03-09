@@ -64,6 +64,110 @@
   <img src="https://omnizap.xyz/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
+## Estatísticas Avançadas
+
+<!--ADV_STATS_DYNAMIC_START-->
+### Evolucao Mensal
+
+<a href="https://omnizap.xyz/api/stats/evolucao-mensal" target="_blank" rel="noopener noreferrer">
+  <img src="https://omnizap.xyz/stats/evolucao-mensal.svg" width="100%" alt="Card dinâmico da estatística Evolucao Mensal"/>
+</a>
+
+<p align="center">
+  <img src="https://omnizap.xyz/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
+</p>
+
+### Ritmo Semanal
+
+<a href="https://omnizap.xyz/api/stats/ritmo-semanal" target="_blank" rel="noopener noreferrer">
+  <img src="https://omnizap.xyz/stats/ritmo-semanal.svg" width="100%" alt="Card dinâmico da estatística Ritmo Semanal"/>
+</a>
+
+<p align="center">
+  <img src="https://omnizap.xyz/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
+</p>
+
+### Horarios de Pico
+
+<a href="https://omnizap.xyz/api/stats/horarios-pico" target="_blank" rel="noopener noreferrer">
+  <img src="https://omnizap.xyz/stats/horarios-pico.svg" width="100%" alt="Card dinâmico da estatística Horarios de Pico"/>
+</a>
+
+<p align="center">
+  <img src="https://omnizap.xyz/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
+</p>
+
+### Saude dos Repositorios
+
+<a href="https://omnizap.xyz/api/stats/saude-repositorios" target="_blank" rel="noopener noreferrer">
+  <img src="https://omnizap.xyz/stats/saude-repositorios.svg" width="100%" alt="Card dinâmico da estatística Saude dos Repositorios"/>
+</a>
+
+<p align="center">
+  <img src="https://omnizap.xyz/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
+</p>
+
+### Top Tecnologias
+
+<a href="https://omnizap.xyz/api/stats/top-tecnologias" target="_blank" rel="noopener noreferrer">
+  <img src="https://omnizap.xyz/stats/top-tecnologias.svg" width="100%" alt="Card dinâmico da estatística Top Tecnologias"/>
+</a>
+
+<p align="center">
+  <img src="https://omnizap.xyz/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
+</p>
+
+### Entrega e Manutencao
+
+<a href="https://omnizap.xyz/api/stats/entrega-manutencao" target="_blank" rel="noopener noreferrer">
+  <img src="https://omnizap.xyz/stats/entrega-manutencao.svg" width="100%" alt="Card dinâmico da estatística Entrega e Manutencao"/>
+</a>
+
+<p align="center">
+  <img src="https://omnizap.xyz/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
+</p>
+
+### Issues e PRs
+
+<a href="https://omnizap.xyz/api/stats/issues-prs" target="_blank" rel="noopener noreferrer">
+  <img src="https://omnizap.xyz/stats/issues-prs.svg" width="100%" alt="Card dinâmico da estatística Issues e PRs"/>
+</a>
+
+<p align="center">
+  <img src="https://omnizap.xyz/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
+</p>
+
+### Velocidade de Merge
+
+<a href="https://omnizap.xyz/api/stats/velocidade-merge" target="_blank" rel="noopener noreferrer">
+  <img src="https://omnizap.xyz/stats/velocidade-merge.svg" width="100%" alt="Card dinâmico da estatística Velocidade de Merge"/>
+</a>
+
+<p align="center">
+  <img src="https://omnizap.xyz/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
+</p>
+
+### Distribuicao de Projetos
+
+<a href="https://omnizap.xyz/api/stats/distribuicao-projetos" target="_blank" rel="noopener noreferrer">
+  <img src="https://omnizap.xyz/stats/distribuicao-projetos.svg" width="100%" alt="Card dinâmico da estatística Distribuicao de Projetos"/>
+</a>
+
+<p align="center">
+  <img src="https://omnizap.xyz/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
+</p>
+
+### Marcos Recentes
+
+<a href="https://omnizap.xyz/api/stats/marcos-recentes" target="_blank" rel="noopener noreferrer">
+  <img src="https://omnizap.xyz/stats/marcos-recentes.svg" width="100%" alt="Card dinâmico da estatística Marcos Recentes"/>
+</a>
+<!--ADV_STATS_DYNAMIC_END-->
+
+<p align="center">
+  <img src="https://omnizap.xyz/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
+</p>
+
 ## Projetos em Destaque
 
 Classificados automaticamente com base na atividade recente no GitHub.

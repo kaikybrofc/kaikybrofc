@@ -6,6 +6,7 @@ const simpleIcons = require("simple-icons");
 const { fetchProfileSummary } = require("./github-profile");
 const { getAiAboutSummary } = require("./ai-about");
 const { getAiFocusSummary } = require("./ai-focus");
+const { STAT_DEFINITIONS, getAdvancedStats, getStatDefinition } = require("./profile-stats");
 const { updateReadmeWithSummary } = require("./readme-sync");
 
 dotenv.config({ path: path.resolve(process.cwd(), ".env"), quiet: true });
@@ -56,6 +57,18 @@ const STACK_BADGES = Object.freeze({
   mysql: { label: "Stack", message: "MySQL", color: BADGE_COLORS.secondary },
   redis: { label: "Stack", message: "Redis", color: BADGE_COLORS.accent }
 });
+const ADVANCED_STAT_COLORS = Object.freeze([
+  BADGE_COLORS.primary,
+  BADGE_COLORS.secondary,
+  BADGE_COLORS.info,
+  BADGE_COLORS.accent,
+  BADGE_COLORS.violet,
+  BADGE_COLORS.success,
+  "14b8a6",
+  "f97316",
+  "06b6d4",
+  "84cc16"
+]);
 const ICON_QUERY_ALIASES = Object.freeze({
   csharp: "sharp",
   shell: "gnubash",
@@ -783,6 +796,107 @@ function buildStackCurrentSvg(payload) {
 </svg>`;
 }
 
+function getAdvancedStatTheme(statKey) {
+  const index = STAT_DEFINITIONS.findIndex((item) => item.key === statKey);
+  const safeIndex = index >= 0 ? index : 0;
+  const primary = ADVANCED_STAT_COLORS[safeIndex % ADVANCED_STAT_COLORS.length];
+  const secondary = ADVANCED_STAT_COLORS[(safeIndex + 3) % ADVANCED_STAT_COLORS.length];
+
+  return {
+    primary: normalizeHexColor(primary, BADGE_COLORS.primary),
+    secondary: normalizeHexColor(secondary, BADGE_COLORS.secondary)
+  };
+}
+
+function ensureAdvancedStatEntry(statsPayload, statKey) {
+  const definition = getStatDefinition(statKey);
+  if (!definition) {
+    return null;
+  }
+
+  const source = statsPayload?.stats?.[statKey] || {};
+  const lines = Array.isArray(source.lines) ? source.lines.filter(Boolean) : [];
+
+  return {
+    key: statKey,
+    title: String(source.title || definition.title),
+    subtitle: String(source.subtitle || definition.subtitle),
+    lines: lines.length ? lines : ["Sem dados suficientes para este recorte no momento."],
+    payload: source.payload || null
+  };
+}
+
+function buildAdvancedStatSvg(stat, generatedAt) {
+  const statEntry =
+    stat && typeof stat === "object"
+      ? stat
+      : {
+          key: "geral",
+          title: "Estatistica Avancada",
+          subtitle: "Resumo dinamico",
+          lines: ["Sem dados suficientes para este recorte no momento."]
+        };
+
+  const theme = getAdvancedStatTheme(statEntry.key);
+  const normalizedLines = (Array.isArray(statEntry.lines) ? statEntry.lines : [])
+    .slice(0, 4)
+    .flatMap((line) => splitTextForSvgLines(line, 92, 2))
+    .slice(0, 8);
+  const lines = normalizedLines.length
+    ? normalizedLines
+    : ["Sem dados suficientes para este recorte no momento."];
+
+  const lineHeight = 28;
+  const textStartY = 178;
+  const contentHeight = lines.length * lineHeight;
+  const footerY = textStartY + contentHeight + 28;
+  const height = Math.max(280, footerY + 34);
+  const updatedLabel = formatRelativeTime(generatedAt || new Date().toISOString());
+  const statSlug = String(statEntry.key || "geral").toUpperCase().replace(/-/g, " ");
+  const title = String(statEntry.title || "Estatistica Avancada").toUpperCase();
+  const subtitle = String(statEntry.subtitle || "Resumo dinamico");
+
+  const linesSvg = lines
+    .map((line, index) => {
+      const y = textStartY + index * lineHeight;
+      return `<text x="58" y="${y}" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="19" font-weight="600">${escapeXml(`- ${line}`)}</text>`;
+    })
+    .join("\n");
+
+  return `<svg width="1400" height="${height}" viewBox="0 0 1400 ${height}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Estatistica avancada dinamica">
+  <defs>
+    <linearGradient id="bgStat" x1="0" y1="0" x2="1400" y2="${height}" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#040919"/>
+      <stop offset="0.58" stop-color="#061328"/>
+      <stop offset="1" stop-color="#081b33"/>
+    </linearGradient>
+    <linearGradient id="accentStat" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#${theme.primary}"/>
+      <stop offset="1" stop-color="#${theme.secondary}"/>
+    </linearGradient>
+    <pattern id="gridStat" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" stroke="#38bdf8" stroke-opacity="0.15" stroke-width="1"/>
+      <animateTransform attributeName="patternTransform" type="translate" dur="16s" repeatCount="indefinite" values="0 0;24 24;0 0"/>
+    </pattern>
+  </defs>
+  <rect width="1400" height="${height}" rx="18" fill="url(#bgStat)"/>
+  <rect width="1400" height="${height}" rx="18" fill="url(#gridStat)"/>
+  <rect x="36" y="28" width="1328" height="${height - 56}" rx="14" fill="#020617" fill-opacity="0.52" stroke="#38bdf8" stroke-opacity="0.28"/>
+  <rect x="52" y="48" width="350" height="34" rx="8" fill="#0b1221" stroke="#${theme.primary}" stroke-opacity="0.6"/>
+  <text x="68" y="71" fill="#e6fbff" font-family="JetBrains Mono, Consolas, monospace" font-size="16" font-weight="700">ESTATISTICA AVANCADA</text>
+  <rect x="416" y="48" width="318" height="34" rx="8" fill="#0b1221" stroke="#${theme.secondary}" stroke-opacity="0.55"/>
+  <text x="432" y="71" fill="#bff6ff" font-family="JetBrains Mono, Consolas, monospace" font-size="16" font-weight="700">${escapeXml(statSlug)}</text>
+  <line x1="52" y1="92" x2="1348" y2="92" stroke="url(#accentStat)" stroke-width="2" stroke-opacity="0.85"/>
+  <text x="54" y="124" fill="#e2f6ff" font-family="JetBrains Mono, Consolas, monospace" font-size="24" font-weight="700">${escapeXml(title)}</text>
+  <text x="54" y="146" fill="#9fd8f5" font-family="JetBrains Mono, Consolas, monospace" font-size="16" font-weight="600">${escapeXml(subtitle)}</text>
+  ${linesSvg}
+  <line x1="52" y1="${footerY - 10}" x2="1348" y2="${footerY - 10}" stroke="#38bdf8" stroke-opacity="0.32"/>
+  <text x="54" y="${footerY + 14}" fill="#a8d9f4" font-family="JetBrains Mono, Consolas, monospace" font-size="16">
+    atualizado: ${escapeXml(updatedLabel)}
+  </text>
+</svg>`;
+}
+
 function buildBadgeDefinition(metric, summary) {
   const topLanguage = summary.languages[0]?.language || "N/A";
   const languageVisual = resolveLanguageVisual(topLanguage);
@@ -1019,6 +1133,7 @@ app.get("/", (req, res) => {
     <p>About endpoint: <code>/api/about/summary</code></p>
     <p>Focus endpoint: <code>/api/focus/current</code></p>
     <p>Stack endpoint: <code>/api/stack/current</code></p>
+    <p>Advanced stats endpoint: <code>/api/stats/advanced</code></p>
     <p>Badge endpoint: <code>/badges/seguidores.svg</code></p>
   </main>
 </body>
@@ -1179,6 +1294,128 @@ app.get("/stack/current.svg", async (req, res) => {
   }
 });
 
+app.get("/api/stats/advanced", async (req, res) => {
+  const forceProfile = req.query.force_profile === "1" || req.query.forceProfile === "1";
+  const forceStats = req.query.force_stats === "1" || req.query.forceStats === "1";
+  const baseUrl = getRequestBaseUrl(req);
+
+  try {
+    const summary = await getProfileSummary({ force: forceProfile });
+    const statsPayload = await getAdvancedStats(summary, { force: forceStats });
+    const items = STAT_DEFINITIONS.map((definition) => {
+      const stat = ensureAdvancedStatEntry(statsPayload, definition.key);
+      return {
+        ...stat,
+        apiUrl: `${baseUrl}/api/stats/${definition.key}`,
+        svgUrl: `${baseUrl}/stats/${definition.key}.svg`
+      };
+    });
+
+    return res.status(200).json({
+      ok: true,
+      generatedAt: new Date().toISOString(),
+      statsGeneratedAt: statsPayload.generatedAt,
+      source: statsPayload.source,
+      repositoriesAnalyzed: Number(statsPayload.repositoriesAnalyzed || 0),
+      commitsAnalyzed: Number(statsPayload.commitsAnalyzed || 0),
+      items
+    });
+  } catch (error) {
+    return res.status(500).json({
+      ok: false,
+      message: error.message
+    });
+  }
+});
+
+app.get("/api/stats/:slug", async (req, res) => {
+  const slug = String(req.params.slug || "").trim().toLowerCase();
+  const definition = getStatDefinition(slug);
+  if (!definition) {
+    return res.status(404).json({
+      ok: false,
+      message: "Estatistica nao encontrada.",
+      available: STAT_DEFINITIONS.map((item) => item.key)
+    });
+  }
+
+  const forceProfile = req.query.force_profile === "1" || req.query.forceProfile === "1";
+  const forceStats = req.query.force_stats === "1" || req.query.forceStats === "1";
+  const baseUrl = getRequestBaseUrl(req);
+
+  try {
+    const summary = await getProfileSummary({ force: forceProfile });
+    const statsPayload = await getAdvancedStats(summary, { force: forceStats });
+    const stat = ensureAdvancedStatEntry(statsPayload, slug);
+
+    return res.status(200).json({
+      ok: true,
+      generatedAt: new Date().toISOString(),
+      statsGeneratedAt: statsPayload.generatedAt,
+      source: statsPayload.source,
+      stat: {
+        ...stat,
+        apiUrl: `${baseUrl}/api/stats/${slug}`,
+        svgUrl: `${baseUrl}/stats/${slug}.svg`
+      }
+    });
+  } catch (error) {
+    return res.status(500).json({
+      ok: false,
+      message: error.message
+    });
+  }
+});
+
+app.get("/stats/:slug.svg", async (req, res) => {
+  const slug = String(req.params.slug || "").trim().toLowerCase();
+  const definition = getStatDefinition(slug);
+
+  if (!definition) {
+    const svg = buildAdvancedStatSvg(
+      {
+        key: slug || "desconhecido",
+        title: "Estatistica nao encontrada",
+        subtitle: "Slug invalido",
+        lines: ["Verifique o slug da estatistica solicitada e tente novamente."]
+      },
+      new Date().toISOString()
+    );
+    res.set("Content-Type", "image/svg+xml; charset=utf-8");
+    res.set("Cache-Control", "no-store");
+    return res.status(404).send(svg);
+  }
+
+  const forceProfile = req.query.force_profile === "1" || req.query.forceProfile === "1";
+  const forceStats = req.query.force_stats === "1" || req.query.forceStats === "1";
+
+  try {
+    const summary = await getProfileSummary({ force: forceProfile });
+    const statsPayload = await getAdvancedStats(summary, { force: forceStats });
+    const stat = ensureAdvancedStatEntry(statsPayload, slug);
+    const svg = buildAdvancedStatSvg(stat, statsPayload.generatedAt);
+    res.set("Content-Type", "image/svg+xml; charset=utf-8");
+    res.set("Cache-Control", `public, max-age=${Math.max(badgeCacheTtlSec, 15)}`);
+    return res.status(200).send(svg);
+  } catch (error) {
+    const svg = buildAdvancedStatSvg(
+      {
+        key: slug,
+        title: definition.title,
+        subtitle: definition.subtitle,
+        lines: [
+          "Nao foi possivel gerar esta estatistica no momento.",
+          "Tente novamente em alguns instantes."
+        ]
+      },
+      new Date().toISOString()
+    );
+    res.set("Content-Type", "image/svg+xml; charset=utf-8");
+    res.set("Cache-Control", "no-store");
+    return res.status(503).send(svg);
+  }
+});
+
 app.get("/api/badges", (req, res) => {
   const baseUrl = `${req.protocol}://${req.get("host")}`;
   res.status(200).json({
@@ -1198,6 +1435,10 @@ app.get("/api/badges", (req, res) => {
       focusCurrentApi: `${baseUrl}/api/focus/current`,
       stackCurrentSvg: `${baseUrl}/stack/current.svg`,
       stackCurrentApi: `${baseUrl}/api/stack/current`,
+      advancedStatsApi: `${baseUrl}/api/stats/advanced`,
+      advancedStatApiTemplate: `${baseUrl}/api/stats/{slug}`,
+      advancedStatSvgTemplate: `${baseUrl}/stats/{slug}.svg`,
+      advancedStatSlugs: STAT_DEFINITIONS.map((item) => item.key),
       contatoTemplate: `${baseUrl}/badges/contact/{github|linkedin|email|whatsapp}.svg`,
       stackTemplate: `${baseUrl}/badges/stack/{tecnologia-ou-slug-simple-icons}.svg`,
       iconTemplate: `${baseUrl}/badges/icon/{slug-ou-nome}.svg`,

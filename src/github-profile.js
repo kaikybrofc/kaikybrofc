@@ -509,6 +509,7 @@ async function fetchProfileSummary(options = {}) {
       watchers: sumBy(repos, "watchers"),
       openIssues: sumBy(repos, "openIssues")
     },
+    repositories: repos,
     languages: buildLanguageStats(repos),
     stackTechnologies,
     topRepositories: sortedByStars.slice(0, 6),
