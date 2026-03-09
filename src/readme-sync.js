@@ -1,6 +1,8 @@
 const fs = require("node:fs/promises");
 const path = require("node:path");
 const { STAT_DEFINITIONS } = require("./profile-stats");
+const { getAiAboutSummary } = require("./ai-about");
+const { getAiFocusSummary } = require("./ai-focus");
 
 const FEATURED_START_MARKER = "<!--FEATURED_PROJECTS_START-->";
 const FEATURED_END_MARKER = "<!--FEATURED_PROJECTS_END-->";
@@ -52,24 +54,38 @@ function buildAssetUrl(relativePath) {
   return `${baseUrl}/${normalizedPath}`;
 }
 
-function buildAboutEmbedSection() {
-  const imageTag = `<img src="${buildAssetUrl("about/summary.svg")}" width="100%" alt="Resumo dinâmico da seção Sobre gerado pelo servidor"/>`;
-  if (isLocalAssetMode()) {
-    return imageTag;
+function formatPtBrUtc(isoDate) {
+  const date = new Date(isoDate);
+  if (Number.isNaN(date.getTime())) {
+    return "data indisponível";
   }
 
-  const baseUrl = getBadgeBaseUrl();
-  return [`<a href="${baseUrl}/api/about/summary" target="_blank" rel="noopener noreferrer">`, `  ${imageTag}`, "</a>"].join("\n");
+  return new Intl.DateTimeFormat("pt-BR", {
+    dateStyle: "medium",
+    timeStyle: "short",
+    timeZone: "UTC"
+  }).format(date);
 }
 
-function buildFocusEmbedSection() {
-  const imageTag = `<img src="${buildAssetUrl("focus/current.svg")}" width="100%" alt="Resumo dinâmico do foco atual baseado nos commits recentes"/>`;
-  if (isLocalAssetMode()) {
-    return imageTag;
+function buildAboutTextSection(about) {
+  const content = String(about?.content || "").trim();
+  if (!content) {
+    return "_Resumo indisponível no momento._";
   }
 
-  const baseUrl = getBadgeBaseUrl();
-  return [`<a href="${baseUrl}/api/focus/current" target="_blank" rel="noopener noreferrer">`, `  ${imageTag}`, "</a>"].join("\n");
+  return [content, "", `> _Atualizado em ${formatPtBrUtc(about?.generatedAt)} (UTC)._`].join("\n");
+}
+
+function buildFocusTextSection(focus) {
+  const bullets = Array.isArray(focus?.bullets)
+    ? focus.bullets.map((item) => String(item).trim()).filter(Boolean).slice(0, 3)
+    : [];
+  if (!bullets.length) {
+    return "_Foco atual indisponível no momento._";
+  }
+
+  const list = bullets.map((item) => `- ${item}`).join("\n");
+  return [list, "", `> _Atualizado em ${formatPtBrUtc(focus?.generatedAt)} (UTC)._`].join("\n");
 }
 
 function buildStackEmbedSection(summary) {
@@ -203,10 +219,15 @@ function replaceSection(readmeContent, startMarker, endMarker, generatedSection)
 
 async function updateReadmeWithSummary(summary, options = {}) {
   const readmePath = options.readmePath || path.resolve(process.cwd(), "README.md");
+  const forceAi = Boolean(options.forceAi);
 
   const currentReadme = await fs.readFile(readmePath, "utf8");
-  const aboutSection = buildAboutEmbedSection();
-  const focusSection = buildFocusEmbedSection();
+  const [about, focus] = await Promise.all([
+    getAiAboutSummary(summary, { force: forceAi }),
+    getAiFocusSummary(summary, { force: forceAi })
+  ]);
+  const aboutSection = buildAboutTextSection(about);
+  const focusSection = buildFocusTextSection(focus);
   const stackSection = buildStackEmbedSection(summary);
   const advancedStatsSection = buildAdvancedStatsEmbedSection();
   const featuredSection = buildFeaturedProjectsTable(summary);
