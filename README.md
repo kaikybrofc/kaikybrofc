@@ -42,9 +42,11 @@
 
 ## Foco Atual
 
-- Automatização de fluxos com Node.js
-- APIs e integrações para operações reais
-- Confiabilidade de serviços em ambiente Linux
+<!--FOCUS_DYNAMIC_START-->
+<a href="https://omnizap.xyz/api/focus/current" target="_blank" rel="noopener noreferrer">
+  <img src="https://omnizap.xyz/focus/current.svg" width="100%" alt="Resumo dinâmico do foco atual baseado nos commits recentes"/>
+</a>
+<!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
   <img src="https://omnizap.xyz/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>

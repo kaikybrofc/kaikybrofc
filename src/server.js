@@ -5,6 +5,7 @@ const simpleIcons = require("simple-icons");
 
 const { fetchProfileSummary } = require("./github-profile");
 const { getAiAboutSummary } = require("./ai-about");
+const { getAiFocusSummary } = require("./ai-focus");
 const { updateReadmeWithSummary } = require("./readme-sync");
 
 dotenv.config({ path: path.resolve(process.cwd(), ".env"), quiet: true });
@@ -580,6 +581,70 @@ function buildAboutSummarySvg(about) {
 </svg>`;
 }
 
+function buildFocusSummarySvg(focus) {
+  const bullets = Array.isArray(focus?.bullets) ? focus.bullets.filter(Boolean).slice(0, 3) : [];
+  const fallbackBullets = [
+    "Evolucao continua de funcionalidades nos repositorios com maior atividade recente.",
+    "Ajustes incrementais e correcoes com base nos ultimos commits publicados.",
+    "Consolidacao da stack principal com foco em estabilidade e manutencao."
+  ];
+
+  const selectedBullets = bullets.length ? bullets : fallbackBullets;
+  const lineBlocks = [];
+
+  for (const bullet of selectedBullets) {
+    const wrapped = splitTextForSvgLines(bullet, 90, 2);
+    wrapped.forEach((line, index) => {
+      lineBlocks.push({
+        text: `${index === 0 ? "• " : "  "}${line}`
+      });
+    });
+  }
+
+  const lineHeight = 32;
+  const textStartY = 118;
+  const contentHeight = lineBlocks.length * lineHeight;
+  const footerY = textStartY + contentHeight + 30;
+  const height = Math.max(260, footerY + 34);
+  const generatedAtRelative = formatRelativeTime(focus?.generatedAt);
+
+  const textLinesSvg = lineBlocks
+    .map((line, index) => {
+      const y = textStartY + index * lineHeight;
+      return `<text x="54" y="${y}" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">${escapeXml(line.text)}</text>`;
+    })
+    .join("\n");
+
+  return `<svg width="1400" height="${height}" viewBox="0 0 1400 ${height}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Resumo dinamico da secao Foco Atual">
+  <defs>
+    <linearGradient id="bgFocus" x1="0" y1="0" x2="1400" y2="${height}" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#040919"/>
+      <stop offset="0.58" stop-color="#061328"/>
+      <stop offset="1" stop-color="#081b33"/>
+    </linearGradient>
+    <linearGradient id="accentFocus" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00e5ff"/>
+      <stop offset="1" stop-color="#ff2bd6"/>
+    </linearGradient>
+    <pattern id="gridFocus" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" stroke="#38bdf8" stroke-opacity="0.15" stroke-width="1"/>
+      <animateTransform attributeName="patternTransform" type="translate" dur="16s" repeatCount="indefinite" values="0 0;24 24;0 0"/>
+    </pattern>
+  </defs>
+  <rect width="1400" height="${height}" rx="18" fill="url(#bgFocus)"/>
+  <rect width="1400" height="${height}" rx="18" fill="url(#gridFocus)"/>
+  <rect x="36" y="28" width="1328" height="${height - 56}" rx="14" fill="#020617" fill-opacity="0.52" stroke="#38bdf8" stroke-opacity="0.28"/>
+  <rect x="52" y="48" width="300" height="34" rx="8" fill="#0b1221" stroke="#22d3ee" stroke-opacity="0.5"/>
+  <text x="68" y="71" fill="#bff6ff" font-family="JetBrains Mono, Consolas, monospace" font-size="16" font-weight="700">FOCO ATUAL</text>
+  <line x1="52" y1="92" x2="1348" y2="92" stroke="url(#accentFocus)" stroke-width="2" stroke-opacity="0.8"/>
+  ${textLinesSvg}
+  <line x1="52" y1="${footerY - 10}" x2="1348" y2="${footerY - 10}" stroke="#38bdf8" stroke-opacity="0.32"/>
+  <text x="54" y="${footerY + 14}" fill="#a8d9f4" font-family="JetBrains Mono, Consolas, monospace" font-size="16">
+    atualizado: ${escapeXml(generatedAtRelative)}
+  </text>
+</svg>`;
+}
+
 function buildBadgeDefinition(metric, summary) {
   const topLanguage = summary.languages[0]?.language || "N/A";
   const languageVisual = resolveLanguageVisual(topLanguage);
@@ -799,6 +864,7 @@ app.get("/", (req, res) => {
     <p>Health endpoint: <code>/health</code></p>
     <p>Summary endpoint: <code>/api/profile/summary</code></p>
     <p>About endpoint: <code>/api/about/summary</code></p>
+    <p>Focus endpoint: <code>/api/focus/current</code></p>
     <p>Badge endpoint: <code>/badges/seguidores.svg</code></p>
   </main>
 </body>
@@ -864,6 +930,52 @@ app.get("/about/summary.svg", async (req, res) => {
   }
 });
 
+app.get("/api/focus/current", async (req, res) => {
+  const forceProfile = req.query.force_profile === "1" || req.query.forceProfile === "1";
+  const forceAi = req.query.force_ai === "1" || req.query.forceAi === "1";
+
+  try {
+    const summary = await getProfileSummary({ force: forceProfile });
+    const focus = await getAiFocusSummary(summary, { force: forceAi });
+    return res.status(200).json({
+      ok: true,
+      generatedAt: new Date().toISOString(),
+      focus
+    });
+  } catch (error) {
+    return res.status(500).json({
+      ok: false,
+      message: error.message
+    });
+  }
+});
+
+app.get("/focus/current.svg", async (req, res) => {
+  const forceProfile = req.query.force_profile === "1" || req.query.forceProfile === "1";
+  const forceAi = req.query.force_ai === "1" || req.query.forceAi === "1";
+
+  try {
+    const summary = await getProfileSummary({ force: forceProfile });
+    const focus = await getAiFocusSummary(summary, { force: forceAi });
+    const svg = buildFocusSummarySvg(focus);
+    res.set("Content-Type", "image/svg+xml; charset=utf-8");
+    res.set("Cache-Control", `public, max-age=${Math.max(badgeCacheTtlSec, 15)}`);
+    return res.status(200).send(svg);
+  } catch (error) {
+    const svg = buildFocusSummarySvg({
+      bullets: [
+        "Nao foi possivel gerar o foco atual no momento.",
+        "Tente novamente em alguns instantes.",
+        "Endpoint operacional com fallback de conteudo."
+      ],
+      generatedAt: new Date().toISOString()
+    });
+    res.set("Content-Type", "image/svg+xml; charset=utf-8");
+    res.set("Cache-Control", "no-store");
+    return res.status(503).send(svg);
+  }
+});
+
 app.get("/api/badges", (req, res) => {
   const baseUrl = `${req.protocol}://${req.get("host")}`;
   res.status(200).json({
@@ -879,6 +991,8 @@ app.get("/api/badges", (req, res) => {
       bannerDivider: `${baseUrl}/banners/divider.svg`,
       aboutSummarySvg: `${baseUrl}/about/summary.svg`,
       aboutSummaryApi: `${baseUrl}/api/about/summary`,
+      focusCurrentSvg: `${baseUrl}/focus/current.svg`,
+      focusCurrentApi: `${baseUrl}/api/focus/current`,
       contatoTemplate: `${baseUrl}/badges/contact/{github|linkedin|email|whatsapp}.svg`,
       stackTemplate: `${baseUrl}/badges/stack/{tecnologia-ou-slug-simple-icons}.svg`,
       iconTemplate: `${baseUrl}/badges/icon/{slug-ou-nome}.svg`,

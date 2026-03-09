@@ -7,6 +7,8 @@ const STACK_START_MARKER = "<!--STACK_DYNAMIC_START-->";
 const STACK_END_MARKER = "<!--STACK_DYNAMIC_END-->";
 const ABOUT_START_MARKER = "<!--ABOUT_AI_START-->";
 const ABOUT_END_MARKER = "<!--ABOUT_AI_END-->";
+const FOCUS_START_MARKER = "<!--FOCUS_DYNAMIC_START-->";
+const FOCUS_END_MARKER = "<!--FOCUS_DYNAMIC_END-->";
 
 function toSafeText(value) {
   if (!value) {
@@ -40,6 +42,15 @@ function buildAboutEmbedSection() {
   return [
     `<a href="${baseUrl}/api/about/summary" target="_blank" rel="noopener noreferrer">`,
     `  <img src="${baseUrl}/about/summary.svg" width="100%" alt="Resumo dinâmico da seção Sobre gerado pelo servidor"/>`,
+    "</a>"
+  ].join("\n");
+}
+
+function buildFocusEmbedSection() {
+  const baseUrl = getBadgeBaseUrl();
+  return [
+    `<a href="${baseUrl}/api/focus/current" target="_blank" rel="noopener noreferrer">`,
+    `  <img src="${baseUrl}/focus/current.svg" width="100%" alt="Resumo dinâmico do foco atual baseado nos commits recentes"/>`,
     "</a>"
   ].join("\n");
 }
@@ -134,6 +145,7 @@ async function updateReadmeWithSummary(summary, options = {}) {
 
   const currentReadme = await fs.readFile(readmePath, "utf8");
   const aboutSection = buildAboutEmbedSection();
+  const focusSection = buildFocusEmbedSection();
   const stackSection = buildStackBadges(summary);
   const featuredSection = buildFeaturedProjectsTable(summary);
   const withAbout = replaceSection(
@@ -144,12 +156,18 @@ async function updateReadmeWithSummary(summary, options = {}) {
   );
   const withStack = replaceSection(
     withAbout,
+    FOCUS_START_MARKER,
+    FOCUS_END_MARKER,
+    focusSection
+  );
+  const withFocusAndStack = replaceSection(
+    withStack,
     STACK_START_MARKER,
     STACK_END_MARKER,
     stackSection
   );
   const nextReadme = replaceSection(
-    withStack,
+    withFocusAndStack,
     FEATURED_START_MARKER,
     FEATURED_END_MARKER,
     featuredSection
@@ -170,6 +188,8 @@ module.exports = {
   STACK_END_MARKER,
   ABOUT_START_MARKER,
   ABOUT_END_MARKER,
+  FOCUS_START_MARKER,
+  FOCUS_END_MARKER,
   buildFeaturedProjectsTable,
   buildStackBadges,
   updateReadmeWithSummary
