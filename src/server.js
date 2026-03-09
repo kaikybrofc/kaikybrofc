@@ -1,7 +1,6 @@
 const path = require("node:path");
 const dotenv = require("dotenv");
 const express = require("express");
-const { makeBadge } = require("badge-maker");
 
 const { fetchProfileSummary } = require("./github-profile");
 const { updateReadmeWithSummary } = require("./readme-sync");
@@ -23,6 +22,36 @@ let cachedSummary = null;
 let cachedSummaryAt = 0;
 let cachedBadgeSummary = null;
 let cachedBadgeSummaryAt = 0;
+const BADGE_COLORS = Object.freeze({
+  primary: "00e5ff",
+  secondary: "38bdf8",
+  info: "22d3ee",
+  accent: "ff2bd6",
+  success: "22c55e",
+  violet: "a855f7",
+  indigo: "8b5cf6",
+  warning: "f59e0b",
+  danger: "ef4444",
+  label: "0b0f1a"
+});
+const CONTACT_BADGES = Object.freeze({
+  github: { label: "GitHub", message: "kaikybrofc", color: BADGE_COLORS.primary },
+  linkedin: { label: "LinkedIn", message: "kaiky-gomes", color: BADGE_COLORS.secondary },
+  email: { label: "Email", message: "Contato", color: BADGE_COLORS.accent },
+  whatsapp: { label: "WhatsApp", message: "+55 95 99122-954", color: BADGE_COLORS.success }
+});
+const STACK_BADGES = Object.freeze({
+  javascript: { label: "Stack", message: "JavaScript", color: BADGE_COLORS.info },
+  typescript: { label: "Stack", message: "TypeScript", color: BADGE_COLORS.secondary },
+  nodejs: { label: "Stack", message: "Node.js", color: BADGE_COLORS.primary },
+  express: { label: "Stack", message: "Express", color: BADGE_COLORS.indigo },
+  react: { label: "Stack", message: "React", color: BADGE_COLORS.info },
+  linux: { label: "Stack", message: "Linux", color: BADGE_COLORS.secondary },
+  docker: { label: "Stack", message: "Docker", color: BADGE_COLORS.primary },
+  mongodb: { label: "Stack", message: "MongoDB", color: BADGE_COLORS.info },
+  mysql: { label: "Stack", message: "MySQL", color: BADGE_COLORS.secondary },
+  redis: { label: "Stack", message: "Redis", color: BADGE_COLORS.accent }
+});
 
 app.disable("x-powered-by");
 app.set("trust proxy", true);
@@ -91,13 +120,73 @@ function formatRelativeTime(isoDate) {
   return `${Math.floor(diffSec / 86400)}d`;
 }
 
+function normalizeHexColor(color, fallback = "0ea5e9") {
+  const raw = String(color || "").trim().replace(/^#/, "");
+  if (/^[0-9a-fA-F]{6}$/.test(raw)) {
+    return raw.toLowerCase();
+  }
+  return fallback.toLowerCase();
+}
+
+function estimateTextWidth(text) {
+  const length = String(text || "").length;
+  return Math.max(66, Math.min(480, Math.round(length * 7.4 + 24)));
+}
+
 function renderBadgeSvg(definition) {
-  return makeBadge({
-    style: "for-the-badge",
-    labelColor: "0b0f1a",
-    color: "0ea5e9",
-    ...definition
-  });
+  const labelText = String(definition?.label || "badge");
+  const messageText = String(definition?.message || "ok");
+  const label = escapeXml(labelText);
+  const message = escapeXml(messageText);
+  const labelColor = normalizeHexColor(definition?.labelColor, BADGE_COLORS.label);
+  const messageColor = normalizeHexColor(definition?.color, BADGE_COLORS.primary);
+  const labelTextColor = normalizeHexColor(definition?.labelTextColor, "c8e9ff");
+  const messageTextColor = normalizeHexColor(definition?.textColor, "ecfeff");
+  const labelWidth = estimateTextWidth(labelText);
+  const messageWidth = estimateTextWidth(messageText);
+  const totalWidth = labelWidth + messageWidth;
+  const separatorX = labelWidth;
+  const scanWidth = Math.max(120, Math.round(totalWidth * 0.24));
+
+  return `<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="${labelText}: ${messageText}" width="${totalWidth}" height="32" viewBox="0 0 ${totalWidth} 32">
+  <defs>
+    <linearGradient id="bgLabel" x1="0" y1="0" x2="0" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#${labelColor}"/>
+      <stop offset="1" stop-color="#${labelColor}"/>
+    </linearGradient>
+    <linearGradient id="bgMessage" x1="0" y1="0" x2="0" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#${messageColor}"/>
+      <stop offset="1" stop-color="#${messageColor}"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="capsule">
+      <rect width="${totalWidth}" height="32" rx="8" ry="8"/>
+    </clipPath>
+    <filter id="glow" x="-30%" y="-200%" width="160%" height="500%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+  </defs>
+  <g clip-path="url(#capsule)">
+    <rect width="${labelWidth}" height="32" fill="url(#bgLabel)"/>
+    <rect x="${labelWidth}" width="${messageWidth}" height="32" fill="url(#bgMessage)"/>
+    <rect x="${labelWidth}" width="${messageWidth}" height="32" fill="#ffffff" opacity="0.08">
+      <animate attributeName="opacity" dur="2.6s" repeatCount="indefinite" values="0.04;0.16;0.04"/>
+    </rect>
+    <rect x="-${scanWidth}" y="0" width="${scanWidth}" height="32" fill="url(#scan)">
+      <animate attributeName="x" dur="3.6s" repeatCount="indefinite" values="-${scanWidth};${totalWidth}"/>
+    </rect>
+  </g>
+  <line x1="${separatorX}" y1="4" x2="${separatorX}" y2="28" stroke="#94a3b8" stroke-opacity="0.45"/>
+  <line x1="${separatorX}" y1="16" x2="${Math.min(totalWidth - 8, separatorX + 70)}" y2="16" stroke="#ffffff" stroke-opacity="0.4" stroke-width="2" filter="url(#glow)">
+    <animate attributeName="opacity" dur="1.8s" repeatCount="indefinite" values="0.25;0.9;0.25"/>
+  </line>
+  <text x="${Math.round(labelWidth / 2)}" y="21" text-anchor="middle" fill="#${labelTextColor}" font-family="JetBrains Mono, Consolas, monospace" font-size="11.4" font-weight="700" letter-spacing="0.35">${label}</text>
+  <text x="${Math.round(labelWidth + messageWidth / 2)}" y="21" text-anchor="middle" fill="#${messageTextColor}" font-family="JetBrains Mono, Consolas, monospace" font-size="11.4" font-weight="800" letter-spacing="0.25">${message}</text>
+</svg>`;
 }
 
 function escapeXml(value) {
@@ -256,32 +345,32 @@ function buildBadgeDefinition(metric, summary) {
     seguidores: {
       label: "seguidores",
       message: formatCompactNumber(summary.user.followers),
-      color: "22c55e"
+      color: BADGE_COLORS.success
     },
     repos: {
       label: "repositorios",
       message: `${summary.totals.publicRepositories} publicos`,
-      color: "3b82f6"
+      color: BADGE_COLORS.secondary
     },
     estrelas: {
       label: "stars totais",
       message: formatCompactNumber(summary.totals.stars),
-      color: "f59e0b"
+      color: BADGE_COLORS.accent
     },
     linguagem: {
       label: "top linguagem",
       message: topLanguage,
-      color: "14b8a6"
+      color: BADGE_COLORS.info
     },
     atividade: {
       label: "ultima atividade",
       message: formatRelativeTime(lastPublicActivity),
-      color: "a855f7"
+      color: BADGE_COLORS.violet
     },
     sync: {
       label: "sync readme",
       message: lastSync ? formatRelativeTime(lastSync) : "pendente",
-      color: "06b6d4"
+      color: BADGE_COLORS.primary
     }
   };
 
@@ -302,36 +391,50 @@ function buildProjectBadgeDefinition(metric, project) {
     atividade: {
       label: "atividade",
       message: `${project.activity.events} eventos`,
-      color: "a855f7"
+      color: BADGE_COLORS.violet
     },
     score: {
       label: "score",
       message: String(project.activity.score),
-      color: "8b5cf6"
+      color: BADGE_COLORS.indigo
     },
     estrelas: {
       label: "stars",
       message: formatCompactNumber(project.stars),
-      color: "f59e0b"
+      color: BADGE_COLORS.accent
     },
     forks: {
       label: "forks",
       message: formatCompactNumber(project.forks),
-      color: "3b82f6"
+      color: BADGE_COLORS.secondary
     },
     linguagem: {
       label: "stack",
       message: project.language || "N/A",
-      color: "14b8a6"
+      color: BADGE_COLORS.info
     },
     atualizado: {
       label: "atualizado",
       message: formatRelativeTime(project.updatedAt),
-      color: "06b6d4"
+      color: BADGE_COLORS.primary
     }
   };
 
   return metrics[metric] || null;
+}
+
+function buildContactBadgeDefinition(channel) {
+  const key = String(channel || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]/g, "");
+  return CONTACT_BADGES[key] || null;
+}
+
+function buildStackBadgeDefinition(tech) {
+  const key = String(tech || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]/g, "");
+  return STACK_BADGES[key] || null;
 }
 
 app.get("/health", (_req, res) => {
@@ -425,6 +528,8 @@ app.get("/api/badges", (req, res) => {
       sync: `${baseUrl}/badges/sync.svg`,
       bannerHero: `${baseUrl}/banners/hero.svg`,
       bannerDivider: `${baseUrl}/banners/divider.svg`,
+      contatoTemplate: `${baseUrl}/badges/contact/{github|linkedin|email|whatsapp}.svg`,
+      stackTemplate: `${baseUrl}/badges/stack/{javascript|typescript|nodejs|express|react|linux|docker|mongodb|mysql|redis}.svg`,
       projetoTemplate: `${baseUrl}/badges/projeto/{repositorio}/{atividade|score|estrelas|forks|linguagem|atualizado}.svg`
     }
   });
@@ -453,6 +558,48 @@ app.get("/banners/divider.svg", (_req, res) => {
   return res.status(200).send(svg);
 });
 
+app.get("/badges/contact/:channel.svg", (req, res) => {
+  const channel = String(req.params.channel || "").trim();
+  const definition = buildContactBadgeDefinition(channel);
+
+  if (!definition) {
+    const notFoundSvg = renderBadgeSvg({
+      label: "contato",
+      message: "nao encontrado",
+      color: BADGE_COLORS.danger
+    });
+    res.set("Content-Type", "image/svg+xml; charset=utf-8");
+    res.set("Cache-Control", "no-store");
+    return res.status(404).send(notFoundSvg);
+  }
+
+  const svg = renderBadgeSvg(definition);
+  res.set("Content-Type", "image/svg+xml; charset=utf-8");
+  res.set("Cache-Control", `public, max-age=${Math.max(badgeCacheTtlSec, 15)}`);
+  return res.status(200).send(svg);
+});
+
+app.get("/badges/stack/:tech.svg", (req, res) => {
+  const tech = String(req.params.tech || "").trim();
+  const definition = buildStackBadgeDefinition(tech);
+
+  if (!definition) {
+    const notFoundSvg = renderBadgeSvg({
+      label: "stack",
+      message: "nao encontrada",
+      color: BADGE_COLORS.danger
+    });
+    res.set("Content-Type", "image/svg+xml; charset=utf-8");
+    res.set("Cache-Control", "no-store");
+    return res.status(404).send(notFoundSvg);
+  }
+
+  const svg = renderBadgeSvg(definition);
+  res.set("Content-Type", "image/svg+xml; charset=utf-8");
+  res.set("Cache-Control", `public, max-age=${Math.max(badgeCacheTtlSec, 15)}`);
+  return res.status(200).send(svg);
+});
+
 app.get("/badges/projeto/:repo/:metric.svg", async (req, res) => {
   const repoName = String(req.params.repo || "").trim();
   const metric = String(req.params.metric || "").toLowerCase();
@@ -466,7 +613,7 @@ app.get("/badges/projeto/:repo/:metric.svg", async (req, res) => {
       const notFoundSvg = renderBadgeSvg({
         label: "projeto",
         message: "nao encontrado",
-        color: "ef4444"
+        color: BADGE_COLORS.danger
       });
       res.set("Content-Type", "image/svg+xml; charset=utf-8");
       res.set("Cache-Control", "no-store");
@@ -478,7 +625,7 @@ app.get("/badges/projeto/:repo/:metric.svg", async (req, res) => {
       const invalidSvg = renderBadgeSvg({
         label: "badge",
         message: "metrica invalida",
-        color: "ef4444"
+        color: BADGE_COLORS.danger
       });
       res.set("Content-Type", "image/svg+xml; charset=utf-8");
       res.set("Cache-Control", "no-store");
@@ -494,7 +641,7 @@ app.get("/badges/projeto/:repo/:metric.svg", async (req, res) => {
     const errorSvg = renderBadgeSvg({
       label: "github",
       message: "erro",
-      color: "ef4444"
+      color: BADGE_COLORS.danger
     });
     res.set("Content-Type", "image/svg+xml; charset=utf-8");
     res.set("Cache-Control", "no-store");
@@ -514,7 +661,7 @@ app.get("/badges/:metric.svg", async (req, res) => {
       const notFoundSvg = renderBadgeSvg({
         label: "badge",
         message: "nao encontrado",
-        color: "ef4444"
+        color: BADGE_COLORS.danger
       });
       res.set("Content-Type", "image/svg+xml; charset=utf-8");
       res.set("Cache-Control", "no-store");
@@ -530,7 +677,7 @@ app.get("/badges/:metric.svg", async (req, res) => {
     const errorSvg = renderBadgeSvg({
       label: "github",
       message: "erro",
-      color: "ef4444"
+      color: BADGE_COLORS.danger
     });
     res.set("Content-Type", "image/svg+xml; charset=utf-8");
     res.set("Cache-Control", "no-store");

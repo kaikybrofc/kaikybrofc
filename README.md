@@ -7,13 +7,13 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/kaikybrofc"><img src="https://img.shields.io/badge/GitHub-kaikybrofc-00e5ff?style=for-the-badge&logo=github&logoColor=00e5ff&labelColor=000000" alt="GitHub"/></a>
-  <a href="https://www.linkedin.com/in/kaiky-gomes/"><img src="https://img.shields.io/badge/LinkedIn-kaiky--gomes-38bdf8?style=for-the-badge&logo=linkedin&logoColor=38bdf8&labelColor=000000" alt="LinkedIn"/></a>
+  <a href="https://github.com/kaikybrofc"><img src="https://omnizap.xyz/badges/contact/github.svg" alt="GitHub"/></a>
+  <a href="https://www.linkedin.com/in/kaiky-gomes/"><img src="https://omnizap.xyz/badges/contact/linkedin.svg" alt="LinkedIn"/></a>
 </p>
 
 <p align="center">
-  <a href="mailto:kaikygomesribeiroof@gmail.com"><img src="https://img.shields.io/badge/Email-Contato-ff4d8d?style=for-the-badge&logo=gmail&logoColor=ff4d8d&labelColor=000000" alt="Email"/></a>
-  <a href="https://wa.me/559599122954"><img src="https://img.shields.io/badge/WhatsApp-+55%2095%2099122--954-22c55e?style=for-the-badge&logo=whatsapp&logoColor=22c55e&labelColor=000000" alt="WhatsApp"/></a>
+  <a href="mailto:kaikygomesribeiroof@gmail.com"><img src="https://omnizap.xyz/badges/contact/email.svg" alt="Email"/></a>
+  <a href="https://wa.me/559599122954"><img src="https://omnizap.xyz/badges/contact/whatsapp.svg" alt="WhatsApp"/></a>
 </p>
 
 <p align="center">
@@ -49,16 +49,16 @@ Desenvolvedor Full-Stack com foco em JavaScript/TypeScript, automações e integ
 ## Stack Principal
 
 <p>
-  <img src="https://img.shields.io/badge/JavaScript-0b0f1a?style=for-the-badge&logo=javascript&logoColor=f7df1e" alt="JavaScript"/>
-  <img src="https://img.shields.io/badge/TypeScript-0b0f1a?style=for-the-badge&logo=typescript&logoColor=38bdf8" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/Node.js-0b0f1a?style=for-the-badge&logo=nodedotjs&logoColor=22c55e" alt="Node.js"/>
-  <img src="https://img.shields.io/badge/Express-0b0f1a?style=for-the-badge&logo=express&logoColor=ffffff" alt="Express"/>
-  <img src="https://img.shields.io/badge/React-0b0f1a?style=for-the-badge&logo=react&logoColor=22d3ee" alt="React"/>
-  <img src="https://img.shields.io/badge/Linux-0b0f1a?style=for-the-badge&logo=linux&logoColor=facc15" alt="Linux"/>
-  <img src="https://img.shields.io/badge/Docker-0b0f1a?style=for-the-badge&logo=docker&logoColor=38bdf8" alt="Docker"/>
-  <img src="https://img.shields.io/badge/MongoDB-0b0f1a?style=for-the-badge&logo=mongodb&logoColor=22c55e" alt="MongoDB"/>
-  <img src="https://img.shields.io/badge/MySQL-0b0f1a?style=for-the-badge&logo=mysql&logoColor=60a5fa" alt="MySQL"/>
-  <img src="https://img.shields.io/badge/Redis-0b0f1a?style=for-the-badge&logo=redis&logoColor=f87171" alt="Redis"/>
+  <img src="https://omnizap.xyz/badges/stack/javascript.svg" alt="JavaScript"/>
+  <img src="https://omnizap.xyz/badges/stack/typescript.svg" alt="TypeScript"/>
+  <img src="https://omnizap.xyz/badges/stack/nodejs.svg" alt="Node.js"/>
+  <img src="https://omnizap.xyz/badges/stack/express.svg" alt="Express"/>
+  <img src="https://omnizap.xyz/badges/stack/react.svg" alt="React"/>
+  <img src="https://omnizap.xyz/badges/stack/linux.svg" alt="Linux"/>
+  <img src="https://omnizap.xyz/badges/stack/docker.svg" alt="Docker"/>
+  <img src="https://omnizap.xyz/badges/stack/mongodb.svg" alt="MongoDB"/>
+  <img src="https://omnizap.xyz/badges/stack/mysql.svg" alt="MySQL"/>
+  <img src="https://omnizap.xyz/badges/stack/redis.svg" alt="Redis"/>
 </p>
 
 <p align="center">
