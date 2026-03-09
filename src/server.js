@@ -100,6 +100,154 @@ function renderBadgeSvg(definition) {
   });
 }
 
+function escapeXml(value) {
+  return String(value || "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&apos;");
+}
+
+function buildAnimatedHeroSvg(summary) {
+  const fallback = {
+    title: "KAIKY BRITO",
+    subtitle: "PROFILE SYSTEM // NODE // AUTOMACAO // SEGURANCA"
+  };
+
+  const displayName = summary?.user?.name || summary?.user?.login || fallback.title;
+  const login = summary?.user?.login ? `@${summary.user.login}` : "@profile";
+  const publicRepos = Number(summary?.totals?.publicRepositories || 0);
+  const topLanguage = summary?.languages?.[0]?.language || "N/A";
+  const title = escapeXml(String(displayName).toUpperCase());
+  const subtitle = escapeXml(
+    `${login} // ${publicRepos} REPOS PUBLICOS // STACK: ${String(topLanguage).toUpperCase()}`
+  );
+
+  return `<svg width="1400" height="420" viewBox="0 0 1400 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Neon tech grid background animated">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#030712"/>
+      <stop offset="0.55" stop-color="#051a2f"/>
+      <stop offset="1" stop-color="#0b1020"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(180 70) rotate(15) scale(520 240)">
+      <stop offset="0" stop-color="#00e5ff" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#00e5ff" stop-opacity="0"/>
+      <animate attributeName="gradientTransform" dur="9s" repeatCount="indefinite" values="translate(180 70) rotate(15) scale(520 240);translate(250 90) rotate(10) scale(580 260);translate(180 70) rotate(15) scale(520 240)"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1210 90) rotate(-15) scale(500 240)">
+      <stop offset="0" stop-color="#ff2bd6" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#ff2bd6" stop-opacity="0"/>
+      <animate attributeName="gradientTransform" dur="11s" repeatCount="indefinite" values="translate(1210 90) rotate(-15) scale(500 240);translate(1120 120) rotate(-10) scale(560 260);translate(1210 90) rotate(-15) scale(500 240)"/>
+    </radialGradient>
+    <pattern id="grid" x="0" y="0" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" stroke="#22d3ee" stroke-opacity="0.22" stroke-width="1"/>
+      <animateTransform attributeName="patternTransform" type="translate" dur="14s" repeatCount="indefinite" values="0 0;18 18;0 0"/>
+    </pattern>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <filter id="softStrong" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+    <linearGradient id="lineA" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00e5ff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00e5ff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#00e5ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="lineB" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff2bd6" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ff2bd6" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#ff2bd6" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="420" fill="url(#bg)"/>
+  <rect width="1400" height="420" fill="url(#glowA)"/>
+  <rect width="1400" height="420" fill="url(#glowB)"/>
+  <rect width="1400" height="420" fill="url(#grid)"/>
+  <g opacity="0.55">
+    <path d="M0 300H1400" stroke="url(#lineA)" stroke-width="2"/>
+    <path d="M0 338H1400" stroke="url(#lineA)" stroke-width="2"/>
+    <path d="M0 376H1400" stroke="url(#lineA)" stroke-width="2"/>
+    <animate attributeName="opacity" dur="4s" repeatCount="indefinite" values="0.35;0.6;0.35"/>
+  </g>
+  <g stroke="#00e5ff" stroke-opacity="0.24" stroke-width="1.2">
+    <path d="M700 420L100 250"/>
+    <path d="M700 420L220 250"/>
+    <path d="M700 420L340 250"/>
+    <path d="M700 420L460 250"/>
+    <path d="M700 420L580 250"/>
+    <path d="M700 420L820 250"/>
+    <path d="M700 420L940 250"/>
+    <path d="M700 420L1060 250"/>
+    <path d="M700 420L1180 250"/>
+    <path d="M700 420L1300 250"/>
+  </g>
+  <g filter="url(#soft)" opacity="0.45">
+    <ellipse cx="700" cy="165" rx="260" ry="80" fill="#00e5ff"/>
+    <ellipse cx="700" cy="165" rx="170" ry="44" fill="#ff2bd6"/>
+    <animate attributeName="opacity" dur="3.2s" repeatCount="indefinite" values="0.3;0.55;0.3"/>
+  </g>
+  <g filter="url(#softStrong)" opacity="0.4">
+    <rect x="-320" y="266" width="320" height="2" fill="#00e5ff">
+      <animate attributeName="x" dur="5.4s" repeatCount="indefinite" values="-320;1400"/>
+      <animate attributeName="opacity" dur="5.4s" repeatCount="indefinite" values="0;0.95;0.95;0"/>
+    </rect>
+    <rect x="1400" y="354" width="220" height="1.5" fill="#ff2bd6">
+      <animate attributeName="x" dur="6.8s" repeatCount="indefinite" values="1400;-220"/>
+      <animate attributeName="opacity" dur="6.8s" repeatCount="indefinite" values="0;0.75;0.75;0"/>
+    </rect>
+  </g>
+  <text x="700" y="152" text-anchor="middle" font-family="JetBrains Mono, Consolas, monospace" font-size="62" font-weight="700" fill="#e6fbff" letter-spacing="2">
+    ${title}
+    <animate attributeName="opacity" dur="2.7s" repeatCount="indefinite" values="0.86;1;0.86"/>
+  </text>
+  <text x="700" y="198" text-anchor="middle" font-family="JetBrains Mono, Consolas, monospace" font-size="20" font-weight="600" fill="#bff6ff" letter-spacing="1.4">
+    ${subtitle}
+    <animate attributeName="opacity" dur="3.5s" repeatCount="indefinite" values="0.72;1;0.72"/>
+  </text>
+</svg>`;
+}
+
+function buildDividerSvg() {
+  return `<svg width="1400" height="86" viewBox="0 0 1400 86" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Neon divider">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="43" x2="1400" y2="43" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#040714" stop-opacity="0"/>
+      <stop offset="0.16" stop-color="#040714" stop-opacity="0.95"/>
+      <stop offset="0.84" stop-color="#040714" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#040714" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="lineMain" x1="0" y1="43" x2="1400" y2="43" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00e5ff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00e5ff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#00e5ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="lineSub" x1="0" y1="43" x2="1400" y2="43" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff2bd6" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ff2bd6" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#ff2bd6" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blur" x="-30%" y="-300%" width="160%" height="700%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+  <rect x="0" y="8" width="1400" height="70" fill="url(#bg)">
+    <animate attributeName="opacity" dur="4.4s" repeatCount="indefinite" values="0.85;1;0.85"/>
+  </rect>
+  <line x1="20" y1="43" x2="1380" y2="43" stroke="url(#lineMain)" stroke-width="2">
+    <animate attributeName="opacity" dur="2.8s" repeatCount="indefinite" values="0.65;1;0.65"/>
+  </line>
+  <line x1="60" y1="48" x2="1340" y2="48" stroke="url(#lineSub)" stroke-width="1.2" opacity="0.9"/>
+  <line x1="140" y1="38" x2="1260" y2="38" stroke="url(#lineSub)" stroke-width="1.2" opacity="0.8"/>
+  <line x1="350" y1="43" x2="1050" y2="43" stroke="#9ef9ff" stroke-width="5" opacity="0.35" filter="url(#blur)">
+    <animate attributeName="x1" dur="5.4s" repeatCount="indefinite" values="280;420;280"/>
+    <animate attributeName="x2" dur="5.4s" repeatCount="indefinite" values="980;1120;980"/>
+  </line>
+</svg>`;
+}
+
 function buildBadgeDefinition(metric, summary) {
   const topLanguage = summary.languages[0]?.language || "N/A";
   const lastPublicActivity = summary.recentActivity[0]?.createdAt;
@@ -275,9 +423,34 @@ app.get("/api/badges", (req, res) => {
       linguagem: `${baseUrl}/badges/linguagem.svg`,
       atividade: `${baseUrl}/badges/atividade.svg`,
       sync: `${baseUrl}/badges/sync.svg`,
+      bannerHero: `${baseUrl}/banners/hero.svg`,
+      bannerDivider: `${baseUrl}/banners/divider.svg`,
       projetoTemplate: `${baseUrl}/badges/projeto/{repositorio}/{atividade|score|estrelas|forks|linguagem|atualizado}.svg`
     }
   });
+});
+
+app.get("/banners/hero.svg", async (req, res) => {
+  const force = req.query.force === "1";
+  let summary = null;
+
+  try {
+    summary = await getBadgeSummary({ force });
+  } catch (error) {
+    console.error(`[banner-hero] failed to load profile summary: ${error.message}`);
+  }
+
+  const svg = buildAnimatedHeroSvg(summary);
+  res.set("Content-Type", "image/svg+xml; charset=utf-8");
+  res.set("Cache-Control", `public, max-age=${Math.max(badgeCacheTtlSec, 15)}`);
+  return res.status(200).send(svg);
+});
+
+app.get("/banners/divider.svg", (_req, res) => {
+  const svg = buildDividerSvg();
+  res.set("Content-Type", "image/svg+xml; charset=utf-8");
+  res.set("Cache-Control", `public, max-age=${Math.max(badgeCacheTtlSec, 15)}`);
+  return res.status(200).send(svg);
 });
 
 app.get("/badges/projeto/:repo/:metric.svg", async (req, res) => {

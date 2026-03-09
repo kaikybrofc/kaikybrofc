@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="./assets/neon-grid-hero.svg" width="100%" alt="Fundo tech futurista com grade neon"/>
+  <img src="https://omnizap.xyz/banners/hero.svg" width="100%" alt="Fundo tech futurista animado gerado pelo servidor"/>
 </p>
 
 <p align="center">
-  <img src="./assets/neon-divider.svg" width="100%" alt="Divisor neon"/>
+  <img src="https://omnizap.xyz/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
 <p align="center">
@@ -29,7 +29,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/neon-divider.svg" width="100%" alt="Divisor neon"/>
+  <img src="https://omnizap.xyz/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
 ## Sobre
@@ -43,7 +43,7 @@ Desenvolvedor Full-Stack com foco em JavaScript/TypeScript, automações e integ
 - Confiabilidade de serviços em ambiente Linux
 
 <p align="center">
-  <img src="./assets/neon-divider.svg" width="100%" alt="Divisor neon"/>
+  <img src="https://omnizap.xyz/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
 ## Stack Principal
@@ -62,7 +62,7 @@ Desenvolvedor Full-Stack com foco em JavaScript/TypeScript, automações e integ
 </p>
 
 <p align="center">
-  <img src="./assets/neon-divider.svg" width="100%" alt="Divisor neon"/>
+  <img src="https://omnizap.xyz/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
 ## Projetos em Destaque
