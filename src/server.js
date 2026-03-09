@@ -19,6 +19,7 @@ const autoRefreshEnabled = (process.env.README_AUTO_REFRESH || "true").toLowerCa
 const autoRefreshIntervalMin = Number(process.env.README_REFRESH_INTERVAL_MIN || 60);
 const profileCacheTtlSec = Number(process.env.PROFILE_CACHE_TTL_SEC || 300);
 const badgeCacheTtlSec = Number(process.env.BADGE_CACHE_TTL_SEC || 120);
+const stackCurrentLimit = Number(process.env.STACK_CURRENT_LIMIT || 14);
 let lastSync = null;
 let lastSyncError = null;
 let cachedSummary = null;
@@ -111,6 +112,32 @@ async function getBadgeSummary(options = {}) {
   cachedBadgeSummary = summary;
   cachedBadgeSummaryAt = now;
   return summary;
+}
+
+function getRequestBaseUrl(req) {
+  return `${req.protocol}://${req.get("host")}`;
+}
+
+function selectStackItems(summary, baseUrl) {
+  const list = Array.isArray(summary?.stackTechnologies) ? summary.stackTechnologies : [];
+  const limit = Math.max(3, Math.min(24, Number.isFinite(stackCurrentLimit) ? stackCurrentLimit : 14));
+
+  return list.slice(0, limit).map((item, index) => {
+    const techKey = String(item?.badgeKey || item?.name || "").trim();
+    const techName = String(item?.name || techKey || "N/A").trim();
+    const definition = buildStackBadgeDefinition(techKey || techName) || {};
+
+    return {
+      position: index + 1,
+      name: techName,
+      badgeKey: techKey,
+      score: Number(item?.score || 0),
+      repositories: Number(item?.repositories || 0),
+      badgeUrl: `${baseUrl}/badges/stack/${encodeURIComponent(techKey || techName)}.svg`,
+      color: normalizeHexColor(definition.color, BADGE_COLORS.info),
+      iconPath: definition.iconPath || null
+    };
+  });
 }
 
 function formatCompactNumber(value) {
@@ -645,6 +672,117 @@ function buildFocusSummarySvg(focus) {
 </svg>`;
 }
 
+function truncateChipText(value, maxLen = 28) {
+  const text = String(value || "").trim();
+  if (!text) {
+    return "N/A";
+  }
+  if (text.length <= maxLen) {
+    return text;
+  }
+  return `${text.slice(0, Math.max(0, maxLen - 3)).trim()}...`;
+}
+
+function buildStackCurrentSvg(payload) {
+  const items = Array.isArray(payload?.items) ? payload.items : [];
+  const generatedAtRelative = formatRelativeTime(payload?.generatedAt);
+  const chips = items.length
+    ? items
+    : [
+        {
+          name: "Stack indisponivel",
+          color: BADGE_COLORS.warning,
+          iconPath: null
+        }
+      ];
+
+  const chipHeight = 34;
+  const chipGapX = 12;
+  const chipGapY = 12;
+  const startX = 52;
+  const startY = 118;
+  const contentMaxX = 1348;
+  let cursorX = startX;
+  let cursorY = startY;
+
+  const positioned = [];
+  for (const chip of chips) {
+    const displayText = truncateChipText(chip?.name || "N/A");
+    const hasIcon = Boolean(chip?.iconPath);
+    const chipWidth = Math.max(
+      138,
+      Math.min(360, estimateTextWidth(displayText) + (hasIcon ? 36 : 20))
+    );
+
+    if (cursorX + chipWidth > contentMaxX) {
+      cursorX = startX;
+      cursorY += chipHeight + chipGapY;
+    }
+
+    positioned.push({
+      x: cursorX,
+      y: cursorY,
+      width: chipWidth,
+      height: chipHeight,
+      text: displayText,
+      color: normalizeHexColor(chip?.color, BADGE_COLORS.info),
+      iconPath: chip?.iconPath || null
+    });
+
+    cursorX += chipWidth + chipGapX;
+  }
+
+  const lastY = positioned.length ? positioned[positioned.length - 1].y : startY;
+  const footerY = lastY + chipHeight + 30;
+  const height = Math.max(268, footerY + 34);
+
+  const chipsSvg = positioned
+    .map((chip) => {
+      const iconGroup = chip.iconPath
+        ? `<g transform="translate(${chip.x + 10} ${chip.y + 8}) scale(0.52)">
+  <path fill="#${chip.color}" d="${chip.iconPath}"/>
+</g>`
+        : "";
+      const textX = chip.iconPath ? chip.x + 32 : chip.x + 12;
+      return `<g>
+  <rect x="${chip.x}" y="${chip.y}" width="${chip.width}" height="${chip.height}" rx="9" fill="#0b1221" stroke="#${chip.color}" stroke-opacity="0.55"/>
+  <rect x="${chip.x}" y="${chip.y}" width="${chip.width}" height="${chip.height}" rx="9" fill="#${chip.color}" opacity="0.08"/>
+  ${iconGroup}
+  <text x="${textX}" y="${chip.y + 23}" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="16" font-weight="700">${escapeXml(chip.text)}</text>
+</g>`;
+    })
+    .join("\n");
+
+  return `<svg width="1400" height="${height}" viewBox="0 0 1400 ${height}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Lista dinamica da stack principal">
+  <defs>
+    <linearGradient id="bgStack" x1="0" y1="0" x2="1400" y2="${height}" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#040919"/>
+      <stop offset="0.58" stop-color="#061328"/>
+      <stop offset="1" stop-color="#081b33"/>
+    </linearGradient>
+    <linearGradient id="accentStack" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00e5ff"/>
+      <stop offset="1" stop-color="#ff2bd6"/>
+    </linearGradient>
+    <pattern id="gridStack" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" stroke="#38bdf8" stroke-opacity="0.15" stroke-width="1"/>
+      <animateTransform attributeName="patternTransform" type="translate" dur="16s" repeatCount="indefinite" values="0 0;24 24;0 0"/>
+    </pattern>
+  </defs>
+  <rect width="1400" height="${height}" rx="18" fill="url(#bgStack)"/>
+  <rect width="1400" height="${height}" rx="18" fill="url(#gridStack)"/>
+  <rect x="36" y="28" width="1328" height="${height - 56}" rx="14" fill="#020617" fill-opacity="0.52" stroke="#38bdf8" stroke-opacity="0.28"/>
+  <rect x="52" y="48" width="340" height="34" rx="8" fill="#0b1221" stroke="#22d3ee" stroke-opacity="0.5"/>
+  <text x="68" y="71" fill="#bff6ff" font-family="JetBrains Mono, Consolas, monospace" font-size="16" font-weight="700">STACK PRINCIPAL</text>
+  <line x1="52" y1="92" x2="1348" y2="92" stroke="url(#accentStack)" stroke-width="2" stroke-opacity="0.8"/>
+  ${chipsSvg}
+  <line x1="52" y1="${footerY - 10}" x2="1348" y2="${footerY - 10}" stroke="#38bdf8" stroke-opacity="0.32"/>
+  <text x="54" y="${footerY + 14}" fill="#a8d9f4" font-family="JetBrains Mono, Consolas, monospace" font-size="16">
+    atualizado: ${escapeXml(generatedAtRelative)}
+  </text>
+</svg>`;
+}
+
 function buildBadgeDefinition(metric, summary) {
   const topLanguage = summary.languages[0]?.language || "N/A";
   const languageVisual = resolveLanguageVisual(topLanguage);
@@ -865,6 +1003,7 @@ app.get("/", (req, res) => {
     <p>Summary endpoint: <code>/api/profile/summary</code></p>
     <p>About endpoint: <code>/api/about/summary</code></p>
     <p>Focus endpoint: <code>/api/focus/current</code></p>
+    <p>Stack endpoint: <code>/api/stack/current</code></p>
     <p>Badge endpoint: <code>/badges/seguidores.svg</code></p>
   </main>
 </body>
@@ -976,6 +1115,55 @@ app.get("/focus/current.svg", async (req, res) => {
   }
 });
 
+app.get("/api/stack/current", async (req, res) => {
+  const forceProfile = req.query.force_profile === "1" || req.query.forceProfile === "1";
+  const baseUrl = getRequestBaseUrl(req);
+
+  try {
+    const summary = await getBadgeSummary({ force: forceProfile });
+    const items = selectStackItems(summary, baseUrl);
+    const publicItems = items.map(({ iconPath, ...item }) => item);
+    return res.status(200).json({
+      ok: true,
+      generatedAt: new Date().toISOString(),
+      stack: {
+        count: publicItems.length,
+        items: publicItems
+      }
+    });
+  } catch (error) {
+    return res.status(500).json({
+      ok: false,
+      message: error.message
+    });
+  }
+});
+
+app.get("/stack/current.svg", async (req, res) => {
+  const forceProfile = req.query.force_profile === "1" || req.query.forceProfile === "1";
+
+  try {
+    const summary = await getBadgeSummary({ force: forceProfile });
+    const baseUrl = getRequestBaseUrl(req);
+    const items = selectStackItems(summary, baseUrl);
+    const generatedAt = cachedBadgeSummaryAt
+      ? new Date(cachedBadgeSummaryAt).toISOString()
+      : new Date().toISOString();
+    const svg = buildStackCurrentSvg({ items, generatedAt });
+    res.set("Content-Type", "image/svg+xml; charset=utf-8");
+    res.set("Cache-Control", `public, max-age=${Math.max(badgeCacheTtlSec, 15)}`);
+    return res.status(200).send(svg);
+  } catch (error) {
+    const svg = buildStackCurrentSvg({
+      items: [],
+      generatedAt: new Date().toISOString()
+    });
+    res.set("Content-Type", "image/svg+xml; charset=utf-8");
+    res.set("Cache-Control", "no-store");
+    return res.status(503).send(svg);
+  }
+});
+
 app.get("/api/badges", (req, res) => {
   const baseUrl = `${req.protocol}://${req.get("host")}`;
   res.status(200).json({
@@ -993,6 +1181,8 @@ app.get("/api/badges", (req, res) => {
       aboutSummaryApi: `${baseUrl}/api/about/summary`,
       focusCurrentSvg: `${baseUrl}/focus/current.svg`,
       focusCurrentApi: `${baseUrl}/api/focus/current`,
+      stackCurrentSvg: `${baseUrl}/stack/current.svg`,
+      stackCurrentApi: `${baseUrl}/api/stack/current`,
       contatoTemplate: `${baseUrl}/badges/contact/{github|linkedin|email|whatsapp}.svg`,
       stackTemplate: `${baseUrl}/badges/stack/{tecnologia-ou-slug-simple-icons}.svg`,
       iconTemplate: `${baseUrl}/badges/icon/{slug-ou-nome}.svg`,

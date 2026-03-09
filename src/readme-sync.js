@@ -25,14 +25,6 @@ function truncateText(value, maxLen) {
   return `${text.slice(0, Math.max(0, maxLen - 3)).trim()}...`;
 }
 
-function toHtmlAttribute(value) {
-  return String(value || "")
-    .replace(/&/g, "&amp;")
-    .replace(/"/g, "&quot;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;");
-}
-
 function getBadgeBaseUrl() {
   return (process.env.BADGE_BASE_URL || "https://omnizap.xyz").replace(/\/$/, "");
 }
@@ -51,6 +43,15 @@ function buildFocusEmbedSection() {
   return [
     `<a href="${baseUrl}/api/focus/current" target="_blank" rel="noopener noreferrer">`,
     `  <img src="${baseUrl}/focus/current.svg" width="100%" alt="Resumo dinâmico do foco atual baseado nos commits recentes"/>`,
+    "</a>"
+  ].join("\n");
+}
+
+function buildStackEmbedSection() {
+  const baseUrl = getBadgeBaseUrl();
+  return [
+    `<a href="${baseUrl}/api/stack/current" target="_blank" rel="noopener noreferrer">`,
+    `  <img src="${baseUrl}/stack/current.svg" width="100%" alt="Lista dinâmica da stack principal gerada pelo servidor"/>`,
     "</a>"
   ].join("\n");
 }
@@ -91,35 +92,6 @@ function buildFeaturedProjectsTable(summary) {
   return lines.join("\n").trimEnd();
 }
 
-function buildStackBadges(summary) {
-  const baseUrl = getBadgeBaseUrl();
-  const stack = Array.isArray(summary?.stackTechnologies) ? summary.stackTechnologies : [];
-
-  if (!stack.length) {
-    return "_Stack principal ainda indisponivel. Execute a sincronizacao para gerar os badges dinamicos._";
-  }
-
-  const lines = ["<p>"];
-  for (const tech of stack) {
-    const key = String(tech?.badgeKey || "").trim();
-    if (!key) {
-      continue;
-    }
-
-    const name = toSafeText(tech?.name || key);
-    lines.push(
-      `  <img src="${baseUrl}/badges/stack/${encodeURIComponent(key)}.svg" alt="${toHtmlAttribute(name)}"/>`
-    );
-  }
-  lines.push("</p>");
-
-  if (lines.length === 2) {
-    return "_Stack principal ainda indisponivel. Execute a sincronizacao para gerar os badges dinamicos._";
-  }
-
-  return lines.join("\n");
-}
-
 function replaceSection(readmeContent, startMarker, endMarker, generatedSection) {
   const start = readmeContent.indexOf(startMarker);
   const end = readmeContent.indexOf(endMarker);
@@ -146,7 +118,7 @@ async function updateReadmeWithSummary(summary, options = {}) {
   const currentReadme = await fs.readFile(readmePath, "utf8");
   const aboutSection = buildAboutEmbedSection();
   const focusSection = buildFocusEmbedSection();
-  const stackSection = buildStackBadges(summary);
+  const stackSection = buildStackEmbedSection();
   const featuredSection = buildFeaturedProjectsTable(summary);
   const withAbout = replaceSection(
     currentReadme,
@@ -191,6 +163,6 @@ module.exports = {
   FOCUS_START_MARKER,
   FOCUS_END_MARKER,
   buildFeaturedProjectsTable,
-  buildStackBadges,
+  buildStackEmbedSection,
   updateReadmeWithSummary
 };
