@@ -1,6 +1,7 @@
 const path = require("node:path");
 const dotenv = require("dotenv");
 const express = require("express");
+const { makeBadge } = require("badge-maker");
 
 const { fetchProfileSummary } = require("./github-profile");
 const { updateReadmeWithSummary } = require("./readme-sync");
@@ -15,10 +16,13 @@ const readmePath = process.env.README_PATH || path.resolve(process.cwd(), "READM
 const autoRefreshEnabled = (process.env.README_AUTO_REFRESH || "true").toLowerCase() === "true";
 const autoRefreshIntervalMin = Number(process.env.README_REFRESH_INTERVAL_MIN || 60);
 const profileCacheTtlSec = Number(process.env.PROFILE_CACHE_TTL_SEC || 300);
+const badgeCacheTtlSec = Number(process.env.BADGE_CACHE_TTL_SEC || 120);
 let lastSync = null;
 let lastSyncError = null;
 let cachedSummary = null;
 let cachedSummaryAt = 0;
+let cachedBadgeSummary = null;
+let cachedBadgeSummaryAt = 0;
 
 app.disable("x-powered-by");
 app.set("trust proxy", true);
@@ -37,6 +41,103 @@ async function getProfileSummary(options = {}) {
   cachedSummary = summary;
   cachedSummaryAt = now;
   return summary;
+}
+
+async function getBadgeSummary(options = {}) {
+  const force = Boolean(options.force);
+  const now = Date.now();
+  const ttlMs = Math.max(badgeCacheTtlSec, 15) * 1000;
+
+  if (!force && cachedBadgeSummary && now - cachedBadgeSummaryAt < ttlMs) {
+    return cachedBadgeSummary;
+  }
+
+  const summary = await getProfileSummary({ force: true });
+  cachedBadgeSummary = summary;
+  cachedBadgeSummaryAt = now;
+  return summary;
+}
+
+function formatCompactNumber(value) {
+  return new Intl.NumberFormat("pt-BR", { notation: "compact", maximumFractionDigits: 1 }).format(
+    Number(value || 0)
+  );
+}
+
+function formatRelativeTime(isoDate) {
+  if (!isoDate) {
+    return "sem dados";
+  }
+
+  const timestamp = new Date(isoDate).getTime();
+  if (Number.isNaN(timestamp)) {
+    return "sem dados";
+  }
+
+  const diffSec = Math.max(0, Math.floor((Date.now() - timestamp) / 1000));
+
+  if (diffSec < 60) {
+    return "agora";
+  }
+
+  if (diffSec < 3600) {
+    return `${Math.floor(diffSec / 60)}m`;
+  }
+
+  if (diffSec < 86400) {
+    return `${Math.floor(diffSec / 3600)}h`;
+  }
+
+  return `${Math.floor(diffSec / 86400)}d`;
+}
+
+function renderBadgeSvg(definition) {
+  return makeBadge({
+    style: "for-the-badge",
+    labelColor: "0b0f1a",
+    color: "0ea5e9",
+    ...definition
+  });
+}
+
+function buildBadgeDefinition(metric, summary) {
+  const topLanguage = summary.languages[0]?.language || "N/A";
+  const lastPublicActivity = summary.recentActivity[0]?.createdAt;
+
+  const map = {
+    seguidores: {
+      label: "seguidores",
+      message: formatCompactNumber(summary.user.followers),
+      color: "22c55e"
+    },
+    repos: {
+      label: "repositorios",
+      message: `${summary.totals.publicRepositories} publicos`,
+      color: "3b82f6"
+    },
+    estrelas: {
+      label: "stars totais",
+      message: formatCompactNumber(summary.totals.stars),
+      color: "f59e0b"
+    },
+    linguagem: {
+      label: "top linguagem",
+      message: topLanguage,
+      color: "14b8a6"
+    },
+    atividade: {
+      label: "ultima atividade",
+      message: formatRelativeTime(lastPublicActivity),
+      color: "a855f7"
+    },
+    sync: {
+      label: "sync readme",
+      message: lastSync ? formatRelativeTime(lastSync) : "pendente",
+      color: "06b6d4"
+    }
+  };
+
+  return map[metric] || null;
 }
 
 app.get("/health", (_req, res) => {
@@ -95,6 +196,7 @@ app.get("/", (req, res) => {
     <p>Time (UTC): <code>${new Date().toISOString()}</code></p>
     <p>Health endpoint: <code>/health</code></p>
     <p>Summary endpoint: <code>/api/profile/summary</code></p>
+    <p>Badge endpoint: <code>/badges/seguidores.svg</code></p>
   </main>
 </body>
 </html>`);
@@ -113,6 +215,57 @@ app.get("/api/profile/summary", async (_req, res) => {
       ok: false,
       message: error.message
     });
+  }
+});
+
+app.get("/api/badges", (req, res) => {
+  const baseUrl = `${req.protocol}://${req.get("host")}`;
+  res.status(200).json({
+    ok: true,
+    badges: {
+      seguidores: `${baseUrl}/badges/seguidores.svg`,
+      repos: `${baseUrl}/badges/repos.svg`,
+      estrelas: `${baseUrl}/badges/estrelas.svg`,
+      linguagem: `${baseUrl}/badges/linguagem.svg`,
+      atividade: `${baseUrl}/badges/atividade.svg`,
+      sync: `${baseUrl}/badges/sync.svg`
+    }
+  });
+});
+
+app.get("/badges/:metric.svg", async (req, res) => {
+  const metric = String(req.params.metric || "").toLowerCase();
+  const force = req.query.force === "1";
+
+  try {
+    const summary = await getBadgeSummary({ force });
+    const definition = buildBadgeDefinition(metric, summary);
+
+    if (!definition) {
+      const notFoundSvg = renderBadgeSvg({
+        label: "badge",
+        message: "nao encontrado",
+        color: "ef4444"
+      });
+      res.set("Content-Type", "image/svg+xml; charset=utf-8");
+      res.set("Cache-Control", "no-store");
+      return res.status(404).send(notFoundSvg);
+    }
+
+    const svg = renderBadgeSvg(definition);
+    res.set("Content-Type", "image/svg+xml; charset=utf-8");
+    res.set("Cache-Control", `public, max-age=${Math.max(badgeCacheTtlSec, 15)}`);
+    return res.status(200).send(svg);
+  } catch (error) {
+    console.error(`[badge] metric=${metric} failed: ${error.message}`);
+    const errorSvg = renderBadgeSvg({
+      label: "github",
+      message: "erro",
+      color: "ef4444"
+    });
+    res.set("Content-Type", "image/svg+xml; charset=utf-8");
+    res.set("Cache-Control", "no-store");
+    return res.status(503).send(errorSvg);
   }
 });
 

@@ -14,8 +14,15 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=kaikybrofc&style=for-the-badge&label=VISITAS+NO+PERFIL&color=00e5ff" alt="Visualizacoes"/>
-  <img src="https://img.shields.io/github/followers/kaikybrofc?style=for-the-badge&label=SEGUIDORES&color=00e5ff&labelColor=000000" alt="Seguidores"/>
+  <img src="https://omnizap.xyz/badges/seguidores.svg" alt="Badge seguidores"/>
+  <img src="https://omnizap.xyz/badges/repos.svg" alt="Badge repositorios"/>
+  <img src="https://omnizap.xyz/badges/estrelas.svg" alt="Badge estrelas"/>
+</p>
+
+<p align="center">
+  <img src="https://omnizap.xyz/badges/linguagem.svg" alt="Badge linguagem principal"/>
+  <img src="https://omnizap.xyz/badges/atividade.svg" alt="Badge atividade recente"/>
+  <img src="https://omnizap.xyz/badges/sync.svg" alt="Badge sincronizacao README"/>
 </p>
 
 ## Sobre
@@ -52,7 +59,7 @@ Desenvolvedor Full-Stack com foco em JavaScript/TypeScript, automacoes e integra
 <!--PROFILE_DYNAMIC_START-->
 ## Snapshot Dinamico do GitHub
 
-Atualizado em: **2026-03-09 08:16:08 UTC**
+Atualizado em: **2026-03-09 08:22:08 UTC**
 
 - Perfil: [Kaiky Brito](https://github.com/kaikybrofc) (@kaikybrofc)
 - Bio: 👨‍💻 Kaiky Brito, nascido em 2005, é um desenvolvedor júnior apaixonado por tecnologia 🚀 e programação 💻. Entusiasta do universo tech 🌐
@@ -70,19 +77,19 @@ JavaScript: 12 repos (63.2%) | Python: 3 repos (15.8%) | N/A: 2 repos (10.5%) | 
 | --- | ---: | --- | --- |
 | [omnizap-system](https://github.com/kaikybrofc/omnizap-system) | 6 | JavaScript | 2026-03-09 07:35:57 UTC |
 | [ayana-bot](https://github.com/kaikybrofc/ayana-bot) | 1 | Python | 2026-03-02 03:07:41 UTC |
-| [kaikybrofc](https://github.com/kaikybrofc/kaikybrofc) | 1 | JavaScript | 2026-03-09 08:13:45 UTC |
+| [kaikybrofc](https://github.com/kaikybrofc/kaikybrofc) | 1 | JavaScript | 2026-03-09 08:17:12 UTC |
 | [portifolio](https://github.com/kaikybrofc/portifolio) | 1 | JavaScript | 2026-03-09 07:28:43 UTC |
 | [webp-conv](https://github.com/kaikybrofc/webp-conv) | 1 | JavaScript | 2025-12-23 22:36:33 UTC |
 | [yt-dls](https://github.com/kaikybrofc/yt-dls) | 1 | JavaScript | 2026-03-04 23:09:26 UTC |
 
 **Atividade publica recente:**
 
+- PushEvent em `kaikybrofc/kaikybrofc` (2026-03-09 08:17:09 UTC)
 - PushEvent em `kaikybrofc/kaikybrofc` (2026-03-09 08:13:42 UTC)
 - PushEvent em `kaikybrofc/kaikybrofc` (2026-03-09 07:48:09 UTC)
 - PushEvent em `kaikybrofc/omnizap-system` (2026-03-09 07:35:54 UTC)
 - ReleaseEvent em `kaikybrofc/omnizap-system` (2026-03-09 07:30:46 UTC)
 - PushEvent em `kaikybrofc/omnizap-system` (2026-03-09 07:30:43 UTC)
-- PushEvent em `kaikybrofc/omnizap-system` (2026-03-09 07:30:11 UTC)
 
 <!--DYNAMIC_GENERATED_BY: perfil-server -->
 <!--PROFILE_DYNAMIC_END-->
@@ -94,4 +101,5 @@ Este README e atualizado dinamicamente pelo `perfil-server`, usando dados da API
 - Atualizacao manual: `npm run refresh:readme`
 - Atualizacao automatica: controlada por variaveis no `.env` e processo PM2
 - Endpoint de resumo: `GET /api/profile/summary`
+- Endpoints de badges SVG: `GET /badges/{seguidores|repos|estrelas|linguagem|atividade|sync}.svg`
 - Endpoint de refresh protegido: `POST /api/readme/refresh` com `x-refresh-key`
