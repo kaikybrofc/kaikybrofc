@@ -12,6 +12,8 @@ const FOCUS_START_MARKER = "<!--FOCUS_DYNAMIC_START-->";
 const FOCUS_END_MARKER = "<!--FOCUS_DYNAMIC_END-->";
 const ADV_STATS_START_MARKER = "<!--ADV_STATS_DYNAMIC_START-->";
 const ADV_STATS_END_MARKER = "<!--ADV_STATS_DYNAMIC_END-->";
+const DEFAULT_REMOTE_BASE_URL = "https://omnizap.xyz";
+const DEFAULT_LOCAL_ASSET_PREFIX = "./assets";
 
 function toSafeText(value) {
   if (!value) {
@@ -28,26 +30,46 @@ function truncateText(value, maxLen) {
   return `${text.slice(0, Math.max(0, maxLen - 3)).trim()}...`;
 }
 
+function getReadmeAssetMode() {
+  return String(process.env.README_ASSET_MODE || "local").trim().toLowerCase();
+}
+
+function isLocalAssetMode() {
+  return getReadmeAssetMode() !== "remote";
+}
+
 function getBadgeBaseUrl() {
-  return (process.env.BADGE_BASE_URL || "https://omnizap.xyz").replace(/\/$/, "");
+  return (process.env.BADGE_BASE_URL || DEFAULT_REMOTE_BASE_URL).replace(/\/$/, "");
+}
+
+function getLocalAssetPrefix() {
+  return (process.env.BADGE_LOCAL_PREFIX || DEFAULT_LOCAL_ASSET_PREFIX).replace(/\/$/, "");
+}
+
+function buildAssetUrl(relativePath) {
+  const normalizedPath = String(relativePath || "").replace(/^\/+/, "");
+  const baseUrl = isLocalAssetMode() ? getLocalAssetPrefix() : getBadgeBaseUrl();
+  return `${baseUrl}/${normalizedPath}`;
 }
 
 function buildAboutEmbedSection() {
+  const imageTag = `<img src="${buildAssetUrl("about/summary.svg")}" width="100%" alt="Resumo dinâmico da seção Sobre gerado pelo servidor"/>`;
+  if (isLocalAssetMode()) {
+    return imageTag;
+  }
+
   const baseUrl = getBadgeBaseUrl();
-  return [
-    `<a href="${baseUrl}/api/about/summary" target="_blank" rel="noopener noreferrer">`,
-    `  <img src="${baseUrl}/about/summary.svg" width="100%" alt="Resumo dinâmico da seção Sobre gerado pelo servidor"/>`,
-    "</a>"
-  ].join("\n");
+  return [`<a href="${baseUrl}/api/about/summary" target="_blank" rel="noopener noreferrer">`, `  ${imageTag}`, "</a>"].join("\n");
 }
 
 function buildFocusEmbedSection() {
+  const imageTag = `<img src="${buildAssetUrl("focus/current.svg")}" width="100%" alt="Resumo dinâmico do foco atual baseado nos commits recentes"/>`;
+  if (isLocalAssetMode()) {
+    return imageTag;
+  }
+
   const baseUrl = getBadgeBaseUrl();
-  return [
-    `<a href="${baseUrl}/api/focus/current" target="_blank" rel="noopener noreferrer">`,
-    `  <img src="${baseUrl}/focus/current.svg" width="100%" alt="Resumo dinâmico do foco atual baseado nos commits recentes"/>`,
-    "</a>"
-  ].join("\n");
+  return [`<a href="${baseUrl}/api/focus/current" target="_blank" rel="noopener noreferrer">`, `  ${imageTag}`, "</a>"].join("\n");
 }
 
 function buildStackEmbedSection(summary) {
@@ -57,18 +79,24 @@ function buildStackEmbedSection(summary) {
   const topStack = stackItems.slice(0, limit);
 
   if (!topStack.length) {
-    return [
-      `<a href="${baseUrl}/api/stack/current" target="_blank" rel="noopener noreferrer">`,
-      `  <img src="${baseUrl}/stack/current.svg" width="100%" alt="Lista dinâmica da stack principal gerada pelo servidor"/>`,
-      "</a>"
-    ].join("\n");
+    const fallbackImage = `<img src="${buildAssetUrl("stack/current.svg")}" width="100%" alt="Lista dinâmica da stack principal gerada pelo servidor"/>`;
+    if (isLocalAssetMode()) {
+      return fallbackImage;
+    }
+
+    return [`<a href="${baseUrl}/api/stack/current" target="_blank" rel="noopener noreferrer">`, `  ${fallbackImage}`, "</a>"].join("\n");
   }
 
   const badges = topStack
     .map((item) => {
       const techKey = encodeURIComponent(String(item.badgeKey || item.name || "").trim());
       const techName = toSafeText(item.name || item.badgeKey || "Stack");
-      return `<a href="${baseUrl}/api/stack/current" target="_blank" rel="noopener noreferrer"><img src="${baseUrl}/badges/stack/${techKey}.svg" alt="Badge stack ${techName}"/></a>`;
+      const imageTag = `<img src="${buildAssetUrl(`badges/stack/${techKey}.svg`)}" alt="Badge stack ${techName}"/>`;
+      if (isLocalAssetMode()) {
+        return imageTag;
+      }
+
+      return `<a href="${baseUrl}/api/stack/current" target="_blank" rel="noopener noreferrer">${imageTag}</a>`;
     })
     .join("\n  ");
 
@@ -85,12 +113,17 @@ function buildAdvancedStatsEmbedSection() {
   const baseUrl = getBadgeBaseUrl();
 
   return STAT_DEFINITIONS.map((definition, index) => {
+    const imageTag = `<img src="${buildAssetUrl(`stats/${definition.key}.svg`)}" width="100%" alt="Card dinâmico da estatística ${toSafeText(definition.title)}"/>`;
     const card = [
       `### ${toSafeText(definition.title)}`,
       "",
-      `<a href="${baseUrl}/api/stats/${definition.key}" target="_blank" rel="noopener noreferrer">`,
-      `  <img src="${baseUrl}/stats/${definition.key}.svg" width="100%" alt="Card dinâmico da estatística ${toSafeText(definition.title)}"/>`,
-      "</a>"
+      ...(isLocalAssetMode()
+        ? [imageTag]
+        : [
+            `<a href="${baseUrl}/api/stats/${definition.key}" target="_blank" rel="noopener noreferrer">`,
+            `  ${imageTag}`,
+            "</a>"
+          ])
     ];
 
     if (index < STAT_DEFINITIONS.length - 1) {
@@ -102,22 +135,20 @@ function buildAdvancedStatsEmbedSection() {
 }
 
 function buildProjectBadges(repoName) {
-  const baseUrl = getBadgeBaseUrl();
   const encoded = encodeURIComponent(repoName);
 
   return [
-    `![Resumo do Projeto](${baseUrl}/badges/projeto/${encoded}/resumo.svg)`,
-    `![Atividade](${baseUrl}/badges/projeto/${encoded}/atividade.svg)`,
-    `![Estrelas](${baseUrl}/badges/projeto/${encoded}/estrelas.svg)`,
-    `![Atualizado](${baseUrl}/badges/projeto/${encoded}/atualizado.svg)`
+    `![Resumo do Projeto](${buildAssetUrl(`badges/projeto/${encoded}/resumo.svg`)})`,
+    `![Atividade](${buildAssetUrl(`badges/projeto/${encoded}/atividade.svg`)})`,
+    `![Estrelas](${buildAssetUrl(`badges/projeto/${encoded}/estrelas.svg`)})`,
+    `![Atualizado](${buildAssetUrl(`badges/projeto/${encoded}/atualizado.svg`)})`
   ].join(" ");
 }
 
 function buildProjectDivider() {
-  const baseUrl = getBadgeBaseUrl();
   return [
     `<p align="center">`,
-    `  <img src="${baseUrl}/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>`,
+    `  <img src="${buildAssetUrl("banners/divider.svg")}" width="100%" alt="Divisor neon animado gerado pelo servidor"/>`,
     `</p>`
   ].join("\n");
 }

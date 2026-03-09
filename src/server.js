@@ -1,4 +1,5 @@
 const path = require("node:path");
+const { execFile } = require("node:child_process");
 const dotenv = require("dotenv");
 const express = require("express");
 const simpleIcons = require("simple-icons");
@@ -22,12 +23,19 @@ const autoRefreshIntervalMin = Number(process.env.README_REFRESH_INTERVAL_MIN ||
 const profileCacheTtlSec = Number(process.env.PROFILE_CACHE_TTL_SEC || 300);
 const badgeCacheTtlSec = Number(process.env.BADGE_CACHE_TTL_SEC || 120);
 const stackCurrentLimit = Number(process.env.STACK_CURRENT_LIMIT || 14);
+const localAssetSyncEnabled = (process.env.LOCAL_ASSET_SYNC_ENABLED || "false").toLowerCase() === "true";
+const localAssetSyncIntervalHours = Number(process.env.LOCAL_ASSET_SYNC_INTERVAL_HOURS || 4);
+const localAssetSyncScript = path.resolve(
+  process.cwd(),
+  process.env.LOCAL_ASSET_SYNC_SCRIPT || "scripts/publish-assets.js"
+);
 let lastSync = null;
 let lastSyncError = null;
 let cachedSummary = null;
 let cachedSummaryAt = 0;
 let cachedBadgeSummary = null;
 let cachedBadgeSummaryAt = 0;
+let localAssetSyncRunning = false;
 const BADGE_COLORS = Object.freeze({
   primary: "00e5ff",
   secondary: "38bdf8",
@@ -2125,6 +2133,51 @@ async function syncReadme(reason) {
   }
 }
 
+function runLocalAssetSync(reason) {
+  if (localAssetSyncRunning) {
+    console.log(`[asset-sync] reason=${reason} skipped (execution already in progress).`);
+    return;
+  }
+
+  localAssetSyncRunning = true;
+  const startedAtMs = Date.now();
+  const baseUrl = process.env.LOCAL_RENDER_BASE_URL || `http://127.0.0.1:${port}`;
+
+  execFile(
+    process.execPath,
+    [localAssetSyncScript],
+    {
+      cwd: process.cwd(),
+      env: {
+        ...process.env,
+        LOCAL_RENDER_BASE_URL: baseUrl,
+        README_ASSET_MODE: process.env.README_ASSET_MODE || "local",
+        BADGE_LOCAL_PREFIX: process.env.BADGE_LOCAL_PREFIX || "./assets"
+      }
+    },
+    (error, stdout, stderr) => {
+      localAssetSyncRunning = false;
+      const elapsedSec = ((Date.now() - startedAtMs) / 1000).toFixed(1);
+
+      if (stdout && stdout.trim()) {
+        console.log(`[asset-sync] reason=${reason} output:\n${stdout.trim()}`);
+      }
+      if (stderr && stderr.trim()) {
+        console.error(`[asset-sync] reason=${reason} stderr:\n${stderr.trim()}`);
+      }
+
+      if (error) {
+        console.error(
+          `[asset-sync] reason=${reason} failed in ${elapsedSec}s: ${error.message}`
+        );
+        return;
+      }
+
+      console.log(`[asset-sync] reason=${reason} completed in ${elapsedSec}s.`);
+    }
+  );
+}
+
 app.listen(port, host, () => {
   console.log(`perfil-server listening on http://${host}:${port}`);
 
@@ -2142,5 +2195,17 @@ app.listen(port, host, () => {
     console.log(`[readme-sync] auto-refresh enabled every ${Math.max(autoRefreshIntervalMin, 5)} minutes.`);
   } else {
     console.log("[readme-sync] auto-refresh disabled by README_AUTO_REFRESH=false");
+  }
+
+  if (localAssetSyncEnabled) {
+    const intervalHours = Math.max(1, localAssetSyncIntervalHours);
+    const intervalMs = intervalHours * 60 * 60 * 1000;
+    runLocalAssetSync("startup");
+    setInterval(() => {
+      runLocalAssetSync("interval");
+    }, intervalMs);
+    console.log(`[asset-sync] auto publish enabled every ${intervalHours} hour(s).`);
+  } else {
+    console.log("[asset-sync] auto publish disabled by LOCAL_ASSET_SYNC_ENABLED=false");
   }
 });
