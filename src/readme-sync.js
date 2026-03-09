@@ -1,10 +1,13 @@
 const fs = require("node:fs/promises");
 const path = require("node:path");
+const { getAiAboutSection } = require("./ai-about");
 
 const FEATURED_START_MARKER = "<!--FEATURED_PROJECTS_START-->";
 const FEATURED_END_MARKER = "<!--FEATURED_PROJECTS_END-->";
 const STACK_START_MARKER = "<!--STACK_DYNAMIC_START-->";
 const STACK_END_MARKER = "<!--STACK_DYNAMIC_END-->";
+const ABOUT_START_MARKER = "<!--ABOUT_AI_START-->";
+const ABOUT_END_MARKER = "<!--ABOUT_AI_END-->";
 
 function toSafeText(value) {
   if (!value) {
@@ -122,10 +125,18 @@ async function updateReadmeWithSummary(summary, options = {}) {
   const readmePath = options.readmePath || path.resolve(process.cwd(), "README.md");
 
   const currentReadme = await fs.readFile(readmePath, "utf8");
+  const aboutResult = await getAiAboutSection(summary, { force: options.forceAi });
+  const aboutSection = aboutResult.sectionText;
   const stackSection = buildStackBadges(summary);
   const featuredSection = buildFeaturedProjectsTable(summary);
-  const withStack = replaceSection(
+  const withAbout = replaceSection(
     currentReadme,
+    ABOUT_START_MARKER,
+    ABOUT_END_MARKER,
+    aboutSection
+  );
+  const withStack = replaceSection(
+    withAbout,
     STACK_START_MARKER,
     STACK_END_MARKER,
     stackSection
@@ -139,10 +150,30 @@ async function updateReadmeWithSummary(summary, options = {}) {
 
   if (nextReadme !== currentReadme) {
     await fs.writeFile(readmePath, nextReadme, "utf8");
-    return { changed: true, readmePath, generatedAt: new Date().toISOString() };
+    return {
+      changed: true,
+      readmePath,
+      generatedAt: new Date().toISOString(),
+      about: {
+        source: aboutResult.source,
+        generatedAt: aboutResult.generatedAt,
+        model: aboutResult.model || null,
+        error: aboutResult.error || null
+      }
+    };
   }
 
-  return { changed: false, readmePath, generatedAt: new Date().toISOString() };
+  return {
+    changed: false,
+    readmePath,
+    generatedAt: new Date().toISOString(),
+    about: {
+      source: aboutResult.source,
+      generatedAt: aboutResult.generatedAt,
+      model: aboutResult.model || null,
+      error: aboutResult.error || null
+    }
+  };
 }
 
 module.exports = {
@@ -150,6 +181,8 @@ module.exports = {
   FEATURED_END_MARKER,
   STACK_START_MARKER,
   STACK_END_MARKER,
+  ABOUT_START_MARKER,
+  ABOUT_END_MARKER,
   buildFeaturedProjectsTable,
   buildStackBadges,
   updateReadmeWithSummary

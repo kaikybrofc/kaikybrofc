@@ -34,7 +34,11 @@
 
 ## Sobre
 
-Desenvolvedor Full-Stack com foco em JavaScript/TypeScript, automações e integrações. Trabalho com aplicações web, infraestrutura Linux e boas práticas de segurança para entregar sistemas estáveis e escaláveis.
+<!--ABOUT_AI_START-->
+Kaiky Brito é um desenvolvedor júnior focado em tecnologias JavaScript e Node.js, com experiência em projetos que utilizam Express, React e Python. Com 16 repositórios públicos e 13 estrelas, demonstra interesse em desenvolvimento back-end e front-end. Seu trabalho mais ativo inclui sistemas e portfólios que evidenciam sua dedicação à programação e ao universo tecnológico.
+
+> _Resumo gerado por IA em 9 de mar. de 2026, 09:32 (UTC), com atualização a cada 24h._
+<!--ABOUT_AI_END-->
 
 ## Foco Atual
 

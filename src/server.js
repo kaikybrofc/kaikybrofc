@@ -938,10 +938,12 @@ app.post("/api/readme/refresh", async (req, res) => {
   }
 
   try {
+    const forceAi = req.query.force_ai === "1" || req.query.forceAi === "1";
     const summary = await getProfileSummary({ force: true });
     const result = await updateReadmeWithSummary(summary, {
       readmePath,
-      generatedAt: new Date().toISOString()
+      generatedAt: new Date().toISOString(),
+      forceAi
     });
     lastSync = result.generatedAt;
     lastSyncError = null;
@@ -950,7 +952,8 @@ app.post("/api/readme/refresh", async (req, res) => {
       ok: true,
       changed: result.changed,
       generatedAt: result.generatedAt,
-      readmePath: result.readmePath
+      readmePath: result.readmePath,
+      about: result.about || null
     });
   } catch (error) {
     lastSyncError = error.message;
@@ -977,7 +980,9 @@ async function syncReadme(reason) {
     });
     lastSync = result.generatedAt;
     lastSyncError = null;
-    console.log(`[readme-sync] reason=${reason} changed=${result.changed} at=${result.generatedAt}`);
+    console.log(
+      `[readme-sync] reason=${reason} changed=${result.changed} at=${result.generatedAt} about_source=${result.about?.source || "n/a"}`
+    );
   } catch (error) {
     lastSyncError = error.message;
     console.error(`[readme-sync] reason=${reason} failed: ${error.message}`);

@@ -9,10 +9,12 @@ const { updateReadmeWithSummary } = require("../src/readme-sync");
 dotenv.config({ path: path.resolve(process.cwd(), ".env"), quiet: true });
 
 async function run() {
+  const forceAi = process.argv.includes("--force-ai");
   const summary = await fetchProfileSummary();
   const result = await updateReadmeWithSummary(summary, {
     readmePath: process.env.README_PATH || path.resolve(process.cwd(), "README.md"),
-    generatedAt: new Date().toISOString()
+    generatedAt: new Date().toISOString(),
+    forceAi
   });
 
   console.log(
@@ -22,7 +24,8 @@ async function run() {
         changed: result.changed,
         readmePath: result.readmePath,
         login: summary.user.login,
-        repositories: summary.totals.ownedRepositories
+        repositories: summary.totals.ownedRepositories,
+        about: result.about || null
       },
       null,
       2
