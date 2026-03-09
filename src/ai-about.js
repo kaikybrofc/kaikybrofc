@@ -259,7 +259,7 @@ function buildAboutSectionText(content, generatedAt) {
   ].join("\n");
 }
 
-async function getAiAboutSection(summary, options = {}) {
+async function getAiAboutSummary(summary, options = {}) {
   const force = Boolean(options.force);
   const refreshHours = getRefreshHours();
   const cachePath = getCachePath();
@@ -268,7 +268,7 @@ async function getAiAboutSection(summary, options = {}) {
 
   if (!force && cacheStillValid) {
     return {
-      sectionText: buildAboutSectionText(cache.content, cache.generatedAt),
+      content: normalizeAboutText(cache.content),
       source: "cache",
       generatedAt: cache.generatedAt,
       model: cache.model || null
@@ -285,7 +285,7 @@ async function getAiAboutSection(summary, options = {}) {
     });
 
     return {
-      sectionText: buildAboutSectionText(generated.content, generatedAt),
+      content: normalizeAboutText(generated.content),
       source: "openai",
       generatedAt,
       model: generated.model || null
@@ -293,7 +293,7 @@ async function getAiAboutSection(summary, options = {}) {
   } catch (error) {
     if (cache && cache.content) {
       return {
-        sectionText: buildAboutSectionText(cache.content, cache.generatedAt),
+        content: normalizeAboutText(cache.content),
         source: "cache_stale",
         generatedAt: cache.generatedAt,
         model: cache.model || null,
@@ -304,7 +304,7 @@ async function getAiAboutSection(summary, options = {}) {
     const fallbackContent = buildFallbackAbout(summary);
     const generatedAt = new Date().toISOString();
     return {
-      sectionText: buildAboutSectionText(fallbackContent, generatedAt),
+      content: normalizeAboutText(fallbackContent),
       source: "fallback",
       generatedAt,
       model: null,
@@ -313,6 +313,15 @@ async function getAiAboutSection(summary, options = {}) {
   }
 }
 
+async function getAiAboutSection(summary, options = {}) {
+  const result = await getAiAboutSummary(summary, options);
+  return {
+    ...result,
+    sectionText: buildAboutSectionText(result.content, result.generatedAt)
+  };
+}
+
 module.exports = {
+  getAiAboutSummary,
   getAiAboutSection
 };

@@ -4,6 +4,7 @@ const express = require("express");
 const simpleIcons = require("simple-icons");
 
 const { fetchProfileSummary } = require("./github-profile");
+const { getAiAboutSummary } = require("./ai-about");
 const { updateReadmeWithSummary } = require("./readme-sync");
 
 dotenv.config({ path: path.resolve(process.cwd(), ".env"), quiet: true });
@@ -488,6 +489,99 @@ function buildDividerSvg() {
 </svg>`;
 }
 
+function splitTextForSvgLines(value, maxLineLength = 90, maxLines = 6) {
+  const text = String(value || "")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  if (!text) {
+    return ["Resumo indisponivel no momento."];
+  }
+
+  const words = text.split(" ");
+  const lines = [];
+  let current = "";
+
+  for (const word of words) {
+    const next = current ? `${current} ${word}` : word;
+    if (next.length <= maxLineLength) {
+      current = next;
+      continue;
+    }
+
+    if (current) {
+      lines.push(current);
+    }
+
+    if (lines.length >= maxLines) {
+      break;
+    }
+
+    current = word.length > maxLineLength ? `${word.slice(0, Math.max(8, maxLineLength - 3))}...` : word;
+  }
+
+  if (lines.length < maxLines && current) {
+    lines.push(current);
+  }
+
+  const allWordsIncluded = lines.join(" ").length >= text.length;
+  if (!allWordsIncluded && lines.length) {
+    const lastIndex = Math.min(lines.length, maxLines) - 1;
+    lines[lastIndex] = `${lines[lastIndex].replace(/[. ]+$/g, "")}...`;
+  }
+
+  return lines.slice(0, maxLines);
+}
+
+function buildAboutSummarySvg(about) {
+  const content = String(about?.content || "").trim();
+  const lines = splitTextForSvgLines(content, 92, 6);
+  const lineHeight = 34;
+  const textStartY = 118;
+  const contentHeight = lines.length * lineHeight;
+  const footerY = textStartY + contentHeight + 30;
+  const height = Math.max(250, footerY + 34);
+  const source = String(about?.source || "n/a");
+  const generatedAtRelative = formatRelativeTime(about?.generatedAt);
+  const generatedAtIso = about?.generatedAt ? new Date(about.generatedAt).toISOString() : "sem data";
+
+  const textLinesSvg = lines
+    .map((line, index) => {
+      const y = textStartY + index * lineHeight;
+      return `<text x="54" y="${y}" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">${escapeXml(line)}</text>`;
+    })
+    .join("\n");
+
+  return `<svg width="1400" height="${height}" viewBox="0 0 1400 ${height}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Resumo dinamico da secao Sobre">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="${height}" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#040919"/>
+      <stop offset="0.58" stop-color="#061328"/>
+      <stop offset="1" stop-color="#081b33"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00e5ff"/>
+      <stop offset="1" stop-color="#ff2bd6"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" stroke="#38bdf8" stroke-opacity="0.15" stroke-width="1"/>
+      <animateTransform attributeName="patternTransform" type="translate" dur="16s" repeatCount="indefinite" values="0 0;24 24;0 0"/>
+    </pattern>
+  </defs>
+  <rect width="1400" height="${height}" rx="18" fill="url(#bg)"/>
+  <rect width="1400" height="${height}" rx="18" fill="url(#grid)"/>
+  <rect x="36" y="28" width="1328" height="${height - 56}" rx="14" fill="#020617" fill-opacity="0.52" stroke="#38bdf8" stroke-opacity="0.28"/>
+  <rect x="52" y="48" width="340" height="34" rx="8" fill="#0b1221" stroke="#22d3ee" stroke-opacity="0.5"/>
+  <text x="68" y="71" fill="#bff6ff" font-family="JetBrains Mono, Consolas, monospace" font-size="16" font-weight="700">SOBRE DINAMICO // IA</text>
+  <line x1="52" y1="92" x2="1348" y2="92" stroke="url(#accent)" stroke-width="2" stroke-opacity="0.8"/>
+  ${textLinesSvg}
+  <line x1="52" y1="${footerY - 10}" x2="1348" y2="${footerY - 10}" stroke="#38bdf8" stroke-opacity="0.32"/>
+  <text x="54" y="${footerY + 14}" fill="#a8d9f4" font-family="JetBrains Mono, Consolas, monospace" font-size="16">
+    fonte: ${escapeXml(source)} // atualizado: ${escapeXml(generatedAtRelative)} // gerado_em_utc: ${escapeXml(generatedAtIso)}
+  </text>
+</svg>`;
+}
+
 function buildBadgeDefinition(metric, summary) {
   const topLanguage = summary.languages[0]?.language || "N/A";
   const languageVisual = resolveLanguageVisual(topLanguage);
@@ -706,6 +800,7 @@ app.get("/", (req, res) => {
     <p>Time (UTC): <code>${new Date().toISOString()}</code></p>
     <p>Health endpoint: <code>/health</code></p>
     <p>Summary endpoint: <code>/api/profile/summary</code></p>
+    <p>About endpoint: <code>/api/about/summary</code></p>
     <p>Badge endpoint: <code>/badges/seguidores.svg</code></p>
   </main>
 </body>
@@ -728,6 +823,49 @@ app.get("/api/profile/summary", async (_req, res) => {
   }
 });
 
+app.get("/api/about/summary", async (req, res) => {
+  const forceProfile = req.query.force_profile === "1" || req.query.forceProfile === "1";
+  const forceAi = req.query.force_ai === "1" || req.query.forceAi === "1";
+
+  try {
+    const summary = await getProfileSummary({ force: forceProfile });
+    const about = await getAiAboutSummary(summary, { force: forceAi });
+    return res.status(200).json({
+      ok: true,
+      generatedAt: new Date().toISOString(),
+      about
+    });
+  } catch (error) {
+    return res.status(500).json({
+      ok: false,
+      message: error.message
+    });
+  }
+});
+
+app.get("/about/summary.svg", async (req, res) => {
+  const forceProfile = req.query.force_profile === "1" || req.query.forceProfile === "1";
+  const forceAi = req.query.force_ai === "1" || req.query.forceAi === "1";
+
+  try {
+    const summary = await getProfileSummary({ force: forceProfile });
+    const about = await getAiAboutSummary(summary, { force: forceAi });
+    const svg = buildAboutSummarySvg(about);
+    res.set("Content-Type", "image/svg+xml; charset=utf-8");
+    res.set("Cache-Control", `public, max-age=${Math.max(badgeCacheTtlSec, 15)}`);
+    return res.status(200).send(svg);
+  } catch (error) {
+    const svg = buildAboutSummarySvg({
+      content: "Nao foi possivel gerar o resumo dinamico no momento.",
+      source: "erro",
+      generatedAt: new Date().toISOString()
+    });
+    res.set("Content-Type", "image/svg+xml; charset=utf-8");
+    res.set("Cache-Control", "no-store");
+    return res.status(503).send(svg);
+  }
+});
+
 app.get("/api/badges", (req, res) => {
   const baseUrl = `${req.protocol}://${req.get("host")}`;
   res.status(200).json({
@@ -741,6 +879,8 @@ app.get("/api/badges", (req, res) => {
       sync: `${baseUrl}/badges/sync.svg`,
       bannerHero: `${baseUrl}/banners/hero.svg`,
       bannerDivider: `${baseUrl}/banners/divider.svg`,
+      aboutSummarySvg: `${baseUrl}/about/summary.svg`,
+      aboutSummaryApi: `${baseUrl}/api/about/summary`,
       contatoTemplate: `${baseUrl}/badges/contact/{github|linkedin|email|whatsapp}.svg`,
       stackTemplate: `${baseUrl}/badges/stack/{tecnologia-ou-slug-simple-icons}.svg`,
       iconTemplate: `${baseUrl}/badges/icon/{slug-ou-nome}.svg`,
@@ -938,12 +1078,10 @@ app.post("/api/readme/refresh", async (req, res) => {
   }
 
   try {
-    const forceAi = req.query.force_ai === "1" || req.query.forceAi === "1";
     const summary = await getProfileSummary({ force: true });
     const result = await updateReadmeWithSummary(summary, {
       readmePath,
-      generatedAt: new Date().toISOString(),
-      forceAi
+      generatedAt: new Date().toISOString()
     });
     lastSync = result.generatedAt;
     lastSyncError = null;
@@ -952,8 +1090,7 @@ app.post("/api/readme/refresh", async (req, res) => {
       ok: true,
       changed: result.changed,
       generatedAt: result.generatedAt,
-      readmePath: result.readmePath,
-      about: result.about || null
+      readmePath: result.readmePath
     });
   } catch (error) {
     lastSyncError = error.message;
@@ -980,9 +1117,7 @@ async function syncReadme(reason) {
     });
     lastSync = result.generatedAt;
     lastSyncError = null;
-    console.log(
-      `[readme-sync] reason=${reason} changed=${result.changed} at=${result.generatedAt} about_source=${result.about?.source || "n/a"}`
-    );
+    console.log(`[readme-sync] reason=${reason} changed=${result.changed} at=${result.generatedAt}`);
   } catch (error) {
     lastSyncError = error.message;
     console.error(`[readme-sync] reason=${reason} failed: ${error.message}`);

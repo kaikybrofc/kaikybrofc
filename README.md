@@ -35,9 +35,9 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor júnior focado em tecnologias JavaScript e Node.js, com experiência em projetos que utilizam Express, React e Python. Com 16 repositórios públicos e 13 estrelas, demonstra interesse em desenvolvimento back-end e front-end. Seu trabalho mais ativo inclui sistemas e portfólios que evidenciam sua dedicação à programação e ao universo tecnológico.
-
-> _Resumo gerado por IA em 9 de mar. de 2026, 09:32 (UTC), com atualização a cada 24h._
+<a href="https://omnizap.xyz/api/about/summary" target="_blank" rel="noopener noreferrer">
+  <img src="https://omnizap.xyz/about/summary.svg" width="100%" alt="Resumo dinâmico da seção Sobre gerado pelo servidor"/>
+</a>
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
@@ -80,21 +80,21 @@ Kaiky Brito é um desenvolvedor júnior focado em tecnologias JavaScript e Node.
 Classificados automaticamente com base na atividade recente no GitHub.
 
 <!--FEATURED_PROJECTS_START-->
-### 1. [omnizap-system](https://github.com/kaikybrofc/omnizap-system)
-
-**Descrição:** Sistema profissional de automação WhatsApp com tecnologia Baileys
-
-**Tecnologias:** JavaScript
-
-![Atividade](https://omnizap.xyz/badges/projeto/omnizap-system/atividade.svg) ![Estrelas](https://omnizap.xyz/badges/projeto/omnizap-system/estrelas.svg) ![Atualizado](https://omnizap.xyz/badges/projeto/omnizap-system/atualizado.svg)
-
-### 2. [kaikybrofc](https://github.com/kaikybrofc/kaikybrofc)
+### 1. [kaikybrofc](https://github.com/kaikybrofc/kaikybrofc)
 
 **Descrição:** ✨ Aqui você encontra informações sobre mim.
 
 **Tecnologias:** JavaScript
 
 ![Atividade](https://omnizap.xyz/badges/projeto/kaikybrofc/atividade.svg) ![Estrelas](https://omnizap.xyz/badges/projeto/kaikybrofc/estrelas.svg) ![Atualizado](https://omnizap.xyz/badges/projeto/kaikybrofc/atualizado.svg)
+
+### 2. [omnizap-system](https://github.com/kaikybrofc/omnizap-system)
+
+**Descrição:** Sistema profissional de automação WhatsApp com tecnologia Baileys
+
+**Tecnologias:** JavaScript
+
+![Atividade](https://omnizap.xyz/badges/projeto/omnizap-system/atividade.svg) ![Estrelas](https://omnizap.xyz/badges/projeto/omnizap-system/estrelas.svg) ![Atualizado](https://omnizap.xyz/badges/projeto/omnizap-system/atualizado.svg)
 
 ### 3. [portifolio](https://github.com/kaikybrofc/portifolio)
 

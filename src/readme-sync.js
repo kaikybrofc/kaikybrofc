@@ -1,6 +1,5 @@
 const fs = require("node:fs/promises");
 const path = require("node:path");
-const { getAiAboutSection } = require("./ai-about");
 
 const FEATURED_START_MARKER = "<!--FEATURED_PROJECTS_START-->";
 const FEATURED_END_MARKER = "<!--FEATURED_PROJECTS_END-->";
@@ -34,6 +33,15 @@ function toHtmlAttribute(value) {
 
 function getBadgeBaseUrl() {
   return (process.env.BADGE_BASE_URL || "https://omnizap.xyz").replace(/\/$/, "");
+}
+
+function buildAboutEmbedSection() {
+  const baseUrl = getBadgeBaseUrl();
+  return [
+    `<a href="${baseUrl}/api/about/summary" target="_blank" rel="noopener noreferrer">`,
+    `  <img src="${baseUrl}/about/summary.svg" width="100%" alt="Resumo dinâmico da seção Sobre gerado pelo servidor"/>`,
+    "</a>"
+  ].join("\n");
 }
 
 function buildProjectBadges(repoName) {
@@ -125,8 +133,7 @@ async function updateReadmeWithSummary(summary, options = {}) {
   const readmePath = options.readmePath || path.resolve(process.cwd(), "README.md");
 
   const currentReadme = await fs.readFile(readmePath, "utf8");
-  const aboutResult = await getAiAboutSection(summary, { force: options.forceAi });
-  const aboutSection = aboutResult.sectionText;
+  const aboutSection = buildAboutEmbedSection();
   const stackSection = buildStackBadges(summary);
   const featuredSection = buildFeaturedProjectsTable(summary);
   const withAbout = replaceSection(
@@ -150,30 +157,10 @@ async function updateReadmeWithSummary(summary, options = {}) {
 
   if (nextReadme !== currentReadme) {
     await fs.writeFile(readmePath, nextReadme, "utf8");
-    return {
-      changed: true,
-      readmePath,
-      generatedAt: new Date().toISOString(),
-      about: {
-        source: aboutResult.source,
-        generatedAt: aboutResult.generatedAt,
-        model: aboutResult.model || null,
-        error: aboutResult.error || null
-      }
-    };
+    return { changed: true, readmePath, generatedAt: new Date().toISOString() };
   }
 
-  return {
-    changed: false,
-    readmePath,
-    generatedAt: new Date().toISOString(),
-    about: {
-      source: aboutResult.source,
-      generatedAt: aboutResult.generatedAt,
-      model: aboutResult.model || null,
-      error: aboutResult.error || null
-    }
-  };
+  return { changed: false, readmePath, generatedAt: new Date().toISOString() };
 }
 
 module.exports = {
