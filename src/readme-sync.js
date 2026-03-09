@@ -21,7 +21,7 @@ function toSafeText(value) {
 
 function buildRepoTable(repos) {
   if (!repos.length) {
-    return "_No repositories found._";
+    return "_Nenhum repositorio encontrado._";
   }
 
   const lines = [
@@ -40,7 +40,7 @@ function buildRepoTable(repos) {
 
 function buildLanguageLine(languages) {
   if (!languages.length) {
-    return "_No language data available._";
+    return "_Sem dados de linguagem._";
   }
 
   return languages
@@ -51,7 +51,7 @@ function buildLanguageLine(languages) {
 
 function buildActivityList(activity) {
   if (!activity.length) {
-    return "- No recent public activity found.";
+    return "- Nenhuma atividade publica recente encontrada.";
   }
 
   return activity
@@ -64,7 +64,7 @@ function buildDynamicSection(summary, generatedAt) {
   const { user, totals, topRepositories, languages, recentActivity } = summary;
 
   return [
-    "## Live GitHub Snapshot",
+    "## Snapshot Dinamico do GitHub",
     "",
     `Atualizado em: **${formatIsoDate(generatedAt)}**`,
     "",

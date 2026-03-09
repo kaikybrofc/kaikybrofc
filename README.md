@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=230&text=Kaiky%20Brito&fontAlign=50&fontAlignY=38&desc=Full-Stack%20%7C%20Automation%20%7C%20Cybersecurity&descAlign=50&descAlignY=60&fontSize=60&color=0:070b14,45:0ea5e9,100:22d3ee&fontColor=e6f7ff" alt="Kaiky Brito banner"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=Kaiky%20Brito&fontAlign=50&fontAlignY=38&desc=Desenvolvedor%20Full-Stack%20%7C%20Automacao%20%7C%20Seguranca&descAlign=50&descAlignY=60&fontSize=56&color=0:070b14,45:0ea5e9,100:22d3ee&fontColor=e6f7ff" alt="Banner Kaiky Brito"/>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&pause=1200&center=true&vCenter=true&width=920&lines=Building+reliable+full-stack+systems;Automation+for+real+business+flows;Linux%2C+containers+and+security+mindset" alt="Typing intro"/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&pause=1200&center=true&vCenter=true&width=980&lines=Construindo+sistemas+web+confiaveis;Automacao+de+processos+reais+de+negocio;Node.js%2C+Linux%2C+integracoes+e+foco+em+seguranca" alt="Resumo profissional"/>
 </p>
 
 <p align="center">
@@ -14,22 +14,45 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=kaikybrofc&style=for-the-badge&label=PROFILE+VIEWS&color=00e5ff" alt="Profile views"/>
-  <img src="https://img.shields.io/github/followers/kaikybrofc?style=for-the-badge&label=FOLLOWERS&color=00e5ff&labelColor=000000" alt="Followers"/>
+  <img src="https://komarev.com/ghpvc/?username=kaikybrofc&style=for-the-badge&label=VISITAS+NO+PERFIL&color=00e5ff" alt="Visualizacoes"/>
+  <img src="https://img.shields.io/github/followers/kaikybrofc?style=for-the-badge&label=SEGUIDORES&color=00e5ff&labelColor=000000" alt="Seguidores"/>
 </p>
 
-<p align="center">
-  <code>PT-BR</code> | <a href="#quick-english-version">EN</a>
+## Sobre
+
+Desenvolvedor Full-Stack com foco em JavaScript/TypeScript, automacoes e integracoes. Trabalho com aplicacoes web, infraestrutura Linux e boas praticas de seguranca para entregar sistemas estaveis e escalaveis.
+
+## Foco Atual
+
+- Automatizacao de fluxos com Node.js
+- APIs e integracoes para operacoes reais
+- Confiabilidade de servicos em ambiente Linux
+
+## Stack Principal
+
+<p>
+  <img src="https://img.shields.io/badge/JavaScript-0b0f1a?style=for-the-badge&logo=javascript&logoColor=f7df1e" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/TypeScript-0b0f1a?style=for-the-badge&logo=typescript&logoColor=38bdf8" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/Node.js-0b0f1a?style=for-the-badge&logo=nodedotjs&logoColor=22c55e" alt="Node.js"/>
+  <img src="https://img.shields.io/badge/Express-0b0f1a?style=for-the-badge&logo=express&logoColor=ffffff" alt="Express"/>
+  <img src="https://img.shields.io/badge/React-0b0f1a?style=for-the-badge&logo=react&logoColor=22d3ee" alt="React"/>
+  <img src="https://img.shields.io/badge/Linux-0b0f1a?style=for-the-badge&logo=linux&logoColor=facc15" alt="Linux"/>
+  <img src="https://img.shields.io/badge/Docker-0b0f1a?style=for-the-badge&logo=docker&logoColor=38bdf8" alt="Docker"/>
+  <img src="https://img.shields.io/badge/MongoDB-0b0f1a?style=for-the-badge&logo=mongodb&logoColor=22c55e" alt="MongoDB"/>
+  <img src="https://img.shields.io/badge/MySQL-0b0f1a?style=for-the-badge&logo=mysql&logoColor=60a5fa" alt="MySQL"/>
+  <img src="https://img.shields.io/badge/Redis-0b0f1a?style=for-the-badge&logo=redis&logoColor=f87171" alt="Redis"/>
 </p>
 
-## Mission
+## Projeto em Destaque
 
-Desenvolvedor Full-Stack focado em JavaScript/TypeScript, automacao e integracoes. Trabalho com sistemas web, infraestrutura Linux e praticas de ciberseguranca para entregar solucoes estaveis, seguras e escalaveis.
+| Projeto | Descricao | Stack |
+| --- | --- | --- |
+| [OmniZap System](https://github.com/kaikybrofc/omnizap-system) | Plataforma para automacao e integracoes com WhatsApp com foco em produtividade operacional. | Node.js, APIs, Integracoes |
 
 <!--PROFILE_DYNAMIC_START-->
-## Live GitHub Snapshot
+## Snapshot Dinamico do GitHub
 
-Atualizado em: **2026-03-09 08:11:28 UTC**
+Atualizado em: **2026-03-09 08:16:08 UTC**
 
 - Perfil: [Kaiky Brito](https://github.com/kaikybrofc) (@kaikybrofc)
 - Bio: 👨‍💻 Kaiky Brito, nascido em 2005, é um desenvolvedor júnior apaixonado por tecnologia 🚀 e programação 💻. Entusiasta do universo tech 🌐
@@ -39,7 +62,7 @@ Atualizado em: **2026-03-09 08:11:28 UTC**
 
 **Top linguagens (repos):**
 
-JavaScript: 11 repos (57.9%) | N/A: 3 repos (15.8%) | Python: 3 repos (15.8%) | C: 1 repos (5.3%) | Rust: 1 repos (5.3%)
+JavaScript: 12 repos (63.2%) | Python: 3 repos (15.8%) | N/A: 2 repos (10.5%) | C: 1 repos (5.3%) | Rust: 1 repos (5.3%)
 
 **Top repositorios por stars:**
 
@@ -47,58 +70,28 @@ JavaScript: 11 repos (57.9%) | N/A: 3 repos (15.8%) | Python: 3 repos (15.8%) | 
 | --- | ---: | --- | --- |
 | [omnizap-system](https://github.com/kaikybrofc/omnizap-system) | 6 | JavaScript | 2026-03-09 07:35:57 UTC |
 | [ayana-bot](https://github.com/kaikybrofc/ayana-bot) | 1 | Python | 2026-03-02 03:07:41 UTC |
-| [kaikybrofc](https://github.com/kaikybrofc/kaikybrofc) | 1 | N/A | 2026-03-09 07:48:11 UTC |
+| [kaikybrofc](https://github.com/kaikybrofc/kaikybrofc) | 1 | JavaScript | 2026-03-09 08:13:45 UTC |
 | [portifolio](https://github.com/kaikybrofc/portifolio) | 1 | JavaScript | 2026-03-09 07:28:43 UTC |
 | [webp-conv](https://github.com/kaikybrofc/webp-conv) | 1 | JavaScript | 2025-12-23 22:36:33 UTC |
 | [yt-dls](https://github.com/kaikybrofc/yt-dls) | 1 | JavaScript | 2026-03-04 23:09:26 UTC |
 
 **Atividade publica recente:**
 
+- PushEvent em `kaikybrofc/kaikybrofc` (2026-03-09 08:13:42 UTC)
 - PushEvent em `kaikybrofc/kaikybrofc` (2026-03-09 07:48:09 UTC)
 - PushEvent em `kaikybrofc/omnizap-system` (2026-03-09 07:35:54 UTC)
 - ReleaseEvent em `kaikybrofc/omnizap-system` (2026-03-09 07:30:46 UTC)
 - PushEvent em `kaikybrofc/omnizap-system` (2026-03-09 07:30:43 UTC)
 - PushEvent em `kaikybrofc/omnizap-system` (2026-03-09 07:30:11 UTC)
-- PushEvent em `kaikybrofc/portifolio` (2026-03-09 07:28:39 UTC)
 
 <!--DYNAMIC_GENERATED_BY: perfil-server -->
 <!--PROFILE_DYNAMIC_END-->
 
-## Tech Arsenal
+## Automacao do Perfil
 
-<p>
-  <img src="https://img.shields.io/badge/JavaScript-0b0f1a?style=for-the-badge&logo=javascript&logoColor=f7df1e" alt="JavaScript"/>
-  <img src="https://img.shields.io/badge/TypeScript-0b0f1a?style=for-the-badge&logo=typescript&logoColor=38bdf8" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/Node.js-0b0f1a?style=for-the-badge&logo=nodedotjs&logoColor=22c55e" alt="Node.js"/>
-  <img src="https://img.shields.io/badge/Express-0b0f1a?style=for-the-badge&logo=express&logoColor=ffffff" alt="Express"/>
-  <img src="https://img.shields.io/badge/React-0b0f1a?style=for-the-badge&logo=react&logoColor=22d3ee" alt="React"/>
-  <img src="https://img.shields.io/badge/Docker-0b0f1a?style=for-the-badge&logo=docker&logoColor=38bdf8" alt="Docker"/>
-  <img src="https://img.shields.io/badge/Kubernetes-0b0f1a?style=for-the-badge&logo=kubernetes&logoColor=60a5fa" alt="Kubernetes"/>
-  <img src="https://img.shields.io/badge/Linux-0b0f1a?style=for-the-badge&logo=linux&logoColor=facc15" alt="Linux"/>
-  <img src="https://img.shields.io/badge/MongoDB-0b0f1a?style=for-the-badge&logo=mongodb&logoColor=22c55e" alt="MongoDB"/>
-  <img src="https://img.shields.io/badge/MySQL-0b0f1a?style=for-the-badge&logo=mysql&logoColor=60a5fa" alt="MySQL"/>
-  <img src="https://img.shields.io/badge/Redis-0b0f1a?style=for-the-badge&logo=redis&logoColor=f87171" alt="Redis"/>
-</p>
+Este README e atualizado dinamicamente pelo `perfil-server`, usando dados da API do GitHub.
 
-## Featured Build
-
-| Project | Impact | Stack |
-| --- | --- | --- |
-| [OmniZap System](https://github.com/kaikybrofc/omnizap-system) | Plataforma para automacao e integracoes com WhatsApp com foco em produtividade operacional. | Node.js, Integracoes, API |
-
-## Automation
-
-Este perfil usa GitHub Actions para atualizar metricas e assets diariamente, sem manutencao manual.
-
-- Workflow: `.github/workflows/profile-automation.yml`
-- Schedule: todos os dias (UTC)
-- Atualiza: `metrics.base.svg`, `metrics.extended.svg`, `snake.svg` e timestamp do README
-- Sync dinamico local: `npm run refresh:readme` (usa `GITHUB_TOKEN` do `.env`)
-
-> Last auto-sync: <!--LAST_UPDATED_START-->2026-03-09 00:00 UTC<!--LAST_UPDATED_END-->
-
----
-
-## Quick English Version
-
-Full-Stack developer focused on JavaScript/TypeScript, automation and integrations. I build reliable web systems with Linux infrastructure and a security-first mindset.
+- Atualizacao manual: `npm run refresh:readme`
+- Atualizacao automatica: controlada por variaveis no `.env` e processo PM2
+- Endpoint de resumo: `GET /api/profile/summary`
+- Endpoint de refresh protegido: `POST /api/readme/refresh` com `x-refresh-key`
