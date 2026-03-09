@@ -827,6 +827,489 @@ function ensureAdvancedStatEntry(statsPayload, statKey) {
   };
 }
 
+function toSafeNumber(value, fallback = 0) {
+  const parsed = Number(value);
+  return Number.isFinite(parsed) ? parsed : fallback;
+}
+
+function sanitizeSvgId(value, fallback = "chart") {
+  const normalized = String(value || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "");
+  return normalized || fallback;
+}
+
+function truncateAxisLabel(value, maxLen = 12) {
+  const text = String(value || "")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  if (!text) {
+    return "n/a";
+  }
+
+  if (text.length <= maxLen) {
+    return text;
+  }
+
+  const compact = text
+    .slice(0, Math.max(1, maxLen - 3))
+    .trim()
+    .replace(/[.\s]+$/g, "");
+  return `${compact}...`;
+}
+
+function formatChartNumber(value) {
+  const number = toSafeNumber(value, 0);
+  const abs = Math.abs(number);
+
+  if (abs >= 1000) {
+    return formatCompactNumber(number);
+  }
+
+  if (abs >= 100) {
+    return String(Math.round(number));
+  }
+
+  if (abs >= 10) {
+    return number.toFixed(1).replace(/\.0$/, "");
+  }
+
+  return number.toFixed(2).replace(/\.00$/, "").replace(/(\.\d)0$/, "$1");
+}
+
+function compactRepoLabel(fullName) {
+  const raw = String(fullName || "").trim();
+  if (!raw) {
+    return "repo";
+  }
+
+  const tail = raw.includes("/") ? raw.split("/").pop() : raw;
+  return truncateAxisLabel(tail, 14);
+}
+
+function parseMilestoneLabel(value) {
+  const text = String(value || "").trim();
+  if (!text) {
+    return { age: "n/a", detail: "Sem marco recente." };
+  }
+
+  const separator = text.indexOf(":");
+  if (separator === -1) {
+    return {
+      age: "evento",
+      detail: truncateChipText(text, 64)
+    };
+  }
+
+  return {
+    age: truncateAxisLabel(text.slice(0, separator).trim(), 10),
+    detail: truncateChipText(text.slice(separator + 1).trim(), 64)
+  };
+}
+
+function buildAdvancedChartModel(statEntry) {
+  const key = String(statEntry?.key || "").trim().toLowerCase();
+  const payload = statEntry?.payload || {};
+
+  if (key === "evolucao-mensal") {
+    const series = Array.isArray(payload?.series) ? payload.series : [];
+    return {
+      type: "line",
+      legend: "registros por mes",
+      items: series.slice(-8).map((item) => {
+        const rawLabel = String(item?.label || "").trim();
+        const monthToken = rawLabel.split(" ")[0].replace(/\.$/, "");
+        const yearMatch = rawLabel.match(/(\d{2})$/);
+        const yearToken = yearMatch ? yearMatch[1] : "";
+        return {
+          label: yearToken ? `${monthToken}/${yearToken}` : truncateAxisLabel(rawLabel, 8),
+          value: toSafeNumber(item?.count, 0)
+        };
+      })
+    };
+  }
+
+  if (key === "ritmo-semanal") {
+    const distribution = Array.isArray(payload?.distribution) ? payload.distribution : [];
+    return {
+      type: "bar",
+      legend: "registros por dia",
+      items: distribution.slice(0, 7).map((item) => ({
+        label: truncateAxisLabel(item?.label, 6),
+        value: toSafeNumber(item?.count, 0)
+      }))
+    };
+  }
+
+  if (key === "horarios-pico") {
+    const distribution = Array.isArray(payload?.distribution) ? payload.distribution : [];
+    const buckets = [
+      { label: "00-03", hours: [0, 1, 2, 3] },
+      { label: "04-07", hours: [4, 5, 6, 7] },
+      { label: "08-11", hours: [8, 9, 10, 11] },
+      { label: "12-15", hours: [12, 13, 14, 15] },
+      { label: "16-19", hours: [16, 17, 18, 19] },
+      { label: "20-23", hours: [20, 21, 22, 23] }
+    ];
+
+    const mapByHour = new Map(
+      distribution.map((item) => [toSafeNumber(item?.hour, -1), toSafeNumber(item?.count, 0)])
+    );
+
+    return {
+      type: "line",
+      legend: "atividade por faixa UTC",
+      items: buckets.map((bucket) => ({
+        label: bucket.label,
+        value: bucket.hours.reduce((total, hour) => total + (mapByHour.get(hour) || 0), 0)
+      }))
+    };
+  }
+
+  if (key === "saude-repositorios") {
+    return {
+      type: "bar",
+      legend: "repositorios monitorados",
+      items: [
+        { label: "ativos 30d", value: toSafeNumber(payload?.active30, 0) },
+        { label: "ativos 60d", value: toSafeNumber(payload?.active60, 0) },
+        { label: "ativos 90d", value: toSafeNumber(payload?.active90, 0) },
+        { label: "inativos", value: toSafeNumber(payload?.stale90, 0) }
+      ]
+    };
+  }
+
+  if (key === "top-tecnologias") {
+    const technologies = Array.isArray(payload?.technologies) ? payload.technologies : [];
+
+    return {
+      type: "bar",
+      legend: "presenca da stack por repositorio",
+      items: technologies.slice(0, 6).map((item) => {
+        const repositories = toSafeNumber(item?.repositories, 0);
+        const score = toSafeNumber(item?.score, 0);
+        const value = repositories > 0 ? repositories : score;
+        return {
+          label: truncateAxisLabel(item?.name, 12),
+          value
+        };
+      })
+    };
+  }
+
+  if (key === "entrega-manutencao") {
+    const cadence = Array.isArray(payload?.cadence) ? payload.cadence : [];
+    return {
+      type: "bar",
+      legend: "media de dias entre atualizacoes",
+      items: cadence.slice(0, 6).map((item) => ({
+        label: compactRepoLabel(item?.repo),
+        value: toSafeNumber(item?.averageDays, 0)
+      }))
+    };
+  }
+
+  if (key === "issues-prs") {
+    return {
+      type: "bar",
+      legend: "abertos vs fechados",
+      items: [
+        { label: "issues open", value: toSafeNumber(payload?.issuesOpen, 0) },
+        { label: "issues closed", value: toSafeNumber(payload?.issuesClosed, 0) },
+        { label: "prs open", value: toSafeNumber(payload?.prsOpen, 0) },
+        { label: "prs closed", value: toSafeNumber(payload?.prsClosed, 0) }
+      ]
+    };
+  }
+
+  if (key === "velocidade-merge") {
+    return {
+      type: "bar",
+      legend: "dias para merge e tamanho da amostra",
+      items: [
+        { label: "media dias", value: toSafeNumber(payload?.averageMergeDays, 0) },
+        { label: "mediana", value: toSafeNumber(payload?.medianMergeDays, 0) },
+        { label: "amostra", value: toSafeNumber(payload?.mergedSampleSize, 0) }
+      ]
+    };
+  }
+
+  if (key === "distribuicao-projetos") {
+    const categories = Array.isArray(payload?.categories) ? payload.categories : [];
+    return {
+      type: "bar",
+      legend: "repositorios por categoria",
+      items: categories.slice(0, 6).map((item) => ({
+        label: truncateAxisLabel(item?.category, 12),
+        value: toSafeNumber(item?.count, 0)
+      }))
+    };
+  }
+
+  if (key === "marcos-recentes") {
+    const milestones = Array.isArray(payload?.milestones) ? payload.milestones : [];
+    return {
+      type: "timeline",
+      legend: "ultimos marcos detectados",
+      items: milestones.slice(0, 3).map((value) => parseMilestoneLabel(value))
+    };
+  }
+
+  return {
+    type: "none",
+    legend: "",
+    items: []
+  };
+}
+
+function buildChartNoDataBody(chartBox, message) {
+  const centerX = chartBox.x + Math.round(chartBox.width / 2);
+  const centerY = chartBox.y + Math.round(chartBox.height / 2);
+  return `<text x="${centerX}" y="${centerY}" text-anchor="middle" fill="#9fbad0" font-family="JetBrains Mono, Consolas, monospace" font-size="16" font-weight="600">${escapeXml(message)}</text>`;
+}
+
+function buildBarChartFragments(model, chartBox, theme, idPrefix) {
+  const items = (Array.isArray(model?.items) ? model.items : [])
+    .map((item) => ({
+      label: truncateAxisLabel(item?.label, 12),
+      value: toSafeNumber(item?.value, 0)
+    }))
+    .filter((item) => Number.isFinite(item.value))
+    .slice(0, 8);
+
+  if (!items.length) {
+    return {
+      defs: "",
+      body: buildChartNoDataBody(chartBox, "Sem dados para montar grafico.")
+    };
+  }
+
+  const maxValue = Math.max(
+    1,
+    ...items.map((item) => item.value)
+  );
+
+  const plotX = chartBox.x + 30;
+  const plotY = chartBox.y + 18;
+  const plotWidth = chartBox.width - 60;
+  const plotHeight = chartBox.height - 50;
+  const labelY = plotY + plotHeight + 20;
+  const gap = items.length > 1 ? Math.max(8, Math.min(18, Math.floor(88 / items.length))) : 0;
+  const barWidth = Math.max(
+    24,
+    Math.floor((plotWidth - gap * Math.max(0, items.length - 1)) / items.length)
+  );
+  const usedWidth = barWidth * items.length + gap * Math.max(0, items.length - 1);
+  let cursorX = plotX + Math.round((plotWidth - usedWidth) / 2);
+
+  const gradId = `statBarGrad${idPrefix}`;
+  const defs = `<linearGradient id="${gradId}" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#${theme.primary}" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#${theme.secondary}" stop-opacity="0.88"/>
+    </linearGradient>`;
+
+  const gridSvg = [0, 1, 2, 3, 4]
+    .map((step) => {
+      const y = plotY + Math.round((plotHeight * step) / 4);
+      const ratio = 1 - step / 4;
+      const value = maxValue * ratio;
+      return `<g>
+  <line x1="${plotX}" y1="${y}" x2="${plotX + plotWidth}" y2="${y}" stroke="#7dd3fc" stroke-opacity="${step === 4 ? "0.32" : "0.14"}" stroke-width="1"/>
+  <text x="${plotX - 8}" y="${y + 4}" text-anchor="end" fill="#8fb0c8" font-family="JetBrains Mono, Consolas, monospace" font-size="11">${escapeXml(formatChartNumber(value))}</text>
+</g>`;
+    })
+    .join("\n");
+
+  const barsSvg = items
+    .map((item) => {
+      const barHeight = Math.max(5, Math.round((item.value / maxValue) * (plotHeight - 4)));
+      const barX = cursorX;
+      const barY = plotY + plotHeight - barHeight;
+      const centerX = barX + Math.round(barWidth / 2);
+      cursorX += barWidth + gap;
+
+      return `<g>
+  <rect x="${barX}" y="${barY}" width="${barWidth}" height="${barHeight}" rx="6" fill="url(#${gradId})" opacity="0.96"/>
+  <rect x="${barX}" y="${barY}" width="${barWidth}" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
+  <text x="${centerX}" y="${barY - 8}" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">${escapeXml(formatChartNumber(item.value))}</text>
+  <text x="${centerX}" y="${labelY}" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">${escapeXml(item.label)}</text>
+</g>`;
+    })
+    .join("\n");
+
+  return {
+    defs,
+    body: `${gridSvg}\n${barsSvg}`
+  };
+}
+
+function buildLineChartFragments(model, chartBox, theme, idPrefix) {
+  const items = (Array.isArray(model?.items) ? model.items : [])
+    .map((item) => ({
+      label: truncateAxisLabel(item?.label, 10),
+      value: toSafeNumber(item?.value, 0)
+    }))
+    .filter((item) => Number.isFinite(item.value))
+    .slice(0, 10);
+
+  if (!items.length) {
+    return {
+      defs: "",
+      body: buildChartNoDataBody(chartBox, "Sem dados para montar grafico.")
+    };
+  }
+
+  const maxValue = Math.max(
+    1,
+    ...items.map((item) => item.value)
+  );
+
+  const plotX = chartBox.x + 34;
+  const plotY = chartBox.y + 16;
+  const plotWidth = chartBox.width - 62;
+  const plotHeight = chartBox.height - 52;
+  const labelY = plotY + plotHeight + 22;
+  const denominator = Math.max(1, items.length - 1);
+
+  const points = items.map((item, index) => {
+    const x = plotX + Math.round((plotWidth * index) / denominator);
+    const y = plotY + Math.round((1 - item.value / maxValue) * plotHeight);
+    return { x, y, ...item };
+  });
+
+  const linePath = points
+    .map((point, index) => `${index === 0 ? "M" : "L"} ${point.x} ${point.y}`)
+    .join(" ");
+  const areaPath = `${linePath} L ${points[points.length - 1].x} ${plotY + plotHeight} L ${points[0].x} ${plotY + plotHeight} Z`;
+  const areaId = `statArea${idPrefix}`;
+
+  const defs = `<linearGradient id="${areaId}" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#${theme.primary}" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#${theme.secondary}" stop-opacity="0.06"/>
+    </linearGradient>`;
+
+  const gridSvg = [0, 1, 2, 3, 4]
+    .map((step) => {
+      const y = plotY + Math.round((plotHeight * step) / 4);
+      return `<line x1="${plotX}" y1="${y}" x2="${plotX + plotWidth}" y2="${y}" stroke="#7dd3fc" stroke-opacity="${step === 4 ? "0.28" : "0.12"}" stroke-width="1"/>`;
+    })
+    .join("\n");
+
+  const pointsSvg = points
+    .map((point, index) => {
+      const showValue = points.length <= 7 || index % 2 === 0 || index === points.length - 1;
+      return `<g>
+  <circle cx="${point.x}" cy="${point.y}" r="4.6" fill="#${theme.primary}" stroke="#ecfeff" stroke-opacity="0.7"/>
+  ${
+    showValue
+      ? `<text x="${point.x}" y="${point.y - 9}" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">${escapeXml(formatChartNumber(point.value))}</text>`
+      : ""
+  }
+  <text x="${point.x}" y="${labelY}" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="10.8" font-weight="600">${escapeXml(point.label)}</text>
+</g>`;
+    })
+    .join("\n");
+
+  return {
+    defs,
+    body: `${gridSvg}
+<path d="${areaPath}" fill="url(#${areaId})"/>
+<path d="${linePath}" fill="none" stroke="#${theme.primary}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+${pointsSvg}`
+  };
+}
+
+function buildTimelineChartFragments(model, chartBox, theme) {
+  const entries = (Array.isArray(model?.items) ? model.items : [])
+    .slice(0, 3)
+    .map((item) => ({
+      age: truncateAxisLabel(item?.age, 10),
+      detail: truncateChipText(item?.detail, 64)
+    }));
+
+  if (!entries.length) {
+    return {
+      defs: "",
+      body: buildChartNoDataBody(chartBox, "Sem marcos suficientes para timeline.")
+    };
+  }
+
+  const lineY = chartBox.y + 82;
+  const startX = chartBox.x + 140;
+  const endX = chartBox.x + chartBox.width - 140;
+  const denominator = Math.max(1, entries.length - 1);
+  const nodes = entries.map((entry, index) => ({
+    x: startX + Math.round(((endX - startX) * index) / denominator),
+    ...entry
+  }));
+
+  const connectors = nodes
+    .slice(0, -1)
+    .map((node, index) => {
+      const next = nodes[index + 1];
+      return `<line x1="${node.x}" y1="${lineY}" x2="${next.x}" y2="${lineY}" stroke="#${theme.primary}" stroke-opacity="0.65" stroke-width="3"/>`;
+    })
+    .join("\n");
+
+  const nodesSvg = nodes
+    .map((node, index) => {
+      const glowColor = index % 2 === 0 ? theme.primary : theme.secondary;
+      const detailLines = splitTextForSvgLines(node.detail, 30, 2);
+      const detailSvg = detailLines
+        .map((line, lineIndex) => {
+          const y = lineY + 38 + lineIndex * 18;
+          return `<text x="${node.x}" y="${y}" text-anchor="middle" fill="#b8dff5" font-family="JetBrains Mono, Consolas, monospace" font-size="12">${escapeXml(line)}</text>`;
+        })
+        .join("\n");
+
+      return `<g>
+  <circle cx="${node.x}" cy="${lineY}" r="15" fill="#02111f" stroke="#${glowColor}" stroke-opacity="0.8" stroke-width="2"/>
+  <circle cx="${node.x}" cy="${lineY}" r="5" fill="#${glowColor}"/>
+  <text x="${node.x}" y="${lineY - 22}" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11.5" font-weight="700">${escapeXml(node.age)}</text>
+  ${detailSvg}
+</g>`;
+    })
+    .join("\n");
+
+  return {
+    defs: "",
+    body: `${connectors}\n${nodesSvg}`
+  };
+}
+
+function buildAdvancedStatChartFragments(statEntry, theme, chartBox) {
+  const model = buildAdvancedChartModel(statEntry);
+  const idPrefix = sanitizeSvgId(statEntry?.key || "chart");
+
+  if (model.type === "bar") {
+    return {
+      ...buildBarChartFragments(model, chartBox, theme, idPrefix),
+      legend: model.legend || ""
+    };
+  }
+
+  if (model.type === "line") {
+    return {
+      ...buildLineChartFragments(model, chartBox, theme, idPrefix),
+      legend: model.legend || ""
+    };
+  }
+
+  if (model.type === "timeline") {
+    return {
+      ...buildTimelineChartFragments(model, chartBox, theme),
+      legend: model.legend || ""
+    };
+  }
+
+  return {
+    defs: "",
+    body: buildChartNoDataBody(chartBox, "Metrica sem grafico especifico."),
+    legend: ""
+  };
+}
+
 function buildAdvancedStatSvg(stat, generatedAt) {
   const statEntry =
     stat && typeof stat === "object"
@@ -839,19 +1322,26 @@ function buildAdvancedStatSvg(stat, generatedAt) {
         };
 
   const theme = getAdvancedStatTheme(statEntry.key);
+  const chartBox = {
+    x: 52,
+    y: 164,
+    width: 1296,
+    height: 194
+  };
+  const chartFragments = buildAdvancedStatChartFragments(statEntry, theme, chartBox);
   const normalizedLines = (Array.isArray(statEntry.lines) ? statEntry.lines : [])
     .slice(0, 4)
-    .flatMap((line) => splitTextForSvgLines(line, 92, 2))
-    .slice(0, 8);
+    .flatMap((line) => splitTextForSvgLines(line, 98, 1))
+    .slice(0, 4);
   const lines = normalizedLines.length
     ? normalizedLines
     : ["Sem dados suficientes para este recorte no momento."];
 
-  const lineHeight = 28;
-  const textStartY = 178;
+  const lineHeight = 24;
+  const textStartY = chartBox.y + chartBox.height + 36;
   const contentHeight = lines.length * lineHeight;
-  const footerY = textStartY + contentHeight + 28;
-  const height = Math.max(280, footerY + 34);
+  const footerY = textStartY + contentHeight + 26;
+  const height = Math.max(486, footerY + 34);
   const updatedLabel = formatRelativeTime(generatedAt || new Date().toISOString());
   const statSlug = String(statEntry.key || "geral").toUpperCase().replace(/-/g, " ");
   const title = String(statEntry.title || "Estatistica Avancada").toUpperCase();
@@ -860,7 +1350,7 @@ function buildAdvancedStatSvg(stat, generatedAt) {
   const linesSvg = lines
     .map((line, index) => {
       const y = textStartY + index * lineHeight;
-      return `<text x="58" y="${y}" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="19" font-weight="600">${escapeXml(`- ${line}`)}</text>`;
+      return `<text x="58" y="${y}" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">${escapeXml(`- ${line}`)}</text>`;
     })
     .join("\n");
 
@@ -879,6 +1369,7 @@ function buildAdvancedStatSvg(stat, generatedAt) {
       <path d="M24 0H0V24" stroke="#38bdf8" stroke-opacity="0.15" stroke-width="1"/>
       <animateTransform attributeName="patternTransform" type="translate" dur="16s" repeatCount="indefinite" values="0 0;24 24;0 0"/>
     </pattern>
+    ${chartFragments.defs}
   </defs>
   <rect width="1400" height="${height}" rx="18" fill="url(#bgStat)"/>
   <rect width="1400" height="${height}" rx="18" fill="url(#gridStat)"/>
@@ -890,6 +1381,9 @@ function buildAdvancedStatSvg(stat, generatedAt) {
   <line x1="52" y1="92" x2="1348" y2="92" stroke="url(#accentStat)" stroke-width="2" stroke-opacity="0.85"/>
   <text x="54" y="124" fill="#e2f6ff" font-family="JetBrains Mono, Consolas, monospace" font-size="24" font-weight="700">${escapeXml(title)}</text>
   <text x="54" y="146" fill="#9fd8f5" font-family="JetBrains Mono, Consolas, monospace" font-size="16" font-weight="600">${escapeXml(subtitle)}</text>
+  <rect x="${chartBox.x}" y="${chartBox.y}" width="${chartBox.width}" height="${chartBox.height}" rx="12" fill="#020617" fill-opacity="0.58" stroke="#38bdf8" stroke-opacity="0.2"/>
+  ${chartFragments.legend ? `<text x="${chartBox.x + 16}" y="${chartBox.y + 22}" fill="#93c5fd" font-family="JetBrains Mono, Consolas, monospace" font-size="12" font-weight="700">${escapeXml(chartFragments.legend.toUpperCase())}</text>` : ""}
+  ${chartFragments.body}
   ${linesSvg}
   <line x1="52" y1="${footerY - 10}" x2="1348" y2="${footerY - 10}" stroke="#38bdf8" stroke-opacity="0.32"/>
   <text x="54" y="${footerY + 14}" fill="#a8d9f4" font-family="JetBrains Mono, Consolas, monospace" font-size="16">
