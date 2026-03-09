@@ -9,8 +9,8 @@ const DEFAULT_REFRESH_HOURS = 24;
 const DEFAULT_MAX_OUTPUT_TOKENS = 180;
 const DEFAULT_TIMEOUT_MS = 15000;
 const DEFAULT_REPOS_MAX = 5;
-const DEFAULT_COMMITS_PER_REPO = 3;
-const DEFAULT_TOTAL_COMMITS = 12;
+const DEFAULT_COMMITS_PER_REPO = 15;
+const DEFAULT_TOTAL_COMMITS = 45;
 
 function parseNumber(value, fallback) {
   const parsed = Number(value);

@@ -43,11 +43,11 @@ Kaiky Brito é um desenvolvedor júnior focado em tecnologias JavaScript e Node.
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Desenvolvimento de componentes dinâmicos em SVG para seções About em projetos React.
-- Implementação de funcionalidades avançadas em ferramentas Node.js, incluindo suporte a LLMs e configurações de temperatura.
-- Melhoria contínua em sistemas de download e simulação com foco em tratamento de erros e performance.
+- Atualização e sincronização automática de assets SVG para otimização visual.
+- Melhoria no tratamento de erros e respostas JSON na raiz da aplicação.
+- Implementação de tokens de segurança para automação e atualização de badges no projeto.
 
-> _Atualizado em 9 de mar. de 2026, 09:51 (UTC)._
+> _Atualizado em 9 de mar. de 2026, 13:32 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -87,17 +87,7 @@ Kaiky Brito é um desenvolvedor júnior focado em tecnologias JavaScript e Node.
 Classificados automaticamente com base na atividade recente no GitHub.
 
 <!--FEATURED_PROJECTS_START-->
-### Projeto 1: [kaikybrofc](https://github.com/kaikybrofc/kaikybrofc)
-
-**Descrição:** ✨ Aqui você encontra informações sobre mim.
-
-![Resumo do Projeto](./assets/badges/projeto/kaikybrofc/resumo.svg) ![Atividade](./assets/badges/projeto/kaikybrofc/atividade.svg) ![Estrelas](./assets/badges/projeto/kaikybrofc/estrelas.svg) ![Atualizado](./assets/badges/projeto/kaikybrofc/atualizado.svg)
-
-<p align="center">
-  <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
-</p>
-
-### Projeto 2: [omnizap-system](https://github.com/kaikybrofc/omnizap-system)
+### Projeto 1: [omnizap-system](https://github.com/kaikybrofc/omnizap-system)
 
 **Descrição:** Sistema profissional de automação WhatsApp com tecnologia Baileys
 
@@ -107,7 +97,27 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 3: [portifolio](https://github.com/kaikybrofc/portifolio)
+### Projeto 2: [kaikybrofc](https://github.com/kaikybrofc/kaikybrofc)
+
+**Descrição:** ✨ Aqui você encontra informações sobre mim.
+
+![Resumo do Projeto](./assets/badges/projeto/kaikybrofc/resumo.svg) ![Atividade](./assets/badges/projeto/kaikybrofc/atividade.svg) ![Estrelas](./assets/badges/projeto/kaikybrofc/estrelas.svg) ![Atualizado](./assets/badges/projeto/kaikybrofc/atualizado.svg)
+
+<p align="center">
+  <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
+</p>
+
+### Projeto 3: [nebula](https://github.com/kaikybrofc/nebula)
+
+**Descrição:** -
+
+![Resumo do Projeto](./assets/badges/projeto/nebula/resumo.svg) ![Atividade](./assets/badges/projeto/nebula/atividade.svg) ![Estrelas](./assets/badges/projeto/nebula/estrelas.svg) ![Atualizado](./assets/badges/projeto/nebula/atualizado.svg)
+
+<p align="center">
+  <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
+</p>
+
+### Projeto 4: [portifolio](https://github.com/kaikybrofc/portifolio)
 
 **Descrição:** Portfolio pessoal de Kaiky Brito, desenvolvido com React + Vite para apresentar projetos, habilidades e formas de contato.
 
@@ -117,21 +127,11 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 4: [yt-dls](https://github.com/kaikybrofc/yt-dls)
+### Projeto 5: [yt-dls](https://github.com/kaikybrofc/yt-dls)
 
 **Descrição:** yt-dls é uma API simples e leve para download de vídeos do YouTube, construída em Node.js com o framework Express, que utiliza internamente a ferramenta yt-d...
 
 ![Resumo do Projeto](./assets/badges/projeto/yt-dls/resumo.svg) ![Atividade](./assets/badges/projeto/yt-dls/atividade.svg) ![Estrelas](./assets/badges/projeto/yt-dls/estrelas.svg) ![Atualizado](./assets/badges/projeto/yt-dls/atualizado.svg)
-
-<p align="center">
-  <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
-</p>
-
-### Projeto 5: [nebula](https://github.com/kaikybrofc/nebula)
-
-**Descrição:** -
-
-![Resumo do Projeto](./assets/badges/projeto/nebula/resumo.svg) ![Atividade](./assets/badges/projeto/nebula/atividade.svg) ![Estrelas](./assets/badges/projeto/nebula/estrelas.svg) ![Atualizado](./assets/badges/projeto/nebula/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>

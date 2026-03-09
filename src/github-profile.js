@@ -4,6 +4,8 @@ const DEFAULT_TIMEOUT_MS = 15000;
 const STACK_SCAN_MAX_REPOS_DEFAULT = 40;
 const STACK_SCAN_CONCURRENCY_DEFAULT = 4;
 const STACK_TOP_LIMIT_DEFAULT = 14;
+const PUBLIC_EVENTS_PER_PAGE_DEFAULT = 100;
+const PUBLIC_EVENTS_PAGES_DEFAULT = 3;
 
 const DEPENDENCY_TECH_MAP = Object.freeze({
   express: { name: "Express", badgeKey: "express" },
@@ -111,6 +113,32 @@ async function fetchOwnedRepos(apiUrl, token) {
   }
 
   return repos;
+}
+
+async function fetchPublicEvents(apiUrl, token, username) {
+  const events = [];
+  const perPageRaw = parseNumber(process.env.GITHUB_EVENTS_PER_PAGE, PUBLIC_EVENTS_PER_PAGE_DEFAULT);
+  const pagesRaw = parseNumber(process.env.GITHUB_EVENTS_PAGES, PUBLIC_EVENTS_PAGES_DEFAULT);
+  const perPage = Math.max(1, Math.min(100, perPageRaw));
+  const maxPages = Math.max(1, pagesRaw);
+
+  for (let page = 1; page <= maxPages; page += 1) {
+    const url = new URL(`${apiUrl}/users/${username}/events/public`);
+    url.searchParams.set("per_page", String(perPage));
+    url.searchParams.set("page", String(page));
+
+    const batch = await fetchJson(url.toString(), token);
+    if (!Array.isArray(batch) || !batch.length) {
+      break;
+    }
+
+    events.push(...batch);
+    if (batch.length < perPage) {
+      break;
+    }
+  }
+
+  return events;
 }
 
 async function fetchRepoPackageJson(apiUrl, token, repoFullName, defaultBranch) {
@@ -470,7 +498,7 @@ async function fetchProfileSummary(options = {}) {
 
   const user = await fetchJson(`${apiUrl}/user`, token);
   const reposRaw = await fetchOwnedRepos(apiUrl, token);
-  const events = await fetchJson(`${apiUrl}/users/${user.login}/events/public?per_page=30`, token);
+  const events = await fetchPublicEvents(apiUrl, token, user.login);
   const packageJsonMap = await fetchPackageJsonMap(apiUrl, token, reposRaw);
 
   const repos = reposRaw.map(toRepoEntry);
