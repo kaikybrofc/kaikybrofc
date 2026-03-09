@@ -53,43 +53,28 @@ const STACK_BADGES = Object.freeze({
   mysql: { label: "Stack", message: "MySQL", color: BADGE_COLORS.secondary },
   redis: { label: "Stack", message: "Redis", color: BADGE_COLORS.accent }
 });
-const LANGUAGE_ICON_KEYS = Object.freeze({
-  javascript: "siJavascript",
-  typescript: "siTypescript",
-  python: "siPython",
-  rust: "siRust",
-  c: "siC",
-  "c++": "siCplusplus",
-  "c#": "siSharp",
-  java: "siOpenjdk",
-  go: "siGo",
-  php: "siPhp",
-  ruby: "siRuby",
-  kotlin: "siKotlin",
-  swift: "siSwift",
-  dart: "siDart",
-  shell: "siGnubash",
-  bash: "siGnubash",
-  powershell: "siPowers",
-  html: "siHtml5",
-  css: "siCss",
-  scss: "siSass",
-  sass: "siSass",
-  vue: "siVuedotjs",
-  svelte: "siSvelte",
-  markdown: "siMarkdown",
-  json: "siJson",
-  yaml: "siYaml",
-  nodejs: "siNodedotjs",
-  express: "siExpress",
-  react: "siReact",
-  linux: "siLinux",
-  dockerfile: "siDocker",
-  docker: "siDocker",
-  mongodb: "siMongodb",
-  mysql: "siMysql",
-  redis: "siRedis",
-  sql: "siMysql"
+const ICON_QUERY_ALIASES = Object.freeze({
+  csharp: "sharp",
+  shell: "gnubash",
+  bash: "gnubash",
+  zsh: "gnubash",
+  powershell: "powers",
+  nodejs: "nodedotjs",
+  dockerfile: "docker",
+  sql: "mysql",
+  golang: "go",
+  js: "javascript",
+  ts: "typescript"
+});
+const SIMPLE_ICON_LIST = Object.values(simpleIcons).filter((icon) => {
+  return (
+    icon &&
+    typeof icon === "object" &&
+    typeof icon.title === "string" &&
+    typeof icon.slug === "string" &&
+    typeof icon.path === "string" &&
+    typeof icon.hex === "string"
+  );
 });
 
 app.disable("x-powered-by");
@@ -172,6 +157,81 @@ function estimateTextWidth(text) {
   return Math.max(66, Math.min(480, Math.round(length * 7.4 + 24)));
 }
 
+function normalizeIconLookup(value) {
+  return String(value || "")
+    .toLowerCase()
+    .trim()
+    .replace(/\+\+/g, "plusplus")
+    .replace(/\+/g, "plus")
+    .replace(/#/g, "sharp")
+    .replace(/\./g, "dot")
+    .replace(/&/g, "and")
+    .replace(/[^a-z0-9]/g, "");
+}
+
+function buildIconLookupKeys(value) {
+  const base = normalizeIconLookup(value);
+  if (!base) {
+    return [];
+  }
+
+  const variants = new Set([base, base.replace(/dot/g, "")]);
+  return [...variants].filter(Boolean);
+}
+
+const SIMPLE_ICONS_BY_KEY = (() => {
+  const map = new Map();
+  for (const icon of SIMPLE_ICON_LIST) {
+    const keys = [
+      ...buildIconLookupKeys(icon.slug),
+      ...buildIconLookupKeys(icon.title)
+    ];
+
+    for (const key of keys) {
+      if (!map.has(key)) {
+        map.set(key, icon);
+      }
+    }
+  }
+
+  for (const key of Object.keys(simpleIcons)) {
+    if (!key.startsWith("si")) {
+      continue;
+    }
+
+    const sanitized = buildIconLookupKeys(key.slice(2));
+    for (const normalized of sanitized) {
+      if (!map.has(normalized)) {
+        map.set(normalized, simpleIcons[key]);
+      }
+    }
+  }
+
+  return map;
+})();
+
+function resolveSimpleIcon(query) {
+  const normalized = normalizeIconLookup(query);
+  if (!normalized) {
+    return null;
+  }
+
+  const alias = ICON_QUERY_ALIASES[normalized];
+  const candidates = [
+    ...buildIconLookupKeys(normalized),
+    ...buildIconLookupKeys(alias)
+  ];
+
+  for (const key of candidates) {
+    const icon = SIMPLE_ICONS_BY_KEY.get(key);
+    if (icon) {
+      return icon;
+    }
+  }
+
+  return null;
+}
+
 function pickContrastTextColor(hexColor) {
   const hex = normalizeHexColor(hexColor, BADGE_COLORS.primary);
   const r = Number.parseInt(hex.slice(0, 2), 16);
@@ -183,11 +243,9 @@ function pickContrastTextColor(hexColor) {
 }
 
 function resolveLanguageVisual(language) {
-  const key = String(language || "")
-    .trim()
-    .toLowerCase();
+  const key = String(language || "").trim();
 
-  if (!key || key === "n/a") {
+  if (!key || key.toLowerCase() === "n/a") {
     return {
       color: BADGE_COLORS.secondary,
       iconPath: null,
@@ -195,8 +253,7 @@ function resolveLanguageVisual(language) {
     };
   }
 
-  const iconKey = LANGUAGE_ICON_KEYS[key];
-  const icon = iconKey ? simpleIcons[iconKey] : null;
+  const icon = resolveSimpleIcon(key);
 
   if (!icon) {
     return {
@@ -530,25 +587,66 @@ function buildContactBadgeDefinition(channel) {
   return CONTACT_BADGES[key] || null;
 }
 
+function formatStackDisplayName(rawTech, iconTitle) {
+  if (iconTitle) {
+    return iconTitle;
+  }
+
+  const normalized = String(rawTech || "")
+    .trim()
+    .replace(/[_-]+/g, " ")
+    .replace(/\s+/g, " ");
+
+  if (!normalized) {
+    return "N/A";
+  }
+
+  const acronyms = new Set([
+    "api",
+    "sdk",
+    "cli",
+    "sql",
+    "css",
+    "html",
+    "xml",
+    "aws",
+    "gcp",
+    "ui",
+    "ux",
+    "ios",
+    "js",
+    "ts"
+  ]);
+
+  return normalized
+    .split(" ")
+    .map((token) => {
+      const lower = token.toLowerCase();
+      if (acronyms.has(lower)) {
+        return token.toUpperCase();
+      }
+      return token.charAt(0).toUpperCase() + token.slice(1);
+    })
+    .join(" ");
+}
+
 function buildStackBadgeDefinition(tech) {
-  const key = String(tech || "")
-    .toLowerCase()
-    .replace(/[^a-z0-9]/g, "");
-  const base = STACK_BADGES[key];
-  if (!base) {
+  const rawTech = String(tech || "").trim();
+  if (!rawTech) {
     return null;
   }
 
-  const visual = resolveLanguageVisual(key);
-  if (!visual.iconPath) {
-    return base;
-  }
+  const key = normalizeIconLookup(rawTech);
+  const base = STACK_BADGES[key] || null;
+  const icon = resolveSimpleIcon(rawTech) || resolveSimpleIcon(key);
+  const iconColor = icon ? normalizeHexColor(icon.hex, BADGE_COLORS.info) : null;
 
   return {
-    ...base,
-    color: visual.color,
-    iconPath: visual.iconPath,
-    iconColor: visual.color
+    label: base?.label || "Stack",
+    message: base?.message || formatStackDisplayName(rawTech, icon?.title),
+    color: iconColor || base?.color || BADGE_COLORS.info,
+    iconPath: icon?.path || null,
+    iconColor: iconColor || undefined
   };
 }
 
@@ -644,7 +742,8 @@ app.get("/api/badges", (req, res) => {
       bannerHero: `${baseUrl}/banners/hero.svg`,
       bannerDivider: `${baseUrl}/banners/divider.svg`,
       contatoTemplate: `${baseUrl}/badges/contact/{github|linkedin|email|whatsapp}.svg`,
-      stackTemplate: `${baseUrl}/badges/stack/{javascript|typescript|nodejs|express|react|linux|docker|mongodb|mysql|redis}.svg`,
+      stackTemplate: `${baseUrl}/badges/stack/{tecnologia-ou-slug-simple-icons}.svg`,
+      iconTemplate: `${baseUrl}/badges/icon/{slug-ou-nome}.svg`,
       projetoTemplate: `${baseUrl}/badges/projeto/{repositorio}/{atividade|score|estrelas|forks|linguagem|atualizado}.svg`
     }
   });
@@ -710,6 +809,33 @@ app.get("/badges/stack/:tech.svg", (req, res) => {
   }
 
   const svg = renderBadgeSvg(definition);
+  res.set("Content-Type", "image/svg+xml; charset=utf-8");
+  res.set("Cache-Control", `public, max-age=${Math.max(badgeCacheTtlSec, 15)}`);
+  return res.status(200).send(svg);
+});
+
+app.get("/badges/icon/:icon.svg", (req, res) => {
+  const query = String(req.params.icon || "").trim();
+  const icon = resolveSimpleIcon(query);
+
+  if (!icon) {
+    const notFoundSvg = renderBadgeSvg({
+      label: "icon",
+      message: "nao encontrado",
+      color: BADGE_COLORS.danger
+    });
+    res.set("Content-Type", "image/svg+xml; charset=utf-8");
+    res.set("Cache-Control", "no-store");
+    return res.status(404).send(notFoundSvg);
+  }
+
+  const svg = renderBadgeSvg({
+    label: "icon",
+    message: icon.title,
+    color: normalizeHexColor(icon.hex, BADGE_COLORS.info),
+    iconPath: icon.path,
+    iconColor: normalizeHexColor(icon.hex, BADGE_COLORS.info)
+  });
   res.set("Content-Type", "image/svg+xml; charset=utf-8");
   res.set("Cache-Control", `public, max-age=${Math.max(badgeCacheTtlSec, 15)}`);
   return res.status(200).send(svg);

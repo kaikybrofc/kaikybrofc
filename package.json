@@ -13,7 +13,6 @@
     "node": ">=20"
   },
   "dependencies": {
-    "badge-maker": "^4.1.0",
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "simple-icons": "^16.11.0"

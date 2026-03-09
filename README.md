@@ -48,18 +48,24 @@ Desenvolvedor Full-Stack com foco em JavaScript/TypeScript, automações e integ
 
 ## Stack Principal
 
+<!--STACK_DYNAMIC_START-->
 <p>
-  <img src="https://omnizap.xyz/badges/stack/javascript.svg" alt="JavaScript"/>
-  <img src="https://omnizap.xyz/badges/stack/typescript.svg" alt="TypeScript"/>
   <img src="https://omnizap.xyz/badges/stack/nodejs.svg" alt="Node.js"/>
+  <img src="https://omnizap.xyz/badges/stack/javascript.svg" alt="JavaScript"/>
   <img src="https://omnizap.xyz/badges/stack/express.svg" alt="Express"/>
   <img src="https://omnizap.xyz/badges/stack/react.svg" alt="React"/>
-  <img src="https://omnizap.xyz/badges/stack/linux.svg" alt="Linux"/>
-  <img src="https://omnizap.xyz/badges/stack/docker.svg" alt="Docker"/>
-  <img src="https://omnizap.xyz/badges/stack/mongodb.svg" alt="MongoDB"/>
+  <img src="https://omnizap.xyz/badges/stack/python.svg" alt="Python"/>
   <img src="https://omnizap.xyz/badges/stack/mysql.svg" alt="MySQL"/>
-  <img src="https://omnizap.xyz/badges/stack/redis.svg" alt="Redis"/>
+  <img src="https://omnizap.xyz/badges/stack/eslint.svg" alt="ESLint"/>
+  <img src="https://omnizap.xyz/badges/stack/prettier.svg" alt="Prettier"/>
+  <img src="https://omnizap.xyz/badges/stack/mongodb.svg" alt="MongoDB"/>
+  <img src="https://omnizap.xyz/badges/stack/tailwindcss.svg" alt="Tailwind CSS"/>
+  <img src="https://omnizap.xyz/badges/stack/vite.svg" alt="Vite"/>
+  <img src="https://omnizap.xyz/badges/stack/c.svg" alt="C"/>
+  <img src="https://omnizap.xyz/badges/stack/rust.svg" alt="Rust"/>
+  <img src="https://omnizap.xyz/badges/stack/jest.svg" alt="Jest"/>
 </p>
+<!--STACK_DYNAMIC_END-->
 
 <p align="center">
   <img src="https://omnizap.xyz/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
