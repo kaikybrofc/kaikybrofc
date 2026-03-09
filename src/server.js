@@ -140,6 +140,52 @@ function buildBadgeDefinition(metric, summary) {
   return map[metric] || null;
 }
 
+function findProject(summary, repoName) {
+  const list = Array.isArray(summary.projectsByActivity) ? summary.projectsByActivity : [];
+  return (
+    list.find((project) => project.name.toLowerCase() === repoName.toLowerCase()) ||
+    list.find((project) => project.fullName.toLowerCase().endsWith(`/${repoName.toLowerCase()}`)) ||
+    null
+  );
+}
+
+function buildProjectBadgeDefinition(metric, project) {
+  const metrics = {
+    atividade: {
+      label: "atividade",
+      message: `${project.activity.events} eventos`,
+      color: "a855f7"
+    },
+    score: {
+      label: "score",
+      message: String(project.activity.score),
+      color: "8b5cf6"
+    },
+    estrelas: {
+      label: "stars",
+      message: formatCompactNumber(project.stars),
+      color: "f59e0b"
+    },
+    forks: {
+      label: "forks",
+      message: formatCompactNumber(project.forks),
+      color: "3b82f6"
+    },
+    linguagem: {
+      label: "stack",
+      message: project.language || "N/A",
+      color: "14b8a6"
+    },
+    atualizado: {
+      label: "atualizado",
+      message: formatRelativeTime(project.updatedAt),
+      color: "06b6d4"
+    }
+  };
+
+  return metrics[metric] || null;
+}
+
 app.get("/health", (_req, res) => {
   res.status(200).json({
     status: "ok",
@@ -228,9 +274,59 @@ app.get("/api/badges", (req, res) => {
       estrelas: `${baseUrl}/badges/estrelas.svg`,
       linguagem: `${baseUrl}/badges/linguagem.svg`,
       atividade: `${baseUrl}/badges/atividade.svg`,
-      sync: `${baseUrl}/badges/sync.svg`
+      sync: `${baseUrl}/badges/sync.svg`,
+      projetoTemplate: `${baseUrl}/badges/projeto/{repositorio}/{atividade|score|estrelas|forks|linguagem|atualizado}.svg`
     }
   });
+});
+
+app.get("/badges/projeto/:repo/:metric.svg", async (req, res) => {
+  const repoName = String(req.params.repo || "").trim();
+  const metric = String(req.params.metric || "").toLowerCase();
+  const force = req.query.force === "1";
+
+  try {
+    const summary = await getBadgeSummary({ force });
+    const project = findProject(summary, repoName);
+
+    if (!project) {
+      const notFoundSvg = renderBadgeSvg({
+        label: "projeto",
+        message: "nao encontrado",
+        color: "ef4444"
+      });
+      res.set("Content-Type", "image/svg+xml; charset=utf-8");
+      res.set("Cache-Control", "no-store");
+      return res.status(404).send(notFoundSvg);
+    }
+
+    const definition = buildProjectBadgeDefinition(metric, project);
+    if (!definition) {
+      const invalidSvg = renderBadgeSvg({
+        label: "badge",
+        message: "metrica invalida",
+        color: "ef4444"
+      });
+      res.set("Content-Type", "image/svg+xml; charset=utf-8");
+      res.set("Cache-Control", "no-store");
+      return res.status(404).send(invalidSvg);
+    }
+
+    const svg = renderBadgeSvg(definition);
+    res.set("Content-Type", "image/svg+xml; charset=utf-8");
+    res.set("Cache-Control", `public, max-age=${Math.max(badgeCacheTtlSec, 15)}`);
+    return res.status(200).send(svg);
+  } catch (error) {
+    console.error(`[badge-project] repo=${repoName} metric=${metric} failed: ${error.message}`);
+    const errorSvg = renderBadgeSvg({
+      label: "github",
+      message: "erro",
+      color: "ef4444"
+    });
+    res.set("Content-Type", "image/svg+xml; charset=utf-8");
+    res.set("Cache-Control", "no-store");
+    return res.status(503).send(errorSvg);
+  }
 });
 
 app.get("/badges/:metric.svg", async (req, res) => {

@@ -72,6 +72,35 @@ function sumBy(repos, key) {
   return repos.reduce((total, repo) => total + Number(repo[key] || 0), 0);
 }
 
+function getEventWeight(type) {
+  const weights = {
+    PushEvent: 5,
+    ReleaseEvent: 4,
+    PullRequestEvent: 3,
+    PullRequestReviewEvent: 3,
+    IssuesEvent: 2,
+    IssueCommentEvent: 2,
+    CreateEvent: 1,
+    DeleteEvent: 1
+  };
+
+  return weights[type] || 1;
+}
+
+function getDaysSince(value) {
+  if (!value) {
+    return 9999;
+  }
+
+  const time = new Date(value).getTime();
+  if (Number.isNaN(time)) {
+    return 9999;
+  }
+
+  const diff = Date.now() - time;
+  return Math.max(0, Math.floor(diff / (1000 * 60 * 60 * 24)));
+}
+
 function buildLanguageStats(repos) {
   const totals = new Map();
   let totalTracked = 0;
@@ -108,6 +137,7 @@ function toRepoEntry(repo) {
     forks: Number(repo.forks_count || 0),
     watchers: Number(repo.watchers_count || 0),
     openIssues: Number(repo.open_issues_count || 0),
+    pushedAt: repo.pushed_at,
     updatedAt: repo.updated_at
   };
 }
@@ -118,6 +148,66 @@ function buildRecentActivity(events, username) {
     repo: event.repo?.name || username,
     createdAt: event.created_at
   }));
+}
+
+function buildProjectsByActivity(publicRepos, events) {
+  const activityMap = new Map();
+
+  for (const event of events) {
+    const repoFullName = event.repo?.name;
+    if (!repoFullName) {
+      continue;
+    }
+
+    const current = activityMap.get(repoFullName) || {
+      events: 0,
+      weightedEvents: 0,
+      lastEventAt: null
+    };
+
+    current.events += 1;
+    current.weightedEvents += getEventWeight(event.type);
+    if (!current.lastEventAt || new Date(event.created_at) > new Date(current.lastEventAt)) {
+      current.lastEventAt = event.created_at;
+    }
+
+    activityMap.set(repoFullName, current);
+  }
+
+  return publicRepos
+    .map((repo) => {
+      const activity = activityMap.get(repo.fullName) || {
+        events: 0,
+        weightedEvents: 0,
+        lastEventAt: null
+      };
+
+      const lastTouchAt = activity.lastEventAt || repo.pushedAt || repo.updatedAt;
+      const daysSinceTouch = getDaysSince(lastTouchAt);
+      const recencyScore = Math.max(0, 30 - daysSinceTouch);
+      const activityScore =
+        activity.weightedEvents * 100 +
+        activity.events * 25 +
+        recencyScore * 2 +
+        Math.min(repo.stars, 100);
+
+      return {
+        ...repo,
+        activity: {
+          events: activity.events,
+          weightedEvents: activity.weightedEvents,
+          lastEventAt: activity.lastEventAt,
+          lastTouchAt,
+          recencyScore,
+          score: activityScore
+        }
+      };
+    })
+    .sort(
+      (a, b) =>
+        b.activity.score - a.activity.score ||
+        new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime()
+    );
 }
 
 async function fetchProfileSummary(options = {}) {
@@ -140,6 +230,7 @@ async function fetchProfileSummary(options = {}) {
   const sortedByUpdate = [...publicRepos].sort(
     (a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime()
   );
+  const projectsByActivity = buildProjectsByActivity(publicRepos, events);
 
   const summary = {
     user: {
@@ -169,7 +260,8 @@ async function fetchProfileSummary(options = {}) {
     languages: buildLanguageStats(repos),
     topRepositories: sortedByStars.slice(0, 6),
     recentlyUpdated: sortedByUpdate.slice(0, 6),
-    recentActivity: buildRecentActivity(events, user.login)
+    recentActivity: buildRecentActivity(events, user.login),
+    projectsByActivity: projectsByActivity.slice(0, 12)
   };
 
   return summary;
