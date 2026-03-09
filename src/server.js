@@ -1,6 +1,7 @@
 const path = require("node:path");
 const dotenv = require("dotenv");
 const express = require("express");
+const simpleIcons = require("simple-icons");
 
 const { fetchProfileSummary } = require("./github-profile");
 const { updateReadmeWithSummary } = require("./readme-sync");
@@ -51,6 +52,44 @@ const STACK_BADGES = Object.freeze({
   mongodb: { label: "Stack", message: "MongoDB", color: BADGE_COLORS.info },
   mysql: { label: "Stack", message: "MySQL", color: BADGE_COLORS.secondary },
   redis: { label: "Stack", message: "Redis", color: BADGE_COLORS.accent }
+});
+const LANGUAGE_ICON_KEYS = Object.freeze({
+  javascript: "siJavascript",
+  typescript: "siTypescript",
+  python: "siPython",
+  rust: "siRust",
+  c: "siC",
+  "c++": "siCplusplus",
+  "c#": "siSharp",
+  java: "siOpenjdk",
+  go: "siGo",
+  php: "siPhp",
+  ruby: "siRuby",
+  kotlin: "siKotlin",
+  swift: "siSwift",
+  dart: "siDart",
+  shell: "siGnubash",
+  bash: "siGnubash",
+  powershell: "siPowers",
+  html: "siHtml5",
+  css: "siCss",
+  scss: "siSass",
+  sass: "siSass",
+  vue: "siVuedotjs",
+  svelte: "siSvelte",
+  markdown: "siMarkdown",
+  json: "siJson",
+  yaml: "siYaml",
+  nodejs: "siNodedotjs",
+  express: "siExpress",
+  react: "siReact",
+  linux: "siLinux",
+  dockerfile: "siDocker",
+  docker: "siDocker",
+  mongodb: "siMongodb",
+  mysql: "siMysql",
+  redis: "siRedis",
+  sql: "siMysql"
 });
 
 app.disable("x-powered-by");
@@ -133,6 +172,47 @@ function estimateTextWidth(text) {
   return Math.max(66, Math.min(480, Math.round(length * 7.4 + 24)));
 }
 
+function pickContrastTextColor(hexColor) {
+  const hex = normalizeHexColor(hexColor, BADGE_COLORS.primary);
+  const r = Number.parseInt(hex.slice(0, 2), 16);
+  const g = Number.parseInt(hex.slice(2, 4), 16);
+  const b = Number.parseInt(hex.slice(4, 6), 16);
+
+  const luminance = (0.2126 * r + 0.7152 * g + 0.0722 * b) / 255;
+  return luminance > 0.62 ? "0b1020" : "ecfeff";
+}
+
+function resolveLanguageVisual(language) {
+  const key = String(language || "")
+    .trim()
+    .toLowerCase();
+
+  if (!key || key === "n/a") {
+    return {
+      color: BADGE_COLORS.secondary,
+      iconPath: null,
+      iconTitle: ""
+    };
+  }
+
+  const iconKey = LANGUAGE_ICON_KEYS[key];
+  const icon = iconKey ? simpleIcons[iconKey] : null;
+
+  if (!icon) {
+    return {
+      color: BADGE_COLORS.info,
+      iconPath: null,
+      iconTitle: ""
+    };
+  }
+
+  return {
+    color: normalizeHexColor(icon.hex, BADGE_COLORS.info),
+    iconPath: icon.path || null,
+    iconTitle: icon.title || ""
+  };
+}
+
 function renderBadgeSvg(definition) {
   const labelText = String(definition?.label || "badge");
   const messageText = String(definition?.message || "ok");
@@ -141,12 +221,18 @@ function renderBadgeSvg(definition) {
   const labelColor = normalizeHexColor(definition?.labelColor, BADGE_COLORS.label);
   const messageColor = normalizeHexColor(definition?.color, BADGE_COLORS.primary);
   const labelTextColor = normalizeHexColor(definition?.labelTextColor, "c8e9ff");
-  const messageTextColor = normalizeHexColor(definition?.textColor, "ecfeff");
+  const messageTextColor = normalizeHexColor(definition?.textColor, pickContrastTextColor(messageColor));
+  const iconPath = String(definition?.iconPath || "").trim();
+  const hasIcon = Boolean(iconPath);
+  const iconColor = normalizeHexColor(definition?.iconColor, messageTextColor);
   const labelWidth = estimateTextWidth(labelText);
-  const messageWidth = estimateTextWidth(messageText);
+  const messageWidth = estimateTextWidth(messageText) + (hasIcon ? 24 : 0);
   const totalWidth = labelWidth + messageWidth;
   const separatorX = labelWidth;
   const scanWidth = Math.max(120, Math.round(totalWidth * 0.24));
+  const messageTextX = Math.round(labelWidth + messageWidth / 2 + (hasIcon ? 8 : 0));
+  const iconBoxX = labelWidth + 6;
+  const iconTranslateX = labelWidth + 9;
 
   return `<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="${labelText}: ${messageText}" width="${totalWidth}" height="32" viewBox="0 0 ${totalWidth} 32">
   <defs>
@@ -184,8 +270,16 @@ function renderBadgeSvg(definition) {
   <line x1="${separatorX}" y1="16" x2="${Math.min(totalWidth - 8, separatorX + 70)}" y2="16" stroke="#ffffff" stroke-opacity="0.4" stroke-width="2" filter="url(#glow)">
     <animate attributeName="opacity" dur="1.8s" repeatCount="indefinite" values="0.25;0.9;0.25"/>
   </line>
+  ${
+    hasIcon
+      ? `<rect x="${iconBoxX}" y="7" width="18" height="18" rx="4" fill="#020617" fill-opacity="0.36" stroke="#ffffff" stroke-opacity="0.2"/>
+  <g transform="translate(${iconTranslateX} 10) scale(0.58)">
+    <path fill="#${iconColor}" d="${iconPath}"/>
+  </g>`
+      : ""
+  }
   <text x="${Math.round(labelWidth / 2)}" y="21" text-anchor="middle" fill="#${labelTextColor}" font-family="JetBrains Mono, Consolas, monospace" font-size="11.4" font-weight="700" letter-spacing="0.35">${label}</text>
-  <text x="${Math.round(labelWidth + messageWidth / 2)}" y="21" text-anchor="middle" fill="#${messageTextColor}" font-family="JetBrains Mono, Consolas, monospace" font-size="11.4" font-weight="800" letter-spacing="0.25">${message}</text>
+  <text x="${messageTextX}" y="21" text-anchor="middle" fill="#${messageTextColor}" font-family="JetBrains Mono, Consolas, monospace" font-size="11.4" font-weight="800" letter-spacing="0.25">${message}</text>
 </svg>`;
 }
 
@@ -339,6 +433,7 @@ function buildDividerSvg() {
 
 function buildBadgeDefinition(metric, summary) {
   const topLanguage = summary.languages[0]?.language || "N/A";
+  const languageVisual = resolveLanguageVisual(topLanguage);
   const lastPublicActivity = summary.recentActivity[0]?.createdAt;
 
   const map = {
@@ -360,7 +455,9 @@ function buildBadgeDefinition(metric, summary) {
     linguagem: {
       label: "top linguagem",
       message: topLanguage,
-      color: BADGE_COLORS.info
+      color: languageVisual.color,
+      iconPath: languageVisual.iconPath,
+      iconColor: languageVisual.color
     },
     atividade: {
       label: "ultima atividade",
@@ -387,6 +484,7 @@ function findProject(summary, repoName) {
 }
 
 function buildProjectBadgeDefinition(metric, project) {
+  const projectLanguageVisual = resolveLanguageVisual(project.language);
   const metrics = {
     atividade: {
       label: "atividade",
@@ -411,7 +509,9 @@ function buildProjectBadgeDefinition(metric, project) {
     linguagem: {
       label: "stack",
       message: project.language || "N/A",
-      color: BADGE_COLORS.info
+      color: projectLanguageVisual.color,
+      iconPath: projectLanguageVisual.iconPath,
+      iconColor: projectLanguageVisual.color
     },
     atualizado: {
       label: "atualizado",
@@ -434,7 +534,22 @@ function buildStackBadgeDefinition(tech) {
   const key = String(tech || "")
     .toLowerCase()
     .replace(/[^a-z0-9]/g, "");
-  return STACK_BADGES[key] || null;
+  const base = STACK_BADGES[key];
+  if (!base) {
+    return null;
+  }
+
+  const visual = resolveLanguageVisual(key);
+  if (!visual.iconPath) {
+    return base;
+  }
+
+  return {
+    ...base,
+    color: visual.color,
+    iconPath: visual.iconPath,
+    iconColor: visual.color
+  };
 }
 
 app.get("/health", (_req, res) => {
