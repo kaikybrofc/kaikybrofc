@@ -61,6 +61,7 @@ function buildProjectBadges(repoName) {
   const encoded = encodeURIComponent(repoName);
 
   return [
+    `![Resumo do Projeto](${baseUrl}/badges/projeto/${encoded}/resumo.svg)`,
     `![Atividade](${baseUrl}/badges/projeto/${encoded}/atividade.svg)`,
     `![Estrelas](${baseUrl}/badges/projeto/${encoded}/estrelas.svg)`,
     `![Atualizado](${baseUrl}/badges/projeto/${encoded}/atualizado.svg)`

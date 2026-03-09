@@ -75,7 +75,7 @@ Classificados automaticamente com base na atividade recente no GitHub.
 
 **Tecnologias:** JavaScript
 
-![Atividade](https://omnizap.xyz/badges/projeto/kaikybrofc/atividade.svg) ![Estrelas](https://omnizap.xyz/badges/projeto/kaikybrofc/estrelas.svg) ![Atualizado](https://omnizap.xyz/badges/projeto/kaikybrofc/atualizado.svg)
+![Resumo do Projeto](https://omnizap.xyz/badges/projeto/kaikybrofc/resumo.svg) ![Atividade](https://omnizap.xyz/badges/projeto/kaikybrofc/atividade.svg) ![Estrelas](https://omnizap.xyz/badges/projeto/kaikybrofc/estrelas.svg) ![Atualizado](https://omnizap.xyz/badges/projeto/kaikybrofc/atualizado.svg)
 
 ### 2. [omnizap-system](https://github.com/kaikybrofc/omnizap-system)
 
@@ -83,7 +83,7 @@ Classificados automaticamente com base na atividade recente no GitHub.
 
 **Tecnologias:** JavaScript
 
-![Atividade](https://omnizap.xyz/badges/projeto/omnizap-system/atividade.svg) ![Estrelas](https://omnizap.xyz/badges/projeto/omnizap-system/estrelas.svg) ![Atualizado](https://omnizap.xyz/badges/projeto/omnizap-system/atualizado.svg)
+![Resumo do Projeto](https://omnizap.xyz/badges/projeto/omnizap-system/resumo.svg) ![Atividade](https://omnizap.xyz/badges/projeto/omnizap-system/atividade.svg) ![Estrelas](https://omnizap.xyz/badges/projeto/omnizap-system/estrelas.svg) ![Atualizado](https://omnizap.xyz/badges/projeto/omnizap-system/atualizado.svg)
 
 ### 3. [portifolio](https://github.com/kaikybrofc/portifolio)
 
@@ -91,7 +91,7 @@ Classificados automaticamente com base na atividade recente no GitHub.
 
 **Tecnologias:** JavaScript
 
-![Atividade](https://omnizap.xyz/badges/projeto/portifolio/atividade.svg) ![Estrelas](https://omnizap.xyz/badges/projeto/portifolio/estrelas.svg) ![Atualizado](https://omnizap.xyz/badges/projeto/portifolio/atualizado.svg)
+![Resumo do Projeto](https://omnizap.xyz/badges/projeto/portifolio/resumo.svg) ![Atividade](https://omnizap.xyz/badges/projeto/portifolio/atividade.svg) ![Estrelas](https://omnizap.xyz/badges/projeto/portifolio/estrelas.svg) ![Atualizado](https://omnizap.xyz/badges/projeto/portifolio/atualizado.svg)
 
 ### 4. [yt-dls](https://github.com/kaikybrofc/yt-dls)
 
@@ -99,7 +99,7 @@ Classificados automaticamente com base na atividade recente no GitHub.
 
 **Tecnologias:** JavaScript
 
-![Atividade](https://omnizap.xyz/badges/projeto/yt-dls/atividade.svg) ![Estrelas](https://omnizap.xyz/badges/projeto/yt-dls/estrelas.svg) ![Atualizado](https://omnizap.xyz/badges/projeto/yt-dls/atualizado.svg)
+![Resumo do Projeto](https://omnizap.xyz/badges/projeto/yt-dls/resumo.svg) ![Atividade](https://omnizap.xyz/badges/projeto/yt-dls/atividade.svg) ![Estrelas](https://omnizap.xyz/badges/projeto/yt-dls/estrelas.svg) ![Atualizado](https://omnizap.xyz/badges/projeto/yt-dls/atualizado.svg)
 
 ### 5. [nebula](https://github.com/kaikybrofc/nebula)
 
@@ -107,7 +107,7 @@ Classificados automaticamente com base na atividade recente no GitHub.
 
 **Tecnologias:** JavaScript
 
-![Atividade](https://omnizap.xyz/badges/projeto/nebula/atividade.svg) ![Estrelas](https://omnizap.xyz/badges/projeto/nebula/estrelas.svg) ![Atualizado](https://omnizap.xyz/badges/projeto/nebula/atualizado.svg)
+![Resumo do Projeto](https://omnizap.xyz/badges/projeto/nebula/resumo.svg) ![Atividade](https://omnizap.xyz/badges/projeto/nebula/atividade.svg) ![Estrelas](https://omnizap.xyz/badges/projeto/nebula/estrelas.svg) ![Atualizado](https://omnizap.xyz/badges/projeto/nebula/atualizado.svg)
 
 ### 6. [ayana-bot](https://github.com/kaikybrofc/ayana-bot)
 
@@ -115,5 +115,5 @@ Classificados automaticamente com base na atividade recente no GitHub.
 
 **Tecnologias:** Python
 
-![Atividade](https://omnizap.xyz/badges/projeto/ayana-bot/atividade.svg) ![Estrelas](https://omnizap.xyz/badges/projeto/ayana-bot/estrelas.svg) ![Atualizado](https://omnizap.xyz/badges/projeto/ayana-bot/atualizado.svg)
+![Resumo do Projeto](https://omnizap.xyz/badges/projeto/ayana-bot/resumo.svg) ![Atividade](https://omnizap.xyz/badges/projeto/ayana-bot/atividade.svg) ![Estrelas](https://omnizap.xyz/badges/projeto/ayana-bot/estrelas.svg) ![Atualizado](https://omnizap.xyz/badges/projeto/ayana-bot/atualizado.svg)
 <!--FEATURED_PROJECTS_END-->

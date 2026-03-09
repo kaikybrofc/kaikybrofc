@@ -837,7 +837,22 @@ function findProject(summary, repoName) {
 
 function buildProjectBadgeDefinition(metric, project) {
   const projectLanguageVisual = resolveLanguageVisual(project.language);
+  const projectNameRaw = String(project.name || "projeto").trim();
+  const projectName = projectNameRaw.length > 28
+    ? `${projectNameRaw.slice(0, 25).trim()}...`
+    : projectNameRaw;
+  const projectLanguageRaw = String(project.language || "N/A").trim();
+  const projectLanguage = projectLanguageRaw.length > 22
+    ? `${projectLanguageRaw.slice(0, 19).trim()}...`
+    : projectLanguageRaw;
   const metrics = {
+    resumo: {
+      label: projectName,
+      message: projectLanguage,
+      color: projectLanguageVisual.color,
+      iconPath: projectLanguageVisual.iconPath,
+      iconColor: projectLanguageVisual.color
+    },
     atividade: {
       label: "atividade",
       message: `${project.activity.events} eventos`,
@@ -1186,7 +1201,7 @@ app.get("/api/badges", (req, res) => {
       contatoTemplate: `${baseUrl}/badges/contact/{github|linkedin|email|whatsapp}.svg`,
       stackTemplate: `${baseUrl}/badges/stack/{tecnologia-ou-slug-simple-icons}.svg`,
       iconTemplate: `${baseUrl}/badges/icon/{slug-ou-nome}.svg`,
-      projetoTemplate: `${baseUrl}/badges/projeto/{repositorio}/{atividade|score|estrelas|forks|linguagem|atualizado}.svg`
+      projetoTemplate: `${baseUrl}/badges/projeto/{repositorio}/{resumo|atividade|score|estrelas|forks|linguagem|atualizado}.svg`
     }
   });
 });
