@@ -6,18 +6,6 @@
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-## Automacao Local
-
-- `npm run render:assets`: renderiza todos os SVG locais em `./assets` (apagando os antigos).
-- `npm run refresh:readme`: atualiza as seções dinâmicas do README para apontar para `./assets`.
-- `npm run publish:assets`: renderiza assets + atualiza README + commit/push automático.
-
-Variáveis principais:
-
-- `LOCAL_ASSET_SYNC_ENABLED=true` ativa o ciclo automático no server.
-- `LOCAL_ASSET_SYNC_INTERVAL_HOURS=1` ou `4` define o intervalo.
-- `AUTO_PUSH_ENABLED=true` publica automaticamente no GitHub (`git push`).
-
 <p align="center">
   <a href="https://github.com/kaikybrofc"><img src="./assets/badges/contact/github.svg" alt="GitHub"/></a>
   <a href="https://www.linkedin.com/in/kaiky-gomes/"><img src="./assets/badges/contact/linkedin.svg" alt="LinkedIn"/></a>

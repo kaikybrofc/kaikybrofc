@@ -39,14 +39,55 @@ function runCommand(command, args, options = {}) {
       }
 
       const details = stderr.trim() || stdout.trim();
-      reject(new Error(`${command} ${args.join(" ")} falhou (${exitCode}). ${details}`.trim()));
+      const displayArgs = Array.isArray(options.displayArgs) ? options.displayArgs : args;
+      reject(
+        new Error(`${command} ${displayArgs.join(" ")} falhou (${exitCode}). ${details}`.trim())
+      );
     });
   });
+}
+
+function getGitPushToken() {
+  return String(process.env.GITHUB_PUSH_TOKEN || process.env.GITHUB_TOKEN || "").trim();
+}
+
+function isGithubHttpsRemote(remoteUrl) {
+  return /^https:\/\/github\.com\//i.test(String(remoteUrl || "").trim());
+}
+
+function buildPushCommand(remote, branch, remoteUrl, token) {
+  if (!token || !isGithubHttpsRemote(remoteUrl)) {
+    return {
+      args: ["push", remote, branch],
+      displayArgs: ["push", remote, branch],
+      authMode: "default"
+    };
+  }
+
+  const basicAuth = Buffer.from(`x-access-token:${token}`).toString("base64");
+  return {
+    args: [
+      "-c",
+      `http.https://github.com/.extraheader=AUTHORIZATION: basic ${basicAuth}`,
+      "push",
+      remote,
+      branch
+    ],
+    displayArgs: [
+      "-c",
+      "http.https://github.com/.extraheader=AUTHORIZATION: basic ***",
+      "push",
+      remote,
+      branch
+    ],
+    authMode: "token_env"
+  };
 }
 
 async function run() {
   const env = {
     ...process.env,
+    GIT_TERMINAL_PROMPT: "0",
     README_ASSET_MODE: process.env.README_ASSET_MODE || "local",
     BADGE_LOCAL_PREFIX: process.env.BADGE_LOCAL_PREFIX || "./assets"
   };
@@ -156,7 +197,21 @@ async function run() {
   }
 
   const remote = String(process.env.AUTO_PUSH_REMOTE || "origin").trim() || "origin";
-  await runCommand("git", ["push", remote, branch], { env });
+  const remoteUrl = (
+    await runCommand("git", ["remote", "get-url", remote], { capture: true, env })
+  ).stdout.trim();
+  const pushToken = getGitPushToken();
+  if (isGithubHttpsRemote(remoteUrl) && !pushToken) {
+    throw new Error(
+      "Remote HTTPS do GitHub detectado sem token. Defina GITHUB_PUSH_TOKEN ou GITHUB_TOKEN no ambiente."
+    );
+  }
+
+  const pushCommand = buildPushCommand(remote, branch, remoteUrl, pushToken);
+  await runCommand("git", pushCommand.args, {
+    env,
+    displayArgs: pushCommand.displayArgs
+  });
 
   console.log(
     JSON.stringify(
@@ -164,7 +219,8 @@ async function run() {
         ok: true,
         changed: true,
         branch,
-        remote
+        remote,
+        authMode: pushCommand.authMode
       },
       null,
       2
