@@ -107,21 +107,21 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 3: [nebula](https://github.com/kaikybrofc/nebula)
+### Projeto 3: [logger-module](https://github.com/kaikybrofc/logger-module)
 
-**Descrição:** -
+**Descrição:** Módulo de log moderno em TypeScript usando Winston e Rotação de Arquivos.
 
-![Resumo do Projeto](./assets/badges/projeto/nebula/resumo.svg) ![Atividade](./assets/badges/projeto/nebula/atividade.svg) ![Estrelas](./assets/badges/projeto/nebula/estrelas.svg) ![Atualizado](./assets/badges/projeto/nebula/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/logger-module/resumo.svg) ![Atividade](./assets/badges/projeto/logger-module/atividade.svg) ![Estrelas](./assets/badges/projeto/logger-module/estrelas.svg) ![Atualizado](./assets/badges/projeto/logger-module/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 4: [logger-module](https://github.com/kaikybrofc/logger-module)
+### Projeto 4: [nebula](https://github.com/kaikybrofc/nebula)
 
-**Descrição:** Módulo de log moderno em TypeScript usando Winston e Rotação de Arquivos.
+**Descrição:** -
 
-![Resumo do Projeto](./assets/badges/projeto/logger-module/resumo.svg) ![Atividade](./assets/badges/projeto/logger-module/atividade.svg) ![Estrelas](./assets/badges/projeto/logger-module/estrelas.svg) ![Atualizado](./assets/badges/projeto/logger-module/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/nebula/resumo.svg) ![Atividade](./assets/badges/projeto/nebula/atividade.svg) ![Estrelas](./assets/badges/projeto/nebula/estrelas.svg) ![Atualizado](./assets/badges/projeto/nebula/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
