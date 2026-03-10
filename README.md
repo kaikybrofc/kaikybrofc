@@ -35,9 +35,9 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor júnior focado em tecnologias JavaScript e Node.js, com experiência em projetos que utilizam Express, React e Python. Com 16 repositórios públicos e 13 estrelas, demonstra interesse em desenvolvimento back-end e front-end. Seu trabalho mais ativo inclui sistemas e portfólios que evidenciam sua dedicação à programação e ao universo tecnológico.
+Kaiky Brito é um desenvolvedor júnior focado em tecnologias como Node.js, JavaScript e Express, com experiência em projetos ativos e variados. Possui 17 repositórios públicos, destacando-se pelo projeto omnizap-system, que apresenta alta atividade. Seu trabalho é voltado para o desenvolvimento backend e frontend, com conhecimento em Python e TypeScript.
 
-> _Atualizado em 9 de mar. de 2026, 09:32 (UTC)._
+> _Atualizado em 10 de mar. de 2026, 10:41 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
