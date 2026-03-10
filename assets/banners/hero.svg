@@ -78,7 +78,7 @@
     <animate attributeName="opacity" dur="2.7s" repeatCount="indefinite" values="0.86;1;0.86"/>
   </text>
   <text x="700" y="198" text-anchor="middle" font-family="JetBrains Mono, Consolas, monospace" font-size="20" font-weight="600" fill="#bff6ff" letter-spacing="1.4">
-    @kaikybrofc // 16 REPOS PUBLICOS // STACK: JAVASCRIPT
+    @kaikybrofc // 17 REPOS PUBLICOS // STACK: JAVASCRIPT
     <animate attributeName="opacity" dur="3.5s" repeatCount="indefinite" values="0.72;1;0.72"/>
   </text>
 </svg>

@@ -65,13 +65,13 @@ Kaiky Brito é um desenvolvedor júnior focado em tecnologias JavaScript e Node.
   <img src="./assets/badges/stack/python.svg" alt="Badge stack Python"/>
   <img src="./assets/badges/stack/mysql.svg" alt="Badge stack MySQL"/>
   <img src="./assets/badges/stack/eslint.svg" alt="Badge stack ESLint"/>
+  <img src="./assets/badges/stack/typescript.svg" alt="Badge stack TypeScript"/>
   <img src="./assets/badges/stack/prettier.svg" alt="Badge stack Prettier"/>
   <img src="./assets/badges/stack/mongodb.svg" alt="Badge stack MongoDB"/>
   <img src="./assets/badges/stack/tailwindcss.svg" alt="Badge stack Tailwind CSS"/>
   <img src="./assets/badges/stack/vite.svg" alt="Badge stack Vite"/>
   <img src="./assets/badges/stack/c.svg" alt="Badge stack C"/>
   <img src="./assets/badges/stack/rust.svg" alt="Badge stack Rust"/>
-  <img src="./assets/badges/stack/jest.svg" alt="Badge stack Jest"/>
 </p>
 
 <p align="center"><sub>Stack dinâmica baseada nas tecnologias detectadas nos repositórios.</sub></p>
@@ -117,7 +117,17 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 4: [portifolio](https://github.com/kaikybrofc/portifolio)
+### Projeto 4: [logger-module](https://github.com/kaikybrofc/logger-module)
+
+**Descrição:** Módulo de log moderno em TypeScript usando Winston e Rotação de Arquivos.
+
+![Resumo do Projeto](./assets/badges/projeto/logger-module/resumo.svg) ![Atividade](./assets/badges/projeto/logger-module/atividade.svg) ![Estrelas](./assets/badges/projeto/logger-module/estrelas.svg) ![Atualizado](./assets/badges/projeto/logger-module/atualizado.svg)
+
+<p align="center">
+  <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
+</p>
+
+### Projeto 5: [portifolio](https://github.com/kaikybrofc/portifolio)
 
 **Descrição:** Portfolio pessoal de Kaiky Brito, desenvolvido com React + Vite para apresentar projetos, habilidades e formas de contato.
 
@@ -127,21 +137,11 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 5: [yt-dls](https://github.com/kaikybrofc/yt-dls)
+### Projeto 6: [yt-dls](https://github.com/kaikybrofc/yt-dls)
 
 **Descrição:** yt-dls é uma API simples e leve para download de vídeos do YouTube, construída em Node.js com o framework Express, que utiliza internamente a ferramenta yt-d...
 
 ![Resumo do Projeto](./assets/badges/projeto/yt-dls/resumo.svg) ![Atividade](./assets/badges/projeto/yt-dls/atividade.svg) ![Estrelas](./assets/badges/projeto/yt-dls/estrelas.svg) ![Atualizado](./assets/badges/projeto/yt-dls/atualizado.svg)
-
-<p align="center">
-  <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
-</p>
-
-### Projeto 6: [ayana-bot](https://github.com/kaikybrofc/ayana-bot)
-
-**Descrição:** 🤖 Ayana System é um bot inteligente com temática anime, focado em automação, interações avançadas, jogos e recursos modernos para servidores. Rápido, elegan...
-
-![Resumo do Projeto](./assets/badges/projeto/ayana-bot/resumo.svg) ![Atividade](./assets/badges/projeto/ayana-bot/atividade.svg) ![Estrelas](./assets/badges/projeto/ayana-bot/estrelas.svg) ![Atualizado](./assets/badges/projeto/ayana-bot/atualizado.svg)
 <!--FEATURED_PROJECTS_END-->
 
 
