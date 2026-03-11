@@ -84,6 +84,47 @@ function buildPushCommand(remote, branch, remoteUrl, token) {
   };
 }
 
+function buildPullRebaseCommand(remote, branch, remoteUrl, token) {
+  if (!token || !isGithubHttpsRemote(remoteUrl)) {
+    return {
+      args: ["-c", "commit.gpgsign=false", "pull", "--rebase", "--autostash", remote, branch],
+      displayArgs: ["-c", "commit.gpgsign=false", "pull", "--rebase", "--autostash", remote, branch],
+      authMode: "default"
+    };
+  }
+
+  const basicAuth = Buffer.from(`x-access-token:${token}`).toString("base64");
+  return {
+    args: [
+      "-c",
+      "commit.gpgsign=false",
+      "-c",
+      `http.https://github.com/.extraheader=AUTHORIZATION: basic ${basicAuth}`,
+      "pull",
+      "--rebase",
+      "--autostash",
+      remote,
+      branch
+    ],
+    displayArgs: [
+      "-c",
+      "commit.gpgsign=false",
+      "-c",
+      "http.https://github.com/.extraheader=AUTHORIZATION: basic ***",
+      "pull",
+      "--rebase",
+      "--autostash",
+      remote,
+      branch
+    ],
+    authMode: "token_env"
+  };
+}
+
+function shouldRebaseBeforePush() {
+  return (process.env.AUTO_PUSH_REBASE || "true").toLowerCase() === "true";
+}
+
 function shouldUseStrictPushMode() {
   return (process.env.AUTO_PUSH_STRICT || "false").toLowerCase() === "true";
 }
@@ -102,6 +143,13 @@ function describePushFailure(errorMessage) {
     return {
       reason: "auth_failed",
       hint: "Falha de autenticacao no push. Verifique GITHUB_PUSH_TOKEN/GITHUB_TOKEN."
+    };
+  }
+
+  if (/non-fast-forward|tip of your current branch is behind/i.test(message)) {
+    return {
+      reason: "non_fast_forward",
+      hint: "Push rejeitado por branch desatualizada. Rode novamente ou habilite AUTO_PUSH_REBASE=true."
     };
   }
 
@@ -173,7 +221,17 @@ async function run() {
 
   const commitResult = await runCommand(
     "git",
-    ["commit", "--only", "-m", commitMessage, "--", "README.md", "assets"],
+    [
+      "-c",
+      "commit.gpgsign=false",
+      "commit",
+      "--only",
+      "-m",
+      commitMessage,
+      "--",
+      "README.md",
+      "assets"
+    ],
     { capture: true, allowFailure: true, env }
   );
 
@@ -232,6 +290,15 @@ async function run() {
     throw new Error(
       "Remote HTTPS do GitHub detectado sem token. Defina GITHUB_PUSH_TOKEN ou GITHUB_TOKEN no ambiente."
     );
+  }
+
+  if (shouldRebaseBeforePush()) {
+    const pullRebaseCommand = buildPullRebaseCommand(remote, branch, remoteUrl, pushToken);
+    await runCommand("git", pullRebaseCommand.args, {
+      env,
+      capture: true,
+      displayArgs: pullRebaseCommand.displayArgs
+    });
   }
 
   const pushCommand = buildPushCommand(remote, branch, remoteUrl, pushToken);
