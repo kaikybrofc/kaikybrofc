@@ -63,15 +63,15 @@
   <text x="388" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">nebula</text>
 </g>
 <g>
-  <rect x="499" y="321" width="194" height="5" rx="6" fill="url(#statBarGradentregamanutencao)" opacity="0.96"/>
-  <rect x="499" y="321" width="194" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
-  <text x="596" y="313" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">0.03</text>
+  <rect x="499" y="316" width="194" height="10" rx="6" fill="url(#statBarGradentregamanutencao)" opacity="0.96"/>
+  <rect x="499" y="316" width="194" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
+  <text x="596" y="308" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">0.07</text>
   <text x="596" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">kaikybrofc</text>
 </g>
 <g>
-  <rect x="707" y="315" width="194" height="11" rx="6" fill="url(#statBarGradentregamanutencao)" opacity="0.96"/>
-  <rect x="707" y="315" width="194" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
-  <text x="804" y="307" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">0.08</text>
+  <rect x="707" y="316" width="194" height="10" rx="6" fill="url(#statBarGradentregamanutencao)" opacity="0.96"/>
+  <rect x="707" y="316" width="194" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
+  <text x="804" y="308" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">0.07</text>
   <text x="804" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">omnizap-s...</text>
 </g>
 <g>
@@ -86,12 +86,12 @@
   <text x="1220" y="237" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">0.58</text>
   <text x="1220" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">portifolio</text>
 </g>
-  <text x="58" y="394" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Repositorios com cadencia calculada: 7.</text>
-<text x="58" y="418" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Intervalo medio: 0.7 dias.</text>
+  <text x="58" y="394" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Repositorios com cadencia calculada: 8.</text>
+<text x="58" y="418" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Intervalo medio: 5.6 dias.</text>
 <text x="58" y="442" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Mais frequente: kaikybrofc/logger-module (0.0d).</text>
-<text x="58" y="466" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Menos frequente: kaikybrofc/yt-dls (3.7d).</text>
+<text x="58" y="466" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Menos frequente: kaikybrofc/jsontree (39.6d).</text>
   <line x1="52" y1="506" x2="1348" y2="506" stroke="#38bdf8" stroke-opacity="0.32"/>
   <text x="54" y="530" fill="#a8d9f4" font-family="JetBrains Mono, Consolas, monospace" font-size="16">
-    atualizado: 2h
+    atualizado: 3h
   </text>
 </svg>

@@ -35,9 +35,9 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor júnior focado em tecnologias como Node.js, JavaScript e Express, com experiência em projetos ativos e variados. Possui 17 repositórios públicos, destacando-se pelo projeto omnizap-system, que apresenta alta atividade. Seu trabalho é voltado para o desenvolvimento backend e frontend, com conhecimento em Python e TypeScript.
+Kaiky Brito é um desenvolvedor júnior focado em tecnologias como Node.js, JavaScript e Express, com experiência em projetos ativos e colaborativos. Com 18 repositórios públicos e um histórico consistente de contribuições, demonstra interesse em aprimorar suas habilidades técnicas. Seu trabalho inclui iniciativas relevantes nas áreas de backend e frontend, evidenciando versatilidade no desenvolvimento de software.
 
-> _Atualizado em 10 de mar. de 2026, 10:41 (UTC)._
+> _Atualizado em 11 de mar. de 2026, 13:25 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
@@ -62,16 +62,16 @@ Kaiky Brito é um desenvolvedor júnior focado em tecnologias como Node.js, Java
   <img src="./assets/badges/stack/javascript.svg" alt="Badge stack JavaScript"/>
   <img src="./assets/badges/stack/express.svg" alt="Badge stack Express"/>
   <img src="./assets/badges/stack/react.svg" alt="Badge stack React"/>
-  <img src="./assets/badges/stack/python.svg" alt="Badge stack Python"/>
-  <img src="./assets/badges/stack/mysql.svg" alt="Badge stack MySQL"/>
   <img src="./assets/badges/stack/eslint.svg" alt="Badge stack ESLint"/>
+  <img src="./assets/badges/stack/python.svg" alt="Badge stack Python"/>
   <img src="./assets/badges/stack/typescript.svg" alt="Badge stack TypeScript"/>
   <img src="./assets/badges/stack/prettier.svg" alt="Badge stack Prettier"/>
-  <img src="./assets/badges/stack/mongodb.svg" alt="Badge stack MongoDB"/>
+  <img src="./assets/badges/stack/mysql.svg" alt="Badge stack MySQL"/>
   <img src="./assets/badges/stack/tailwindcss.svg" alt="Badge stack Tailwind CSS"/>
+  <img src="./assets/badges/stack/mongodb.svg" alt="Badge stack MongoDB"/>
+  <img src="./assets/badges/stack/nextjs.svg" alt="Badge stack Next.js"/>
   <img src="./assets/badges/stack/vite.svg" alt="Badge stack Vite"/>
   <img src="./assets/badges/stack/c.svg" alt="Badge stack C"/>
-  <img src="./assets/badges/stack/rust.svg" alt="Badge stack Rust"/>
 </p>
 
 <p align="center"><sub>Stack dinâmica baseada nas tecnologias detectadas nos repositórios.</sub></p>
