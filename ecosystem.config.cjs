@@ -19,7 +19,7 @@ module.exports = {
         README_ASSET_MODE: "local",
         BADGE_LOCAL_PREFIX: "./assets",
         LOCAL_ASSET_SYNC_ENABLED: "true",
-        LOCAL_ASSET_SYNC_INTERVAL_HOURS: "4",
+        LOCAL_ASSET_SYNC_INTERVAL_HOURS: "1",
         LOCAL_ASSET_SYNC_SCRIPT: "scripts/publish-assets.js",
         LOCAL_RENDER_BASE_URL: "http://127.0.0.1:3015",
         AUTO_PUSH_ENABLED: "true",

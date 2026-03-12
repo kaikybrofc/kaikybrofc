@@ -23,7 +23,7 @@ const profileCacheTtlSec = Number(process.env.PROFILE_CACHE_TTL_SEC || 300);
 const badgeCacheTtlSec = Number(process.env.BADGE_CACHE_TTL_SEC || 120);
 const stackCurrentLimit = Number(process.env.STACK_CURRENT_LIMIT || 14);
 const localAssetSyncEnabled = (process.env.LOCAL_ASSET_SYNC_ENABLED || "false").toLowerCase() === "true";
-const localAssetSyncIntervalHours = Number(process.env.LOCAL_ASSET_SYNC_INTERVAL_HOURS || 4);
+const localAssetSyncIntervalHours = Number(process.env.LOCAL_ASSET_SYNC_INTERVAL_HOURS || 1);
 const localAssetSyncScript = path.resolve(
   process.cwd(),
   process.env.LOCAL_ASSET_SYNC_SCRIPT || "scripts/publish-assets.js"

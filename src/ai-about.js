@@ -3,7 +3,7 @@ const path = require("node:path");
 
 const OPENAI_BASE_URL = "https://api.openai.com/v1";
 const DEFAULT_MODEL = "gpt-4.1-mini";
-const DEFAULT_REFRESH_HOURS = 24;
+const DEFAULT_REFRESH_HOURS = 1;
 const DEFAULT_MAX_OUTPUT_TOKENS = 220;
 
 function parseNumber(value, fallback) {
