@@ -35,9 +35,9 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor júnior focado em tecnologias como Node.js, JavaScript e Express, com experiência em projetos ativos e colaborativos. Com 18 repositórios públicos e um histórico consistente de contribuições, demonstra interesse em aprimorar suas habilidades técnicas. Seu trabalho inclui iniciativas relevantes nas áreas de backend e frontend, evidenciando versatilidade no desenvolvimento de software.
+Kaiky Brito é desenvolvedor júnior focado em tecnologias JavaScript e Node.js, com experiência em frameworks como Express e React. Possui 18 repositórios públicos, destacando-se pelo projeto omnizap-system, que demonstra sua capacidade de desenvolvimento em ambientes de alta atividade. Seu perfil reflete um profissional dedicado à programação e ao aprimoramento contínuo nas áreas de front-end e back-end.
 
-> _Atualizado em 11 de mar. de 2026, 13:25 (UTC)._
+> _Atualizado em 12 de mar. de 2026, 15:26 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
@@ -137,11 +137,11 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 6: [nebula](https://github.com/kaikybrofc/nebula)
+### Projeto 6: [yt-dls](https://github.com/kaikybrofc/yt-dls)
 
-**Descrição:** -
+**Descrição:** yt-dls é uma API simples e leve para download de vídeos do YouTube, construída em Node.js com o framework Express, que utiliza internamente a ferramenta yt-d...
 
-![Resumo do Projeto](./assets/badges/projeto/nebula/resumo.svg) ![Atividade](./assets/badges/projeto/nebula/atividade.svg) ![Estrelas](./assets/badges/projeto/nebula/estrelas.svg) ![Atualizado](./assets/badges/projeto/nebula/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/yt-dls/resumo.svg) ![Atividade](./assets/badges/projeto/yt-dls/atividade.svg) ![Estrelas](./assets/badges/projeto/yt-dls/estrelas.svg) ![Atualizado](./assets/badges/projeto/yt-dls/atualizado.svg)
 <!--FEATURED_PROJECTS_END-->
 
 
