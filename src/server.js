@@ -51,7 +51,7 @@ const CONTACT_BADGES = Object.freeze({
   github: { label: "GitHub", message: "kaikybrofc", color: BADGE_COLORS.primary },
   linkedin: { label: "LinkedIn", message: "kaiky-gomes", color: BADGE_COLORS.secondary },
   email: { label: "Email", message: "Contato", color: BADGE_COLORS.accent },
-  whatsapp: { label: "WhatsApp", message: "+55 95 99122-954", color: BADGE_COLORS.success }
+  whatsapp: { label: "WhatsApp", message: "+55 95 99112-2954", color: BADGE_COLORS.success }
 });
 const STACK_BADGES = Object.freeze({
   javascript: { label: "Stack", message: "JavaScript", color: BADGE_COLORS.info },

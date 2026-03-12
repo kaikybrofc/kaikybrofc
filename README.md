@@ -13,7 +13,7 @@
 
 <p align="center">
   <a href="mailto:kaikygomesribeiroof@gmail.com"><img src="./assets/badges/contact/email.svg" alt="Email"/></a>
-  <a href="https://wa.me/559599122954"><img src="./assets/badges/contact/whatsapp.svg" alt="WhatsApp"/></a>
+  <a href="https://wa.me/5595991122954"><img src="./assets/badges/contact/whatsapp.svg" alt="WhatsApp"/></a>
 </p>
 
 <p align="center">
@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor júnior com foco em tecnologias como Node.js, JavaScript e TypeScript, acumulando experiência em 18 repositórios públicos. Seus projetos mais ativos demonstram habilidade em sistemas backend e modularização de código. Ele busca aprimorar continuamente suas competências na área de programação e desenvolvimento web.
+Kaiky Brito é um desenvolvedor júnior focado em tecnologias JavaScript e Node.js, com experiência em projetos que envolvem Express, React e TypeScript. Ele mantém 18 repositórios públicos, destacando-se pelo desenvolvimento ativo e pela aplicação de boas práticas em seu código. Seu trabalho é marcado por contribuições relevantes em projetos como omnizap-system e logger-module, demonstrando compromisso com a qualidade e inovação.
 
-> _Atualizado em 12 de mar. de 2026, 21:00 (UTC)._
+> _Atualizado em 12 de mar. de 2026, 22:00 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Atualização contínua e manutenção de assets SVG para métricas visuais.
-- Redução dos intervalos de atualização periódica para melhorar a resposta do sistema.
-- Foco em melhorias de infraestrutura e segurança no pipeline de mensagens e logs.
+- Atualização contínua e otimização de assets SVG para métricas de desempenho.
+- Refatoração e modularização do pipeline de mensagens com foco em segurança e desempenho.
+- Implementação de melhorias no módulo de logging, incluindo auditoria imutável e controle de tráfego.
 
-> _Atualizado em 12 de mar. de 2026, 20:00 (UTC)._
+> _Atualizado em 12 de mar. de 2026, 22:00 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
