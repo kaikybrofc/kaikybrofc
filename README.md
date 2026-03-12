@@ -43,11 +43,11 @@ Kaiky Brito é desenvolvedor júnior focado em tecnologias JavaScript e Node.js,
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Atualização contínua e padronização de assets SVG para projetos em Node.js e React.
-- Melhoria da resiliência no processo de publicação, incluindo tratamento de erros GPG e non-fast-forward.
-- Refatoração e validação de schemas, além de ajustes em imports para maior organização por domínio.
+- Atualização contínua e manutenção de assets SVG para padronização visual.
+- Desenvolvimento de funcionalidades avançadas para manipulação e visualização de JSON.
+- Modularização e reforço da segurança em pipelines e middlewares de mensagens.
 
-> _Atualizado em 11 de mar. de 2026, 18:11 (UTC)._
+> _Atualizado em 12 de mar. de 2026, 16:00 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
