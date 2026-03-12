@@ -127,21 +127,21 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 5: [nebula](https://github.com/kaikybrofc/nebula)
+### Projeto 5: [portifolio](https://github.com/kaikybrofc/portifolio)
 
-**Descrição:** -
+**Descrição:** Portfolio pessoal de Kaiky Brito, desenvolvido com React + Vite para apresentar projetos, habilidades e formas de contato.
 
-![Resumo do Projeto](./assets/badges/projeto/nebula/resumo.svg) ![Atividade](./assets/badges/projeto/nebula/atividade.svg) ![Estrelas](./assets/badges/projeto/nebula/estrelas.svg) ![Atualizado](./assets/badges/projeto/nebula/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/portifolio/resumo.svg) ![Atividade](./assets/badges/projeto/portifolio/atividade.svg) ![Estrelas](./assets/badges/projeto/portifolio/estrelas.svg) ![Atualizado](./assets/badges/projeto/portifolio/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 6: [portifolio](https://github.com/kaikybrofc/portifolio)
+### Projeto 6: [nebula](https://github.com/kaikybrofc/nebula)
 
-**Descrição:** Portfolio pessoal de Kaiky Brito, desenvolvido com React + Vite para apresentar projetos, habilidades e formas de contato.
+**Descrição:** -
 
-![Resumo do Projeto](./assets/badges/projeto/portifolio/resumo.svg) ![Atividade](./assets/badges/projeto/portifolio/atividade.svg) ![Estrelas](./assets/badges/projeto/portifolio/estrelas.svg) ![Atualizado](./assets/badges/projeto/portifolio/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/nebula/resumo.svg) ![Atividade](./assets/badges/projeto/nebula/atividade.svg) ![Estrelas](./assets/badges/projeto/nebula/estrelas.svg) ![Atualizado](./assets/badges/projeto/nebula/atualizado.svg)
 <!--FEATURED_PROJECTS_END-->
 
 

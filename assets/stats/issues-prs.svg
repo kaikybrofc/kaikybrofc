@@ -65,7 +65,7 @@
 <g>
   <rect x="709" y="321" width="295" height="5" rx="6" fill="url(#statBarGradissuesprs)" opacity="0.96"/>
   <rect x="709" y="321" width="295" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
-  <text x="857" y="313" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">1</text>
+  <text x="857" y="313" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">2</text>
   <text x="857" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">prs open</text>
 </g>
 <g>
@@ -75,11 +75,11 @@
   <text x="1170" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">prs closed</text>
 </g>
   <text x="58" y="394" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Issues abertas: 1 | fechadas: 4.</text>
-<text x="58" y="418" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- PRs abertas: 1 | fechadas: 172.</text>
-<text x="58" y="442" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Taxa de resolucao geral: 98.9%.</text>
+<text x="58" y="418" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- PRs abertas: 2 | fechadas: 172.</text>
+<text x="58" y="442" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Taxa de resolucao geral: 98.3%.</text>
 <text x="58" y="466" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- PRs mergeadas (total): 166.</text>
   <line x1="52" y1="506" x2="1348" y2="506" stroke="#38bdf8" stroke-opacity="0.32"/>
   <text x="54" y="530" fill="#a8d9f4" font-family="JetBrains Mono, Consolas, monospace" font-size="16">
-    atualizado: 5h
+    atualizado: agora
   </text>
 </svg>
