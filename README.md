@@ -62,9 +62,9 @@ Kaiky Brito é um desenvolvedor júnior focado em tecnologias como Node.js, Java
   <img src="./assets/badges/stack/javascript.svg" alt="Badge stack JavaScript"/>
   <img src="./assets/badges/stack/express.svg" alt="Badge stack Express"/>
   <img src="./assets/badges/stack/react.svg" alt="Badge stack React"/>
+  <img src="./assets/badges/stack/typescript.svg" alt="Badge stack TypeScript"/>
   <img src="./assets/badges/stack/eslint.svg" alt="Badge stack ESLint"/>
   <img src="./assets/badges/stack/python.svg" alt="Badge stack Python"/>
-  <img src="./assets/badges/stack/typescript.svg" alt="Badge stack TypeScript"/>
   <img src="./assets/badges/stack/prettier.svg" alt="Badge stack Prettier"/>
   <img src="./assets/badges/stack/mysql.svg" alt="Badge stack MySQL"/>
   <img src="./assets/badges/stack/tailwindcss.svg" alt="Badge stack Tailwind CSS"/>
@@ -117,7 +117,17 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 4: [nebula](https://github.com/kaikybrofc/nebula)
+### Projeto 4: [jsontree](https://github.com/kaikybrofc/jsontree)
+
+**Descrição:** Visualize JSON data format as a tree or graph
+
+![Resumo do Projeto](./assets/badges/projeto/jsontree/resumo.svg) ![Atividade](./assets/badges/projeto/jsontree/atividade.svg) ![Estrelas](./assets/badges/projeto/jsontree/estrelas.svg) ![Atualizado](./assets/badges/projeto/jsontree/atualizado.svg)
+
+<p align="center">
+  <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
+</p>
+
+### Projeto 5: [nebula](https://github.com/kaikybrofc/nebula)
 
 **Descrição:** -
 
@@ -127,21 +137,11 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 5: [portifolio](https://github.com/kaikybrofc/portifolio)
+### Projeto 6: [portifolio](https://github.com/kaikybrofc/portifolio)
 
 **Descrição:** Portfolio pessoal de Kaiky Brito, desenvolvido com React + Vite para apresentar projetos, habilidades e formas de contato.
 
 ![Resumo do Projeto](./assets/badges/projeto/portifolio/resumo.svg) ![Atividade](./assets/badges/projeto/portifolio/atividade.svg) ![Estrelas](./assets/badges/projeto/portifolio/estrelas.svg) ![Atualizado](./assets/badges/projeto/portifolio/atualizado.svg)
-
-<p align="center">
-  <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
-</p>
-
-### Projeto 6: [yt-dls](https://github.com/kaikybrofc/yt-dls)
-
-**Descrição:** yt-dls é uma API simples e leve para download de vídeos do YouTube, construída em Node.js com o framework Express, que utiliza internamente a ferramenta yt-d...
-
-![Resumo do Projeto](./assets/badges/projeto/yt-dls/resumo.svg) ![Atividade](./assets/badges/projeto/yt-dls/atividade.svg) ![Estrelas](./assets/badges/projeto/yt-dls/estrelas.svg) ![Atualizado](./assets/badges/projeto/yt-dls/atualizado.svg)
 <!--FEATURED_PROJECTS_END-->
 
 
