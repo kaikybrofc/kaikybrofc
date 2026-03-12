@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é desenvolvedor júnior focado em tecnologias JavaScript e Node.js, com experiência em frameworks como Express e React. Possui 18 repositórios públicos, destacando-se pelo projeto omnizap-system, que demonstra sua capacidade de desenvolvimento em ambientes de alta atividade. Seu perfil reflete um profissional dedicado à programação e ao aprimoramento contínuo nas áreas de front-end e back-end.
+Kaiky Brito é um desenvolvedor júnior nascido em 2005, com foco em tecnologias JavaScript, Node.js e TypeScript. Possui 18 repositórios públicos, destacando-se por projetos ativos como omnizap-system e kaikybrofc. Seu trabalho é pautado na busca constante por aprimoramento e aplicação prática de suas habilidades em programação.
 
-> _Atualizado em 12 de mar. de 2026, 15:26 (UTC)._
+> _Atualizado em 12 de mar. de 2026, 17:00 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Atualização contínua e manutenção de assets SVG para padronização visual.
-- Desenvolvimento de funcionalidades avançadas para manipulação e visualização de JSON.
-- Modularização e reforço da segurança em pipelines e middlewares de mensagens.
+- Atualização contínua e manutenção de assets SVG para métricas e gráficos.
+- Ajuste de intervalos de atualização periódica para otimização de desempenho.
+- Implementação e aprimoramento de funcionalidades relacionadas a visualização e manipulação de dados JSON.
 
-> _Atualizado em 12 de mar. de 2026, 16:00 (UTC)._
+> _Atualizado em 12 de mar. de 2026, 17:00 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
