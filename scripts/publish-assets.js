@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+const fs = require("node:fs");
 const path = require("node:path");
 const { spawn } = require("node:child_process");
 const dotenv = require("dotenv");
@@ -159,6 +160,16 @@ function describePushFailure(errorMessage) {
   };
 }
 
+function isGitOperationInProgress(gitDir) {
+  return [
+    "rebase-merge",
+    "rebase-apply",
+    "MERGE_HEAD",
+    "CHERRY_PICK_HEAD",
+    "REVERT_HEAD"
+  ].some((entry) => fs.existsSync(path.join(gitDir, entry)));
+}
+
 async function run() {
   const env = {
     ...process.env,
@@ -166,6 +177,48 @@ async function run() {
     README_ASSET_MODE: process.env.README_ASSET_MODE || "local",
     BADGE_LOCAL_PREFIX: process.env.BADGE_LOCAL_PREFIX || "./assets"
   };
+
+  const gitDirRaw = (await runCommand("git", ["rev-parse", "--git-dir"], { capture: true, env })).stdout.trim();
+  const gitDir = path.resolve(process.cwd(), gitDirRaw || ".git");
+
+  if (isGitOperationInProgress(gitDir)) {
+    console.log(
+      JSON.stringify(
+        {
+          ok: true,
+          changed: false,
+          push: "skipped",
+          reason: "git_operation_in_progress",
+          message: "Repositorio em operacao Git (rebase/merge/cherry-pick/revert)."
+        },
+        null,
+        2
+      )
+    );
+    return;
+  }
+
+  const configuredPushBranch = String(process.env.AUTO_PUSH_BRANCH || "").trim();
+  const currentBranch = (
+    await runCommand("git", ["rev-parse", "--abbrev-ref", "HEAD"], { capture: true, env })
+  ).stdout.trim();
+
+  if (!configuredPushBranch && (!currentBranch || currentBranch === "HEAD")) {
+    console.log(
+      JSON.stringify(
+        {
+          ok: true,
+          changed: false,
+          push: "skipped",
+          reason: "detached_head",
+          message: "Branch atual indisponivel (HEAD destacado)."
+        },
+        null,
+        2
+      )
+    );
+    return;
+  }
 
   await runCommand(process.execPath, [path.resolve(process.cwd(), "scripts/render-assets.js")], { env });
   await runCommand(process.execPath, [path.resolve(process.cwd(), "scripts/update-readme.js")], { env });
@@ -255,9 +308,7 @@ async function run() {
     throw new Error(`git commit falhou: ${output}`);
   }
 
-  const branch =
-    String(process.env.AUTO_PUSH_BRANCH || "").trim() ||
-    (await runCommand("git", ["rev-parse", "--abbrev-ref", "HEAD"], { capture: true })).stdout.trim();
+  const branch = configuredPushBranch || currentBranch;
 
   if (!branch || branch === "HEAD") {
     throw new Error("Nao foi possivel identificar branch atual para push.");
@@ -294,11 +345,20 @@ async function run() {
 
   if (shouldRebaseBeforePush()) {
     const pullRebaseCommand = buildPullRebaseCommand(remote, branch, remoteUrl, pushToken);
-    await runCommand("git", pullRebaseCommand.args, {
+    const pullRebaseResult = await runCommand("git", pullRebaseCommand.args, {
       env,
       capture: true,
-      displayArgs: pullRebaseCommand.displayArgs
+      displayArgs: pullRebaseCommand.displayArgs,
+      allowFailure: true
     });
+
+    if (pullRebaseResult.code !== 0) {
+      await runCommand("git", ["rebase", "--abort"], { env, capture: true, allowFailure: true });
+      const output = `${pullRebaseResult.stdout}\n${pullRebaseResult.stderr}`.trim();
+      throw new Error(
+        `git ${pullRebaseCommand.displayArgs.join(" ")} falhou (${pullRebaseResult.code}). ${output}`.trim()
+      );
+    }
   }
 
   const pushCommand = buildPushCommand(remote, branch, remoteUrl, pushToken);

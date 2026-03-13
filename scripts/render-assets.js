@@ -168,7 +168,7 @@ async function run() {
   }
 
   const routes = collectRoutes(profilePayload.summary);
-  await fs.rm(assetsDir, { recursive: true, force: true });
+  // Preserva arquivos mantidos por outros fluxos (ex.: metrics gerados no GitHub Actions).
   await fs.mkdir(assetsDir, { recursive: true });
 
   const rendered = [];
