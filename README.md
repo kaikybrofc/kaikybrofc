@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor júnior com experiência em JavaScript, TypeScript e Python, focado em tecnologias como Node.js e Express. Ele mantém 17 repositórios públicos, destacando-se por projetos ativos que envolvem desenvolvimento backend e ferramentas de logging. Seu perfil demonstra interesse contínuo em aprimorar habilidades na área de programação e contribuir com soluções eficientes.
+Kaiky Brito é um desenvolvedor júnior focado em tecnologias como Node.js, JavaScript e TypeScript, com experiência em diversos projetos públicos no GitHub. Ele possui um portfólio diversificado com 17 repositórios, destacando-se em frameworks como Express e React. Seu trabalho é marcado pela participação ativa em projetos que envolvem desenvolvimento backend e frontend, além do uso de boas práticas com ferramentas como ESLint e Prettier.
 
-> _Atualizado em 13 de mar. de 2026, 18:12 (UTC)._
+> _Atualizado em 13 de mar. de 2026, 21:15 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Atualização contínua e manutenção de assets SVG para métricas e visualizações.
-- Desenvolvimento e aprimoramento de recursos para análise e manipulação de JSON.
-- Implementação de funcionalidades avançadas e melhorias no módulo de logging, incluindo segurança e auditoria.
+- Desenvolvimento e aprimoramento de funcionalidades de moderação e perfil de usuário no bot Ayana.
+- Configuração e aplicação de ferramentas de formatação e lint para código Python.
+- Atualização contínua de assets SVG para métricas em projetos pessoais.
 
-> _Atualizado em 13 de mar. de 2026, 18:12 (UTC)._
+> _Atualizado em 13 de mar. de 2026, 21:15 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -117,7 +117,17 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 4: [portifolio](https://github.com/kaikybrofc/portifolio)
+### Projeto 4: [ayana-bot](https://github.com/kaikybrofc/ayana-bot)
+
+**Descrição:** 🤖 Ayana System é um bot inteligente com temática anime, focado em automação, interações avançadas, jogos e recursos modernos para servidores. Rápido, elegan...
+
+![Resumo do Projeto](./assets/badges/projeto/ayana-bot/resumo.svg) ![Atividade](./assets/badges/projeto/ayana-bot/atividade.svg) ![Estrelas](./assets/badges/projeto/ayana-bot/estrelas.svg) ![Atualizado](./assets/badges/projeto/ayana-bot/atualizado.svg)
+
+<p align="center">
+  <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
+</p>
+
+### Projeto 5: [portifolio](https://github.com/kaikybrofc/portifolio)
 
 **Descrição:** Portfolio pessoal de Kaiky Brito, desenvolvido com React + Vite para apresentar projetos, habilidades e formas de contato.
 
@@ -127,21 +137,11 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 5: [yt-dls](https://github.com/kaikybrofc/yt-dls)
+### Projeto 6: [yt-dls](https://github.com/kaikybrofc/yt-dls)
 
 **Descrição:** yt-dls é uma API simples e leve para download de vídeos do YouTube, construída em Node.js com o framework Express, que utiliza internamente a ferramenta yt-d...
 
 ![Resumo do Projeto](./assets/badges/projeto/yt-dls/resumo.svg) ![Atividade](./assets/badges/projeto/yt-dls/atividade.svg) ![Estrelas](./assets/badges/projeto/yt-dls/estrelas.svg) ![Atualizado](./assets/badges/projeto/yt-dls/atualizado.svg)
-
-<p align="center">
-  <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
-</p>
-
-### Projeto 6: [nebula](https://github.com/kaikybrofc/nebula)
-
-**Descrição:** -
-
-![Resumo do Projeto](./assets/badges/projeto/nebula/resumo.svg) ![Atividade](./assets/badges/projeto/nebula/atividade.svg) ![Estrelas](./assets/badges/projeto/nebula/estrelas.svg) ![Atualizado](./assets/badges/projeto/nebula/atualizado.svg)
 <!--FEATURED_PROJECTS_END-->
 
 
