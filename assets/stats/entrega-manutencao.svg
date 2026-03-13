@@ -59,14 +59,14 @@
 <g>
   <rect x="291" y="321" width="194" height="5" rx="6" fill="url(#statBarGradentregamanutencao)" opacity="0.96"/>
   <rect x="291" y="321" width="194" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
-  <text x="388" y="313" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">0.01</text>
-  <text x="388" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">kaikybrofc</text>
+  <text x="388" y="313" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">0.02</text>
+  <text x="388" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">nebula</text>
 </g>
 <g>
   <rect x="499" y="321" width="194" height="5" rx="6" fill="url(#statBarGradentregamanutencao)" opacity="0.96"/>
   <rect x="499" y="321" width="194" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
   <text x="596" y="313" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">0.02</text>
-  <text x="596" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">nebula</text>
+  <text x="596" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">kaikybrofc</text>
 </g>
 <g>
   <rect x="707" y="310" width="194" height="16" rx="6" fill="url(#statBarGradentregamanutencao)" opacity="0.96"/>
