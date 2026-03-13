@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor júnior com experiência em JavaScript, Node.js e TypeScript, focado no desenvolvimento de aplicações web. Mantém 18 repositórios públicos com destaque para projetos como omnizap-system e logger-module. Seu trabalho é orientado por tecnologias modernas como Express e React, buscando sempre aprimorar suas habilidades na área.
+Kaiky Brito é um desenvolvedor júnior focado em tecnologias como Node.js, JavaScript e TypeScript, com experiência em projetos ativos e variados. Ele mantém 17 repositórios públicos no GitHub, onde aplica suas habilidades em desenvolvimento backend e frontend. Sua atuação inclui o uso de frameworks e ferramentas modernas, buscando sempre aprimorar soluções de software.
 
-> _Atualizado em 13 de mar. de 2026, 06:12 (UTC)._
+> _Atualizado em 13 de mar. de 2026, 10:12 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Atualização e manutenção contínua de assets SVG para métricas visuais.
-- Melhoria e modularização do pipeline de mensagens com foco em segurança e desempenho.
-- Implementação e refinamento de funcionalidades em sistemas de comandos e configuração sem dependência de chave OpenAI.
+- Atualização contínua e manutenção de assets SVG para métricas e visualizações.
+- Desenvolvimento e aprimoramento de módulo de logging com suporte a auditoria, exportadores e controle de tráfego.
+- Implementação de funcionalidades avançadas em análise JSON, incluindo estatísticas, esquema inferido e performance em renderização.
 
-> _Atualizado em 13 de mar. de 2026, 06:12 (UTC)._
+> _Atualizado em 13 de mar. de 2026, 10:12 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -61,17 +61,17 @@ Kaiky Brito é um desenvolvedor júnior com experiência em JavaScript, Node.js 
   <img src="./assets/badges/stack/nodejs.svg" alt="Badge stack Node.js"/>
   <img src="./assets/badges/stack/javascript.svg" alt="Badge stack JavaScript"/>
   <img src="./assets/badges/stack/express.svg" alt="Badge stack Express"/>
-  <img src="./assets/badges/stack/react.svg" alt="Badge stack React"/>
   <img src="./assets/badges/stack/typescript.svg" alt="Badge stack TypeScript"/>
-  <img src="./assets/badges/stack/eslint.svg" alt="Badge stack ESLint"/>
+  <img src="./assets/badges/stack/react.svg" alt="Badge stack React"/>
   <img src="./assets/badges/stack/python.svg" alt="Badge stack Python"/>
+  <img src="./assets/badges/stack/eslint.svg" alt="Badge stack ESLint"/>
   <img src="./assets/badges/stack/prettier.svg" alt="Badge stack Prettier"/>
-  <img src="./assets/badges/stack/mysql.svg" alt="Badge stack MySQL"/>
   <img src="./assets/badges/stack/tailwindcss.svg" alt="Badge stack Tailwind CSS"/>
   <img src="./assets/badges/stack/mongodb.svg" alt="Badge stack MongoDB"/>
+  <img src="./assets/badges/stack/mysql.svg" alt="Badge stack MySQL"/>
   <img src="./assets/badges/stack/nextjs.svg" alt="Badge stack Next.js"/>
-  <img src="./assets/badges/stack/vite.svg" alt="Badge stack Vite"/>
   <img src="./assets/badges/stack/c.svg" alt="Badge stack C"/>
+  <img src="./assets/badges/stack/rust.svg" alt="Badge stack Rust"/>
 </p>
 
 <p align="center"><sub>Stack dinâmica baseada nas tecnologias detectadas nos repositórios.</sub></p>
@@ -87,17 +87,7 @@ Kaiky Brito é um desenvolvedor júnior com experiência em JavaScript, Node.js 
 Classificados automaticamente com base na atividade recente no GitHub.
 
 <!--FEATURED_PROJECTS_START-->
-### Projeto 1: [omnizap-system](https://github.com/kaikybrofc/omnizap-system)
-
-**Descrição:** Sistema profissional de automação WhatsApp com tecnologia Baileys
-
-![Resumo do Projeto](./assets/badges/projeto/omnizap-system/resumo.svg) ![Atividade](./assets/badges/projeto/omnizap-system/atividade.svg) ![Estrelas](./assets/badges/projeto/omnizap-system/estrelas.svg) ![Atualizado](./assets/badges/projeto/omnizap-system/atualizado.svg)
-
-<p align="center">
-  <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
-</p>
-
-### Projeto 2: [kaikybrofc](https://github.com/kaikybrofc/kaikybrofc)
+### Projeto 1: [kaikybrofc](https://github.com/kaikybrofc/kaikybrofc)
 
 **Descrição:** ✨ Aqui você encontra informações sobre mim.
 
@@ -107,7 +97,7 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 3: [logger-module](https://github.com/kaikybrofc/logger-module)
+### Projeto 2: [logger-module](https://github.com/kaikybrofc/logger-module)
 
 **Descrição:** Módulo de log moderno em TypeScript usando Winston e Rotação de Arquivos.
 
@@ -117,7 +107,7 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 4: [jsontree](https://github.com/kaikybrofc/jsontree)
+### Projeto 3: [jsontree](https://github.com/kaikybrofc/jsontree)
 
 **Descrição:** Visualize JSON data format as a tree or graph
 
@@ -127,7 +117,7 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 5: [portifolio](https://github.com/kaikybrofc/portifolio)
+### Projeto 4: [portifolio](https://github.com/kaikybrofc/portifolio)
 
 **Descrição:** Portfolio pessoal de Kaiky Brito, desenvolvido com React + Vite para apresentar projetos, habilidades e formas de contato.
 
@@ -137,11 +127,21 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 6: [yt-dls](https://github.com/kaikybrofc/yt-dls)
+### Projeto 5: [yt-dls](https://github.com/kaikybrofc/yt-dls)
 
 **Descrição:** yt-dls é uma API simples e leve para download de vídeos do YouTube, construída em Node.js com o framework Express, que utiliza internamente a ferramenta yt-d...
 
 ![Resumo do Projeto](./assets/badges/projeto/yt-dls/resumo.svg) ![Atividade](./assets/badges/projeto/yt-dls/atividade.svg) ![Estrelas](./assets/badges/projeto/yt-dls/estrelas.svg) ![Atualizado](./assets/badges/projeto/yt-dls/atualizado.svg)
+
+<p align="center">
+  <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
+</p>
+
+### Projeto 6: [nebula](https://github.com/kaikybrofc/nebula)
+
+**Descrição:** -
+
+![Resumo do Projeto](./assets/badges/projeto/nebula/resumo.svg) ![Atividade](./assets/badges/projeto/nebula/atividade.svg) ![Estrelas](./assets/badges/projeto/nebula/estrelas.svg) ![Atualizado](./assets/badges/projeto/nebula/atualizado.svg)
 <!--FEATURED_PROJECTS_END-->
 
 
