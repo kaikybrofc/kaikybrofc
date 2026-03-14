@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor júnior com foco em tecnologias JavaScript e Node.js, acumulando experiência em projetos que envolvem Express, TypeScript e React. Com 17 repositórios públicos, destaca-se pelo desenvolvimento ativo e contribuição consistente na área de programação. Seu trabalho é marcado pela aplicação prática de linguagens como JavaScript e Python, buscando aprimorar soluções eficientes e escaláveis.
+Kaiky Brito é um desenvolvedor júnior com experiência em JavaScript, Node.js e TypeScript, mantendo 17 repositórios públicos ativos no GitHub. Seu trabalho destaca-se em projetos como kaikybrofc, logger-module e ayana-bot, que envolvem tecnologias modernas e boas práticas de desenvolvimento. Com foco em backend e automação, busca aprimorar continuamente suas habilidades na área de tecnologia.
 
-> _Atualizado em 14 de mar. de 2026, 04:40 (UTC)._
+> _Atualizado em 14 de mar. de 2026, 08:40 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Atualização contínua e manutenção de assets SVG para métricas do projeto.
-- Implementação e refinamento de funcionalidades relacionadas a moderação e perfil de usuário em bots.
-- Configuração e aplicação de ferramentas de formatação e lint para código Python.
+- Atualização frequente de assets SVG para métricas e monitoramento visual.
+- Desenvolvimento e aprimoramento de APIs locais para streaming de música.
+- Implementação de comandos e funcionalidades avançadas para moderação e perfil de usuário.
 
-> _Atualizado em 14 de mar. de 2026, 04:40 (UTC)._
+> _Atualizado em 14 de mar. de 2026, 08:40 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -107,21 +107,21 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 3: [jsontree](https://github.com/kaikybrofc/jsontree)
+### Projeto 3: [ayana-bot](https://github.com/kaikybrofc/ayana-bot)
 
-**Descrição:** Visualize JSON data format as a tree or graph
+**Descrição:** 🤖 Ayana System é um bot inteligente com temática anime, focado em automação, interações avançadas, jogos e recursos modernos para servidores. Rápido, elegan...
 
-![Resumo do Projeto](./assets/badges/projeto/jsontree/resumo.svg) ![Atividade](./assets/badges/projeto/jsontree/atividade.svg) ![Estrelas](./assets/badges/projeto/jsontree/estrelas.svg) ![Atualizado](./assets/badges/projeto/jsontree/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/ayana-bot/resumo.svg) ![Atividade](./assets/badges/projeto/ayana-bot/atividade.svg) ![Estrelas](./assets/badges/projeto/ayana-bot/estrelas.svg) ![Atualizado](./assets/badges/projeto/ayana-bot/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 4: [ayana-bot](https://github.com/kaikybrofc/ayana-bot)
+### Projeto 4: [jsontree](https://github.com/kaikybrofc/jsontree)
 
-**Descrição:** 🤖 Ayana System é um bot inteligente com temática anime, focado em automação, interações avançadas, jogos e recursos modernos para servidores. Rápido, elegan...
+**Descrição:** Visualize JSON data format as a tree or graph
 
-![Resumo do Projeto](./assets/badges/projeto/ayana-bot/resumo.svg) ![Atividade](./assets/badges/projeto/ayana-bot/atividade.svg) ![Estrelas](./assets/badges/projeto/ayana-bot/estrelas.svg) ![Atualizado](./assets/badges/projeto/ayana-bot/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/jsontree/resumo.svg) ![Atividade](./assets/badges/projeto/jsontree/atividade.svg) ![Estrelas](./assets/badges/projeto/jsontree/estrelas.svg) ![Atualizado](./assets/badges/projeto/jsontree/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
