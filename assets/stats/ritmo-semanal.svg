@@ -81,15 +81,15 @@
   <text x="878" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">qui</text>
 </g>
 <g>
-  <rect x="973" y="248" width="166" height="78" rx="6" fill="url(#statBarGradritmosemanal)" opacity="0.96"/>
-  <rect x="973" y="248" width="166" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
-  <text x="1056" y="240" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">24</text>
+  <rect x="973" y="267" width="166" height="59" rx="6" fill="url(#statBarGradritmosemanal)" opacity="0.96"/>
+  <rect x="973" y="267" width="166" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
+  <text x="1056" y="259" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">18</text>
   <text x="1056" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">sex</text>
 </g>
 <g>
-  <rect x="1151" y="219" width="166" height="107" rx="6" fill="url(#statBarGradritmosemanal)" opacity="0.96"/>
-  <rect x="1151" y="219" width="166" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
-  <text x="1234" y="211" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">33</text>
+  <rect x="1151" y="199" width="166" height="127" rx="6" fill="url(#statBarGradritmosemanal)" opacity="0.96"/>
+  <rect x="1151" y="199" width="166" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
+  <text x="1234" y="191" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">39</text>
   <text x="1234" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">sab</text>
 </g>
   <text x="58" y="394" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Dia mais ativo: ter (43).</text>
