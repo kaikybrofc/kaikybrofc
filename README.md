@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor júnior com experiência em JavaScript, Node.js e Python, focado no desenvolvimento backend e frontend. Ele possui 17 repositórios públicos com contribuições significativas em projetos como kaikybrofc, logger-module e ayana-bot. Seu trabalho é marcado pela utilização de tecnologias modernas como Express, TypeScript e React, com atenção à qualidade de código por meio de ferramentas como ESLint e Prettier.
+Kaiky Brito é um desenvolvedor júnior com experiência em JavaScript, TypeScript e Python, focado principalmente em tecnologias como Node.js, Express e React. Ele mantém 17 repositórios públicos, destacando-se por projetos ativos e relevantes na comunidade. Seu trabalho demonstra interesse contínuo em aprimorar soluções tecnológicas e contribuir para o ecossistema open source.
 
-> _Atualizado em 15 de mar. de 2026, 00:40 (UTC)._
+> _Atualizado em 15 de mar. de 2026, 04:40 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Atualização contínua de assets SVG para métricas e visualização de dados.
-- Desenvolvimento e migração de funcionalidades para player de música com API local e suporte a yt-dlp.
-- Implementação e aprimoramento de comandos e funcionalidades de moderação para canais e usuários.
+- Desenvolvimento e aprimoramento do sistema de busca e paginação no front-end do projeto news-anime-monitor.
+- Implementação de melhorias em SEO, incluindo metadados, rotas programáticas e sitemap.
+- Atualização e manutenção contínua de assets gráficos e visuais para padronização da interface.
 
-> _Atualizado em 15 de mar. de 2026, 00:40 (UTC)._
+> _Atualizado em 15 de mar. de 2026, 04:40 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -65,10 +65,10 @@ Kaiky Brito é um desenvolvedor júnior com experiência em JavaScript, Node.js 
   <img src="./assets/badges/stack/react.svg" alt="Badge stack React"/>
   <img src="./assets/badges/stack/python.svg" alt="Badge stack Python"/>
   <img src="./assets/badges/stack/eslint.svg" alt="Badge stack ESLint"/>
+  <img src="./assets/badges/stack/mysql.svg" alt="Badge stack MySQL"/>
   <img src="./assets/badges/stack/prettier.svg" alt="Badge stack Prettier"/>
   <img src="./assets/badges/stack/tailwindcss.svg" alt="Badge stack Tailwind CSS"/>
   <img src="./assets/badges/stack/mongodb.svg" alt="Badge stack MongoDB"/>
-  <img src="./assets/badges/stack/mysql.svg" alt="Badge stack MySQL"/>
   <img src="./assets/badges/stack/nextjs.svg" alt="Badge stack Next.js"/>
   <img src="./assets/badges/stack/c.svg" alt="Badge stack C"/>
   <img src="./assets/badges/stack/rust.svg" alt="Badge stack Rust"/>
@@ -127,21 +127,21 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 5: [portifolio](https://github.com/kaikybrofc/portifolio)
+### Projeto 5: [news-anime-monitor](https://github.com/kaikybrofc/news-anime-monitor)
 
-**Descrição:** Portfolio pessoal de Kaiky Brito, desenvolvido com React + Vite para apresentar projetos, habilidades e formas de contato.
+**Descrição:** Este projeto realiza o monitoramento automático da página de notícias de animes
 
-![Resumo do Projeto](./assets/badges/projeto/portifolio/resumo.svg) ![Atividade](./assets/badges/projeto/portifolio/atividade.svg) ![Estrelas](./assets/badges/projeto/portifolio/estrelas.svg) ![Atualizado](./assets/badges/projeto/portifolio/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/news-anime-monitor/resumo.svg) ![Atividade](./assets/badges/projeto/news-anime-monitor/atividade.svg) ![Estrelas](./assets/badges/projeto/news-anime-monitor/estrelas.svg) ![Atualizado](./assets/badges/projeto/news-anime-monitor/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 6: [yt-dls](https://github.com/kaikybrofc/yt-dls)
+### Projeto 6: [portifolio](https://github.com/kaikybrofc/portifolio)
 
-**Descrição:** yt-dls é uma API simples e leve para download de vídeos do YouTube, construída em Node.js com o framework Express, que utiliza internamente a ferramenta yt-d...
+**Descrição:** Portfolio pessoal de Kaiky Brito, desenvolvido com React + Vite para apresentar projetos, habilidades e formas de contato.
 
-![Resumo do Projeto](./assets/badges/projeto/yt-dls/resumo.svg) ![Atividade](./assets/badges/projeto/yt-dls/atividade.svg) ![Estrelas](./assets/badges/projeto/yt-dls/estrelas.svg) ![Atualizado](./assets/badges/projeto/yt-dls/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/portifolio/resumo.svg) ![Atividade](./assets/badges/projeto/portifolio/atividade.svg) ![Estrelas](./assets/badges/projeto/portifolio/estrelas.svg) ![Atualizado](./assets/badges/projeto/portifolio/atualizado.svg)
 <!--FEATURED_PROJECTS_END-->
 
 
