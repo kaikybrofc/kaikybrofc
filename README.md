@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Sou desenvolvedor júnior com foco em JavaScript e Node.js, acumulando experiência em projetos que envolvem Express, TypeScript e React. Tenho 17 repositórios públicos no GitHub, onde destaco iniciativas como kaikybrofc, logger-module e ayana-bot. Busco aprimorar continuamente minhas habilidades em tecnologia e programação para contribuir com soluções eficientes.
+Kaiky Brito é um desenvolvedor júnior com foco em tecnologias JavaScript, Node.js e TypeScript, acumulando experiência em projetos ativos e variados. Ele mantém 17 repositórios públicos, destacando-se em frameworks como Express e React, além de conhecimentos em Python e bancos de dados MySQL. Seu perfil demonstra dedicação contínua ao aprendizado e desenvolvimento de soluções eficientes na área de tecnologia.
 
-> _Atualizado em 15 de mar. de 2026, 16:40 (UTC)._
+> _Atualizado em 15 de mar. de 2026, 18:16 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Desenvolvimento e aprimoramento de dashboards de monitoramento com foco em segurança e observabilidade.
-- Otimização de pipelines e consultas SQL para escalabilidade e melhor desempenho.
-- Migração e melhorias no player de música local com integração à API yt-dls.
+- Correção e aprimoramento de rotas de autenticação e redirecionamentos no projeto news-anime-monitor.
+- Implementação de funcionalidades para dashboard de observabilidade, paginação e segurança na API.
+- Atualização contínua e manutenção de assets SVG no repositório pessoal kaikybrofc.
 
-> _Atualizado em 15 de mar. de 2026, 16:40 (UTC)._
+> _Atualizado em 15 de mar. de 2026, 18:16 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -107,21 +107,21 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 3: [ayana-bot](https://github.com/kaikybrofc/ayana-bot)
+### Projeto 3: [news-anime-monitor](https://github.com/kaikybrofc/news-anime-monitor)
 
-**Descrição:** 🤖 Ayana System é um bot inteligente com temática anime, focado em automação, interações avançadas, jogos e recursos modernos para servidores. Rápido, elegan...
+**Descrição:** Este projeto realiza o monitoramento automático da página de notícias de animes
 
-![Resumo do Projeto](./assets/badges/projeto/ayana-bot/resumo.svg) ![Atividade](./assets/badges/projeto/ayana-bot/atividade.svg) ![Estrelas](./assets/badges/projeto/ayana-bot/estrelas.svg) ![Atualizado](./assets/badges/projeto/ayana-bot/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/news-anime-monitor/resumo.svg) ![Atividade](./assets/badges/projeto/news-anime-monitor/atividade.svg) ![Estrelas](./assets/badges/projeto/news-anime-monitor/estrelas.svg) ![Atualizado](./assets/badges/projeto/news-anime-monitor/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 4: [news-anime-monitor](https://github.com/kaikybrofc/news-anime-monitor)
+### Projeto 4: [ayana-bot](https://github.com/kaikybrofc/ayana-bot)
 
-**Descrição:** Este projeto realiza o monitoramento automático da página de notícias de animes
+**Descrição:** 🤖 Ayana System é um bot inteligente com temática anime, focado em automação, interações avançadas, jogos e recursos modernos para servidores. Rápido, elegan...
 
-![Resumo do Projeto](./assets/badges/projeto/news-anime-monitor/resumo.svg) ![Atividade](./assets/badges/projeto/news-anime-monitor/atividade.svg) ![Estrelas](./assets/badges/projeto/news-anime-monitor/estrelas.svg) ![Atualizado](./assets/badges/projeto/news-anime-monitor/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/ayana-bot/resumo.svg) ![Atividade](./assets/badges/projeto/ayana-bot/atividade.svg) ![Estrelas](./assets/badges/projeto/ayana-bot/estrelas.svg) ![Atualizado](./assets/badges/projeto/ayana-bot/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
