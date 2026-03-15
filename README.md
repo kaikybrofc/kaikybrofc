@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor júnior com experiência em JavaScript, TypeScript e Python, focado principalmente em tecnologias como Node.js, Express e React. Ele mantém 17 repositórios públicos, destacando-se por projetos ativos e relevantes na comunidade. Seu trabalho demonstra interesse contínuo em aprimorar soluções tecnológicas e contribuir para o ecossistema open source.
+Kaiky Brito é um desenvolvedor júnior focado em tecnologias como Node.js, JavaScript, TypeScript e Python, com experiência em projetos variados e repositórios ativos. Ele possui 17 repositórios públicos, destacando-se por iniciativas que envolvem desde bots até módulos de logging. Seu trabalho demonstra interesse contínuo em aprimorar habilidades e contribuir para a comunidade tech.
 
-> _Atualizado em 15 de mar. de 2026, 04:40 (UTC)._
+> _Atualizado em 15 de mar. de 2026, 08:40 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Desenvolvimento e aprimoramento do sistema de busca e paginação no front-end do projeto news-anime-monitor.
-- Implementação de melhorias em SEO, incluindo metadados, rotas programáticas e sitemap.
-- Atualização e manutenção contínua de assets gráficos e visuais para padronização da interface.
+- Desenvolvimento e aprimoramento de dashboards de observabilidade e segurança para aplicações web.
+- Otimização de pipelines e consultas SQL para melhor desempenho e escalabilidade.
+- Atualização e manutenção de assets gráficos para monitoramento de métricas.
 
-> _Atualizado em 15 de mar. de 2026, 04:40 (UTC)._
+> _Atualizado em 15 de mar. de 2026, 08:40 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -117,21 +117,21 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 4: [jsontree](https://github.com/kaikybrofc/jsontree)
+### Projeto 4: [news-anime-monitor](https://github.com/kaikybrofc/news-anime-monitor)
 
-**Descrição:** Visualize JSON data format as a tree or graph
+**Descrição:** Este projeto realiza o monitoramento automático da página de notícias de animes
 
-![Resumo do Projeto](./assets/badges/projeto/jsontree/resumo.svg) ![Atividade](./assets/badges/projeto/jsontree/atividade.svg) ![Estrelas](./assets/badges/projeto/jsontree/estrelas.svg) ![Atualizado](./assets/badges/projeto/jsontree/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/news-anime-monitor/resumo.svg) ![Atividade](./assets/badges/projeto/news-anime-monitor/atividade.svg) ![Estrelas](./assets/badges/projeto/news-anime-monitor/estrelas.svg) ![Atualizado](./assets/badges/projeto/news-anime-monitor/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 5: [news-anime-monitor](https://github.com/kaikybrofc/news-anime-monitor)
+### Projeto 5: [jsontree](https://github.com/kaikybrofc/jsontree)
 
-**Descrição:** Este projeto realiza o monitoramento automático da página de notícias de animes
+**Descrição:** Visualize JSON data format as a tree or graph
 
-![Resumo do Projeto](./assets/badges/projeto/news-anime-monitor/resumo.svg) ![Atividade](./assets/badges/projeto/news-anime-monitor/atividade.svg) ![Estrelas](./assets/badges/projeto/news-anime-monitor/estrelas.svg) ![Atualizado](./assets/badges/projeto/news-anime-monitor/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/jsontree/resumo.svg) ![Atividade](./assets/badges/projeto/jsontree/atividade.svg) ![Estrelas](./assets/badges/projeto/jsontree/estrelas.svg) ![Atualizado](./assets/badges/projeto/jsontree/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>

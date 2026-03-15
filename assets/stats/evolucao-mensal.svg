@@ -35,8 +35,8 @@
 <line x1="86" y1="251" x2="1320" y2="251" stroke="#7dd3fc" stroke-opacity="0.12" stroke-width="1"/>
 <line x1="86" y1="287" x2="1320" y2="287" stroke="#7dd3fc" stroke-opacity="0.12" stroke-width="1"/>
 <line x1="86" y1="322" x2="1320" y2="322" stroke="#7dd3fc" stroke-opacity="0.28" stroke-width="1"/>
-<path d="M 86 322 L 262 322 L 439 322 L 615 322 L 791 320 L 967 293 L 1144 266 L 1320 180 L 1320 322 L 86 322 Z" fill="url(#statAreaevolucaomensal)"/>
-<path d="M 86 322 L 262 322 L 439 322 L 615 322 L 791 320 L 967 293 L 1144 266 L 1320 180" fill="none" stroke="#00e5ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 86 322 L 262 322 L 439 322 L 615 322 L 791 320 L 967 294 L 1144 273 L 1320 180 L 1320 322 L 86 322 Z" fill="url(#statAreaevolucaomensal)"/>
+<path d="M 86 322 L 262 322 L 439 322 L 615 322 L 791 320 L 967 294 L 1144 273 L 1320 180" fill="none" stroke="#00e5ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <g>
   <circle cx="86" cy="322" r="4.6" fill="#00e5ff" stroke="#ecfeff" stroke-opacity="0.7"/>
   <text x="86" y="313" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">0</text>
@@ -63,24 +63,24 @@
   <text x="791" y="344" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="10.8" font-weight="600">dez/25</text>
 </g>
 <g>
-  <circle cx="967" cy="293" r="4.6" fill="#00e5ff" stroke="#ecfeff" stroke-opacity="0.7"/>
+  <circle cx="967" cy="294" r="4.6" fill="#00e5ff" stroke="#ecfeff" stroke-opacity="0.7"/>
   
   <text x="967" y="344" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="10.8" font-weight="600">jan/26</text>
 </g>
 <g>
-  <circle cx="1144" cy="266" r="4.6" fill="#00e5ff" stroke="#ecfeff" stroke-opacity="0.7"/>
-  <text x="1144" y="257" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">45</text>
+  <circle cx="1144" cy="273" r="4.6" fill="#00e5ff" stroke="#ecfeff" stroke-opacity="0.7"/>
+  <text x="1144" y="264" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">41</text>
   <text x="1144" y="344" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="10.8" font-weight="600">fev/26</text>
 </g>
 <g>
   <circle cx="1320" cy="180" r="4.6" fill="#00e5ff" stroke="#ecfeff" stroke-opacity="0.7"/>
-  <text x="1320" y="171" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">114</text>
+  <text x="1320" y="171" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">118</text>
   <text x="1320" y="344" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="10.8" font-weight="600">mar/26</text>
 </g>
-  <text x="58" y="394" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Mes atual (mar. de 26): 114 registros.</text>
-<text x="58" y="418" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Mes anterior (fev. de 26): 45 registros.</text>
-<text x="58" y="442" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Variacao mensal: +69.</text>
-<text x="58" y="466" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Pico no periodo: mar. de 26 (114).</text>
+  <text x="58" y="394" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Mes atual (mar. de 26): 118 registros.</text>
+<text x="58" y="418" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Mes anterior (fev. de 26): 41 registros.</text>
+<text x="58" y="442" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Variacao mensal: +77.</text>
+<text x="58" y="466" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Pico no periodo: mar. de 26 (118).</text>
   <line x1="52" y1="506" x2="1348" y2="506" stroke="#38bdf8" stroke-opacity="0.32"/>
   <text x="54" y="530" fill="#a8d9f4" font-family="JetBrains Mono, Consolas, monospace" font-size="16">
     atualizado: agora
