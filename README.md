@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor júnior com experiência em JavaScript, TypeScript e Python, focado principalmente em Node.js e frameworks como Express e React. Ele mantém 17 repositórios públicos, com destaque para projetos ativos que envolvem automação e monitoramento. Seu trabalho demonstra interesse contínuo em aprimorar habilidades na área de desenvolvimento web e backend.
+Kaiky Brito é um desenvolvedor júnior com experiência em JavaScript, Node.js e TypeScript, com 17 repositórios públicos no GitHub. Seu trabalho foca em projetos backend e frontend, utilizando tecnologias como Express e React. Ele mantém uma atuação ativa em projetos que envolvem monitoramento e módulos de logging, demonstrando interesse em soluções práticas e eficientes.
 
-> _Atualizado em 16 de mar. de 2026, 20:23 (UTC)._
+> _Atualizado em 17 de mar. de 2026, 00:23 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Atualização e manutenção de assets SVG para métricas e visualizações.
-- Desenvolvimento e aprimoramento de funcionalidades web, incluindo dashboards, segurança e paginação.
-- Migração e melhoria do player de música com integração local da API yt-dls.
+- Atualização e manutenção de assets SVG para métricas de desempenho.
+- Desenvolvimento de funcionalidades e melhorias na aplicação news-anime-monitor, incluindo segurança, observabilidade e experiência do usuário.
+- Migração e aprimoramento do fluxo de reprodução musical no ayana-bot com foco em streaming local e integração de APIs.
 
-> _Atualizado em 16 de mar. de 2026, 20:23 (UTC)._
+> _Atualizado em 17 de mar. de 2026, 00:23 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
