@@ -1,6 +1,6 @@
-<svg width="1400" height="318" viewBox="0 0 1400 318" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Resumo dinamico da secao Sobre">
+<svg width="1400" height="352" viewBox="0 0 1400 352" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Resumo dinamico da secao Sobre">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="318" gradientUnits="userSpaceOnUse">
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="352" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#040919"/>
       <stop offset="0.58" stop-color="#061328"/>
       <stop offset="1" stop-color="#081b33"/>
@@ -14,18 +14,19 @@
       <animateTransform attributeName="patternTransform" type="translate" dur="16s" repeatCount="indefinite" values="0 0;24 24;0 0"/>
     </pattern>
   </defs>
-  <rect width="1400" height="318" rx="18" fill="url(#bg)"/>
-  <rect width="1400" height="318" rx="18" fill="url(#grid)"/>
-  <rect x="36" y="28" width="1328" height="262" rx="14" fill="#020617" fill-opacity="0.52" stroke="#38bdf8" stroke-opacity="0.28"/>
+  <rect width="1400" height="352" rx="18" fill="url(#bg)"/>
+  <rect width="1400" height="352" rx="18" fill="url(#grid)"/>
+  <rect x="36" y="28" width="1328" height="296" rx="14" fill="#020617" fill-opacity="0.52" stroke="#38bdf8" stroke-opacity="0.28"/>
   <rect x="52" y="48" width="340" height="34" rx="8" fill="#0b1221" stroke="#22d3ee" stroke-opacity="0.5"/>
   <text x="68" y="71" fill="#bff6ff" font-family="JetBrains Mono, Consolas, monospace" font-size="16" font-weight="700">SOBRE DINAMICO</text>
   <line x1="52" y1="92" x2="1348" y2="92" stroke="url(#accent)" stroke-width="2" stroke-opacity="0.8"/>
-  <text x="54" y="118" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">Kaiky Brito é um desenvolvedor júnior com experiência em JavaScript, Node.js e TypeScript,</text>
-<text x="54" y="152" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">com 17 repositórios públicos no GitHub. Seu trabalho inclui projetos ativos como kaikybrofc</text>
-<text x="54" y="186" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">e logger-module, focados em tecnologias web e automação. Ele demonstra interesse contínuo em</text>
-<text x="54" y="220" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">aprimorar suas habilidades na área de programação e desenvolvimento de software.</text>
-  <line x1="52" y1="274" x2="1348" y2="274" stroke="#38bdf8" stroke-opacity="0.32"/>
-  <text x="54" y="298" fill="#a8d9f4" font-family="JetBrains Mono, Consolas, monospace" font-size="16">
+  <text x="54" y="118" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">Kaiky Brito é um desenvolvedor júnior com experiência em JavaScript, TypeScript e Python,</text>
+<text x="54" y="152" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">focado em tecnologias como Node.js, Express e React. Ele possui 17 repositórios públicos no</text>
+<text x="54" y="186" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">GitHub, destacando-se por projetos ativos e bem avaliados, como kaikybrofc e logger-module.</text>
+<text x="54" y="220" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">Seu trabalho é pautado no desenvolvimento de soluções eficientes e na constante evolução</text>
+<text x="54" y="254" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">técnica.</text>
+  <line x1="52" y1="308" x2="1348" y2="308" stroke="#38bdf8" stroke-opacity="0.32"/>
+  <text x="54" y="332" fill="#a8d9f4" font-family="JetBrains Mono, Consolas, monospace" font-size="16">
     atualizado: agora
   </text>
 </svg>
