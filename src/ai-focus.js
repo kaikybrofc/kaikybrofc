@@ -1,10 +1,9 @@
 const fs = require("node:fs/promises");
 const path = require("node:path");
+const { runGeminiCliPrompt } = require("./gemini-cli");
 
-const OPENAI_BASE_URL = "https://api.openai.com/v1";
 const DEFAULT_GITHUB_API_URL = "https://api.github.com";
 const DEFAULT_USER_AGENT = "perfil-server";
-const DEFAULT_MODEL = "gpt-4.1-mini";
 const DEFAULT_REFRESH_HOURS = 1;
 const DEFAULT_MAX_OUTPUT_TOKENS = 180;
 const DEFAULT_TIMEOUT_MS = 15000;
@@ -15,20 +14,6 @@ const DEFAULT_TOTAL_COMMITS = 45;
 function parseNumber(value, fallback) {
   const parsed = Number(value);
   return Number.isFinite(parsed) ? parsed : fallback;
-}
-
-function getOpenAiApiKey() {
-  return String(
-    process.env.OPENAI_API_KEY ||
-      process.env.OPENAI_API_TKEY ||
-      process.env.OPENAI_API_Tkey ||
-      process.env.OPENAI_TOKEN ||
-      ""
-  ).trim();
-}
-
-function getModel() {
-  return String(process.env.OPENAI_MODEL || DEFAULT_MODEL).trim() || DEFAULT_MODEL;
 }
 
 function getRefreshHours() {
@@ -244,39 +229,6 @@ async function collectRecentCommits(summary) {
     .slice(0, totalCommits);
 }
 
-function extractResponseText(data) {
-  if (!data || typeof data !== "object") {
-    return "";
-  }
-
-  if (typeof data.output_text === "string" && data.output_text.trim()) {
-    return data.output_text.trim();
-  }
-
-  if (Array.isArray(data.output)) {
-    const parts = [];
-    for (const item of data.output) {
-      if (!item || !Array.isArray(item.content)) {
-        continue;
-      }
-      for (const contentItem of item.content) {
-        if (typeof contentItem?.text === "string" && contentItem.text.trim()) {
-          parts.push(contentItem.text.trim());
-        }
-      }
-    }
-    if (parts.length) {
-      return parts.join("\n").trim();
-    }
-  }
-
-  if (Array.isArray(data.choices) && data.choices[0]?.message?.content) {
-    return String(data.choices[0].message.content).trim();
-  }
-
-  return "";
-}
-
 function normalizeFocusBullets(text) {
   const rawLines = normalizeText(text)
     .split("\n")
@@ -331,70 +283,30 @@ function buildAiInput(summary, commits) {
   ].join("\n");
 }
 
-async function generateFocusWithOpenAi(summary, commits) {
-  const apiKey = getOpenAiApiKey();
-  if (!apiKey) {
-    throw new Error("OPENAI_API_KEY ausente.");
-  }
+async function generateFocusWithGeminiCli(summary, commits) {
+  const maxOutputTokens = Math.max(
+    80,
+    parseNumber(process.env.AI_FOCUS_MAX_OUTPUT_TOKENS, DEFAULT_MAX_OUTPUT_TOKENS)
+  );
+  const prompt = [
+    "Voce escreve a secao Foco Atual de um README tecnico em portugues do Brasil.",
+    "Com base nos dados abaixo, gere exatamente 3 bullets para Foco Atual.",
+    "Regras: cada linha deve comecar com '- ', frases curtas, tom profissional, sem emoji, sem marketing.",
+    "Baseie o foco principalmente nos ultimos commits publicados.",
+    `Limite de tamanho: aproximadamente ${maxOutputTokens} tokens.`,
+    "",
+    buildAiInput(summary, commits)
+  ].join("\n");
 
-  const model = getModel();
-  const body = {
-    model,
-    temperature: 0.5,
-    max_output_tokens: parseNumber(
-      process.env.AI_FOCUS_MAX_OUTPUT_TOKENS,
-      DEFAULT_MAX_OUTPUT_TOKENS
-    ),
-    input: [
-      {
-        role: "system",
-        content: [
-          {
-            type: "input_text",
-            text: "Você escreve a seção Foco Atual de um README técnico em português do Brasil."
-          }
-        ]
-      },
-      {
-        role: "user",
-        content: [
-          {
-            type: "input_text",
-            text: [
-              "Com base nos dados abaixo, gere exatamente 3 bullets para Foco Atual.",
-              "Regras: cada linha deve começar com '- ', frases curtas, tom profissional, sem emoji, sem marketing.",
-              "Baseie o foco principalmente nos últimos commits publicados.",
-              buildAiInput(summary, commits)
-            ].join("\n")
-          }
-        ]
-      }
-    ]
-  };
-
-  const response = await fetch(`${OPENAI_BASE_URL}/responses`, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      Authorization: `Bearer ${apiKey}`
-    },
-    body: JSON.stringify(body)
-  });
-
-  if (!response.ok) {
-    const errorBody = await response.text();
-    throw new Error(`OpenAI API ${response.status}: ${errorBody.slice(0, 280)}`);
-  }
-
-  const data = await response.json();
-  const bullets = normalizeFocusBullets(extractResponseText(data));
+  const generated = await runGeminiCliPrompt(prompt);
+  const bullets = normalizeFocusBullets(generated.text);
   if (bullets.length < 3) {
-    throw new Error("OpenAI retornou menos de 3 bullets para Foco Atual.");
+    throw new Error("Gemini CLI retornou menos de 3 bullets para Foco Atual.");
   }
 
   return {
     bullets: bullets.slice(0, 3),
-    model: data.model || model
+    model: generated.model || null
   };
 }
 
@@ -430,7 +342,7 @@ async function getAiFocusSummary(summary, options = {}) {
   const commits = await collectRecentCommits(summary);
 
   try {
-    const generated = await generateFocusWithOpenAi(summary, commits);
+    const generated = await generateFocusWithGeminiCli(summary, commits);
     const generatedAt = new Date().toISOString();
     await writeCache(cachePath, {
       bullets: generated.bullets,
@@ -441,7 +353,7 @@ async function getAiFocusSummary(summary, options = {}) {
 
     return asResultPayload({
       bullets: generated.bullets,
-      source: "openai",
+      source: "gemini_cli",
       generatedAt,
       model: generated.model || null,
       commitEntries: commits

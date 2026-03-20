@@ -1,28 +1,13 @@
 const fs = require("node:fs/promises");
 const path = require("node:path");
+const { runGeminiCliPrompt } = require("./gemini-cli");
 
-const OPENAI_BASE_URL = "https://api.openai.com/v1";
-const DEFAULT_MODEL = "gpt-4.1-mini";
 const DEFAULT_REFRESH_HOURS = 1;
 const DEFAULT_MAX_OUTPUT_TOKENS = 220;
 
 function parseNumber(value, fallback) {
   const parsed = Number(value);
   return Number.isFinite(parsed) ? parsed : fallback;
-}
-
-function getOpenAiApiKey() {
-  return String(
-    process.env.OPENAI_API_KEY ||
-      process.env.OPENAI_API_TKEY ||
-      process.env.OPENAI_API_Tkey ||
-      process.env.OPENAI_TOKEN ||
-      ""
-  ).trim();
-}
-
-function getModel() {
-  return String(process.env.OPENAI_MODEL || DEFAULT_MODEL).trim() || DEFAULT_MODEL;
 }
 
 function getRefreshHours() {
@@ -111,40 +96,6 @@ function buildInput(summary) {
   ].join("\n");
 }
 
-function extractResponseText(data) {
-  if (!data || typeof data !== "object") {
-    return "";
-  }
-
-  if (typeof data.output_text === "string" && data.output_text.trim()) {
-    return data.output_text.trim();
-  }
-
-  if (Array.isArray(data.output)) {
-    const parts = [];
-    for (const item of data.output) {
-      if (!item || !Array.isArray(item.content)) {
-        continue;
-      }
-      for (const contentItem of item.content) {
-        if (typeof contentItem?.text === "string" && contentItem.text.trim()) {
-          parts.push(contentItem.text.trim());
-        }
-      }
-    }
-
-    if (parts.length) {
-      return parts.join("\n").trim();
-    }
-  }
-
-  if (Array.isArray(data.choices) && data.choices[0]?.message?.content) {
-    return String(data.choices[0].message.content).trim();
-  }
-
-  return "";
-}
-
 function normalizeAboutText(text) {
   return String(text || "")
     .replace(/\r/g, "")
@@ -173,67 +124,30 @@ function buildFallbackAbout(summary) {
   return [firstSentence, secondSentence, thirdSentence].filter(Boolean).join(" ");
 }
 
-async function generateAboutWithOpenAi(summary) {
-  const apiKey = getOpenAiApiKey();
-  if (!apiKey) {
-    throw new Error("OPENAI_API_KEY ausente.");
-  }
+async function generateAboutWithGeminiCli(summary) {
+  const maxOutputTokens = Math.max(
+    80,
+    parseNumber(process.env.AI_ABOUT_MAX_OUTPUT_TOKENS, DEFAULT_MAX_OUTPUT_TOKENS)
+  );
+  const prompt = [
+    "Voce escreve descricoes de perfil em portugues do Brasil para README tecnico.",
+    "Com base nos dados abaixo, escreva exatamente 1 paragrafo com 3 frases.",
+    "Regras: tom profissional, objetivo, sem exageros, sem emoji, sem markdown extra, sem listas.",
+    `Limite de tamanho: aproximadamente ${maxOutputTokens} tokens.`,
+    "",
+    "Dados coletados da API do GitHub:",
+    buildInput(summary)
+  ].join("\n");
 
-  const model = getModel();
-  const body = {
-    model,
-    temperature: 0.7,
-    max_output_tokens: parseNumber(process.env.AI_ABOUT_MAX_OUTPUT_TOKENS, DEFAULT_MAX_OUTPUT_TOKENS),
-    input: [
-      {
-        role: "system",
-        content: [
-          {
-            type: "input_text",
-            text: "Você escreve descrições de perfil em português do Brasil. Gere um resumo profissional curto para seção 'Sobre' de README."
-          }
-        ]
-      },
-      {
-        role: "user",
-        content: [
-          {
-            type: "input_text",
-            text: [
-              "Com base nos dados abaixo, escreva exatamente 1 parágrafo com 3 frases.",
-              "Regras: tom profissional, objetivo, sem exageros, sem emoji, sem markdown extra, sem listas.",
-              "Dados coletados da API do GitHub:",
-              buildInput(summary)
-            ].join("\n")
-          }
-        ]
-      }
-    ]
-  };
-
-  const response = await fetch(`${OPENAI_BASE_URL}/responses`, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      Authorization: `Bearer ${apiKey}`
-    },
-    body: JSON.stringify(body)
-  });
-
-  if (!response.ok) {
-    const errorBody = await response.text();
-    throw new Error(`OpenAI API ${response.status}: ${errorBody.slice(0, 280)}`);
-  }
-
-  const data = await response.json();
-  const content = normalizeAboutText(extractResponseText(data));
+  const generated = await runGeminiCliPrompt(prompt);
+  const content = normalizeAboutText(generated.text);
   if (!content) {
-    throw new Error("OpenAI retornou resposta vazia para o resumo da seção Sobre.");
+    throw new Error("Gemini CLI retornou resposta vazia para o resumo da secao Sobre.");
   }
 
   return {
     content,
-    model: data.model || model
+    model: generated.model || null
   };
 }
 
@@ -276,7 +190,7 @@ async function getAiAboutSummary(summary, options = {}) {
   }
 
   try {
-    const generated = await generateAboutWithOpenAi(summary);
+    const generated = await generateAboutWithGeminiCli(summary);
     const generatedAt = new Date().toISOString();
     await writeCache(cachePath, {
       content: generated.content,
@@ -286,7 +200,7 @@ async function getAiAboutSummary(summary, options = {}) {
 
     return {
       content: normalizeAboutText(generated.content),
-      source: "openai",
+      source: "gemini_cli",
       generatedAt,
       model: generated.model || null
     };
