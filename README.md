@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor focado no ecossistema JavaScript e Node.js, possuindo um portfólio de dezessete repositórios públicos que consolidam sua experiência técnica inicial. Sua stack tecnológica abrange o uso de Express, TypeScript e React para o desenvolvimento web, complementada por conhecimentos em MySQL e automação com Python. A atuação em projetos como o logger-module e o news-anime-monitor demonstra uma aplicação prática de conceitos de engenharia de software voltada para a criação de ferramentas utilitárias e monitoramento de dados.
+Kaiky Brito é um desenvolvedor focado no ecossistema JavaScript, com sólida proficiência técnica em Node.js, Express e TypeScript para a construção de aplicações escaláveis. Seu portfólio reúne dezessete repositórios públicos que integram tecnologias de frontend como React e soluções de automação desenvolvidas em Python. Através de contribuições frequentes em sistemas de logging e bots, ele demonstra uma trajetória consistente na resolução de problemas técnicos e na manutenção de projetos de código aberto.
 
-> _Atualizado em 20 de mar. de 2026, 06:12 (UTC)._
+> _Atualizado em 20 de mar. de 2026, 10:12 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Migração de pipelines de inteligência artificial de OpenAI para Gemini CLI.
-- Otimização de performance em banco de dados SQL e hardening de segurança em APIs.
-- Desenvolvimento de sistemas de streaming de áudio local e infraestrutura para bots.
+- Migração de integrações de IA para Gemini CLI em sistemas de automação e geração de sumários.
+- Refatoração de módulos de música e streaming com foco em APIs locais e captura de metadados.
+- Fortalecimento da segurança de APIs e otimização de pipelines de agregação de dados em Node.js.
 
-> _Atualizado em 20 de mar. de 2026, 06:13 (UTC)._
+> _Atualizado em 20 de mar. de 2026, 10:13 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -107,21 +107,21 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 3: [news-anime-monitor](https://github.com/kaikybrofc/news-anime-monitor)
+### Projeto 3: [ayana-bot](https://github.com/kaikybrofc/ayana-bot)
 
-**Descrição:** Este projeto realiza o monitoramento automático da página de notícias de animes
+**Descrição:** 🤖 Ayana System é um bot inteligente com temática anime, focado em automação, interações avançadas, jogos e recursos modernos para servidores. Rápido, elegan...
 
-![Resumo do Projeto](./assets/badges/projeto/news-anime-monitor/resumo.svg) ![Atividade](./assets/badges/projeto/news-anime-monitor/atividade.svg) ![Estrelas](./assets/badges/projeto/news-anime-monitor/estrelas.svg) ![Atualizado](./assets/badges/projeto/news-anime-monitor/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/ayana-bot/resumo.svg) ![Atividade](./assets/badges/projeto/ayana-bot/atividade.svg) ![Estrelas](./assets/badges/projeto/ayana-bot/estrelas.svg) ![Atualizado](./assets/badges/projeto/ayana-bot/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 4: [ayana-bot](https://github.com/kaikybrofc/ayana-bot)
+### Projeto 4: [news-anime-monitor](https://github.com/kaikybrofc/news-anime-monitor)
 
-**Descrição:** 🤖 Ayana System é um bot inteligente com temática anime, focado em automação, interações avançadas, jogos e recursos modernos para servidores. Rápido, elegan...
+**Descrição:** Este projeto realiza o monitoramento automático da página de notícias de animes
 
-![Resumo do Projeto](./assets/badges/projeto/ayana-bot/resumo.svg) ![Atividade](./assets/badges/projeto/ayana-bot/atividade.svg) ![Estrelas](./assets/badges/projeto/ayana-bot/estrelas.svg) ![Atualizado](./assets/badges/projeto/ayana-bot/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/news-anime-monitor/resumo.svg) ![Atividade](./assets/badges/projeto/news-anime-monitor/atividade.svg) ![Estrelas](./assets/badges/projeto/news-anime-monitor/estrelas.svg) ![Atualizado](./assets/badges/projeto/news-anime-monitor/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
