@@ -75,15 +75,15 @@
   <text x="700" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">qua</text>
 </g>
 <g>
-  <rect x="795" y="199" width="166" height="127" rx="6" fill="url(#statBarGradritmosemanal)" opacity="0.96"/>
-  <rect x="795" y="199" width="166" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
-  <text x="878" y="191" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">39</text>
+  <rect x="795" y="212" width="166" height="114" rx="6" fill="url(#statBarGradritmosemanal)" opacity="0.96"/>
+  <rect x="795" y="212" width="166" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
+  <text x="878" y="204" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">35</text>
   <text x="878" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">qui</text>
 </g>
 <g>
-  <rect x="973" y="267" width="166" height="59" rx="6" fill="url(#statBarGradritmosemanal)" opacity="0.96"/>
-  <rect x="973" y="267" width="166" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
-  <text x="1056" y="259" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">18</text>
+  <rect x="973" y="254" width="166" height="72" rx="6" fill="url(#statBarGradritmosemanal)" opacity="0.96"/>
+  <rect x="973" y="254" width="166" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
+  <text x="1056" y="246" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">22</text>
   <text x="1056" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">sex</text>
 </g>
 <g>
