@@ -19,6 +19,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: main
 
       - name: Ensure assets directory exists
         run: mkdir -p assets
@@ -74,9 +77,41 @@ jobs:
           if [[ -n "$(git status --porcelain)" ]]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+            # Keep local branch up to date before creating the commit.
+            if ! git pull --rebase --autostash origin main; then
+              echo "Failed to sync with origin/main before commit."
+              exit 1
+            fi
+
             git add README.md assets/*.svg
+
+            if git diff --cached --quiet; then
+              echo "No profile changes detected after sync."
+              exit 0
+            fi
+
             git commit -m "chore(profile): refresh metrics and visuals"
-            git push
+
+            for attempt in 1 2 3; do
+              if git push origin HEAD:main; then
+                echo "Push succeeded on attempt ${attempt}."
+                break
+              fi
+
+              if [[ "${attempt}" == "3" ]]; then
+                echo "Push failed after ${attempt} attempts."
+                exit 1
+              fi
+
+              echo "Push rejected (attempt ${attempt}); rebasing and retrying..."
+              if ! git pull --rebase origin main; then
+                echo "Rebase failed while preparing retry."
+                git rebase --abort || true
+                exit 1
+              fi
+              sleep 5
+            done
           else
             echo "No profile changes detected."
           fi
