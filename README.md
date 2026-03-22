@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor júnior com foco no ecossistema JavaScript, possuindo sólida base em Node.js e TypeScript para a construção de aplicações e serviços. Sua trajetória técnica compreende dezessete repositórios públicos que integram tecnologias como Express e React, além de demonstrar versatilidade no desenvolvimento com Python e C. Atualmente, o profissional dedica-se à manutenção de projetos ativos de automação e módulos de sistema, evidenciando uma abordagem estruturada e compromisso com a evolução técnica em ambientes de desenvolvimento modernos.
+Kaiky Brito é um desenvolvedor focado em soluções tecnológicas com experiência em múltiplos paradigmas de programação e um portfólio composto por dezessete repositórios públicos. Sua stack principal fundamenta-se no ecossistema Node.js, utilizando predominantemente as linguagens JavaScript e TypeScript em conjunto com ferramentas como Express e React para a construção de aplicações. O profissional demonstra versatilidade técnica por meio de projetos ativos que abrangem desde o desenvolvimento de módulos de sistema até automações estruturadas na linguagem Python.
 
-> _Atualizado em 22 de mar. de 2026, 02:12 (UTC)._
+> _Atualizado em 22 de mar. de 2026, 06:12 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Automação de métricas de perfil e atualização recorrente de assets visuais em formato SVG.
-- Otimização do monitoramento de notícias com foco em integração com Gemini CLI e SEO.
-- Desenvolvimento de APIs de streaming local e refatoração de sistemas de reprodução de áudio.
+- Otimização de SEO e transição para processamento via Gemini CLI em pipelines de notícias.
+- Refinamento do motor de streaming e captura de metadados para automação de áudio.
+- Manutenção de fluxos de automação para métricas de perfil e visualização de ativos.
 
-> _Atualizado em 22 de mar. de 2026, 02:13 (UTC)._
+> _Atualizado em 22 de mar. de 2026, 06:13 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
