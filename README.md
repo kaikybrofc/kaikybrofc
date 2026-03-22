@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor voltado ao ecossistema JavaScript que gerencia dezessete repositórios públicos com foco em back-end e automação. Sua base tecnológica é composta por Node.js, Express e TypeScript, abrangendo também competências em React, Python e bancos de dados MySQL. A trajetória técnica destaca-se pela manutenção de projetos diversificados, incluindo módulos de log e sistemas de automação, com alta frequência de atualizações em seu portfólio principal.
+Kaiky Brito é um desenvolvedor focado em tecnologias web e backend com ampla atuação no ecossistema Node.js e JavaScript. Seu portfólio técnico inclui 17 repositórios públicos que utilizam frameworks como Express e React, destacando-se projetos ativos em TypeScript e Python. A trajetória do desenvolvedor demonstra versatilidade técnica através da integração de diversas linguagens e ferramentas, incluindo bancos de dados MySQL e implementações em C.
 
-> _Atualizado em 22 de mar. de 2026, 10:12 (UTC)._
+> _Atualizado em 22 de mar. de 2026, 14:12 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Automação de métricas dinâmicas e atualização de ativos SVG via GitHub Actions.
-- Otimização de SEO e integração de modelos Gemini CLI em pipelines de monitoramento.
-- Refatoração de sistemas de streaming local e melhoria na estabilidade de APIs de mídia.
+- Otimização de SEO e integração com Gemini CLI no news-anime-monitor.
+- Refatoração do sistema de música e módulos de moderação no ayana-bot.
+- Manutenção de automações para atualização de métricas e ativos do perfil.
 
-> _Atualizado em 22 de mar. de 2026, 10:13 (UTC)._
+> _Atualizado em 22 de mar. de 2026, 14:13 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
