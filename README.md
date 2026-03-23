@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor com foco no ecossistema Node.js e proficiência técnica em linguagens como JavaScript, TypeScript e Python. Seu portfólio no GitHub é composto por dezessete repositórios públicos que integram o uso de tecnologias como Express, React e bancos de dados relacionais para a construção de soluções web. O profissional apresenta atividade constante em projetos de automação e desenvolvimento de módulos, demonstrando uma abordagem prática voltada para a criação de ferramentas funcionais e escaláveis.
+Kaiky Brito é um desenvolvedor focado no ecossistema JavaScript, acumulando experiência prática em Node.js, Express e TypeScript através da gestão de dezessete repositórios públicos. Sua atuação técnica demonstra versatilidade ao abranger o desenvolvimento de módulos de registro e automações em Python, priorizando a eficiência estrutural e a integração de ferramentas modernas. O profissional mantém uma cadência constante de contribuições em projetos de código aberto, consolidando conhecimentos em bancos de dados relacionais e na criação de interfaces dinâmicas com React.
 
-> _Atualizado em 22 de mar. de 2026, 22:12 (UTC)._
+> _Atualizado em 23 de mar. de 2026, 02:12 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Automação de métricas de perfil com atualização contínua de ativos SVG.
-- Implementação de arquitetura baseada em Gemini CLI e otimização de pipelines de dados.
-- Migração de sistemas de reprodução de mídia para fluxos de streaming local.
+- Automação de métricas de perfil e atualização de ativos visuais via GitHub Actions.
+- Otimização de indexação SEO e integração de modelos de linguagem com Gemini CLI.
+- Refatoração de arquitetura de streaming e APIs locais para processamento de mídia.
 
-> _Atualizado em 22 de mar. de 2026, 22:13 (UTC)._
+> _Atualizado em 23 de mar. de 2026, 02:13 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -137,11 +137,11 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 6: [portifolio](https://github.com/kaikybrofc/portifolio)
+### Projeto 6: [yt-dls](https://github.com/kaikybrofc/yt-dls)
 
-**Descrição:** Portfolio pessoal de Kaiky Brito, desenvolvido com React + Vite para apresentar projetos, habilidades e formas de contato.
+**Descrição:** yt-dls é uma API simples e leve para download de vídeos do YouTube, construída em Node.js com o framework Express, que utiliza internamente a ferramenta yt-d...
 
-![Resumo do Projeto](./assets/badges/projeto/portifolio/resumo.svg) ![Atividade](./assets/badges/projeto/portifolio/atividade.svg) ![Estrelas](./assets/badges/projeto/portifolio/estrelas.svg) ![Atualizado](./assets/badges/projeto/portifolio/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/yt-dls/resumo.svg) ![Atividade](./assets/badges/projeto/yt-dls/atividade.svg) ![Estrelas](./assets/badges/projeto/yt-dls/estrelas.svg) ![Atualizado](./assets/badges/projeto/yt-dls/atualizado.svg)
 <!--FEATURED_PROJECTS_END-->
 
 
