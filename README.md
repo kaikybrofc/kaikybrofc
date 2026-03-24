@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor focado em soluções tecnológicas com ênfase no ecossistema JavaScript, acumulando experiência em dezessete repositórios públicos que abrangem também as linguagens Python e TypeScript. Sua stack técnica principal envolve o uso de Node.js, Express e React para a construção de aplicações robustas e módulos utilitários voltados à eficiência de sistemas. O profissional mantém uma atuação ativa na criação de ferramentas de automação e bots, integrando conhecimentos de bancos de dados e boas práticas de desenvolvimento para viabilizar projetos de código aberto.
+Kaiky Brito é um desenvolvedor com sólida base técnica no ecossistema JavaScript e Node.js, focado na construção de aplicações estruturadas. Sua trajetória abrange a utilização de ferramentas como Express, TypeScript, React e Python, aplicadas no gerenciamento de dezessete repositórios públicos que evidenciam versatilidade técnica. O portfólio destaca projetos ativos voltados para o desenvolvimento de módulos utilitários, automação de bots e manutenção de sistemas, demonstrando compromisso com a entrega de soluções funcionais e objetivas.
 
-> _Atualizado em 24 de mar. de 2026, 10:28 (UTC)._
+> _Atualizado em 24 de mar. de 2026, 14:28 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Automatização de métricas de perfil e ativos SVG via GitHub Actions.
-- Migração de fluxos de IA para Gemini CLI e refatoração de sistemas de streaming.
-- Otimização de performance em consultas SQL e ajustes de infraestrutura para SEO.
+- Automação de métricas de desempenho e atualização dinâmica de assets SVG.
+- Otimização de fluxos de inteligência artificial com integração via Gemini CLI.
+- Refatoração de sistemas de streaming de mídia e aprimoramento de SEO técnico.
 
-> _Atualizado em 24 de mar. de 2026, 10:29 (UTC)._
+> _Atualizado em 24 de mar. de 2026, 14:28 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
