@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor focado no ecossistema JavaScript, com sólida atuação no desenvolvimento de aplicações utilizando Node.js, Express e TypeScript. Com um portfólio de 17 repositórios públicos, o profissional demonstra versatilidade ao gerenciar projetos ativos que abrangem desde módulos de logging em TypeScript até automações em Python. Sua trajetória técnica é marcada pelo uso de tecnologias como React e MySQL, refletindo um compromisso com a construção de soluções estruturadas e a evolução constante na engenharia de software.
+Kaiky Brito é um desenvolvedor com ênfase no ecossistema JavaScript e Node.js, possuindo um portfólio de dezessete repositórios que integram tecnologias como Express e TypeScript. Sua produção técnica recente inclui o desenvolvimento do logger-module e a implementação de automações em Python, evidenciando versatilidade na resolução de problemas. O profissional aplica padrões modernos de desenvolvimento para criar ferramentas modulares e sistemas eficientes voltados para o backend.
 
-> _Atualizado em 25 de mar. de 2026, 06:28 (UTC)._
+> _Atualizado em 25 de mar. de 2026, 10:28 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Expansão da automação de perfil com coleta aprofundada de dados e organizações do GitHub.
-- Otimização de pipelines de monitoramento utilizando Gemini CLI e dashboards de observabilidade.
-- Desenvolvimento de APIs de streaming local e integração de fluxos de mídia em aplicações Node.js.
+- Automatização de métricas de perfil e expansão da integração com dados de organizações do GitHub.
+- Otimização de pipelines de busca e implementação de dashboards de observabilidade no News Anime Monitor.
+- Migração de sistemas de streaming para APIs locais e refinamento de metadados em serviços de mídia.
 
-> _Atualizado em 25 de mar. de 2026, 06:28 (UTC)._
+> _Atualizado em 25 de mar. de 2026, 10:29 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -88,7 +88,7 @@ Kaiky Brito é um desenvolvedor focado no ecossistema JavaScript, com sólida at
 |---|---:|---:|---|
 | [Omnizap System](https://github.com/Omnizap-System)<br/><sub>@Omnizap-System</sub> | 2 | 1 | [omnizap](https://github.com/Omnizap-System/omnizap), [.github](https://github.com/Omnizap-System/.github) |
 
-> _Atualizado em 25 de mar. de 2026, 06:28 (UTC) | Fonte: gh + API._
+> _Atualizado em 25 de mar. de 2026, 10:29 (UTC) | Fonte: gh + API._
 <!--ORGS_DYNAMIC_END-->
 
 <p align="center">
