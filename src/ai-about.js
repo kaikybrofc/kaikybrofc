@@ -79,6 +79,12 @@ function buildInput(summary) {
     ),
     8
   );
+  const organizations = formatList(
+    (summary.organizations || []).map(
+      (org) => `${org.name || org.login || "org"} (${org.publicRepos || 0} repos)`
+    ),
+    5
+  );
   const projects = (summary.projectsByActivity || []).slice(0, 3).map((repo, index) => {
     return `${index + 1}. ${repo.name} | linguagem ${repo.language || "N/A"} | eventos ${repo.activity?.events || 0} | score ${repo.activity?.score || 0}`;
   });
@@ -89,6 +95,7 @@ function buildInput(summary) {
     `Seguidores: ${summary.user?.followers || 0}`,
     `Repositórios públicos: ${summary.totals?.publicRepositories || 0}`,
     `Stars totais: ${summary.totals?.stars || 0}`,
+    `Organizações: ${organizations || "sem dados"}`,
     `Linguagens dominantes: ${topLanguages || "sem dados"}`,
     `Stack principal detectada: ${topStacks || "sem dados"}`,
     "Projetos mais ativos:",

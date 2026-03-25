@@ -14,6 +14,8 @@ const FOCUS_START_MARKER = "<!--FOCUS_DYNAMIC_START-->";
 const FOCUS_END_MARKER = "<!--FOCUS_DYNAMIC_END-->";
 const ADV_STATS_START_MARKER = "<!--ADV_STATS_DYNAMIC_START-->";
 const ADV_STATS_END_MARKER = "<!--ADV_STATS_DYNAMIC_END-->";
+const ORGS_START_MARKER = "<!--ORGS_DYNAMIC_START-->";
+const ORGS_END_MARKER = "<!--ORGS_DYNAMIC_END-->";
 const DEFAULT_REMOTE_BASE_URL = "https://omnizap.xyz";
 const DEFAULT_LOCAL_ASSET_PREFIX = "./assets";
 
@@ -125,6 +127,61 @@ function buildStackEmbedSection(summary) {
   ].join("\n");
 }
 
+function buildOrganizationsSection(summary) {
+  const organizations = Array.isArray(summary?.organizations) ? summary.organizations : [];
+  const source = summary?.scan?.organizationsSource === "gh_cli" ? "gh + API" : "GitHub API";
+
+  if (!organizations.length) {
+    return [
+      "_Sem organizações vinculadas no momento._",
+      "",
+      `> _Atualizado em ${formatPtBrUtc(new Date().toISOString())} (UTC) | Fonte: ${source}._`
+    ].join("\n");
+  }
+
+  const lines = [
+    "| Organização | Repositórios Públicos | Seguidores | Repos em Destaque |",
+    "|---|---:|---:|---|"
+  ];
+
+  for (const organization of organizations.slice(0, 8)) {
+    const login = toSafeText(organization?.login || "org");
+    const displayName = toSafeText(organization?.name || organization?.login || "Organização");
+    const orgUrl = String(organization?.htmlUrl || "").trim();
+    const orgLabel = orgUrl ? `[${displayName}](${orgUrl})` : displayName;
+    const orgCell = displayName.toLowerCase() === login.toLowerCase()
+      ? orgLabel
+      : `${orgLabel}<br/><sub>@${login}</sub>`;
+
+    const highlightsRaw = Array.isArray(organization?.topRepositories)
+      ? organization.topRepositories
+      : [];
+    const highlights = highlightsRaw
+      .slice(0, 3)
+      .map((repo) => {
+        const repoName = toSafeText(repo?.name || repo?.fullName || "repo");
+        const repoUrl = String(repo?.htmlUrl || "").trim();
+        if (!repoUrl) {
+          return repoName;
+        }
+        return `[${repoName}](${repoUrl})`;
+      })
+      .join(", ");
+
+    lines.push(
+      `| ${orgCell} | ${Number(organization?.publicRepos || 0)} | ${Number(
+        organization?.followers || 0
+      )} | ${highlights || "-"} |`
+    );
+  }
+
+  return [
+    lines.join("\n"),
+    "",
+    `> _Atualizado em ${formatPtBrUtc(new Date().toISOString())} (UTC) | Fonte: ${source}._`
+  ].join("\n");
+}
+
 function buildAdvancedStatsEmbedSection() {
   const baseUrl = getBadgeBaseUrl();
 
@@ -229,6 +286,7 @@ async function updateReadmeWithSummary(summary, options = {}) {
   const aboutSection = buildAboutTextSection(about);
   const focusSection = buildFocusTextSection(focus);
   const stackSection = buildStackEmbedSection(summary);
+  const organizationsSection = buildOrganizationsSection(summary);
   const advancedStatsSection = buildAdvancedStatsEmbedSection();
   const featuredSection = buildFeaturedProjectsTable(summary);
   const withAbout = replaceSection(
@@ -249,8 +307,14 @@ async function updateReadmeWithSummary(summary, options = {}) {
     STACK_END_MARKER,
     stackSection
   );
-  const withAdvancedStats = replaceSection(
+  const withOrganizations = replaceSection(
     withFocusAndStack,
+    ORGS_START_MARKER,
+    ORGS_END_MARKER,
+    organizationsSection
+  );
+  const withAdvancedStats = replaceSection(
+    withOrganizations,
     ADV_STATS_START_MARKER,
     ADV_STATS_END_MARKER,
     advancedStatsSection
@@ -281,8 +345,11 @@ module.exports = {
   FOCUS_END_MARKER,
   ADV_STATS_START_MARKER,
   ADV_STATS_END_MARKER,
+  ORGS_START_MARKER,
+  ORGS_END_MARKER,
   buildFeaturedProjectsTable,
   buildStackEmbedSection,
+  buildOrganizationsSection,
   buildAdvancedStatsEmbedSection,
   updateReadmeWithSummary
 };

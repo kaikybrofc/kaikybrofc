@@ -1,11 +1,19 @@
+const { execFile } = require("node:child_process");
+const { promisify } = require("node:util");
+
+const execFileAsync = promisify(execFile);
+
 const DEFAULT_API_URL = "https://api.github.com";
 const DEFAULT_USER_AGENT = "perfil-server";
 const DEFAULT_TIMEOUT_MS = 15000;
-const STACK_SCAN_MAX_REPOS_DEFAULT = 40;
+const STACK_SCAN_MAX_REPOS_DEFAULT = 60;
 const STACK_SCAN_CONCURRENCY_DEFAULT = 4;
 const STACK_TOP_LIMIT_DEFAULT = 14;
 const PUBLIC_EVENTS_PER_PAGE_DEFAULT = 100;
-const PUBLIC_EVENTS_PAGES_DEFAULT = 3;
+const PUBLIC_EVENTS_PAGES_DEFAULT = 5;
+const ORGANIZATIONS_LIMIT_DEFAULT = 8;
+const ORG_REPOS_LIMIT_DEFAULT = 4;
+const GH_CLI_TIMEOUT_MS_DEFAULT = 20000;
 
 const DEPENDENCY_TECH_MAP = Object.freeze({
   express: { name: "Express", badgeKey: "express" },
@@ -54,6 +62,27 @@ function parseNumber(value, fallback) {
   return Number.isFinite(parsed) ? parsed : fallback;
 }
 
+function parseBoolean(value, fallback = false) {
+  if (value === undefined || value === null || value === "") {
+    return fallback;
+  }
+
+  const normalized = String(value).trim().toLowerCase();
+  if (["1", "true", "yes", "on"].includes(normalized)) {
+    return true;
+  }
+
+  if (["0", "false", "no", "off"].includes(normalized)) {
+    return false;
+  }
+
+  return fallback;
+}
+
+function encodePathSegment(value) {
+  return encodeURIComponent(String(value || "").trim());
+}
+
 function createHeaders(token) {
   const headers = {
     Accept: "application/vnd.github+json",
@@ -67,7 +96,7 @@ function createHeaders(token) {
   return headers;
 }
 
-async function fetchJson(url, token) {
+async function fetchJson(url, token, options = {}) {
   const timeoutMs = parseNumber(process.env.GITHUB_TIMEOUT_MS, DEFAULT_TIMEOUT_MS);
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), timeoutMs);
@@ -78,6 +107,10 @@ async function fetchJson(url, token) {
       headers: createHeaders(token),
       signal: controller.signal
     });
+
+    if (options.allow404 && response.status === 404) {
+      return null;
+    }
 
     if (!response.ok) {
       const body = await response.text();
@@ -139,6 +172,331 @@ async function fetchPublicEvents(apiUrl, token, username) {
   }
 
   return events;
+}
+
+async function runGhApiJson(endpoint) {
+  const timeoutMs = Math.max(
+    2000,
+    parseNumber(process.env.GH_CLI_TIMEOUT_MS, GH_CLI_TIMEOUT_MS_DEFAULT)
+  );
+  const args = ["api", endpoint];
+
+  const { stdout } = await execFileAsync("gh", args, {
+    timeout: timeoutMs,
+    maxBuffer: 16 * 1024 * 1024,
+    env: {
+      ...process.env,
+      GH_PAGER: "cat",
+      PAGER: "cat"
+    }
+  });
+
+  const trimmed = String(stdout || "").trim();
+  if (!trimmed) {
+    return null;
+  }
+
+  return JSON.parse(trimmed);
+}
+
+async function fetchGhPaginatedArray(endpointBase, options = {}) {
+  const items = [];
+  const maxItemsRaw = Number(options.maxItems);
+  const maxItems = Number.isFinite(maxItemsRaw) && maxItemsRaw > 0 ? Math.floor(maxItemsRaw) : null;
+  let page = 1;
+
+  while (true) {
+    const separator = endpointBase.includes("?") ? "&" : "?";
+    const endpoint = `${endpointBase}${separator}page=${page}`;
+    const batch = await runGhApiJson(endpoint);
+    if (!Array.isArray(batch) || !batch.length) {
+      break;
+    }
+
+    items.push(...batch);
+    if (maxItems && items.length >= maxItems) {
+      return items.slice(0, maxItems);
+    }
+
+    if (batch.length < 100) {
+      break;
+    }
+
+    page += 1;
+  }
+
+  return maxItems ? items.slice(0, maxItems) : items;
+}
+
+async function fetchUserOrganizationsViaGh() {
+  const organizations = await fetchGhPaginatedArray("/user/orgs?per_page=100");
+  return Array.isArray(organizations) ? organizations : [];
+}
+
+async function fetchUserOrganizationsViaApi(apiUrl, token) {
+  const organizations = [];
+  let page = 1;
+
+  while (true) {
+    const url = new URL(`${apiUrl}/user/orgs`);
+    url.searchParams.set("per_page", "100");
+    url.searchParams.set("page", String(page));
+
+    const batch = await fetchJson(url.toString(), token);
+    if (!Array.isArray(batch) || !batch.length) {
+      break;
+    }
+
+    organizations.push(...batch);
+    if (batch.length < 100) {
+      break;
+    }
+
+    page += 1;
+  }
+
+  return organizations;
+}
+
+function toOrganizationRepoEntry(repo) {
+  const name = String(repo?.name || "").trim();
+  const fullName = String(repo?.full_name || repo?.nameWithOwner || name).trim();
+
+  return {
+    name: name || fullName.split("/").pop() || "",
+    fullName,
+    private: Boolean(repo?.private),
+    htmlUrl: String(repo?.html_url || repo?.url || "").trim(),
+    description: repo?.description || "",
+    language: repo?.language || repo?.primaryLanguage?.name || "N/A",
+    stars: Number(repo?.stargazers_count || repo?.stargazerCount || 0),
+    forks: Number(repo?.forks_count || repo?.forkCount || 0),
+    watchers: Number(repo?.watchers_count || repo?.watchers?.totalCount || 0),
+    openIssues: Number(repo?.open_issues_count || repo?.openIssues?.totalCount || 0),
+    defaultBranch: repo?.default_branch || repo?.defaultBranchRef?.name || "main",
+    pushedAt: repo?.pushed_at || repo?.pushedAt || null,
+    updatedAt: repo?.updated_at || repo?.updatedAt || null,
+    archived: Boolean(repo?.archived || repo?.isArchived),
+    fork: Boolean(repo?.fork || repo?.isFork)
+  };
+}
+
+async function fetchOrganizationDetailsViaApi(apiUrl, token, orgLogin) {
+  const login = String(orgLogin || "").trim();
+  if (!login) {
+    return null;
+  }
+
+  const endpoint = `${apiUrl}/orgs/${encodePathSegment(login)}`;
+
+  try {
+    const data = await fetchJson(endpoint, token, { allow404: true });
+    return data && typeof data === "object" ? data : null;
+  } catch {
+    return null;
+  }
+}
+
+async function fetchOrganizationDetailsViaGh(orgLogin) {
+  const login = String(orgLogin || "").trim();
+  if (!login) {
+    return null;
+  }
+
+  try {
+    const data = await runGhApiJson(`/orgs/${encodePathSegment(login)}`);
+    return data && typeof data === "object" ? data : null;
+  } catch {
+    return null;
+  }
+}
+
+async function fetchOrganizationReposViaApi(apiUrl, token, orgLogin, reposLimit) {
+  const limit = Math.max(0, Number(reposLimit || 0));
+  const login = String(orgLogin || "").trim();
+  if (!limit || !login) {
+    return [];
+  }
+
+  const repos = [];
+  let page = 1;
+
+  while (repos.length < limit) {
+    const url = new URL(`${apiUrl}/orgs/${encodePathSegment(login)}/repos`);
+    url.searchParams.set("type", "public");
+    url.searchParams.set("sort", "updated");
+    url.searchParams.set("direction", "desc");
+    url.searchParams.set("per_page", "100");
+    url.searchParams.set("page", String(page));
+
+    const batch = await fetchJson(url.toString(), token, { allow404: true });
+    if (!Array.isArray(batch) || !batch.length) {
+      break;
+    }
+
+    repos.push(...batch);
+    if (batch.length < 100) {
+      break;
+    }
+
+    page += 1;
+  }
+
+  return repos
+    .filter((repo) => !repo?.private)
+    .map((repo) => toOrganizationRepoEntry(repo))
+    .sort((a, b) => new Date(b.updatedAt || 0).getTime() - new Date(a.updatedAt || 0).getTime())
+    .slice(0, limit);
+}
+
+async function fetchOrganizationReposViaGh(orgLogin, reposLimit) {
+  const limit = Math.max(0, Number(reposLimit || 0));
+  const login = String(orgLogin || "").trim();
+  if (!limit || !login) {
+    return [];
+  }
+
+  try {
+    const repos = await fetchGhPaginatedArray(
+      `/orgs/${encodePathSegment(login)}/repos?type=public&sort=updated&direction=desc&per_page=100`,
+      { maxItems: limit }
+    );
+
+    return (Array.isArray(repos) ? repos : [])
+      .filter((repo) => !repo?.private)
+      .map((repo) => toOrganizationRepoEntry(repo))
+      .sort((a, b) => new Date(b.updatedAt || 0).getTime() - new Date(a.updatedAt || 0).getTime())
+      .slice(0, limit);
+  } catch {
+    return [];
+  }
+}
+
+function toOrganizationEntry(baseOrganization, details, topRepositories, source) {
+  const login = String(details?.login || baseOrganization?.login || "").trim();
+  if (!login) {
+    return null;
+  }
+
+  return {
+    login,
+    name: String(details?.name || baseOrganization?.name || login).trim(),
+    description: String(details?.description || baseOrganization?.description || "").trim(),
+    htmlUrl: String(details?.html_url || `https://github.com/${login}`).trim(),
+    avatarUrl: String(details?.avatar_url || baseOrganization?.avatar_url || "").trim(),
+    publicRepos: Number(details?.public_repos || 0),
+    followers: Number(details?.followers || 0),
+    following: Number(details?.following || 0),
+    createdAt: details?.created_at || null,
+    updatedAt: details?.updated_at || null,
+    source,
+    topRepositories: Array.isArray(topRepositories) ? topRepositories : []
+  };
+}
+
+async function fetchOrganizations(apiUrl, token) {
+  const organizationsLimit = Math.max(
+    0,
+    parseNumber(process.env.GITHUB_ORGS_LIMIT, ORGANIZATIONS_LIMIT_DEFAULT)
+  );
+  const reposPerOrganization = Math.max(
+    0,
+    parseNumber(process.env.GITHUB_ORG_REPOS_LIMIT, ORG_REPOS_LIMIT_DEFAULT)
+  );
+  const useGhCli = parseBoolean(process.env.GITHUB_USE_GH_CLI, true);
+
+  if (!organizationsLimit) {
+    return {
+      organizations: [],
+      source: "disabled"
+    };
+  }
+
+  let source = "github_api";
+  let organizationsRaw = [];
+
+  if (useGhCli) {
+    try {
+      organizationsRaw = await fetchUserOrganizationsViaGh();
+      if (organizationsRaw.length) {
+        source = "gh_cli";
+      }
+    } catch {
+      organizationsRaw = [];
+    }
+  }
+
+  if (!organizationsRaw.length) {
+    organizationsRaw = await fetchUserOrganizationsViaApi(apiUrl, token);
+    source = "github_api";
+  }
+
+  const dedup = new Set();
+  const organizationsSelected = [];
+  for (const organization of organizationsRaw) {
+    const login = String(organization?.login || "").trim();
+    const key = login.toLowerCase();
+    if (!login || dedup.has(key)) {
+      continue;
+    }
+
+    dedup.add(key);
+    organizationsSelected.push(organization);
+    if (organizationsSelected.length >= organizationsLimit) {
+      break;
+    }
+  }
+
+  if (!organizationsSelected.length) {
+    return {
+      organizations: [],
+      source
+    };
+  }
+
+  const organizations = await Promise.all(
+    organizationsSelected.map(async (organization) => {
+      const login = String(organization?.login || "").trim();
+      if (!login) {
+        return null;
+      }
+
+      let details = null;
+      let topRepositories = [];
+
+      if (source === "gh_cli") {
+        details = await fetchOrganizationDetailsViaGh(login);
+        topRepositories = await fetchOrganizationReposViaGh(login, reposPerOrganization);
+      }
+
+      if (!details) {
+        details = await fetchOrganizationDetailsViaApi(apiUrl, token, login);
+      }
+
+      if (!topRepositories.length && reposPerOrganization > 0) {
+        topRepositories = await fetchOrganizationReposViaApi(
+          apiUrl,
+          token,
+          login,
+          reposPerOrganization
+        );
+      }
+
+      return toOrganizationEntry(organization, details, topRepositories, source);
+    })
+  );
+
+  return {
+    organizations: organizations
+      .filter(Boolean)
+      .sort(
+        (a, b) =>
+          new Date(b.updatedAt || 0).getTime() - new Date(a.updatedAt || 0).getTime() ||
+          b.publicRepos - a.publicRepos ||
+          a.login.localeCompare(b.login)
+      ),
+    source
+  };
 }
 
 async function fetchRepoPackageJson(apiUrl, token, repoFullName, defaultBranch) {
@@ -497,13 +855,19 @@ async function fetchProfileSummary(options = {}) {
   }
 
   const user = await fetchJson(`${apiUrl}/user`, token);
-  const reposRaw = await fetchOwnedRepos(apiUrl, token);
-  const events = await fetchPublicEvents(apiUrl, token, user.login);
+  const [reposRaw, events, organizationsPayload] = await Promise.all([
+    fetchOwnedRepos(apiUrl, token),
+    fetchPublicEvents(apiUrl, token, user.login),
+    fetchOrganizations(apiUrl, token)
+  ]);
   const packageJsonMap = await fetchPackageJsonMap(apiUrl, token, reposRaw);
 
   const repos = reposRaw.map(toRepoEntry);
   const publicRepos = repos.filter((repo) => !repo.private);
   const privateRepos = repos.filter((repo) => repo.private);
+  const organizations = Array.isArray(organizationsPayload?.organizations)
+    ? organizationsPayload.organizations
+    : [];
 
   const sortedByStars = [...publicRepos].sort((a, b) => b.stars - a.stars || a.name.localeCompare(b.name));
   const sortedByUpdate = [...publicRepos].sort(
@@ -532,11 +896,21 @@ async function fetchProfileSummary(options = {}) {
       ownedRepositories: repos.length,
       publicRepositories: publicRepos.length,
       privateRepositories: privateRepos.length,
+      organizations: organizations.length,
       stars: sumBy(repos, "stars"),
       forks: sumBy(repos, "forks"),
       watchers: sumBy(repos, "watchers"),
       openIssues: sumBy(repos, "openIssues")
     },
+    scan: {
+      organizationsSource: organizationsPayload?.source || "github_api",
+      eventsPages: Math.max(1, parseNumber(process.env.GITHUB_EVENTS_PAGES, PUBLIC_EVENTS_PAGES_DEFAULT)),
+      stackScanMaxRepos: Math.max(
+        1,
+        parseNumber(process.env.STACK_SCAN_MAX_REPOS, STACK_SCAN_MAX_REPOS_DEFAULT)
+      )
+    },
+    organizations,
     repositories: repos,
     languages: buildLanguageStats(repos),
     stackTechnologies,

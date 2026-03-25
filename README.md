@@ -81,6 +81,20 @@ Kaiky Brito é um desenvolvedor focado no ecossistema JavaScript que utiliza Nod
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
+## Organizações
+
+<!--ORGS_DYNAMIC_START-->
+| Organização | Repositórios Públicos | Seguidores | Repos em Destaque |
+|---|---:|---:|---|
+| [Omnizap System](https://github.com/Omnizap-System)<br/><sub>@Omnizap-System</sub> | 2 | 1 | [omnizap](https://github.com/Omnizap-System/omnizap), [.github](https://github.com/Omnizap-System/.github) |
+
+> _Atualizado em 25 de mar. de 2026, 05:14 (UTC) | Fonte: gh + API._
+<!--ORGS_DYNAMIC_END-->
+
+<p align="center">
+  <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
+</p>
+
 
 ## Projetos em Destaque
 
