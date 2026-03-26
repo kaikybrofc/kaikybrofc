@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor júnior focado no ecossistema JavaScript e Node.js, com experiência na construção de aplicações utilizando frameworks como Express e React. Seu portfólio no GitHub compreende dezessete repositórios públicos, com destaque para o desenvolvimento de módulos em TypeScript e automações em Python. Com uma base técnica que integra bancos de dados MySQL e ferramentas de padronização de código, ele prioriza a eficiência e a aplicação de boas práticas em seus fluxos de desenvolvimento.
+Kaiky Brito é um desenvolvedor júnior focado no ecossistema JavaScript e Node.js, com experiência na construção de aplicações utilizando frameworks como Express, TypeScript e React. Sua trajetória técnica abrange a manutenção de dezessete repositórios públicos, nos quais aplica tecnologias variadas, incluindo Python e MySQL, para desenvolver soluções estruturadas e funcionais. Atualmente, o profissional dedica-se ao aprimoramento de módulos de sistema e ferramentas de automação, demonstrando um perfil técnico orientado à organização de código e ao acompanhamento constante de seus projetos ativos.
 
-> _Atualizado em 26 de mar. de 2026, 06:29 (UTC)._
+> _Atualizado em 26 de mar. de 2026, 10:28 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Implementação de pipelines de dados integrados ao Gemini CLI.
-- Migração de módulos de streaming para execução em infraestrutura local.
-- Manutenção de automações para atualização de métricas e ativos visuais.
+- Automação de métricas e manutenção de ativos dinâmicos para o perfil do GitHub.
+- Implementação de integração com Gemini CLI e hardening de segurança no news-anime-monitor.
+- Evolução do sistema de streaming do ayana-bot para processamento local de mídia e metadados.
 
-> _Atualizado em 26 de mar. de 2026, 06:29 (UTC)._
+> _Atualizado em 26 de mar. de 2026, 10:29 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -88,7 +88,7 @@ Kaiky Brito é um desenvolvedor júnior focado no ecossistema JavaScript e Node.
 |---|---:|---:|---|
 | [Omnizap System](https://github.com/Omnizap-System)<br/><sub>@Omnizap-System</sub> | 2 | 1 | [omnizap](https://github.com/Omnizap-System/omnizap), [.github](https://github.com/Omnizap-System/.github) |
 
-> _Atualizado em 26 de mar. de 2026, 06:29 (UTC) | Fonte: gh + API._
+> _Atualizado em 26 de mar. de 2026, 10:29 (UTC) | Fonte: gh + API._
 <!--ORGS_DYNAMIC_END-->
 
 <p align="center">
