@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor júnior especializado em tecnologias backend e web, com participação ativa na organização Omnizap System e em diversos projetos de código aberto. Sua stack tecnológica principal é composta por Node.js, JavaScript e Express, apresentando também proficiência no desenvolvimento de soluções utilizando TypeScript, React e Python. Entre suas produções mais relevantes destacam-se a criação de módulos de log e sistemas de automação, refletindo um compromisso técnico com a eficiência e a evolução contínua dentro do ecossistema de desenvolvimento de software.
+Kaiky Brito é um desenvolvedor focado no ecossistema Node.js, com sólida base técnica em JavaScript e TypeScript voltada para o desenvolvimento de aplicações escaláveis e automações. O profissional gerencia um portfólio de 17 repositórios públicos, destacando-se pela criação de módulos utilitários e pela colaboração técnica em projetos da organização Omnizap System. Sua expertise abrange o uso de Express, MySQL e React, complementada por scripts em Python para a otimização de processos e entrega de software de alta performance.
 
-> _Atualizado em 26 de mar. de 2026, 18:30 (UTC)._
+> _Atualizado em 26 de mar. de 2026, 22:30 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Automação e atualização contínua de métricas de desempenho via assets SVG.
-- Otimização do pipeline de notícias com integração do Gemini CLI e dashboards de observabilidade.
-- Refatoração de sistemas de streaming de áudio e migração para APIs locais de captura de mídia.
+- Automação de métricas de perfil e atualização constante de assets em SVG.
+- Migração de integrações de inteligência artificial para o ecossistema Gemini CLI.
+- Otimização de sistemas de streaming e infraestrutura de APIs em Node.js.
 
-> _Atualizado em 26 de mar. de 2026, 18:29 (UTC)._
+> _Atualizado em 26 de mar. de 2026, 22:29 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -88,7 +88,7 @@ Kaiky Brito é um desenvolvedor júnior especializado em tecnologias backend e w
 |---|---:|---:|---|
 | [Omnizap System](https://github.com/Omnizap-System)<br/><sub>@Omnizap-System</sub> | 2 | 1 | [omnizap](https://github.com/Omnizap-System/omnizap), [.github](https://github.com/Omnizap-System/.github) |
 
-> _Atualizado em 26 de mar. de 2026, 18:30 (UTC) | Fonte: gh + API._
+> _Atualizado em 26 de mar. de 2026, 22:30 (UTC) | Fonte: gh + API._
 <!--ORGS_DYNAMIC_END-->
 
 <p align="center">
