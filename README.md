@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor com foco em tecnologias de software e sólida base em ecossistemas de desenvolvimento contemporâneos. Sua proficiência técnica centraliza-se em JavaScript e no ambiente Node.js, com experiência prática em Express, TypeScript e integração de sistemas utilizando bancos de dados SQL. Por meio de contribuições na organização Omnizap System e da manutenção de projetos voltados à automação e utilitários, o profissional demonstra uma trajetória orientada à construção de soluções eficientes e ao aprimoramento técnico constante.
+Kaiky Brito é um desenvolvedor com foco em soluções de software que gerencia dezessete repositórios públicos voltados primordialmente para o ecossistema JavaScript e Node.js. Sua stack tecnológica integra linguagens como Python e TypeScript, utilizando frameworks como Express e React para o desenvolvimento de aplicações backend e interfaces funcionais. Atualmente, o profissional dedica-se a projetos de automação, desenvolvimento de bots e criação de módulos de logging, demonstrando versatilidade na construção de ferramentas técnicas e utilitários de sistema.
 
-> _Atualizado em 27 de mar. de 2026, 02:30 (UTC)._
+> _Atualizado em 27 de mar. de 2026, 10:28 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Automação de métricas de perfil e atualização constante de assets em SVG.
-- Migração de integrações de inteligência artificial para o ecossistema Gemini CLI.
-- Otimização de sistemas de streaming e infraestrutura de APIs em Node.js.
+- Automação de métricas e atualização dinâmica de ativos SVG no perfil.
+- Otimização de SEO e integração de Gemini CLI para processamento de dados.
+- Refatoração de sistemas de extração de mídia e streaming para maior resiliência.
 
-> _Atualizado em 26 de mar. de 2026, 22:29 (UTC)._
+> _Atualizado em 27 de mar. de 2026, 10:28 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -88,7 +88,7 @@ Kaiky Brito é um desenvolvedor com foco em tecnologias de software e sólida ba
 |---|---:|---:|---|
 | [Omnizap System](https://github.com/Omnizap-System)<br/><sub>@Omnizap-System</sub> | 2 | 1 | [omnizap](https://github.com/Omnizap-System/omnizap), [.github](https://github.com/Omnizap-System/.github) |
 
-> _Atualizado em 27 de mar. de 2026, 06:31 (UTC) | Fonte: gh + API._
+> _Atualizado em 27 de mar. de 2026, 10:29 (UTC) | Fonte: gh + API._
 <!--ORGS_DYNAMIC_END-->
 
 <p align="center">
@@ -111,21 +111,21 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 2: [logger-module](https://github.com/kaikybrofc/logger-module)
+### Projeto 2: [ayana-bot](https://github.com/kaikybrofc/ayana-bot)
 
-**Descrição:** Módulo de log moderno em TypeScript usando Winston e Rotação de Arquivos.
+**Descrição:** 🤖 Ayana System é um bot inteligente com temática anime, focado em automação, interações avançadas, jogos e recursos modernos para servidores. Rápido, elegan...
 
-![Resumo do Projeto](./assets/badges/projeto/logger-module/resumo.svg) ![Atividade](./assets/badges/projeto/logger-module/atividade.svg) ![Estrelas](./assets/badges/projeto/logger-module/estrelas.svg) ![Atualizado](./assets/badges/projeto/logger-module/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/ayana-bot/resumo.svg) ![Atividade](./assets/badges/projeto/ayana-bot/atividade.svg) ![Estrelas](./assets/badges/projeto/ayana-bot/estrelas.svg) ![Atualizado](./assets/badges/projeto/ayana-bot/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 3: [ayana-bot](https://github.com/kaikybrofc/ayana-bot)
+### Projeto 3: [logger-module](https://github.com/kaikybrofc/logger-module)
 
-**Descrição:** 🤖 Ayana System é um bot inteligente com temática anime, focado em automação, interações avançadas, jogos e recursos modernos para servidores. Rápido, elegan...
+**Descrição:** Módulo de log moderno em TypeScript usando Winston e Rotação de Arquivos.
 
-![Resumo do Projeto](./assets/badges/projeto/ayana-bot/resumo.svg) ![Atividade](./assets/badges/projeto/ayana-bot/atividade.svg) ![Estrelas](./assets/badges/projeto/ayana-bot/estrelas.svg) ![Atualizado](./assets/badges/projeto/ayana-bot/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/logger-module/resumo.svg) ![Atividade](./assets/badges/projeto/logger-module/atividade.svg) ![Estrelas](./assets/badges/projeto/logger-module/estrelas.svg) ![Atualizado](./assets/badges/projeto/logger-module/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
