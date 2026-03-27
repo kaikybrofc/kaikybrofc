@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor com foco em soluções de software que gerencia dezessete repositórios públicos voltados primordialmente para o ecossistema JavaScript e Node.js. Sua stack tecnológica integra linguagens como Python e TypeScript, utilizando frameworks como Express e React para o desenvolvimento de aplicações backend e interfaces funcionais. Atualmente, o profissional dedica-se a projetos de automação, desenvolvimento de bots e criação de módulos de logging, demonstrando versatilidade na construção de ferramentas técnicas e utilitários de sistema.
+Kaiky Brito é um desenvolvedor júnior com atuação fundamentada no ecossistema JavaScript, utilizando Node.js, Express e TypeScript para a construção de soluções escaláveis. Seu portfólio técnico compreende dezessete repositórios públicos que evidenciam experiência prática em automações com Python e no desenvolvimento de ferramentas de monitoramento integradas. A trajetória profissional é pautada pela aplicação de boas práticas de arquitetura, domínio de bancos de dados relacionais e implementação de padrões de codificação rigorosos para garantir a qualidade das entregas.
 
-> _Atualizado em 27 de mar. de 2026, 10:28 (UTC)._
+> _Atualizado em 27 de mar. de 2026, 14:28 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Automação de métricas e atualização dinâmica de ativos SVG no perfil.
-- Otimização de SEO e integração de Gemini CLI para processamento de dados.
-- Refatoração de sistemas de extração de mídia e streaming para maior resiliência.
+- Manutenção de pipelines de automação de perfil e integração de modelos LLM via Gemini CLI.
+- Otimização de SEO, indexação e performance de consultas SQL no monitor de notícias.
+- Evolução do sistema de streaming local e processamento de mídia para aplicações de voz.
 
-> _Atualizado em 27 de mar. de 2026, 10:28 (UTC)._
+> _Atualizado em 27 de mar. de 2026, 14:29 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -88,7 +88,7 @@ Kaiky Brito é um desenvolvedor com foco em soluções de software que gerencia 
 |---|---:|---:|---|
 | [Omnizap System](https://github.com/Omnizap-System)<br/><sub>@Omnizap-System</sub> | 2 | 1 | [omnizap](https://github.com/Omnizap-System/omnizap), [.github](https://github.com/Omnizap-System/.github) |
 
-> _Atualizado em 27 de mar. de 2026, 10:29 (UTC) | Fonte: gh + API._
+> _Atualizado em 27 de mar. de 2026, 14:29 (UTC) | Fonte: gh + API._
 <!--ORGS_DYNAMIC_END-->
 
 <p align="center">
@@ -121,21 +121,21 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 3: [logger-module](https://github.com/kaikybrofc/logger-module)
+### Projeto 3: [news-anime-monitor](https://github.com/kaikybrofc/news-anime-monitor)
 
-**Descrição:** Módulo de log moderno em TypeScript usando Winston e Rotação de Arquivos.
+**Descrição:** Este projeto realiza o monitoramento automático da página de notícias de animes
 
-![Resumo do Projeto](./assets/badges/projeto/logger-module/resumo.svg) ![Atividade](./assets/badges/projeto/logger-module/atividade.svg) ![Estrelas](./assets/badges/projeto/logger-module/estrelas.svg) ![Atualizado](./assets/badges/projeto/logger-module/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/news-anime-monitor/resumo.svg) ![Atividade](./assets/badges/projeto/news-anime-monitor/atividade.svg) ![Estrelas](./assets/badges/projeto/news-anime-monitor/estrelas.svg) ![Atualizado](./assets/badges/projeto/news-anime-monitor/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 4: [news-anime-monitor](https://github.com/kaikybrofc/news-anime-monitor)
+### Projeto 4: [logger-module](https://github.com/kaikybrofc/logger-module)
 
-**Descrição:** Este projeto realiza o monitoramento automático da página de notícias de animes
+**Descrição:** Módulo de log moderno em TypeScript usando Winston e Rotação de Arquivos.
 
-![Resumo do Projeto](./assets/badges/projeto/news-anime-monitor/resumo.svg) ![Atividade](./assets/badges/projeto/news-anime-monitor/atividade.svg) ![Estrelas](./assets/badges/projeto/news-anime-monitor/estrelas.svg) ![Atualizado](./assets/badges/projeto/news-anime-monitor/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/logger-module/resumo.svg) ![Atividade](./assets/badges/projeto/logger-module/atividade.svg) ![Estrelas](./assets/badges/projeto/logger-module/estrelas.svg) ![Atualizado](./assets/badges/projeto/logger-module/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
