@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor júnior com atuação fundamentada no ecossistema JavaScript, utilizando Node.js, Express e TypeScript para a construção de soluções escaláveis. Seu portfólio técnico compreende dezessete repositórios públicos que evidenciam experiência prática em automações com Python e no desenvolvimento de ferramentas de monitoramento integradas. A trajetória profissional é pautada pela aplicação de boas práticas de arquitetura, domínio de bancos de dados relacionais e implementação de padrões de codificação rigorosos para garantir a qualidade das entregas.
+Kaiky Brito é um desenvolvedor especializado em soluções web e automações, com sólida base técnica construída através de projetos em JavaScript, TypeScript e Python. Sua stack principal compreende tecnologias como Node.js, Express e React, integradas a bancos de dados MySQL e ferramentas de padronização de código. Atualmente gerencia dezessete repositórios públicos, destacando-se por contribuições consistentes em sistemas de monitoramento e bots de serviço que refletem seu foco em eficiência e escalabilidade.
 
-> _Atualizado em 27 de mar. de 2026, 14:28 (UTC)._
+> _Atualizado em 27 de mar. de 2026, 18:28 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Manutenção de pipelines de automação de perfil e integração de modelos LLM via Gemini CLI.
-- Otimização de SEO, indexação e performance de consultas SQL no monitor de notícias.
-- Evolução do sistema de streaming local e processamento de mídia para aplicações de voz.
+- Automação de métricas de desempenho e atualização de ativos via GitHub Actions.
+- Migração de serviços de inteligência artificial para integração com Gemini CLI.
+- Otimização de sistemas de streaming e refinamento de indexação para motores de busca.
 
-> _Atualizado em 27 de mar. de 2026, 14:29 (UTC)._
+> _Atualizado em 27 de mar. de 2026, 18:29 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -88,7 +88,7 @@ Kaiky Brito é um desenvolvedor júnior com atuação fundamentada no ecossistem
 |---|---:|---:|---|
 | [Omnizap System](https://github.com/Omnizap-System)<br/><sub>@Omnizap-System</sub> | 2 | 1 | [omnizap](https://github.com/Omnizap-System/omnizap), [.github](https://github.com/Omnizap-System/.github) |
 
-> _Atualizado em 27 de mar. de 2026, 14:29 (UTC) | Fonte: gh + API._
+> _Atualizado em 27 de mar. de 2026, 18:29 (UTC) | Fonte: gh + API._
 <!--ORGS_DYNAMIC_END-->
 
 <p align="center">
