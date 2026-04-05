@@ -32,69 +32,69 @@
   <text x="68" y="186" fill="#93c5fd" font-family="JetBrains Mono, Consolas, monospace" font-size="12" font-weight="700">REGISTROS POR DIA</text>
   <g>
   <line x1="82" y1="182" x2="1318" y2="182" stroke="#7dd3fc" stroke-opacity="0.14" stroke-width="1"/>
-  <text x="74" y="186" text-anchor="end" fill="#8fb0c8" font-family="JetBrains Mono, Consolas, monospace" font-size="11">50</text>
+  <text x="74" y="186" text-anchor="end" fill="#8fb0c8" font-family="JetBrains Mono, Consolas, monospace" font-size="11">5</text>
 </g>
 <g>
   <line x1="82" y1="218" x2="1318" y2="218" stroke="#7dd3fc" stroke-opacity="0.14" stroke-width="1"/>
-  <text x="74" y="222" text-anchor="end" fill="#8fb0c8" font-family="JetBrains Mono, Consolas, monospace" font-size="11">37.5</text>
+  <text x="74" y="222" text-anchor="end" fill="#8fb0c8" font-family="JetBrains Mono, Consolas, monospace" font-size="11">3.75</text>
 </g>
 <g>
   <line x1="82" y1="254" x2="1318" y2="254" stroke="#7dd3fc" stroke-opacity="0.14" stroke-width="1"/>
-  <text x="74" y="258" text-anchor="end" fill="#8fb0c8" font-family="JetBrains Mono, Consolas, monospace" font-size="11">25</text>
+  <text x="74" y="258" text-anchor="end" fill="#8fb0c8" font-family="JetBrains Mono, Consolas, monospace" font-size="11">2.5</text>
 </g>
 <g>
   <line x1="82" y1="290" x2="1318" y2="290" stroke="#7dd3fc" stroke-opacity="0.14" stroke-width="1"/>
-  <text x="74" y="294" text-anchor="end" fill="#8fb0c8" font-family="JetBrains Mono, Consolas, monospace" font-size="11">12.5</text>
+  <text x="74" y="294" text-anchor="end" fill="#8fb0c8" font-family="JetBrains Mono, Consolas, monospace" font-size="11">1.25</text>
 </g>
 <g>
   <line x1="82" y1="326" x2="1318" y2="326" stroke="#7dd3fc" stroke-opacity="0.32" stroke-width="1"/>
   <text x="74" y="330" text-anchor="end" fill="#8fb0c8" font-family="JetBrains Mono, Consolas, monospace" font-size="11">0</text>
 </g>
 <g>
-  <rect x="83" y="250" width="166" height="76" rx="6" fill="url(#statBarGradritmosemanal)" opacity="0.96"/>
-  <rect x="83" y="250" width="166" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
-  <text x="166" y="242" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">27</text>
+  <rect x="83" y="298" width="166" height="28" rx="6" fill="url(#statBarGradritmosemanal)" opacity="0.96"/>
+  <rect x="83" y="298" width="166" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
+  <text x="166" y="290" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">1</text>
   <text x="166" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">dom</text>
 </g>
 <g>
-  <rect x="261" y="245" width="166" height="81" rx="6" fill="url(#statBarGradritmosemanal)" opacity="0.96"/>
-  <rect x="261" y="245" width="166" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
-  <text x="344" y="237" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">29</text>
+  <rect x="261" y="321" width="166" height="5" rx="6" fill="url(#statBarGradritmosemanal)" opacity="0.96"/>
+  <rect x="261" y="321" width="166" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
+  <text x="344" y="313" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">0</text>
   <text x="344" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">seg</text>
 </g>
 <g>
-  <rect x="439" y="214" width="166" height="112" rx="6" fill="url(#statBarGradritmosemanal)" opacity="0.96"/>
-  <rect x="439" y="214" width="166" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
-  <text x="522" y="206" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">40</text>
+  <rect x="439" y="321" width="166" height="5" rx="6" fill="url(#statBarGradritmosemanal)" opacity="0.96"/>
+  <rect x="439" y="321" width="166" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
+  <text x="522" y="313" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">0</text>
   <text x="522" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">ter</text>
 </g>
 <g>
-  <rect x="617" y="253" width="166" height="73" rx="6" fill="url(#statBarGradritmosemanal)" opacity="0.96"/>
-  <rect x="617" y="253" width="166" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
-  <text x="700" y="245" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">26</text>
+  <rect x="617" y="321" width="166" height="5" rx="6" fill="url(#statBarGradritmosemanal)" opacity="0.96"/>
+  <rect x="617" y="321" width="166" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
+  <text x="700" y="313" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">0</text>
   <text x="700" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">qua</text>
 </g>
 <g>
-  <rect x="795" y="298" width="166" height="28" rx="6" fill="url(#statBarGradritmosemanal)" opacity="0.96"/>
-  <rect x="795" y="298" width="166" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
-  <text x="878" y="290" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">10</text>
+  <rect x="795" y="321" width="166" height="5" rx="6" fill="url(#statBarGradritmosemanal)" opacity="0.96"/>
+  <rect x="795" y="321" width="166" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
+  <text x="878" y="313" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">0</text>
   <text x="878" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">qui</text>
 </g>
 <g>
-  <rect x="973" y="186" width="166" height="140" rx="6" fill="url(#statBarGradritmosemanal)" opacity="0.96"/>
-  <rect x="973" y="186" width="166" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
-  <text x="1056" y="178" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">50</text>
+  <rect x="973" y="321" width="166" height="5" rx="6" fill="url(#statBarGradritmosemanal)" opacity="0.96"/>
+  <rect x="973" y="321" width="166" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
+  <text x="1056" y="313" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">0</text>
   <text x="1056" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">sex</text>
 </g>
 <g>
-  <rect x="1151" y="301" width="166" height="25" rx="6" fill="url(#statBarGradritmosemanal)" opacity="0.96"/>
-  <rect x="1151" y="301" width="166" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
-  <text x="1234" y="293" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">9</text>
+  <rect x="1151" y="186" width="166" height="140" rx="6" fill="url(#statBarGradritmosemanal)" opacity="0.96"/>
+  <rect x="1151" y="186" width="166" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
+  <text x="1234" y="178" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">5</text>
   <text x="1234" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">sab</text>
 </g>
-  <text x="58" y="394" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Dia mais ativo: sex (50).</text>
-<text x="58" y="418" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Dia menos ativo: sab (9).</text>
-<text x="58" y="442" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Total analisado: 191 registros.</text>
+  <text x="58" y="394" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Dia mais ativo: sab (5).</text>
+<text x="58" y="418" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Dia menos ativo: sex (0).</text>
+<text x="58" y="442" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Total analisado: 6 registros.</text>
 <text x="58" y="466" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Cadencia semanal detectada com base em eventos recentes.</text>
   <line x1="52" y1="506" x2="1348" y2="506" stroke="#38bdf8" stroke-opacity="0.32"/>
   <text x="54" y="530" fill="#a8d9f4" font-family="JetBrains Mono, Consolas, monospace" font-size="16">

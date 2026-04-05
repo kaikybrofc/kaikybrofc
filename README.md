@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor especializado em soluções web e automações, com sólida base técnica construída através de projetos em JavaScript, TypeScript e Python. Sua stack principal compreende tecnologias como Node.js, Express e React, integradas a bancos de dados MySQL e ferramentas de padronização de código. Atualmente gerencia dezessete repositórios públicos, destacando-se por contribuições consistentes em sistemas de monitoramento e bots de serviço que refletem seu foco em eficiência e escalabilidade.
+Kaiky Brito atua com foco em desenvolvimento Full-Stack, automações e integrações, transformando necessidades operacionais em soluções práticas e estáveis. A base técnica mais recorrente inclui Node.js, JavaScript, Express, TypeScript, MySQL. No momento, kaikybrofc aparece entre os projetos com maior atividade no GitHub.
 
-> _Atualizado em 27 de mar. de 2026, 18:28 (UTC)._
+> _Atualizado em 5 de abr. de 2026, 21:24 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Automação de métricas de desempenho e atualização de ativos via GitHub Actions.
-- Migração de serviços de inteligência artificial para integração com Gemini CLI.
-- Otimização de sistemas de streaming e refinamento de indexação para motores de busca.
+- Evolução contínua de funcionalidades nos projetos zyra e kaikybrofc.
+- Ajustes e correções incrementais com base nos commits mais recentes publicados.
+- Consolidação da stack principal (Node.js, JavaScript, Express) nas entregas atuais.
 
-> _Atualizado em 27 de mar. de 2026, 18:29 (UTC)._
+> _Atualizado em 5 de abr. de 2026, 21:24 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -62,16 +62,16 @@ Kaiky Brito é um desenvolvedor especializado em soluções web e automações, 
   <img src="./assets/badges/stack/javascript.svg" alt="Badge stack JavaScript"/>
   <img src="./assets/badges/stack/express.svg" alt="Badge stack Express"/>
   <img src="./assets/badges/stack/typescript.svg" alt="Badge stack TypeScript"/>
-  <img src="./assets/badges/stack/react.svg" alt="Badge stack React"/>
-  <img src="./assets/badges/stack/python.svg" alt="Badge stack Python"/>
-  <img src="./assets/badges/stack/eslint.svg" alt="Badge stack ESLint"/>
   <img src="./assets/badges/stack/mysql.svg" alt="Badge stack MySQL"/>
+  <img src="./assets/badges/stack/react.svg" alt="Badge stack React"/>
+  <img src="./assets/badges/stack/eslint.svg" alt="Badge stack ESLint"/>
+  <img src="./assets/badges/stack/python.svg" alt="Badge stack Python"/>
   <img src="./assets/badges/stack/prettier.svg" alt="Badge stack Prettier"/>
   <img src="./assets/badges/stack/tailwindcss.svg" alt="Badge stack Tailwind CSS"/>
   <img src="./assets/badges/stack/mongodb.svg" alt="Badge stack MongoDB"/>
   <img src="./assets/badges/stack/nextjs.svg" alt="Badge stack Next.js"/>
+  <img src="./assets/badges/stack/redis.svg" alt="Badge stack Redis"/>
   <img src="./assets/badges/stack/c.svg" alt="Badge stack C"/>
-  <img src="./assets/badges/stack/rust.svg" alt="Badge stack Rust"/>
 </p>
 
 <p align="center"><sub>Stack dinâmica baseada nas tecnologias detectadas nos repositórios.</sub></p>
@@ -88,7 +88,7 @@ Kaiky Brito é um desenvolvedor especializado em soluções web e automações, 
 |---|---:|---:|---|
 | [Omnizap System](https://github.com/Omnizap-System)<br/><sub>@Omnizap-System</sub> | 2 | 1 | [omnizap](https://github.com/Omnizap-System/omnizap), [.github](https://github.com/Omnizap-System/.github) |
 
-> _Atualizado em 27 de mar. de 2026, 18:29 (UTC) | Fonte: gh + API._
+> _Atualizado em 5 de abr. de 2026, 21:24 (UTC) | Fonte: gh + API._
 <!--ORGS_DYNAMIC_END-->
 
 <p align="center">
@@ -103,7 +103,7 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--FEATURED_PROJECTS_START-->
 ### Projeto 1: [kaikybrofc](https://github.com/kaikybrofc/kaikybrofc)
 
-**Descrição:** ✨ Aqui você encontra informações sobre mim.
+**Descrição:** Aqui você encontra informações sobre mim.
 
 ![Resumo do Projeto](./assets/badges/projeto/kaikybrofc/resumo.svg) ![Atividade](./assets/badges/projeto/kaikybrofc/atividade.svg) ![Estrelas](./assets/badges/projeto/kaikybrofc/estrelas.svg) ![Atualizado](./assets/badges/projeto/kaikybrofc/atualizado.svg)
 
@@ -111,7 +111,17 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 2: [ayana-bot](https://github.com/kaikybrofc/ayana-bot)
+### Projeto 2: [zyra](https://github.com/kaikybrofc/zyra)
+
+**Descrição:** Zyra Web Bot System Sistema de automação web desenvolvido em TypeScript, com integração direta à API Baileys, oferecendo comunicação eficiente e gerenciament...
+
+![Resumo do Projeto](./assets/badges/projeto/zyra/resumo.svg) ![Atividade](./assets/badges/projeto/zyra/atividade.svg) ![Estrelas](./assets/badges/projeto/zyra/estrelas.svg) ![Atualizado](./assets/badges/projeto/zyra/atualizado.svg)
+
+<p align="center">
+  <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
+</p>
+
+### Projeto 3: [ayana-bot](https://github.com/kaikybrofc/ayana-bot)
 
 **Descrição:** 🤖 Ayana System é um bot inteligente com temática anime, focado em automação, interações avançadas, jogos e recursos modernos para servidores. Rápido, elegan...
 
@@ -121,21 +131,11 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 3: [news-anime-monitor](https://github.com/kaikybrofc/news-anime-monitor)
+### Projeto 4: [news-anime-monitor](https://github.com/kaikybrofc/news-anime-monitor)
 
 **Descrição:** Este projeto realiza o monitoramento automático da página de notícias de animes
 
 ![Resumo do Projeto](./assets/badges/projeto/news-anime-monitor/resumo.svg) ![Atividade](./assets/badges/projeto/news-anime-monitor/atividade.svg) ![Estrelas](./assets/badges/projeto/news-anime-monitor/estrelas.svg) ![Atualizado](./assets/badges/projeto/news-anime-monitor/atualizado.svg)
-
-<p align="center">
-  <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
-</p>
-
-### Projeto 4: [logger-module](https://github.com/kaikybrofc/logger-module)
-
-**Descrição:** Módulo de log moderno em TypeScript usando Winston e Rotação de Arquivos.
-
-![Resumo do Projeto](./assets/badges/projeto/logger-module/resumo.svg) ![Atividade](./assets/badges/projeto/logger-module/atividade.svg) ![Estrelas](./assets/badges/projeto/logger-module/estrelas.svg) ![Atualizado](./assets/badges/projeto/logger-module/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
