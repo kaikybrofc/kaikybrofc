@@ -11,6 +11,7 @@ const STACK_SCAN_CONCURRENCY_DEFAULT = 4;
 const STACK_TOP_LIMIT_DEFAULT = 14;
 const PUBLIC_EVENTS_PER_PAGE_DEFAULT = 100;
 const PUBLIC_EVENTS_PAGES_DEFAULT = 5;
+const PUBLIC_EVENTS_MAX_ITEMS = 300;
 const ORGANIZATIONS_LIMIT_DEFAULT = 8;
 const ORG_REPOS_LIMIT_DEFAULT = 4;
 const GH_CLI_TIMEOUT_MS_DEFAULT = 20000;
@@ -77,6 +78,22 @@ function parseBoolean(value, fallback = false) {
   }
 
   return fallback;
+}
+
+function getPublicEventsPagination() {
+  const perPageRaw = parseNumber(process.env.GITHUB_EVENTS_PER_PAGE, PUBLIC_EVENTS_PER_PAGE_DEFAULT);
+  const pagesRaw = parseNumber(process.env.GITHUB_EVENTS_PAGES, PUBLIC_EVENTS_PAGES_DEFAULT);
+  const perPage = Math.max(1, Math.min(100, perPageRaw));
+  const maxPagesRequested = Math.max(1, pagesRaw);
+  const maxPagesByApi = Math.max(1, Math.ceil(PUBLIC_EVENTS_MAX_ITEMS / perPage));
+  const maxPages = Math.min(maxPagesRequested, maxPagesByApi);
+
+  return {
+    perPage,
+    maxPages,
+    maxPagesRequested,
+    maxPagesByApi
+  };
 }
 
 function encodePathSegment(value) {
@@ -150,10 +167,7 @@ async function fetchOwnedRepos(apiUrl, token) {
 
 async function fetchPublicEvents(apiUrl, token, username) {
   const events = [];
-  const perPageRaw = parseNumber(process.env.GITHUB_EVENTS_PER_PAGE, PUBLIC_EVENTS_PER_PAGE_DEFAULT);
-  const pagesRaw = parseNumber(process.env.GITHUB_EVENTS_PAGES, PUBLIC_EVENTS_PAGES_DEFAULT);
-  const perPage = Math.max(1, Math.min(100, perPageRaw));
-  const maxPages = Math.max(1, pagesRaw);
+  const { perPage, maxPages } = getPublicEventsPagination();
 
   for (let page = 1; page <= maxPages; page += 1) {
     const url = new URL(`${apiUrl}/users/${username}/events/public`);
@@ -904,7 +918,7 @@ async function fetchProfileSummary(options = {}) {
     },
     scan: {
       organizationsSource: organizationsPayload?.source || "github_api",
-      eventsPages: Math.max(1, parseNumber(process.env.GITHUB_EVENTS_PAGES, PUBLIC_EVENTS_PAGES_DEFAULT)),
+      eventsPages: getPublicEventsPagination().maxPages,
       stackScanMaxRepos: Math.max(
         1,
         parseNumber(process.env.STACK_SCAN_MAX_REPOS, STACK_SCAN_MAX_REPOS_DEFAULT)
