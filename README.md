@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito atua com foco em desenvolvimento Full-Stack, automações e integrações, transformando necessidades operacionais em soluções práticas e estáveis. A base técnica mais recorrente inclui Node.js, JavaScript, Express, TypeScript, MySQL. No momento, kaikybrofc aparece entre os projetos com maior atividade no GitHub.
+Kaiky Brito é um desenvolvedor com foco em tecnologias back-end e front-end, destacando-se pelo domínio em ecossistemas baseados em Node.js, JavaScript e TypeScript. Com dezoito repositórios públicos e contribuições ativas em organizações como Omnizap System, sua trajetória técnica abrange o desenvolvimento de aplicações escaláveis utilizando frameworks como Express e bibliotecas como React. Atualmente dedica-se a projetos de alta atividade como Zyra e Ayana-bot, demonstrando versatilidade na integração de diferentes linguagens, incluindo Python e C, para a construção de soluções robustas e eficientes.
 
-> _Atualizado em 5 de abr. de 2026, 21:24 (UTC)._
+> _Atualizado em 5 de abr. de 2026, 21:37 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Evolução contínua de funcionalidades nos projetos zyra e kaikybrofc.
-- Ajustes e correções incrementais com base nos commits mais recentes publicados.
-- Consolidação da stack principal (Node.js, JavaScript, Express) nas entregas atuais.
+- Automação de métricas e manutenção de ativos visuais via GitHub Actions.
+- Desenvolvimento de arquitetura multi-tenant e persistência MySQL no projeto Zyra.
+- Refinamento de fluxos de sincronização de dados e logs em sistemas Node.js.
 
-> _Atualizado em 5 de abr. de 2026, 21:24 (UTC)._
+> _Atualizado em 5 de abr. de 2026, 21:36 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -88,7 +88,7 @@ Kaiky Brito atua com foco em desenvolvimento Full-Stack, automações e integra�
 |---|---:|---:|---|
 | [Omnizap System](https://github.com/Omnizap-System)<br/><sub>@Omnizap-System</sub> | 2 | 1 | [omnizap](https://github.com/Omnizap-System/omnizap), [.github](https://github.com/Omnizap-System/.github) |
 
-> _Atualizado em 5 de abr. de 2026, 21:24 (UTC) | Fonte: gh + API._
+> _Atualizado em 5 de abr. de 2026, 21:37 (UTC) | Fonte: gh + API._
 <!--ORGS_DYNAMIC_END-->
 
 <p align="center">
