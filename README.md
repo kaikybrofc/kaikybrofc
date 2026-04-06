@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor focado no ecossistema Node.js que utiliza JavaScript, TypeScript e Python para a construção de aplicações e ferramentas de automação. Sua trajetória técnica inclui o gerenciamento de quatorze repositórios públicos e a colaboração em organizações como Omnizap System, aplicando tecnologias como Express e MySQL em fluxos de trabalho modernos. Atualmente, o profissional concentra seus esforços no desenvolvimento de sistemas como Zyra e Ayana-bot, priorizando a eficiência e o rigor técnico na evolução de seus projetos de software.
+Kaiky Brito é um desenvolvedor focado no ecossistema de desenvolvimento de software com ênfase em JavaScript, TypeScript e Python. Sua atuação técnica destaca o uso recorrente de Node.js e Express para a construção de aplicações, além de registrar contribuições em projetos da organização Omnizap System. Através da manutenção constante de repositórios como zyra e ayana-bot, o desenvolvedor demonstra competência técnica e compromisso com a evolução de sistemas escaláveis e funcionais.
 
-> _Atualizado em 6 de abr. de 2026, 19:33 (UTC)._
+> _Atualizado em 6 de abr. de 2026, 21:34 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Desenvolvimento de sistemas de autenticação resilientes e persistência em MySQL para o projeto Zyra.
-- Automação de pipelines para geração e sincronização de métricas de perfil em formato SVG.
-- Otimização de estabilidade de sockets e validação de integridade em aplicações Node.js.
+- Manutenção de automações para atualização dinâmica de métricas e assets do perfil.
+- Refatoração do sistema de autenticação e persistência MySQL no projeto Zyra.
+- Implementação de rotinas de testes e melhorias na resiliência de conexões via sockets.
 
-> _Atualizado em 6 de abr. de 2026, 20:33 (UTC)._
+> _Atualizado em 6 de abr. de 2026, 21:35 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -88,7 +88,7 @@ Kaiky Brito é um desenvolvedor focado no ecossistema Node.js que utiliza JavaSc
 |---|---:|---:|---|
 | [Omnizap System](https://github.com/Omnizap-System)<br/><sub>@Omnizap-System</sub> | 2 | 1 | [omnizap](https://github.com/Omnizap-System/omnizap), [.github](https://github.com/Omnizap-System/.github) |
 
-> _Atualizado em 6 de abr. de 2026, 20:34 (UTC) | Fonte: gh + API._
+> _Atualizado em 6 de abr. de 2026, 21:35 (UTC) | Fonte: gh + API._
 <!--ORGS_DYNAMIC_END-->
 
 <p align="center">

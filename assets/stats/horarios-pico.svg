@@ -35,8 +35,8 @@
 <line x1="86" y1="251" x2="1320" y2="251" stroke="#7dd3fc" stroke-opacity="0.12" stroke-width="1"/>
 <line x1="86" y1="287" x2="1320" y2="287" stroke="#7dd3fc" stroke-opacity="0.12" stroke-width="1"/>
 <line x1="86" y1="322" x2="1320" y2="322" stroke="#7dd3fc" stroke-opacity="0.28" stroke-width="1"/>
-<path d="M 86 180 L 333 224 L 580 307 L 826 241 L 1073 256 L 1320 231 L 1320 322 L 86 322 Z" fill="url(#statAreahorariospico)"/>
-<path d="M 86 180 L 333 224 L 580 307 L 826 241 L 1073 256 L 1320 231" fill="none" stroke="#22d3ee" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 86 180 L 333 224 L 580 315 L 826 258 L 1073 246 L 1320 217 L 1320 322 L 86 322 Z" fill="url(#statAreahorariospico)"/>
+<path d="M 86 180 L 333 224 L 580 315 L 826 258 L 1073 246 L 1320 217" fill="none" stroke="#22d3ee" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <g>
   <circle cx="86" cy="180" r="4.6" fill="#22d3ee" stroke="#ecfeff" stroke-opacity="0.7"/>
   <text x="86" y="171" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">58</text>
@@ -48,23 +48,23 @@
   <text x="333" y="344" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="10.8" font-weight="600">04-07</text>
 </g>
 <g>
-  <circle cx="580" cy="307" r="4.6" fill="#22d3ee" stroke="#ecfeff" stroke-opacity="0.7"/>
-  <text x="580" y="298" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">6</text>
+  <circle cx="580" cy="315" r="4.6" fill="#22d3ee" stroke="#ecfeff" stroke-opacity="0.7"/>
+  <text x="580" y="306" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">3</text>
   <text x="580" y="344" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="10.8" font-weight="600">08-11</text>
 </g>
 <g>
-  <circle cx="826" cy="241" r="4.6" fill="#22d3ee" stroke="#ecfeff" stroke-opacity="0.7"/>
-  <text x="826" y="232" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">33</text>
+  <circle cx="826" cy="258" r="4.6" fill="#22d3ee" stroke="#ecfeff" stroke-opacity="0.7"/>
+  <text x="826" y="249" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">26</text>
   <text x="826" y="344" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="10.8" font-weight="600">12-15</text>
 </g>
 <g>
-  <circle cx="1073" cy="256" r="4.6" fill="#22d3ee" stroke="#ecfeff" stroke-opacity="0.7"/>
-  <text x="1073" y="247" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">27</text>
+  <circle cx="1073" cy="246" r="4.6" fill="#22d3ee" stroke="#ecfeff" stroke-opacity="0.7"/>
+  <text x="1073" y="237" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">31</text>
   <text x="1073" y="344" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="10.8" font-weight="600">16-19</text>
 </g>
 <g>
-  <circle cx="1320" cy="231" r="4.6" fill="#22d3ee" stroke="#ecfeff" stroke-opacity="0.7"/>
-  <text x="1320" y="222" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">37</text>
+  <circle cx="1320" cy="217" r="4.6" fill="#22d3ee" stroke="#ecfeff" stroke-opacity="0.7"/>
+  <text x="1320" y="208" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">43</text>
   <text x="1320" y="344" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="10.8" font-weight="600">20-23</text>
 </g>
   <text x="58" y="394" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Horario #1: 0h (20).</text>
@@ -73,6 +73,6 @@
 <text x="58" y="466" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Faixa dominante: madrugada.</text>
   <line x1="52" y1="506" x2="1348" y2="506" stroke="#38bdf8" stroke-opacity="0.32"/>
   <text x="54" y="530" fill="#a8d9f4" font-family="JetBrains Mono, Consolas, monospace" font-size="16">
-    atualizado: 58m
+    atualizado: agora
   </text>
 </svg>
