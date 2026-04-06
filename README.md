@@ -88,7 +88,7 @@ Kaiky Brito é um desenvolvedor focado no ecossistema de software com proficiên
 |---|---:|---:|---|
 | [Omnizap System](https://github.com/Omnizap-System)<br/><sub>@Omnizap-System</sub> | 2 | 1 | [omnizap](https://github.com/Omnizap-System/omnizap), [.github](https://github.com/Omnizap-System/.github) |
 
-> _Atualizado em 5 de abr. de 2026, 23:36 (UTC) | Fonte: gh + API._
+> _Atualizado em 6 de abr. de 2026, 00:33 (UTC) | Fonte: gh + API._
 <!--ORGS_DYNAMIC_END-->
 
 <p align="center">
@@ -141,21 +141,21 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 5: [jsontree](https://github.com/kaikybrofc/jsontree)
+### Projeto 5: [yt-dls](https://github.com/kaikybrofc/yt-dls)
 
-**Descrição:** Visualize JSON data format as a tree or graph
+**Descrição:** yt-dls é uma API simples e leve para download de vídeos do YouTube, construída em Node.js com o framework Express, que utiliza internamente a ferramenta yt-d...
 
-![Resumo do Projeto](./assets/badges/projeto/jsontree/resumo.svg) ![Atividade](./assets/badges/projeto/jsontree/atividade.svg) ![Estrelas](./assets/badges/projeto/jsontree/estrelas.svg) ![Atualizado](./assets/badges/projeto/jsontree/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/yt-dls/resumo.svg) ![Atividade](./assets/badges/projeto/yt-dls/atividade.svg) ![Estrelas](./assets/badges/projeto/yt-dls/estrelas.svg) ![Atualizado](./assets/badges/projeto/yt-dls/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 6: [yt-dls](https://github.com/kaikybrofc/yt-dls)
+### Projeto 6: [jsontree](https://github.com/kaikybrofc/jsontree)
 
-**Descrição:** yt-dls é uma API simples e leve para download de vídeos do YouTube, construída em Node.js com o framework Express, que utiliza internamente a ferramenta yt-d...
+**Descrição:** Visualize JSON data format as a tree or graph
 
-![Resumo do Projeto](./assets/badges/projeto/yt-dls/resumo.svg) ![Atividade](./assets/badges/projeto/yt-dls/atividade.svg) ![Estrelas](./assets/badges/projeto/yt-dls/estrelas.svg) ![Atualizado](./assets/badges/projeto/yt-dls/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/jsontree/resumo.svg) ![Atividade](./assets/badges/projeto/jsontree/atividade.svg) ![Estrelas](./assets/badges/projeto/jsontree/estrelas.svg) ![Atualizado](./assets/badges/projeto/jsontree/atualizado.svg)
 <!--FEATURED_PROJECTS_END-->
 
 
