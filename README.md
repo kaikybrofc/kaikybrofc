@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor focado no ecossistema Node.js, com sólida base técnica em TypeScript, JavaScript e frameworks como Express para o desenvolvimento de aplicações robustas. Com um portfólio de quatorze repositórios e atuação na organização Omnizap System, o profissional demonstra proficiência em múltiplas linguagens, incluindo Python, C e Rust, além de experiência com bancos de dados MySQL. Atualmente, mantém projetos de alto impacto como kaikybrofc e zyra, consolidando uma trajetória voltada à automação e à excelência em engenharia de software.
+Kaiky Brito é um desenvolvedor com foco no ecossistema Node.js, acumulando quatorze repositórios públicos e colaborações na organização Omnizap System. Seu perfil técnico destaca o domínio de linguagens como JavaScript, TypeScript e Python, aplicadas na construção de sistemas com Express e integração de bancos de dados MySQL. Atualmente, dedica-se à manutenção de projetos de alto engajamento, como o zyra e o ayana-bot, priorizando a qualidade do código e o desenvolvimento contínuo de soluções de software.
 
-> _Atualizado em 6 de abr. de 2026, 09:34 (UTC)._
+> _Atualizado em 6 de abr. de 2026, 11:36 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Otimização de sistemas de autenticação e persistência de dados em MySQL.
-- Estabilização de infraestrutura de sockets e reforço na validação de credenciais.
-- Desenvolvimento de pipelines para automação de métricas e ativos de perfil.
+- Otimização de sistemas de automação de perfil e atualização dinâmica de métricas em SVG.
+- Aperfeiçoamento de camadas de persistência MySQL e mecanismos de retry em sockets.
+- Fortalecimento de fluxos de autenticação, validação de credenciais e integridade de estado.
 
-> _Atualizado em 6 de abr. de 2026, 10:33 (UTC)._
+> _Atualizado em 6 de abr. de 2026, 11:35 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -88,7 +88,7 @@ Kaiky Brito é um desenvolvedor focado no ecossistema Node.js, com sólida base 
 |---|---:|---:|---|
 | [Omnizap System](https://github.com/Omnizap-System)<br/><sub>@Omnizap-System</sub> | 2 | 1 | [omnizap](https://github.com/Omnizap-System/omnizap), [.github](https://github.com/Omnizap-System/.github) |
 
-> _Atualizado em 6 de abr. de 2026, 10:34 (UTC) | Fonte: gh + API._
+> _Atualizado em 6 de abr. de 2026, 11:36 (UTC) | Fonte: gh + API._
 <!--ORGS_DYNAMIC_END-->
 
 <p align="center">
