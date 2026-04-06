@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor focado no ecossistema de tecnologia com experiência na criação e manutenção de quatorze repositórios públicos no GitHub. Seu perfil técnico destaca o uso de linguagens como JavaScript, TypeScript e Python, empregando prioritariamente a stack Node.js e o framework Express no desenvolvimento de suas soluções. Atualmente, o desenvolvedor contribui com a organização Omnizap System e mantém projetos ativos que demonstram um fluxo constante de commits e evolução técnica em ferramentas de automação.
+Kaiky Brito é um desenvolvedor que atua no ecossistema de desenvolvimento web com ênfase em Node.js, TypeScript e JavaScript. Sua prática técnica abrange a construção de aplicações utilizando Express e Python, com experiência demonstrada em projetos como zyra e ayana-bot. Com quatorze repositórios públicos e contribuições na organização Omnizap System, o profissional mantém uma trajetória voltada para a entrega de soluções funcionais e estruturadas.
 
-> _Atualizado em 6 de abr. de 2026, 13:34 (UTC)._
+> _Atualizado em 6 de abr. de 2026, 15:33 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Refatoração de módulos de autenticação e estabilização de conexões socket no projeto Zyra.
-- Automação da infraestrutura de métricas e geração dinâmica de ativos SVG para o perfil.
-- Otimização de camadas de persistência MySQL e implementação de mecanismos de retry e validação.
+- Otimização de sockets e implementação de mecanismos de persistência com lógica de retry em sistemas MySQL.
+- Refinamento de fluxos de autenticação, validação rigorosa de credenciais e integridade de estados no armazenamento.
+- Manutenção de pipelines automatizados para atualização de métricas de perfil e documentação técnica.
 
-> _Atualizado em 6 de abr. de 2026, 13:34 (UTC)._
+> _Atualizado em 6 de abr. de 2026, 15:36 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -88,7 +88,7 @@ Kaiky Brito é um desenvolvedor focado no ecossistema de tecnologia com experiê
 |---|---:|---:|---|
 | [Omnizap System](https://github.com/Omnizap-System)<br/><sub>@Omnizap-System</sub> | 2 | 1 | [omnizap](https://github.com/Omnizap-System/omnizap), [.github](https://github.com/Omnizap-System/.github) |
 
-> _Atualizado em 6 de abr. de 2026, 14:33 (UTC) | Fonte: gh + API._
+> _Atualizado em 6 de abr. de 2026, 15:36 (UTC) | Fonte: gh + API._
 <!--ORGS_DYNAMIC_END-->
 
 <p align="center">
