@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor com foco no ecossistema Node.js, acumulando quatorze repositórios públicos e colaborações na organização Omnizap System. Seu perfil técnico destaca o domínio de linguagens como JavaScript, TypeScript e Python, aplicadas na construção de sistemas com Express e integração de bancos de dados MySQL. Atualmente, dedica-se à manutenção de projetos de alto engajamento, como o zyra e o ayana-bot, priorizando a qualidade do código e o desenvolvimento contínuo de soluções de software.
+Kaiky Brito é um desenvolvedor focado no ecossistema de tecnologia com experiência na criação e manutenção de quatorze repositórios públicos no GitHub. Seu perfil técnico destaca o uso de linguagens como JavaScript, TypeScript e Python, empregando prioritariamente a stack Node.js e o framework Express no desenvolvimento de suas soluções. Atualmente, o desenvolvedor contribui com a organização Omnizap System e mantém projetos ativos que demonstram um fluxo constante de commits e evolução técnica em ferramentas de automação.
 
-> _Atualizado em 6 de abr. de 2026, 11:36 (UTC)._
+> _Atualizado em 6 de abr. de 2026, 13:34 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Otimização de sistemas de automação de perfil e atualização dinâmica de métricas em SVG.
-- Aperfeiçoamento de camadas de persistência MySQL e mecanismos de retry em sockets.
-- Fortalecimento de fluxos de autenticação, validação de credenciais e integridade de estado.
+- Refatoração de módulos de autenticação e estabilização de conexões socket no projeto Zyra.
+- Automação da infraestrutura de métricas e geração dinâmica de ativos SVG para o perfil.
+- Otimização de camadas de persistência MySQL e implementação de mecanismos de retry e validação.
 
-> _Atualizado em 6 de abr. de 2026, 11:35 (UTC)._
+> _Atualizado em 6 de abr. de 2026, 13:34 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -88,7 +88,7 @@ Kaiky Brito é um desenvolvedor com foco no ecossistema Node.js, acumulando quat
 |---|---:|---:|---|
 | [Omnizap System](https://github.com/Omnizap-System)<br/><sub>@Omnizap-System</sub> | 2 | 1 | [omnizap](https://github.com/Omnizap-System/omnizap), [.github](https://github.com/Omnizap-System/.github) |
 
-> _Atualizado em 6 de abr. de 2026, 12:33 (UTC) | Fonte: gh + API._
+> _Atualizado em 6 de abr. de 2026, 13:34 (UTC) | Fonte: gh + API._
 <!--ORGS_DYNAMIC_END-->
 
 <p align="center">
