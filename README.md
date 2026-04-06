@@ -43,11 +43,11 @@ Kaiky Brito é um desenvolvedor focado no ecossistema de software com proficiên
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Refatoração de sistemas para melhorar a legibilidade de mensagens de validação e a consistência em camadas de persistência SQL.
-- Implementação de suporte multi-tenant em arquiteturas de socket e otimização de rotinas de backfill de dados.
-- Automação de métricas de perfil e manutenção de pipelines de integração para monitoramento de ativos estáticos.
+- Refinamento de sistemas de autenticação e persistência resiliente em bancos MySQL.
+- Automação de pipelines para atualização dinâmica de métricas e assets visuais.
+- Fortalecimento de infraestrutura de sockets com cache de versão e rotinas de shutdown.
 
-> _Atualizado em 5 de abr. de 2026, 23:36 (UTC)._
+> _Atualizado em 6 de abr. de 2026, 01:35 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -88,7 +88,7 @@ Kaiky Brito é um desenvolvedor focado no ecossistema de software com proficiên
 |---|---:|---:|---|
 | [Omnizap System](https://github.com/Omnizap-System)<br/><sub>@Omnizap-System</sub> | 2 | 1 | [omnizap](https://github.com/Omnizap-System/omnizap), [.github](https://github.com/Omnizap-System/.github) |
 
-> _Atualizado em 6 de abr. de 2026, 00:33 (UTC) | Fonte: gh + API._
+> _Atualizado em 6 de abr. de 2026, 01:36 (UTC) | Fonte: gh + API._
 <!--ORGS_DYNAMIC_END-->
 
 <p align="center">
@@ -151,11 +151,11 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 6: [jsontree](https://github.com/kaikybrofc/jsontree)
+### Projeto 6: [Baileys](https://github.com/kaikybrofc/Baileys)
 
-**Descrição:** Visualize JSON data format as a tree or graph
+**Descrição:** Socket-based TS/JavaScript API for WhatsApp Web
 
-![Resumo do Projeto](./assets/badges/projeto/jsontree/resumo.svg) ![Atividade](./assets/badges/projeto/jsontree/atividade.svg) ![Estrelas](./assets/badges/projeto/jsontree/estrelas.svg) ![Atualizado](./assets/badges/projeto/jsontree/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/Baileys/resumo.svg) ![Atividade](./assets/badges/projeto/Baileys/atividade.svg) ![Estrelas](./assets/badges/projeto/Baileys/estrelas.svg) ![Atualizado](./assets/badges/projeto/Baileys/atualizado.svg)
 <!--FEATURED_PROJECTS_END-->
 
 
