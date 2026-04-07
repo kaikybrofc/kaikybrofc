@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor focado no ecossistema de desenvolvimento de software com sólida base em linguagens versáteis e arquiteturas modernas. Sua especialidade técnica abrange o uso extensivo de Node.js, TypeScript e JavaScript para a criação de aplicações escaláveis, complementada por conhecimentos em Express, Python e bancos de dados relacionais. Com quatorze repositórios públicos e contribuições ativas na organização Omnizap System, o profissional demonstra consistência na entrega de projetos de automação e ferramentas de sistema.
+Kaiky Brito é um desenvolvedor focado no ecossistema de software, com sólida base técnica construída através de projetos em JavaScript, TypeScript e Python. Sua atuação concentra-se primordialmente no desenvolvimento back-end com Node.js e Express, integrando bancos de dados MySQL e utilizando ferramentas de qualidade de código como ESLint e Prettier. Atualmente, o profissional gerencia catorze repositórios públicos, incluindo contribuições para a organização Omnizap System e o desenvolvimento de sistemas como o bot Zyra e a automação Ayana.
 
-> _Atualizado em 7 de abr. de 2026, 04:33 (UTC)._
+> _Atualizado em 7 de abr. de 2026, 06:33 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Automação de rotinas para atualização de métricas e geração de assets visuais.
-- Aprimoramento de sistemas de autenticação com foco em resiliência e persistência.
-- Fortalecimento da integridade de dados e validações em serviços Node.js e TypeScript.
+- Automação de métricas de perfil e atualização dinâmica de ativos visuais.
+- Estabilização de sistemas de mensageria com foco em persistência e sockets.
+- Otimização de pipelines de monitoramento e integração com Gemini CLI.
 
-> _Atualizado em 7 de abr. de 2026, 04:35 (UTC)._
+> _Atualizado em 7 de abr. de 2026, 06:35 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -88,7 +88,7 @@ Kaiky Brito é um desenvolvedor focado no ecossistema de desenvolvimento de soft
 |---|---:|---:|---|
 | [Omnizap System](https://github.com/Omnizap-System)<br/><sub>@Omnizap-System</sub> | 2 | 1 | [omnizap](https://github.com/Omnizap-System/omnizap), [.github](https://github.com/Omnizap-System/.github) |
 
-> _Atualizado em 7 de abr. de 2026, 05:33 (UTC) | Fonte: gh + API._
+> _Atualizado em 7 de abr. de 2026, 06:35 (UTC) | Fonte: gh + API._
 <!--ORGS_DYNAMIC_END-->
 
 <p align="center">
