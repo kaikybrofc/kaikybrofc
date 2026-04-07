@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor focado no ecossistema JavaScript e TypeScript, com sólida base técnica em Node.js e Express. O profissional mantém 14 repositórios públicos e contribui para a organização Omnizap System, apresentando versatilidade em projetos desenvolvidos com Python, Rust e C. Sua trajetória é marcada pelo desenvolvimento de ferramentas como os projetos zyra e ayana-bot, priorizando a eficiência técnica e a organização de código através de padrões de mercado.
+Kaiky Brito é um desenvolvedor com atuação voltada ao ecossistema JavaScript, concentrando sua prática em Node.js e TypeScript para o desenvolvimento de aplicações. Seu portfólio técnico é composto por quatorze repositórios públicos, destacando-se projetos como zyra e ayana-bot que utilizam tecnologias como Express, Python e MySQL. Além de colaborar com a organização Omnizap System, ele demonstra versatilidade ao explorar diferentes paradigmas em linguagens como C e Rust.
 
-> _Atualizado em 6 de abr. de 2026, 23:33 (UTC)._
+> _Atualizado em 7 de abr. de 2026, 02:33 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Automação de métricas e atualização de ativos SVG para perfil.
-- Fortalecimento de autenticação e persistência MySQL no projeto Zyra.
-- Otimização de integração com Gemini CLI e arquitetura de bots.
+- Refinamento de sistemas de autenticação e persistência de dados com MySQL e cache.
+- Automação de pipelines para atualização de métricas e ativos visuais de perfil.
+- Fortalecimento da integridade de credenciais através de validações e testes automatizados.
 
-> _Atualizado em 6 de abr. de 2026, 23:35 (UTC)._
+> _Atualizado em 7 de abr. de 2026, 02:35 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -88,7 +88,7 @@ Kaiky Brito é um desenvolvedor focado no ecossistema JavaScript e TypeScript, c
 |---|---:|---:|---|
 | [Omnizap System](https://github.com/Omnizap-System)<br/><sub>@Omnizap-System</sub> | 2 | 1 | [omnizap](https://github.com/Omnizap-System/omnizap), [.github](https://github.com/Omnizap-System/.github) |
 
-> _Atualizado em 7 de abr. de 2026, 01:36 (UTC) | Fonte: gh + API._
+> _Atualizado em 7 de abr. de 2026, 02:35 (UTC) | Fonte: gh + API._
 <!--ORGS_DYNAMIC_END-->
 
 <p align="center">
