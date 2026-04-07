@@ -43,11 +43,11 @@ Kaiky Brito é um desenvolvedor focado no ecossistema Node.js e em arquiteturas 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Automação e atualização de métricas dinâmicas em ativos SVG para perfis.
-- Otimização de sistemas de autenticação e persistência de dados com MySQL.
-- Manutenção de dependências e aplicação de patches em frameworks Node.js.
+- Otimização de fluxos de autenticação com Redis e persistência em MySQL.
+- Aperfeiçoamento de protocolos de comunicação via socket e tratamento de concorrência.
+- Automação de métricas e manutenção programada de ativos visuais do perfil.
 
-> _Atualizado em 7 de abr. de 2026, 16:35 (UTC)._
+> _Atualizado em 7 de abr. de 2026, 20:36 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -88,7 +88,7 @@ Kaiky Brito é um desenvolvedor focado no ecossistema Node.js e em arquiteturas 
 |---|---:|---:|---|
 | [Omnizap System](https://github.com/Omnizap-System)<br/><sub>@Omnizap-System</sub> | 2 | 1 | [omnizap](https://github.com/Omnizap-System/omnizap), [.github](https://github.com/Omnizap-System/.github) |
 
-> _Atualizado em 7 de abr. de 2026, 19:36 (UTC) | Fonte: gh + API._
+> _Atualizado em 7 de abr. de 2026, 20:36 (UTC) | Fonte: gh + API._
 <!--ORGS_DYNAMIC_END-->
 
 <p align="center">
