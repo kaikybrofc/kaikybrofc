@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor focado no ecossistema Node.js, com proficiência em JavaScript e TypeScript para o desenvolvimento de aplicações back-end e automações. Com experiência em frameworks como Express e bancos de dados MySQL, ele contribui para a organização Omnizap System e gerencia um portfólio composto por 14 repositórios públicos. Sua trajetória técnica destaca o desenvolvimento de projetos ativos como Zyra e Ayana-bot, demonstrando versatilidade na aplicação de tecnologias complementares como Python e Rust.
+Kaiky Brito é um desenvolvedor focado no ecossistema Node.js, possuindo experiência em quatorze repositórios públicos e contribuições na organização Omnizap System. Sua especialidade técnica abrange o desenvolvimento de aplicações com JavaScript e TypeScript utilizando o framework Express, integrando também competências em linguagens como Python e Rust. Atualmente, o profissional dedica-se à manutenção de projetos com alto índice de atividade, como o repositório zyra e sistemas de monitoramento, priorizando a entrega de soluções eficientes e a evolução técnica constante.
 
-> _Atualizado em 7 de abr. de 2026, 12:33 (UTC)._
+> _Atualizado em 7 de abr. de 2026, 14:33 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Refinamento de fluxos de autenticação e persistência de dados em MySQL.
-- Fortalecimento de sockets e implementação de cache para estabilidade de conexões.
-- Manutenção automatizada de métricas de desempenho e integração de ferramentas CLI.
+- Automação de pipelines para geração e atualização dinâmica de métricas em SVG.
+- Refatoração de fluxos de autenticação MySQL e estabilidade de conexões no projeto Zyra.
+- Otimização de escalabilidade em consultas SQL e hardening de segurança em APIs.
 
-> _Atualizado em 7 de abr. de 2026, 12:35 (UTC)._
+> _Atualizado em 7 de abr. de 2026, 14:36 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -88,7 +88,7 @@ Kaiky Brito é um desenvolvedor focado no ecossistema Node.js, com proficiência
 |---|---:|---:|---|
 | [Omnizap System](https://github.com/Omnizap-System)<br/><sub>@Omnizap-System</sub> | 2 | 1 | [omnizap](https://github.com/Omnizap-System/omnizap), [.github](https://github.com/Omnizap-System/.github) |
 
-> _Atualizado em 7 de abr. de 2026, 13:33 (UTC) | Fonte: gh + API._
+> _Atualizado em 7 de abr. de 2026, 14:36 (UTC) | Fonte: gh + API._
 <!--ORGS_DYNAMIC_END-->
 
 <p align="center">
@@ -121,21 +121,21 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 3: [ayana-bot](https://github.com/kaikybrofc/ayana-bot)
+### Projeto 3: [news-anime-monitor](https://github.com/kaikybrofc/news-anime-monitor)
 
-**Descrição:** 🤖 Ayana System é um bot inteligente com temática anime, focado em automação, interações avançadas, jogos e recursos modernos para servidores. Rápido, elegan...
+**Descrição:** Este projeto realiza o monitoramento automático da página de notícias de animes
 
-![Resumo do Projeto](./assets/badges/projeto/ayana-bot/resumo.svg) ![Atividade](./assets/badges/projeto/ayana-bot/atividade.svg) ![Estrelas](./assets/badges/projeto/ayana-bot/estrelas.svg) ![Atualizado](./assets/badges/projeto/ayana-bot/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/news-anime-monitor/resumo.svg) ![Atividade](./assets/badges/projeto/news-anime-monitor/atividade.svg) ![Estrelas](./assets/badges/projeto/news-anime-monitor/estrelas.svg) ![Atualizado](./assets/badges/projeto/news-anime-monitor/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 4: [news-anime-monitor](https://github.com/kaikybrofc/news-anime-monitor)
+### Projeto 4: [ayana-bot](https://github.com/kaikybrofc/ayana-bot)
 
-**Descrição:** Este projeto realiza o monitoramento automático da página de notícias de animes
+**Descrição:** 🤖 Ayana System é um bot inteligente com temática anime, focado em automação, interações avançadas, jogos e recursos modernos para servidores. Rápido, elegan...
 
-![Resumo do Projeto](./assets/badges/projeto/news-anime-monitor/resumo.svg) ![Atividade](./assets/badges/projeto/news-anime-monitor/atividade.svg) ![Estrelas](./assets/badges/projeto/news-anime-monitor/estrelas.svg) ![Atualizado](./assets/badges/projeto/news-anime-monitor/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/ayana-bot/resumo.svg) ![Atividade](./assets/badges/projeto/ayana-bot/atividade.svg) ![Estrelas](./assets/badges/projeto/ayana-bot/estrelas.svg) ![Atualizado](./assets/badges/projeto/ayana-bot/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
