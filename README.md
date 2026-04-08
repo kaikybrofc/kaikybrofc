@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor focado em soluções tecnológicas para web e automação, possuindo sólida experiência no ecossistema Node.js e na linguagem TypeScript. Sua atuação técnica destaca-se pelo desenvolvimento de aplicações estruturadas com Express e Python, além da integração eficiente com bancos de dados como MySQL. Com quatorze repositórios públicos e engajamento constante em projetos ativos, o profissional demonstra competência técnica na entrega de softwares consistentes e na evolução contínua de suas habilidades em programação.
+Kaiky Brito é um desenvolvedor focado no ecossistema Node.js que atua no perfil @kaikybrofc e colabora com a organização Omnizap System no desenvolvimento de softwares. Sua stack técnica é fundamentada em TypeScript, JavaScript e Express, apresentando versatilidade em linguagens complementares como Python, Rust e C para diferentes arquiteturas. Atualmente mantém quatorze repositórios públicos e demonstra engajamento constante em projetos de alta atividade, como os repositórios zyra e news-anime-monitor.
 
-> _Atualizado em 8 de abr. de 2026, 15:36 (UTC)._
+> _Atualizado em 8 de abr. de 2026, 18:34 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Automação de workflow para atualização de métricas e renderização de ativos SVG.
-- Integração de modelos de linguagem via Gemini CLI e otimização de parâmetros de configuração.
-- Refinamento de persistência de credenciais e compatibilidade MariaDB no projeto Zyra.
+- Refinamento de persistência de dados e resolução de condições de corrida no projeto Zyra.
+- Automação de infraestrutura para atualização dinâmica de métricas de perfil em SVG.
+- Migração e otimização de integrações de IA utilizando Gemini CLI em aplicações Node.js.
 
-> _Atualizado em 8 de abr. de 2026, 15:35 (UTC)._
+> _Atualizado em 8 de abr. de 2026, 18:34 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -88,7 +88,7 @@ Kaiky Brito é um desenvolvedor focado em soluções tecnológicas para web e au
 |---|---:|---:|---|
 | [Omnizap System](https://github.com/Omnizap-System)<br/><sub>@Omnizap-System</sub> | 2 | 1 | [omnizap](https://github.com/Omnizap-System/omnizap), [.github](https://github.com/Omnizap-System/.github) |
 
-> _Atualizado em 8 de abr. de 2026, 17:36 (UTC) | Fonte: gh + API._
+> _Atualizado em 8 de abr. de 2026, 18:34 (UTC) | Fonte: gh + API._
 <!--ORGS_DYNAMIC_END-->
 
 <p align="center">
