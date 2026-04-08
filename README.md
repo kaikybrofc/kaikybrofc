@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor focado no ecossistema Node.js que atua no perfil @kaikybrofc e colabora com a organização Omnizap System no desenvolvimento de softwares. Sua stack técnica é fundamentada em TypeScript, JavaScript e Express, apresentando versatilidade em linguagens complementares como Python, Rust e C para diferentes arquiteturas. Atualmente mantém quatorze repositórios públicos e demonstra engajamento constante em projetos de alta atividade, como os repositórios zyra e news-anime-monitor.
+Kaiky Brito é um desenvolvedor com experiência prática em ecossistemas de programação diversos, possuindo proficiência em linguagens como JavaScript, TypeScript, Python e Rust. Sua atuação técnica é centralizada no ambiente Node.js e no framework Express, integrando soluções eficientes com bancos de dados relacionais e ferramentas de padronização de código. Com contribuições na organização Omnizap System, o desenvolvedor mantém projetos voltados para automação e monitoramento, demonstrando versatilidade técnica e foco em arquiteturas modernas.
 
-> _Atualizado em 8 de abr. de 2026, 18:34 (UTC)._
+> _Atualizado em 8 de abr. de 2026, 21:34 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Refinamento de persistência de dados e resolução de condições de corrida no projeto Zyra.
-- Automação de infraestrutura para atualização dinâmica de métricas de perfil em SVG.
-- Migração e otimização de integrações de IA utilizando Gemini CLI em aplicações Node.js.
+- Refinamento de estabilidade e persistência de dados no projeto Zyra.
+- Integração de modelos de IA via Gemini CLI no monitor de notícias.
+- Automação de fluxos para atualização de métricas e visualizações do perfil.
 
-> _Atualizado em 8 de abr. de 2026, 18:34 (UTC)._
+> _Atualizado em 8 de abr. de 2026, 21:34 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -88,7 +88,7 @@ Kaiky Brito é um desenvolvedor focado no ecossistema Node.js que atua no perfil
 |---|---:|---:|---|
 | [Omnizap System](https://github.com/Omnizap-System)<br/><sub>@Omnizap-System</sub> | 2 | 1 | [omnizap](https://github.com/Omnizap-System/omnizap), [.github](https://github.com/Omnizap-System/.github) |
 
-> _Atualizado em 8 de abr. de 2026, 20:36 (UTC) | Fonte: gh + API._
+> _Atualizado em 8 de abr. de 2026, 21:34 (UTC) | Fonte: gh + API._
 <!--ORGS_DYNAMIC_END-->
 
 <p align="center">
