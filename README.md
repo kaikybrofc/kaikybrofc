@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor focado na construção de soluções tecnológicas com experiência em quatorze repositórios públicos e atuação na organização Omnizap System. Sua base técnica é estruturada em Node.js, TypeScript e Express, apresentando proficiência em linguagens que abrangem JavaScript, Python e Rust. O foco atual de desenvolvimento concentra-se na evolução de sistemas como Zyra e Ayana-bot, além da manutenção de ferramentas voltadas para automação e eficiência de software.
+Kaiky Brito é um desenvolvedor júnior focado no ecossistema JavaScript que demonstra sólida atuação no desenvolvimento de soluções backend. Seu conjunto de habilidades técnicas abrange tecnologias como Node.js, TypeScript e Express, além de possuir conhecimentos complementares em Python, Rust e bancos de dados relacionais como MySQL. Com quatorze repositórios públicos e participação na organização Omnizap System, o desenvolvedor mantém projetos ativos voltados para ferramentas de sistema, destacando-se os repositórios zyra e ayana-bot.
 
-> _Atualizado em 9 de abr. de 2026, 16:36 (UTC)._
+> _Atualizado em 9 de abr. de 2026, 20:34 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Manutenção de infraestrutura de visualização de métricas e automação de ativos SVG.
-- Otimização de sistemas de mensageria com foco em persistência de dados e concorrência.
-- Refinamento de integrações de inteligência artificial e monitoramento de serviços.
+- Manutenção de automações para atualização dinâmica de métricas e assets visuais de perfil.
+- Otimização do core do projeto Zyra, tratando concorrência de credenciais e suporte a MariaDB.
+- Expansão de funcionalidades no monitor de notícias com integração e configuração do Gemini CLI.
 
-> _Atualizado em 9 de abr. de 2026, 18:34 (UTC)._
+> _Atualizado em 9 de abr. de 2026, 20:34 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -88,7 +88,7 @@ Kaiky Brito é um desenvolvedor focado na construção de soluções tecnológic
 |---|---:|---:|---|
 | [Omnizap System](https://github.com/Omnizap-System)<br/><sub>@Omnizap-System</sub> | 2 | 1 | [omnizap](https://github.com/Omnizap-System/omnizap), [.github](https://github.com/Omnizap-System/.github) |
 
-> _Atualizado em 9 de abr. de 2026, 19:35 (UTC) | Fonte: gh + API._
+> _Atualizado em 9 de abr. de 2026, 20:34 (UTC) | Fonte: gh + API._
 <!--ORGS_DYNAMIC_END-->
 
 <p align="center">
