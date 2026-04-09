@@ -43,11 +43,11 @@ Kaiky Brito é um desenvolvedor focado em engenharia de software que gerencia qu
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Manutenção de fluxos automatizados para geração e atualização de métricas em assets SVG.
-- Refinamento de persistência e arquitetura de autenticação em sistemas baseados em MariaDB e Redis.
-- Evolução de ferramentas de integração com Gemini CLI para monitoramento e automação de serviços.
+- Automação e atualização de métricas de desempenho em assets SVG para o perfil.
+- Otimização de sistemas de autenticação e persistência de dados no projeto Zyra.
+- Aperfeiçoamento da integração com Gemini CLI e expansão de funcionalidades de monitoramento.
 
-> _Atualizado em 9 de abr. de 2026, 09:34 (UTC)._
+> _Atualizado em 9 de abr. de 2026, 11:36 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -88,7 +88,7 @@ Kaiky Brito é um desenvolvedor focado em engenharia de software que gerencia qu
 |---|---:|---:|---|
 | [Omnizap System](https://github.com/Omnizap-System)<br/><sub>@Omnizap-System</sub> | 2 | 1 | [omnizap](https://github.com/Omnizap-System/omnizap), [.github](https://github.com/Omnizap-System/.github) |
 
-> _Atualizado em 9 de abr. de 2026, 10:33 (UTC) | Fonte: gh + API._
+> _Atualizado em 9 de abr. de 2026, 11:36 (UTC) | Fonte: gh + API._
 <!--ORGS_DYNAMIC_END-->
 
 <p align="center">
