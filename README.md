@@ -43,11 +43,11 @@ Kaiky Brito é um desenvolvedor focado na construção de soluções tecnológic
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Manutenção e otimização de sistemas baseados em Node.js e TypeScript para integração com WhatsApp.
-- Refinamento de fluxos de autenticação, persistência de credenciais e concorrência com Redis e MariaDB.
-- Automatização de fluxos de trabalho e atualização dinâmica de ativos de métricas em repositórios GitHub.
+- Manutenção de infraestrutura de visualização de métricas e automação de ativos SVG.
+- Otimização de sistemas de mensageria com foco em persistência de dados e concorrência.
+- Refinamento de integrações de inteligência artificial e monitoramento de serviços.
 
-> _Atualizado em 9 de abr. de 2026, 14:36 (UTC)._
+> _Atualizado em 9 de abr. de 2026, 18:34 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -59,19 +59,19 @@ Kaiky Brito é um desenvolvedor focado na construção de soluções tecnológic
 <!--STACK_DYNAMIC_START-->
 <p align="center">
   <img src="./assets/badges/stack/nodejs.svg" alt="Badge stack Node.js"/>
+  <img src="./assets/badges/stack/typescript.svg" alt="Badge stack TypeScript"/>
   <img src="./assets/badges/stack/javascript.svg" alt="Badge stack JavaScript"/>
   <img src="./assets/badges/stack/express.svg" alt="Badge stack Express"/>
-  <img src="./assets/badges/stack/typescript.svg" alt="Badge stack TypeScript"/>
   <img src="./assets/badges/stack/python.svg" alt="Badge stack Python"/>
+  <img src="./assets/badges/stack/mysql.svg" alt="Badge stack MySQL"/>
   <img src="./assets/badges/stack/eslint.svg" alt="Badge stack ESLint"/>
   <img src="./assets/badges/stack/prettier.svg" alt="Badge stack Prettier"/>
   <img src="./assets/badges/stack/mongodb.svg" alt="Badge stack MongoDB"/>
-  <img src="./assets/badges/stack/mysql.svg" alt="Badge stack MySQL"/>
   <img src="./assets/badges/stack/nextjs.svg" alt="Badge stack Next.js"/>
   <img src="./assets/badges/stack/react.svg" alt="Badge stack React"/>
+  <img src="./assets/badges/stack/redis.svg" alt="Badge stack Redis"/>
   <img src="./assets/badges/stack/tailwindcss.svg" alt="Badge stack Tailwind CSS"/>
   <img src="./assets/badges/stack/c.svg" alt="Badge stack C"/>
-  <img src="./assets/badges/stack/rust.svg" alt="Badge stack Rust"/>
 </p>
 
 <p align="center"><sub>Stack dinâmica baseada nas tecnologias detectadas nos repositórios.</sub></p>
@@ -88,7 +88,7 @@ Kaiky Brito é um desenvolvedor focado na construção de soluções tecnológic
 |---|---:|---:|---|
 | [Omnizap System](https://github.com/Omnizap-System)<br/><sub>@Omnizap-System</sub> | 2 | 1 | [omnizap](https://github.com/Omnizap-System/omnizap), [.github](https://github.com/Omnizap-System/.github) |
 
-> _Atualizado em 9 de abr. de 2026, 17:35 (UTC) | Fonte: gh + API._
+> _Atualizado em 9 de abr. de 2026, 18:35 (UTC) | Fonte: gh + API._
 <!--ORGS_DYNAMIC_END-->
 
 <p align="center">
