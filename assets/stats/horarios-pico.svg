@@ -35,16 +35,16 @@
 <line x1="86" y1="251" x2="1320" y2="251" stroke="#7dd3fc" stroke-opacity="0.12" stroke-width="1"/>
 <line x1="86" y1="287" x2="1320" y2="287" stroke="#7dd3fc" stroke-opacity="0.12" stroke-width="1"/>
 <line x1="86" y1="322" x2="1320" y2="322" stroke="#7dd3fc" stroke-opacity="0.28" stroke-width="1"/>
-<path d="M 86 180 L 333 239 L 580 315 L 826 278 L 1073 270 L 1320 211 L 1320 322 L 86 322 Z" fill="url(#statAreahorariospico)"/>
-<path d="M 86 180 L 333 239 L 580 315 L 826 278 L 1073 270 L 1320 211" fill="none" stroke="#22d3ee" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 86 180 L 333 219 L 580 315 L 826 278 L 1073 274 L 1320 226 L 1320 322 L 86 322 Z" fill="url(#statAreahorariospico)"/>
+<path d="M 86 180 L 333 219 L 580 315 L 826 278 L 1073 274 L 1320 226" fill="none" stroke="#22d3ee" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <g>
   <circle cx="86" cy="180" r="4.6" fill="#22d3ee" stroke="#ecfeff" stroke-opacity="0.7"/>
   <text x="86" y="171" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">65</text>
   <text x="86" y="344" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="10.8" font-weight="600">00-03</text>
 </g>
 <g>
-  <circle cx="333" cy="239" r="4.6" fill="#22d3ee" stroke="#ecfeff" stroke-opacity="0.7"/>
-  <text x="333" y="230" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">38</text>
+  <circle cx="333" cy="219" r="4.6" fill="#22d3ee" stroke="#ecfeff" stroke-opacity="0.7"/>
+  <text x="333" y="210" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">47</text>
   <text x="333" y="344" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="10.8" font-weight="600">04-07</text>
 </g>
 <g>
@@ -58,21 +58,21 @@
   <text x="826" y="344" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="10.8" font-weight="600">12-15</text>
 </g>
 <g>
-  <circle cx="1073" cy="270" r="4.6" fill="#22d3ee" stroke="#ecfeff" stroke-opacity="0.7"/>
-  <text x="1073" y="261" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">24</text>
+  <circle cx="1073" cy="274" r="4.6" fill="#22d3ee" stroke="#ecfeff" stroke-opacity="0.7"/>
+  <text x="1073" y="265" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">22</text>
   <text x="1073" y="344" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="10.8" font-weight="600">16-19</text>
 </g>
 <g>
-  <circle cx="1320" cy="211" r="4.6" fill="#22d3ee" stroke="#ecfeff" stroke-opacity="0.7"/>
-  <text x="1320" y="202" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">51</text>
+  <circle cx="1320" cy="226" r="4.6" fill="#22d3ee" stroke="#ecfeff" stroke-opacity="0.7"/>
+  <text x="1320" y="217" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">44</text>
   <text x="1320" y="344" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="10.8" font-weight="600">20-23</text>
 </g>
   <text x="58" y="394" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Horario #1: 0h (25).</text>
-<text x="58" y="418" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Horario #2: 23h (22).</text>
-<text x="58" y="442" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Horario #3: 3h (16).</text>
+<text x="58" y="418" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Horario #2: 5h (22).</text>
+<text x="58" y="442" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Horario #3: 23h (21).</text>
 <text x="58" y="466" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Faixa dominante: madrugada.</text>
   <line x1="52" y1="506" x2="1348" y2="506" stroke="#38bdf8" stroke-opacity="0.32"/>
   <text x="54" y="530" fill="#a8d9f4" font-family="JetBrains Mono, Consolas, monospace" font-size="16">
-    atualizado: 58m
+    atualizado: agora
   </text>
 </svg>

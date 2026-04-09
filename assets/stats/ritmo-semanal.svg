@@ -69,15 +69,15 @@
   <text x="522" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">ter</text>
 </g>
 <g>
-  <rect x="617" y="248" width="166" height="78" rx="6" fill="url(#statBarGradritmosemanal)" opacity="0.96"/>
-  <rect x="617" y="248" width="166" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
-  <text x="700" y="240" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">30</text>
+  <rect x="617" y="272" width="166" height="54" rx="6" fill="url(#statBarGradritmosemanal)" opacity="0.96"/>
+  <rect x="617" y="272" width="166" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
+  <text x="700" y="264" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">21</text>
   <text x="700" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">qua</text>
 </g>
 <g>
-  <rect x="795" y="233" width="166" height="93" rx="6" fill="url(#statBarGradritmosemanal)" opacity="0.96"/>
-  <rect x="795" y="233" width="166" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
-  <text x="878" y="225" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">36</text>
+  <rect x="795" y="209" width="166" height="117" rx="6" fill="url(#statBarGradritmosemanal)" opacity="0.96"/>
+  <rect x="795" y="209" width="166" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
+  <text x="878" y="201" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">45</text>
   <text x="878" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">qui</text>
 </g>
 <g>
@@ -98,6 +98,6 @@
 <text x="58" y="466" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Cadencia semanal detectada com base em eventos recentes.</text>
   <line x1="52" y1="506" x2="1348" y2="506" stroke="#38bdf8" stroke-opacity="0.32"/>
   <text x="54" y="530" fill="#a8d9f4" font-family="JetBrains Mono, Consolas, monospace" font-size="16">
-    atualizado: 58m
+    atualizado: agora
   </text>
 </svg>
