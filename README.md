@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor focado no ecossistema de software com sólida base em tecnologias modernas e participação ativa em projetos de código aberto. Sua expertise técnica concentra-se em Node.js, TypeScript e Python, com experiência prática no desenvolvimento de APIs utilizando Express e gerenciamento de bancos de dados relacionais como MySQL. Atualmente, demonstra versatilidade por meio de quatorze repositórios públicos, destacando-se pela manutenção constante de projetos como zyra e ayana-bot e por suas contribuições para a organização Omnizap System.
+Kaiky Brito é um desenvolvedor júnior com experiência em projetos de código aberto e colaborações na organização Omnizap System. Sua base tecnológica é composta majoritariamente por Node.js, TypeScript e JavaScript, com aplicações práticas utilizando frameworks como Express e linguagens complementares como Python e Rust. Atualmente, mantém uma atividade constante voltada ao desenvolvimento de ferramentas e automações, consolidando um portfólio diverso em múltiplos ambientes de programação.
 
-> _Atualizado em 10 de abr. de 2026, 04:33 (UTC)._
+> _Atualizado em 10 de abr. de 2026, 08:36 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Automatização de fluxos para atualização dinâmica de métricas e assets visuais de perfil.
-- Refinamento de sistemas de autenticação e persistência em Node.js com Redis e MariaDB.
-- Integração e otimização do Gemini CLI para processamento de linguagem natural em monitoramento.
+- Manutenção de fluxos automatizados para atualização de métricas e ativos gráficos em SVG.
+- Refinamento da arquitetura de persistência e comunicação via sockets em ambientes Node.js.
+- Implementação de recursos e otimização de parâmetros para integração com Gemini CLI.
 
-> _Atualizado em 10 de abr. de 2026, 06:34 (UTC)._
+> _Atualizado em 10 de abr. de 2026, 08:36 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -88,7 +88,7 @@ Kaiky Brito é um desenvolvedor focado no ecossistema de software com sólida ba
 |---|---:|---:|---|
 | [Omnizap System](https://github.com/Omnizap-System)<br/><sub>@Omnizap-System</sub> | 2 | 1 | [omnizap](https://github.com/Omnizap-System/omnizap), [.github](https://github.com/Omnizap-System/.github) |
 
-> _Atualizado em 10 de abr. de 2026, 07:35 (UTC) | Fonte: gh + API._
+> _Atualizado em 10 de abr. de 2026, 08:36 (UTC) | Fonte: gh + API._
 <!--ORGS_DYNAMIC_END-->
 
 <p align="center">
