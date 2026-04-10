@@ -51,9 +51,9 @@
   <text x="74" y="330" text-anchor="end" fill="#8fb0c8" font-family="JetBrains Mono, Consolas, monospace" font-size="11">0</text>
 </g>
 <g>
-  <rect x="83" y="233" width="295" height="93" rx="6" fill="url(#statBarGradsauderepositorios)" opacity="0.96"/>
-  <rect x="83" y="233" width="295" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
-  <text x="231" y="225" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">8</text>
+  <rect x="83" y="244" width="295" height="82" rx="6" fill="url(#statBarGradsauderepositorios)" opacity="0.96"/>
+  <rect x="83" y="244" width="295" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
+  <text x="231" y="236" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">7</text>
   <text x="231" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">ativos 30d</text>
 </g>
 <g>
@@ -75,11 +75,11 @@
   <text x="1170" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">inativos</text>
 </g>
   <text x="58" y="394" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Repositorios publicos monitorados: 14.</text>
-<text x="58" y="418" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Ativos em 30d: 8 | em 60d: 11.</text>
+<text x="58" y="418" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Ativos em 30d: 7 | em 60d: 11.</text>
 <text x="58" y="442" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Ativos em 90d: 12 | inativos &gt;90d: 2.</text>
-<text x="58" y="466" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Cobertura ativa (30d): 57.1%.</text>
+<text x="58" y="466" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Cobertura ativa (30d): 50%.</text>
   <line x1="52" y1="506" x2="1348" y2="506" stroke="#38bdf8" stroke-opacity="0.32"/>
   <text x="54" y="530" fill="#a8d9f4" font-family="JetBrains Mono, Consolas, monospace" font-size="16">
-    atualizado: 59m
+    atualizado: agora
   </text>
 </svg>
