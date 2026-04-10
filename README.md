@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor focado em desenvolvimento web e automação que gerencia quatorze repositórios públicos e participa da organização Omnizap System. O perfil técnico destaca o uso de Node.js, TypeScript e Express, integrando bancos de dados relacionais e ferramentas de qualidade de código. A produção atual inclui projetos em linguagens como JavaScript, Python e Rust, evidenciando a aplicação de diferentes tecnologias para a construção de sistemas.
+Kaiky Brito é um desenvolvedor júnior focado no ecossistema web e em automação, possuindo experiência prática no desenvolvimento de sistemas back-end com Node.js e Express. Seu conjunto de habilidades técnicas prioriza o uso de JavaScript, TypeScript e Python, abrangendo desde a integração com bancos de dados MySQL até a implementação de ferramentas de padronização de código. Atualmente, o profissional colabora com a organização Omnizap System e mantém projetos de destaque como o zyra e o ayana-bot, demonstrando versatilidade técnica em múltiplas linguagens de programação.
 
-> _Atualizado em 10 de abr. de 2026, 21:34 (UTC)._
+> _Atualizado em 10 de abr. de 2026, 23:33 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Manutenção de fluxos de automação para atualização de métricas e assets visuais de perfil via GitHub Actions.
-- Otimização do projeto Zyra com foco em autenticação distribuída, compatibilidade MariaDB e estabilidade de sockets.
-- Refinamento de integrações com Gemini CLI e expansão de funcionalidades em sistemas de monitoramento.
+- Otimização de sistemas de mensageria com foco em persistência de credenciais e concorrência em MariaDB e Redis.
+- Automatização de métricas e infraestrutura de ativos visuais para perfis técnicos utilizando Node.js e GitHub Actions.
+- Refinamento de integração com LLMs para monitoramento de dados e correção de compatibilidade em camadas de banco de dados.
 
-> _Atualizado em 10 de abr. de 2026, 21:34 (UTC)._
+> _Atualizado em 10 de abr. de 2026, 23:34 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -88,7 +88,7 @@ Kaiky Brito é um desenvolvedor focado em desenvolvimento web e automação que 
 |---|---:|---:|---|
 | [Omnizap System](https://github.com/Omnizap-System)<br/><sub>@Omnizap-System</sub> | 2 | 1 | [omnizap](https://github.com/Omnizap-System/omnizap), [.github](https://github.com/Omnizap-System/.github) |
 
-> _Atualizado em 10 de abr. de 2026, 21:34 (UTC) | Fonte: gh + API._
+> _Atualizado em 10 de abr. de 2026, 23:34 (UTC) | Fonte: gh + API._
 <!--ORGS_DYNAMIC_END-->
 
 <p align="center">
