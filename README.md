@@ -43,11 +43,11 @@ Kaiky Brito é um desenvolvedor focado no ecossistema JavaScript e TypeScript, c
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Desenvolvimento e manutenção de sistemas de mensageria escaláveis com Node.js e TypeScript.
-- Otimização de persistência de dados e integração de cache com foco em MariaDB e Redis.
-- Automação de infraestrutura e fluxos de dados utilizando Gemini CLI e GitHub Actions.
+- Manutenção automatizada de ativos SVG e métricas dinâmicas para o perfil GitHub via GitHub Actions.
+- Refinamento do projeto Zyra com foco em persistência de credenciais, compatibilidade MariaDB e otimização de sockets.
+- Evolução do monitor de notícias com integração do Gemini CLI e melhorias em SEO e sistemas de busca.
 
-> _Atualizado em 10 de abr. de 2026, 16:34 (UTC)._
+> _Atualizado em 10 de abr. de 2026, 18:36 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -88,7 +88,7 @@ Kaiky Brito é um desenvolvedor focado no ecossistema JavaScript e TypeScript, c
 |---|---:|---:|---|
 | [Omnizap System](https://github.com/Omnizap-System)<br/><sub>@Omnizap-System</sub> | 2 | 1 | [omnizap](https://github.com/Omnizap-System/omnizap), [.github](https://github.com/Omnizap-System/.github) |
 
-> _Atualizado em 10 de abr. de 2026, 17:35 (UTC) | Fonte: gh + API._
+> _Atualizado em 10 de abr. de 2026, 18:36 (UTC) | Fonte: gh + API._
 <!--ORGS_DYNAMIC_END-->
 
 <p align="center">
