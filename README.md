@@ -43,11 +43,11 @@ Kaiky Brito é um desenvolvedor júnior com experiência em projetos de código 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Manutenção de fluxos automatizados para atualização de métricas e ativos gráficos em SVG.
-- Refinamento da arquitetura de persistência e comunicação via sockets em ambientes Node.js.
-- Implementação de recursos e otimização de parâmetros para integração com Gemini CLI.
+- Desenvolvimento de sistemas de mensageria escaláveis com Node.js e TypeScript.
+- Refinação de fluxos de autenticação em bancos de dados relacionais e Redis.
+- Automatização de métricas e integração de modelos de IA via Gemini CLI.
 
-> _Atualizado em 10 de abr. de 2026, 08:36 (UTC)._
+> _Atualizado em 10 de abr. de 2026, 11:34 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -88,7 +88,7 @@ Kaiky Brito é um desenvolvedor júnior com experiência em projetos de código 
 |---|---:|---:|---|
 | [Omnizap System](https://github.com/Omnizap-System)<br/><sub>@Omnizap-System</sub> | 2 | 1 | [omnizap](https://github.com/Omnizap-System/omnizap), [.github](https://github.com/Omnizap-System/.github) |
 
-> _Atualizado em 10 de abr. de 2026, 10:36 (UTC) | Fonte: gh + API._
+> _Atualizado em 10 de abr. de 2026, 11:35 (UTC) | Fonte: gh + API._
 <!--ORGS_DYNAMIC_END-->
 
 <p align="center">
