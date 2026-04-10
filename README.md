@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor focado no ecossistema JavaScript e TypeScript, com experiência na construção de aplicações backend utilizando Node.js e Express. Seu portfólio abrange 14 repositórios públicos e participações na organização Omnizap System, demonstrando proficiência em múltiplas linguagens como Python, MySQL e Rust. Atualmente, dedica-se à manutenção de projetos com alto volume de atividade, como o repositório principal e a ferramenta zyra, visando a entrega de soluções técnicas estruturadas.
+Kaiky Brito é um desenvolvedor focado em desenvolvimento web e automação que gerencia quatorze repositórios públicos e participa da organização Omnizap System. O perfil técnico destaca o uso de Node.js, TypeScript e Express, integrando bancos de dados relacionais e ferramentas de qualidade de código. A produção atual inclui projetos em linguagens como JavaScript, Python e Rust, evidenciando a aplicação de diferentes tecnologias para a construção de sistemas.
 
-> _Atualizado em 10 de abr. de 2026, 14:34 (UTC)._
+> _Atualizado em 10 de abr. de 2026, 21:34 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Manutenção automatizada de ativos SVG e métricas dinâmicas para o perfil GitHub via GitHub Actions.
-- Refinamento do projeto Zyra com foco em persistência de credenciais, compatibilidade MariaDB e otimização de sockets.
-- Evolução do monitor de notícias com integração do Gemini CLI e melhorias em SEO e sistemas de busca.
+- Manutenção de fluxos de automação para atualização de métricas e assets visuais de perfil via GitHub Actions.
+- Otimização do projeto Zyra com foco em autenticação distribuída, compatibilidade MariaDB e estabilidade de sockets.
+- Refinamento de integrações com Gemini CLI e expansão de funcionalidades em sistemas de monitoramento.
 
-> _Atualizado em 10 de abr. de 2026, 18:36 (UTC)._
+> _Atualizado em 10 de abr. de 2026, 21:34 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -88,7 +88,7 @@ Kaiky Brito é um desenvolvedor focado no ecossistema JavaScript e TypeScript, c
 |---|---:|---:|---|
 | [Omnizap System](https://github.com/Omnizap-System)<br/><sub>@Omnizap-System</sub> | 2 | 1 | [omnizap](https://github.com/Omnizap-System/omnizap), [.github](https://github.com/Omnizap-System/.github) |
 
-> _Atualizado em 10 de abr. de 2026, 20:36 (UTC) | Fonte: gh + API._
+> _Atualizado em 10 de abr. de 2026, 21:34 (UTC) | Fonte: gh + API._
 <!--ORGS_DYNAMIC_END-->
 
 <p align="center">
