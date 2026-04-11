@@ -1,6 +1,6 @@
-<svg width="1400" height="310" viewBox="0 0 1400 310" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Resumo dinamico da secao Foco Atual">
+<svg width="1400" height="278" viewBox="0 0 1400 278" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Resumo dinamico da secao Foco Atual">
   <defs>
-    <linearGradient id="bgFocus" x1="0" y1="0" x2="1400" y2="310" gradientUnits="userSpaceOnUse">
+    <linearGradient id="bgFocus" x1="0" y1="0" x2="1400" y2="278" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#040919"/>
       <stop offset="0.58" stop-color="#061328"/>
       <stop offset="1" stop-color="#081b33"/>
@@ -14,18 +14,17 @@
       <animateTransform attributeName="patternTransform" type="translate" dur="16s" repeatCount="indefinite" values="0 0;24 24;0 0"/>
     </pattern>
   </defs>
-  <rect width="1400" height="310" rx="18" fill="url(#bgFocus)"/>
-  <rect width="1400" height="310" rx="18" fill="url(#gridFocus)"/>
-  <rect x="36" y="28" width="1328" height="254" rx="14" fill="#020617" fill-opacity="0.52" stroke="#38bdf8" stroke-opacity="0.28"/>
+  <rect width="1400" height="278" rx="18" fill="url(#bgFocus)"/>
+  <rect width="1400" height="278" rx="18" fill="url(#gridFocus)"/>
+  <rect x="36" y="28" width="1328" height="222" rx="14" fill="#020617" fill-opacity="0.52" stroke="#38bdf8" stroke-opacity="0.28"/>
   <rect x="52" y="48" width="300" height="34" rx="8" fill="#0b1221" stroke="#22d3ee" stroke-opacity="0.5"/>
   <text x="68" y="71" fill="#bff6ff" font-family="JetBrains Mono, Consolas, monospace" font-size="16" font-weight="700">FOCO ATUAL</text>
   <line x1="52" y1="92" x2="1348" y2="92" stroke="url(#accentFocus)" stroke-width="2" stroke-opacity="0.8"/>
-  <text x="54" y="118" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">• Automação e manutenção contínua de métricas de perfil e assets visuais via GitHub Actions.</text>
-<text x="54" y="150" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">• Evolução do projeto Zyra com foco em persistência de credenciais e suporte a MariaDB.</text>
-<text x="54" y="182" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">• Refinamento de integrações com Gemini CLI para otimização de performance em serviços de</text>
-<text x="54" y="214" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">  monitoramento.</text>
-  <line x1="52" y1="266" x2="1348" y2="266" stroke="#38bdf8" stroke-opacity="0.32"/>
-  <text x="54" y="290" fill="#a8d9f4" font-family="JetBrains Mono, Consolas, monospace" font-size="16">
-    atualizado: 59m
+  <text x="54" y="118" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">• Automação de métricas e atualização contínua de ativos visuais do perfil.</text>
+<text x="54" y="150" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">• Refinamento de fluxos de autenticação e persistência no projeto Zyra.</text>
+<text x="54" y="182" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">• Expansão de funcionalidades e integração de modelos via Gemini CLI.</text>
+  <line x1="52" y1="234" x2="1348" y2="234" stroke="#38bdf8" stroke-opacity="0.32"/>
+  <text x="54" y="258" fill="#a8d9f4" font-family="JetBrains Mono, Consolas, monospace" font-size="16">
+    atualizado: agora
   </text>
 </svg>

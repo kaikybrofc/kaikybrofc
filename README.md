@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor focado em tecnologias JavaScript e TypeScript, com sólida experiência na construção de aplicações backend utilizando os ecossistemas Node.js e Express. Sua versatilidade técnica inclui o desenvolvimento de soluções em Python, Rust e C, aliando a integração de bancos de dados MySQL com práticas rigorosas de padronização de código. Atualmente colabora com a organização Omnizap System e mantém projetos de alta atividade voltados para automação e integração de APIs, priorizando a entrega de sistemas escaláveis e eficientes.
+Kaiky Brito é um desenvolvedor júnior dedicado ao ecossistema JavaScript e TypeScript, mantendo quatorze repositórios públicos e contribuindo com a organização Omnizap System. Sua base tecnológica concentra-se no desenvolvimento backend com Node.js, Express e MySQL, possuindo também experiência prática com as linguagens Python, Rust e C. Atualmente, ele gerencia projetos ativos como os sistemas Zyra e Ayana-bot, demonstrando foco na entrega de aplicações estruturadas e na aplicação de padrões de qualidade de software.
 
-> _Atualizado em 11 de abr. de 2026, 03:34 (UTC)._
+> _Atualizado em 11 de abr. de 2026, 05:33 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Automação e manutenção contínua de métricas de perfil e assets visuais via GitHub Actions.
-- Evolução do projeto Zyra com foco em persistência de credenciais e suporte a MariaDB.
-- Refinamento de integrações com Gemini CLI para otimização de performance em serviços de monitoramento.
+- Automação de métricas e atualização contínua de ativos visuais do perfil.
+- Refinamento de fluxos de autenticação e persistência no projeto Zyra.
+- Expansão de funcionalidades e integração de modelos via Gemini CLI.
 
-> _Atualizado em 11 de abr. de 2026, 03:34 (UTC)._
+> _Atualizado em 11 de abr. de 2026, 05:34 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -88,7 +88,7 @@ Kaiky Brito é um desenvolvedor focado em tecnologias JavaScript e TypeScript, c
 |---|---:|---:|---|
 | [Omnizap System](https://github.com/Omnizap-System)<br/><sub>@Omnizap-System</sub> | 2 | 1 | [omnizap](https://github.com/Omnizap-System/omnizap), [.github](https://github.com/Omnizap-System/.github) |
 
-> _Atualizado em 11 de abr. de 2026, 04:33 (UTC) | Fonte: gh + API._
+> _Atualizado em 11 de abr. de 2026, 05:34 (UTC) | Fonte: gh + API._
 <!--ORGS_DYNAMIC_END-->
 
 <p align="center">
