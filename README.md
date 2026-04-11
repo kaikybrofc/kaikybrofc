@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor focado em tecnologias web e sistemas, com experiência distribuída em quatorze repositórios públicos e atuação na organização Omnizap System. Sua base tecnológica concentra-se no ecossistema Node.js, utilizando predominantemente JavaScript, TypeScript e Express para o desenvolvimento de aplicações. O engajamento em projetos como Zyra e Ayana-bot evidencia sua versatilidade, integrando também conhecimentos em Python, C e Rust ao seu perfil técnico.
+Kaiky Brito é um desenvolvedor júnior focado no desenvolvimento de soluções escaláveis e tecnologias back-end, colaborando ativamente com organizações como a Omnizap System em quatorze repositórios públicos. Sua base técnica é fundamentada em JavaScript e TypeScript, com domínio do ecossistema Node.js e Express, além de demonstrar versatilidade em linguagens como Python, Rust e C para diferentes contextos de aplicação. O desenvolvedor prioriza a eficiência e a manutenção rigorosa de seus projetos, destacando-se pela atuação em sistemas de automação e ferramentas de produtividade, como exemplificado pelos repositórios Zyra e Ayana-bot.
 
-> _Atualizado em 11 de abr. de 2026, 19:33 (UTC)._
+> _Atualizado em 11 de abr. de 2026, 21:33 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Automação de métricas de perfil e atualização dinâmica de assets SVG.
-- Refinamento de sistemas de autenticação distribuída e persistência de credenciais.
-- Otimização de integrações com Gemini CLI e monitoramento automatizado de dados.
+- Automação de métricas dinâmicas e manutenção de ativos visuais SVG para perfis.
+- Refinamento de sistemas de autenticação, concorrência e persistência no projeto Zyra.
+- Evolução da integração com Gemini CLI para automação de tarefas e processamento.
 
-> _Atualizado em 11 de abr. de 2026, 19:34 (UTC)._
+> _Atualizado em 11 de abr. de 2026, 21:34 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -88,7 +88,7 @@ Kaiky Brito é um desenvolvedor focado em tecnologias web e sistemas, com experi
 |---|---:|---:|---|
 | [Omnizap System](https://github.com/Omnizap-System)<br/><sub>@Omnizap-System</sub> | 2 | 1 | [omnizap](https://github.com/Omnizap-System/omnizap), [.github](https://github.com/Omnizap-System/.github) |
 
-> _Atualizado em 11 de abr. de 2026, 20:33 (UTC) | Fonte: gh + API._
+> _Atualizado em 11 de abr. de 2026, 21:34 (UTC) | Fonte: gh + API._
 <!--ORGS_DYNAMIC_END-->
 
 <p align="center">
