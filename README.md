@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor júnior focado no desenvolvimento de soluções escaláveis e tecnologias back-end, colaborando ativamente com organizações como a Omnizap System em quatorze repositórios públicos. Sua base técnica é fundamentada em JavaScript e TypeScript, com domínio do ecossistema Node.js e Express, além de demonstrar versatilidade em linguagens como Python, Rust e C para diferentes contextos de aplicação. O desenvolvedor prioriza a eficiência e a manutenção rigorosa de seus projetos, destacando-se pela atuação em sistemas de automação e ferramentas de produtividade, como exemplificado pelos repositórios Zyra e Ayana-bot.
+Kaiky Brito é um desenvolvedor com foco em tecnologias back-end, especializado no ecossistema Node.js e no uso de linguagens como TypeScript, JavaScript e Python. Sua prática profissional envolve a construção de APIs com Express e a manipulação de bancos de dados MySQL, priorizando a qualidade de código através de ferramentas de linting e formatação. Atualmente, contribui para a organização Omnizap System e mantém o desenvolvimento de projetos ativos como o zyra, consolidando sua presença técnica em repositórios de integração e automação.
 
-> _Atualizado em 11 de abr. de 2026, 21:33 (UTC)._
+> _Atualizado em 11 de abr. de 2026, 23:33 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Automação de métricas dinâmicas e manutenção de ativos visuais SVG para perfis.
-- Refinamento de sistemas de autenticação, concorrência e persistência no projeto Zyra.
-- Evolução da integração com Gemini CLI para automação de tarefas e processamento.
+- Automação de métricas e atualização dinâmica de ativos SVG para o perfil do GitHub.
+- Desenvolvimento do projeto Zyra focado em persistência MariaDB e sistemas de autenticação.
+- Aprimoramento de ferramentas baseadas em Gemini CLI para fluxos de monitoramento e integração.
 
-> _Atualizado em 11 de abr. de 2026, 21:34 (UTC)._
+> _Atualizado em 11 de abr. de 2026, 23:34 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -88,7 +88,7 @@ Kaiky Brito é um desenvolvedor júnior focado no desenvolvimento de soluções 
 |---|---:|---:|---|
 | [Omnizap System](https://github.com/Omnizap-System)<br/><sub>@Omnizap-System</sub> | 2 | 1 | [omnizap](https://github.com/Omnizap-System/omnizap), [.github](https://github.com/Omnizap-System/.github) |
 
-> _Atualizado em 11 de abr. de 2026, 22:33 (UTC) | Fonte: gh + API._
+> _Atualizado em 11 de abr. de 2026, 23:34 (UTC) | Fonte: gh + API._
 <!--ORGS_DYNAMIC_END-->
 
 <p align="center">
@@ -121,17 +121,7 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 3: [ayana-bot](https://github.com/kaikybrofc/ayana-bot)
-
-**Descrição:** 🤖 Ayana System é um bot inteligente com temática anime, focado em automação, interações avançadas, jogos e recursos modernos para servidores. Rápido, elegan...
-
-![Resumo do Projeto](./assets/badges/projeto/ayana-bot/resumo.svg) ![Atividade](./assets/badges/projeto/ayana-bot/atividade.svg) ![Estrelas](./assets/badges/projeto/ayana-bot/estrelas.svg) ![Atualizado](./assets/badges/projeto/ayana-bot/atualizado.svg)
-
-<p align="center">
-  <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
-</p>
-
-### Projeto 4: [Baileys](https://github.com/kaikybrofc/Baileys)
+### Projeto 3: [Baileys](https://github.com/kaikybrofc/Baileys)
 
 **Descrição:** Socket-based TS/JavaScript API for WhatsApp Web
 
@@ -141,11 +131,21 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 5: [news-anime-monitor](https://github.com/kaikybrofc/news-anime-monitor)
+### Projeto 4: [news-anime-monitor](https://github.com/kaikybrofc/news-anime-monitor)
 
 **Descrição:** Este projeto realiza o monitoramento automático da página de notícias de animes
 
 ![Resumo do Projeto](./assets/badges/projeto/news-anime-monitor/resumo.svg) ![Atividade](./assets/badges/projeto/news-anime-monitor/atividade.svg) ![Estrelas](./assets/badges/projeto/news-anime-monitor/estrelas.svg) ![Atualizado](./assets/badges/projeto/news-anime-monitor/atualizado.svg)
+
+<p align="center">
+  <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
+</p>
+
+### Projeto 5: [ayana-bot](https://github.com/kaikybrofc/ayana-bot)
+
+**Descrição:** 🤖 Ayana System é um bot inteligente com temática anime, focado em automação, interações avançadas, jogos e recursos modernos para servidores. Rápido, elegan...
+
+![Resumo do Projeto](./assets/badges/projeto/ayana-bot/resumo.svg) ![Atividade](./assets/badges/projeto/ayana-bot/atividade.svg) ![Estrelas](./assets/badges/projeto/ayana-bot/estrelas.svg) ![Atualizado](./assets/badges/projeto/ayana-bot/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
