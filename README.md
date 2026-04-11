@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor júnior dedicado ao ecossistema de desenvolvimento de software, com ênfase em linguagens como JavaScript, TypeScript e Python. Sua trajetória técnica inclui o uso recorrente de Node.js, Express e MySQL em diversos repositórios públicos, com destaque para a manutenção dos projetos Zyra e Ayana-bot. Atualmente colabora com a organização Omnizap System, priorizando a entrega de soluções objetivas e o aprimoramento contínuo em ferramentas de backend e automação.
+Kaiky Brito é um desenvolvedor com foco em tecnologias como JavaScript e TypeScript voltadas para a criação de aplicações escaláveis e sistemas de automação. Sua stack técnica é centrada em Node.js e Express, complementada pelo domínio de ferramentas como Python, MySQL e linguagens de baixo nível como Rust. Com 14 repositórios públicos e participação ativa em projetos como Zyra e Ayana-bot, ele mantém um fluxo constante de contribuições focado na qualidade de código e na eficiência das soluções desenvolvidas.
 
-> _Atualizado em 11 de abr. de 2026, 13:33 (UTC)._
+> _Atualizado em 11 de abr. de 2026, 15:33 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Manutenção de fluxos de automação para atualização dinâmica de ativos e métricas de perfil.
-- Refinamento de persistência e concorrência em sistemas de autenticação distribuída com MariaDB e Redis.
-- Otimização de integrações com Gemini CLI para automação de monitoramento e processamento de dados.
+- Manutenção do ecossistema Zyra com foco em autenticação resiliente e compatibilidade MariaDB.
+- Automatização de fluxos para atualização de métricas e ativos estáticos de perfil.
+- Otimização de ferramentas integradas ao Gemini CLI e sistemas de monitoramento.
 
-> _Atualizado em 11 de abr. de 2026, 13:34 (UTC)._
+> _Atualizado em 11 de abr. de 2026, 15:34 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -88,7 +88,7 @@ Kaiky Brito é um desenvolvedor júnior dedicado ao ecossistema de desenvolvimen
 |---|---:|---:|---|
 | [Omnizap System](https://github.com/Omnizap-System)<br/><sub>@Omnizap-System</sub> | 2 | 1 | [omnizap](https://github.com/Omnizap-System/omnizap), [.github](https://github.com/Omnizap-System/.github) |
 
-> _Atualizado em 11 de abr. de 2026, 14:33 (UTC) | Fonte: gh + API._
+> _Atualizado em 11 de abr. de 2026, 15:34 (UTC) | Fonte: gh + API._
 <!--ORGS_DYNAMIC_END-->
 
 <p align="center">
