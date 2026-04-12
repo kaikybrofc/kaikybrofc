@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor focado no ecossistema Node.js, com experiência técnica em JavaScript, TypeScript e Python para o desenvolvimento de sistemas. Com 14 repositórios públicos e atuação na organização Omnizap System, o profissional aplica tecnologias como Express e MySQL em seus projetos de software. Sua atividade recente concentra-se na manutenção de ferramentas de automação e integração, evidenciando um compromisso com a entrega técnica constante e a exploração de novas linguagens de programação.
+Kaiky Brito é um desenvolvedor com foco técnico nas linguagens JavaScript, TypeScript e Python, atuando principalmente na criação de aplicações com Node.js e Express. Sua trajetória no GitHub soma quatorze repositórios públicos, incluindo contribuições relevantes para a organização Omnizap System e o desenvolvimento de projetos como o Zyra. Com base em stacks que priorizam a escalabilidade, dedica-se à implementação de soluções estruturadas e ferramentas de automação para diversos contextos de software.
 
-> _Atualizado em 12 de abr. de 2026, 01:34 (UTC)._
+> _Atualizado em 12 de abr. de 2026, 03:33 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Implementação de integração com Gemini CLI e otimização de fluxos de autenticação em Node.js.
-- Refinamento de persistência em bancos de dados relacionais e tratamento de concorrência em mensageria.
-- Automação de métricas de desempenho e manutenção de infraestrutura para bots e monitoramento.
+- Desenvolvimento de arquitetura modular e sistemas de processamento de comandos no projeto Zyra.
+- Implementação de workflows de análise CodeQL e automação de testes para garantia de qualidade.
+- Otimização de integrações com Gemini CLI e refatoração de persistência de dados em MariaDB.
 
-> _Atualizado em 12 de abr. de 2026, 01:34 (UTC)._
+> _Atualizado em 12 de abr. de 2026, 03:34 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -88,7 +88,7 @@ Kaiky Brito é um desenvolvedor focado no ecossistema Node.js, com experiência 
 |---|---:|---:|---|
 | [Omnizap System](https://github.com/Omnizap-System)<br/><sub>@Omnizap-System</sub> | 2 | 1 | [omnizap](https://github.com/Omnizap-System/omnizap), [.github](https://github.com/Omnizap-System/.github) |
 
-> _Atualizado em 12 de abr. de 2026, 02:33 (UTC) | Fonte: gh + API._
+> _Atualizado em 12 de abr. de 2026, 03:34 (UTC) | Fonte: gh + API._
 <!--ORGS_DYNAMIC_END-->
 
 <p align="center">
