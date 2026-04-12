@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor com foco em tecnologias back-end, especializado no ecossistema Node.js e no uso de linguagens como TypeScript, JavaScript e Python. Sua prática profissional envolve a construção de APIs com Express e a manipulação de bancos de dados MySQL, priorizando a qualidade de código através de ferramentas de linting e formatação. Atualmente, contribui para a organização Omnizap System e mantém o desenvolvimento de projetos ativos como o zyra, consolidando sua presença técnica em repositórios de integração e automação.
+Kaiky Brito é um desenvolvedor focado no ecossistema Node.js, com experiência técnica em JavaScript, TypeScript e Python para o desenvolvimento de sistemas. Com 14 repositórios públicos e atuação na organização Omnizap System, o profissional aplica tecnologias como Express e MySQL em seus projetos de software. Sua atividade recente concentra-se na manutenção de ferramentas de automação e integração, evidenciando um compromisso com a entrega técnica constante e a exploração de novas linguagens de programação.
 
-> _Atualizado em 11 de abr. de 2026, 23:33 (UTC)._
+> _Atualizado em 12 de abr. de 2026, 01:34 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Automação de métricas e atualização dinâmica de ativos SVG para o perfil do GitHub.
-- Desenvolvimento do projeto Zyra focado em persistência MariaDB e sistemas de autenticação.
-- Aprimoramento de ferramentas baseadas em Gemini CLI para fluxos de monitoramento e integração.
+- Implementação de integração com Gemini CLI e otimização de fluxos de autenticação em Node.js.
+- Refinamento de persistência em bancos de dados relacionais e tratamento de concorrência em mensageria.
+- Automação de métricas de desempenho e manutenção de infraestrutura para bots e monitoramento.
 
-> _Atualizado em 11 de abr. de 2026, 23:34 (UTC)._
+> _Atualizado em 12 de abr. de 2026, 01:34 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -88,7 +88,7 @@ Kaiky Brito é um desenvolvedor com foco em tecnologias back-end, especializado 
 |---|---:|---:|---|
 | [Omnizap System](https://github.com/Omnizap-System)<br/><sub>@Omnizap-System</sub> | 2 | 1 | [omnizap](https://github.com/Omnizap-System/omnizap), [.github](https://github.com/Omnizap-System/.github) |
 
-> _Atualizado em 12 de abr. de 2026, 00:33 (UTC) | Fonte: gh + API._
+> _Atualizado em 12 de abr. de 2026, 01:35 (UTC) | Fonte: gh + API._
 <!--ORGS_DYNAMIC_END-->
 
 <p align="center">
