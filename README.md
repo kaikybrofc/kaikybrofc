@@ -35,7 +35,7 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor com foco em soluções tecnológicas modernas, acumulando quatorze repositórios públicos e experiência colaborativa em organizações como a Omnizap System. Sua base técnica é estruturada prioritariamente em Node.js, TypeScript e Express, complementada pelo domínio de diversas linguagens que incluem JavaScript, Python e Rust. Atualmente, mantém um fluxo de trabalho ativo em projetos de automação e sistemas escaláveis, com destaque para o desenvolvimento das ferramentas zyra e kaikybrofc.
+Kaiky Brito é um desenvolvedor focado no ecossistema Node.js, com experiência na utilização de tecnologias como TypeScript e Express para a construção de aplicações backend. O profissional mantém um portfólio de quatorze repositórios públicos e contribui para a organização Omnizap System, apresentando versatilidade em linguagens como Python, C e Rust. Sua produção técnica recente envolve o desenvolvimento de projetos como zyra e Baileys, consolidando uma trajetória voltada para a criação de ferramentas funcionais em JavaScript.
 
 > _Atualizado em 13 de abr. de 2026, 02:20 (UTC)._
 <!--ABOUT_AI_END-->
@@ -88,7 +88,7 @@ Kaiky Brito é um desenvolvedor com foco em soluções tecnológicas modernas, a
 |---|---:|---:|---|
 | [Omnizap System](https://github.com/Omnizap-System)<br/><sub>@Omnizap-System</sub> | 2 | 1 | [omnizap](https://github.com/Omnizap-System/omnizap), [.github](https://github.com/Omnizap-System/.github) |
 
-> _Atualizado em 13 de abr. de 2026, 02:20 (UTC) | Fonte: gh + API._
+> _Atualizado em 15 de abr. de 2026, 23:42 (UTC) | Fonte: gh + API._
 <!--ORGS_DYNAMIC_END-->
 
 <p align="center">
@@ -131,7 +131,17 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 4: [news-anime-monitor](https://github.com/kaikybrofc/news-anime-monitor)
+### Projeto 4: [yt-wrapper](https://github.com/kaikybrofc/yt-wrapper)
+
+**Descrição:** TypeScript wrapper for MP3/MP4 conversion workflows with extract/convert/check-task API, polling flow, tests and lint.
+
+![Resumo do Projeto](./assets/badges/projeto/yt-wrapper/resumo.svg) ![Atividade](./assets/badges/projeto/yt-wrapper/atividade.svg) ![Estrelas](./assets/badges/projeto/yt-wrapper/estrelas.svg) ![Atualizado](./assets/badges/projeto/yt-wrapper/atualizado.svg)
+
+<p align="center">
+  <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
+</p>
+
+### Projeto 5: [news-anime-monitor](https://github.com/kaikybrofc/news-anime-monitor)
 
 **Descrição:** Este projeto realiza o monitoramento automático da página de notícias de animes
 
@@ -141,21 +151,11 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 5: [ayana-bot](https://github.com/kaikybrofc/ayana-bot)
+### Projeto 6: [ayana-bot](https://github.com/kaikybrofc/ayana-bot)
 
 **Descrição:** 🤖 Ayana System é um bot inteligente com temática anime, focado em automação, interações avançadas, jogos e recursos modernos para servidores. Rápido, elegan...
 
 ![Resumo do Projeto](./assets/badges/projeto/ayana-bot/resumo.svg) ![Atividade](./assets/badges/projeto/ayana-bot/atividade.svg) ![Estrelas](./assets/badges/projeto/ayana-bot/estrelas.svg) ![Atualizado](./assets/badges/projeto/ayana-bot/atualizado.svg)
-
-<p align="center">
-  <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
-</p>
-
-### Projeto 6: [yt-dls](https://github.com/kaikybrofc/yt-dls)
-
-**Descrição:** yt-dls é uma API simples e leve para download de vídeos do YouTube, construída em Node.js com o framework Express, que utiliza internamente a ferramenta yt-d...
-
-![Resumo do Projeto](./assets/badges/projeto/yt-dls/resumo.svg) ![Atividade](./assets/badges/projeto/yt-dls/atividade.svg) ![Estrelas](./assets/badges/projeto/yt-dls/estrelas.svg) ![Atualizado](./assets/badges/projeto/yt-dls/atualizado.svg)
 <!--FEATURED_PROJECTS_END-->
 
 
