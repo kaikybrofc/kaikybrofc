@@ -35,7 +35,7 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor focado no ecossistema Node.js, com experiência consolidada no uso de TypeScript e JavaScript para o desenvolvimento de soluções escaláveis. Sua atuação técnica abrange a construção de APIs e sistemas robustos utilizando Express e MySQL, além de demonstrar versatilidade com o domínio complementar de linguagens como Python e Rust. Com uma trajetória pautada pela manutenção de projetos de alto engajamento e colaboração na organização Omnizap System, o profissional prioriza a excelência técnica por meio de padrões rigorosos de qualidade e integração contínua.
+Kaiky Brito é um desenvolvedor focado no ecossistema Node.js, com experiência consolidada no uso de TypeScript e JavaScript para o desenvolvimento de soluções escaláveis. Sua atuação técnica abrange a construção de APIs e sistemas robustos utilizando Express e MySQL, além de demonstrar versatilidade com o domínio complementar de linguagens como Python e Rust. Com uma trajetória pautada pela manutenção de projetos de alto engajamento, o profissional prioriza a excelência técnica por meio de padrões rigorosos de qualidade e integração contínua.
 
 > _Atualizado em 16 de abr. de 2026, 05:07 (UTC)._
 <!--ABOUT_AI_END-->
@@ -80,21 +80,6 @@ Kaiky Brito é um desenvolvedor focado no ecossistema Node.js, com experiência 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
-
-## Organizações
-
-<!--ORGS_DYNAMIC_START-->
-| Organização | Repositórios Públicos | Seguidores | Repos em Destaque |
-|---|---:|---:|---|
-| [Omnizap System](https://github.com/Omnizap-System)<br/><sub>@Omnizap-System</sub> | 2 | 1 | [omnizap](https://github.com/Omnizap-System/omnizap), [.github](https://github.com/Omnizap-System/.github) |
-
-> _Atualizado em 16 de abr. de 2026, 05:07 (UTC) | Fonte: gh + API._
-<!--ORGS_DYNAMIC_END-->
-
-<p align="center">
-  <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
-</p>
-
 
 ## Projetos em Destaque
 
