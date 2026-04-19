@@ -20,14 +20,14 @@
   <rect x="52" y="48" width="300" height="34" rx="8" fill="#0b1221" stroke="#22d3ee" stroke-opacity="0.5"/>
   <text x="68" y="71" fill="#bff6ff" font-family="JetBrains Mono, Consolas, monospace" font-size="16" font-weight="700">FOCO ATUAL</text>
   <line x1="52" y1="92" x2="1348" y2="92" stroke="url(#accentFocus)" stroke-width="2" stroke-opacity="0.8"/>
-  <text x="54" y="118" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">• Aprimoramento de segurança e estabilidade de sessões em integrações baseadas no protocolo</text>
-<text x="54" y="150" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">  Baileys.</text>
-<text x="54" y="182" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">• Desenvolvimento de fluxos para processamento de mídia e geração dinâmica de figurinhas</text>
-<text x="54" y="214" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">  otimizadas.</text>
-<text x="54" y="246" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">• Automação de métricas de produtividade e manutenção de bibliotecas utilitárias para</text>
-<text x="54" y="278" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">  extração de conteúdo.</text>
+  <text x="54" y="118" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">• Otimização de resiliência e mitigação antiban em bots de mensagens baseados em Node.js e</text>
+<text x="54" y="150" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">  TypeScript.</text>
+<text x="54" y="182" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">• Desenvolvimento de fluxos para processamento de mídia, conversão de figurinhas e automação</text>
+<text x="54" y="214" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">  de metadados.</text>
+<text x="54" y="246" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">• Automação de métricas de perfil e integração de pipelines de inteligência artificial via</text>
+<text x="54" y="278" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">  Gemini CLI.</text>
   <line x1="52" y1="330" x2="1348" y2="330" stroke="#38bdf8" stroke-opacity="0.32"/>
   <text x="54" y="354" fill="#a8d9f4" font-family="JetBrains Mono, Consolas, monospace" font-size="16">
-    atualizado: 59m
+    atualizado: agora
   </text>
 </svg>
