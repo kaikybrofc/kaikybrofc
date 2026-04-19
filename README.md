@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor focado nos ecossistemas JavaScript e TypeScript, com um portfólio composto por quinze repositórios públicos. Sua especialidade técnica abrange o desenvolvimento backend com Node.js e Express, integrando também conhecimentos em Python e bancos de dados MySQL. O profissional dedica-se atualmente à manutenção de projetos ativos como Zyra e Baileys, evidenciando uma prática constante em arquitetura de software e automação.
+Kaiky Brito é um desenvolvedor com foco em tecnologias web e backend, mantendo quinze repositórios públicos no GitHub com ênfase em JavaScript e TypeScript. Seu perfil técnico é estruturado em torno do ecossistema Node.js e Express, integrando também conhecimentos em Python, bancos de dados MySQL e ferramentas de qualidade de código. O desenvolvedor concentra seus esforços em projetos de automação e integração, destacando-se pela manutenção ativa do repositório zyra e de outras soluções voltadas ao desenvolvimento de software.
 
-> _Atualizado em 19 de abr. de 2026, 15:07 (UTC)._
+> _Atualizado em 19 de abr. de 2026, 17:07 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Otimização de processamento de mídia e conversão WEBP com metadados no projeto Zyra.
-- Implementação de medidas de segurança e mitigação de detecção LID/PN em integrações Baileys.
-- Desenvolvimento de resiliência em wrappers Node.js com foco em mecanismos de fallback e cobertura de testes.
+- Manutenção de automações para atualização dinâmica de métricas e ativos de perfil.
+- Desenvolvimento de fluxos de processamento de mídia e estabilidade em bots de mensagens.
+- Refinamento da resiliência em módulos Node.js com foco em tratamento de erros e retries.
 
-> _Atualizado em 19 de abr. de 2026, 15:07 (UTC)._
+> _Atualizado em 19 de abr. de 2026, 17:07 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -126,21 +126,21 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 5: [news-anime-monitor](https://github.com/kaikybrofc/news-anime-monitor)
+### Projeto 5: [ayana-bot](https://github.com/kaikybrofc/ayana-bot)
 
-**Descrição:** Este projeto realiza o monitoramento automático da página de notícias de animes
+**Descrição:** 🤖 Ayana System é um bot inteligente com temática anime, focado em automação, interações avançadas, jogos e recursos modernos para servidores. Rápido, elegan...
 
-![Resumo do Projeto](./assets/badges/projeto/news-anime-monitor/resumo.svg) ![Atividade](./assets/badges/projeto/news-anime-monitor/atividade.svg) ![Estrelas](./assets/badges/projeto/news-anime-monitor/estrelas.svg) ![Atualizado](./assets/badges/projeto/news-anime-monitor/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/ayana-bot/resumo.svg) ![Atividade](./assets/badges/projeto/ayana-bot/atividade.svg) ![Estrelas](./assets/badges/projeto/ayana-bot/estrelas.svg) ![Atualizado](./assets/badges/projeto/ayana-bot/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 6: [ayana-bot](https://github.com/kaikybrofc/ayana-bot)
+### Projeto 6: [news-anime-monitor](https://github.com/kaikybrofc/news-anime-monitor)
 
-**Descrição:** 🤖 Ayana System é um bot inteligente com temática anime, focado em automação, interações avançadas, jogos e recursos modernos para servidores. Rápido, elegan...
+**Descrição:** Este projeto realiza o monitoramento automático da página de notícias de animes
 
-![Resumo do Projeto](./assets/badges/projeto/ayana-bot/resumo.svg) ![Atividade](./assets/badges/projeto/ayana-bot/atividade.svg) ![Estrelas](./assets/badges/projeto/ayana-bot/estrelas.svg) ![Atualizado](./assets/badges/projeto/ayana-bot/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/news-anime-monitor/resumo.svg) ![Atividade](./assets/badges/projeto/news-anime-monitor/atividade.svg) ![Estrelas](./assets/badges/projeto/news-anime-monitor/estrelas.svg) ![Atualizado](./assets/badges/projeto/news-anime-monitor/atualizado.svg)
 <!--FEATURED_PROJECTS_END-->
 
 
@@ -231,5 +231,5 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 19 de abr. de 2026, 16:06 (UTC) | Fonte: GitHub API._
+> _Atualizado em 19 de abr. de 2026, 17:07 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
