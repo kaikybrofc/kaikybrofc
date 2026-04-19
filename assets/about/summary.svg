@@ -20,12 +20,12 @@
   <rect x="52" y="48" width="340" height="34" rx="8" fill="#0b1221" stroke="#22d3ee" stroke-opacity="0.5"/>
   <text x="68" y="71" fill="#bff6ff" font-family="JetBrains Mono, Consolas, monospace" font-size="16" font-weight="700">SOBRE DINAMICO</text>
   <line x1="52" y1="92" x2="1348" y2="92" stroke="url(#accent)" stroke-width="2" stroke-opacity="0.8"/>
-  <text x="54" y="118" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">Kaiky Brito é um desenvolvedor focado no ecossistema Node.js, com experiência consolidada no</text>
-<text x="54" y="152" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">uso de TypeScript e JavaScript para o desenvolvimento de soluções escaláveis. Sua atuação</text>
-<text x="54" y="186" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">técnica abrange a construção de APIs e sistemas robustos utilizando Express e MySQL, além de</text>
-<text x="54" y="220" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">demonstrar versatilidade com o domínio complementar de linguagens como Python e Rust. Com</text>
-<text x="54" y="254" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">uma trajetória pautada pela manutenção de projetos de alto engajamento e colaboração na</text>
-<text x="54" y="288" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">organização Omnizap System, o profissional prioriza a excelência técnica por meio de padrões...</text>
+  <text x="54" y="118" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">Kaiky Brito é um desenvolvedor júnior com foco no ecossistema Node.js, utilizando</text>
+<text x="54" y="152" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">predominantemente as linguagens JavaScript e TypeScript em seus projetos. Sua stack técnica</text>
+<text x="54" y="186" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">compreende o uso de Express, MySQL e Python, além da aplicação de padrões de qualidade com</text>
+<text x="54" y="220" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">ESLint e Prettier. Atualmente mantém quinze repositórios públicos, destacando-se pela</text>
+<text x="54" y="254" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">atividade técnica em projetos como zyra e Baileys, voltados para a implementação de soluções</text>
+<text x="54" y="288" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">de software e automação.</text>
   <line x1="52" y1="342" x2="1348" y2="342" stroke="#38bdf8" stroke-opacity="0.32"/>
   <text x="54" y="366" fill="#a8d9f4" font-family="JetBrains Mono, Consolas, monospace" font-size="16">
     atualizado: agora
