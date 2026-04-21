@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor focado no ecossistema Node.js e TypeScript, possuindo uma base técnica consolidada em quinze repositórios públicos e diversos projetos de automação. Sua atuação profissional abrange o desenvolvimento de aplicações com Express, integração de bancos de dados MySQL e proficiência em múltiplas linguagens, incluindo JavaScript e Python. Atualmente, ele mantém contribuições ativas em projetos como Zyra e Baileys, priorizando a escalabilidade e a aplicação de boas práticas de codificação em sua trajetória técnica.
+Kaiky Brito é um desenvolvedor focado no ecossistema de backend com proficiência técnica em Node.js, TypeScript e JavaScript. Seu portfólio conta com quinze repositórios públicos onde aplica frameworks como Express e linguagens complementares como Python para a construção de soluções funcionais. Atualmente, o profissional mantém contribuições ativas nos projetos Zyra e Baileys, priorizando a organização e a qualidade de código por meio de padrões rigorosos de desenvolvimento.
 
-> _Atualizado em 21 de abr. de 2026, 07:07 (UTC)._
+> _Atualizado em 21 de abr. de 2026, 09:07 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Desenvolvimento de sistemas para processamento de figurinhas e metadados no projeto Zyra.
-- Implementação de mitigações antiban e estabilização de conexões em APIs de mensagens.
-- Manutenção de fluxos automatizados para métricas de perfil e serviços de streaming local.
+- Automação de processos para atualização dinâmica de métricas e assets SVG no perfil.
+- Melhoria de estabilidade e segurança em bots, focando em mitigação antiban e conversão de mídia.
+- Desenvolvimento de utilitários para integração com APIs de vídeo e sistemas de streaming local.
 
-> _Atualizado em 21 de abr. de 2026, 07:07 (UTC)._
+> _Atualizado em 21 de abr. de 2026, 09:07 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -231,5 +231,5 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 21 de abr. de 2026, 08:06 (UTC) | Fonte: GitHub API._
+> _Atualizado em 21 de abr. de 2026, 09:07 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
