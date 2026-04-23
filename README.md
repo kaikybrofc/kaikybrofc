@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor júnior especializado no ecossistema Node.js, com sólida base em JavaScript, TypeScript e o framework Express. Sua experiência técnica é refletida em quinze repositórios públicos que integram linguagens como Python e Rust, utilizando ferramentas de padronização como ESLint e Prettier para assegurar a qualidade do código. Por meio de projetos ativos como zyra e Baileys, demonstra consistência na entrega de soluções estruturadas e um compromisso contínuo com o aprimoramento de suas competências profissionais.
+Kaiky Brito é um desenvolvedor júnior com foco no ecossistema JavaScript e no desenvolvimento de aplicações para back-end. Sua base técnica compreende o uso de Node.js, TypeScript e Express, além de conhecimentos complementares em bancos de dados MySQL e linguagens como Python e Rust. Atualmente gerencia 15 repositórios públicos, destacando-se pela manutenção de projetos de automação que evidenciam sua capacidade de construir sistemas funcionais e organizados.
 
-> _Atualizado em 23 de abr. de 2026, 19:07 (UTC)._
+> _Atualizado em 23 de abr. de 2026, 21:07 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Automação de ativos e atualização dinâmica de métricas técnicas para o perfil GitHub.
-- Mitigação de vulnerabilidades críticas e melhoria da estabilidade em projetos de automação.
-- Desenvolvimento de fluxos de processamento de mídia e wrappers de API em TypeScript.
+- Automação e manutenção de métricas visuais e indicadores de performance do perfil.
+- Reforço de segurança e mitigação de vulnerabilidades em integrações de mensageria.
+- Desenvolvimento de módulos de integração e expansão da arquitetura de comandos no projeto Zyra.
 
-> _Atualizado em 23 de abr. de 2026, 19:07 (UTC)._
+> _Atualizado em 23 de abr. de 2026, 21:07 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -231,5 +231,5 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 23 de abr. de 2026, 20:06 (UTC) | Fonte: GitHub API._
+> _Atualizado em 23 de abr. de 2026, 21:07 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
