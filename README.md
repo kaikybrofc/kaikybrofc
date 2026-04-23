@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor com atuação centrada em ecossistemas JavaScript e TypeScript para a construção de aplicações robustas. Seu repertório técnico destaca-se pelo domínio de Node.js e Express, integrando linguagens como Python e Rust para otimização de fluxos de backend e automação. Atualmente gerencia 15 repositórios públicos e projetos ativos, demonstrando compromisso com a entrega de código estruturado e a aplicação de boas práticas de desenvolvimento de software.
+Kaiky Brito é um desenvolvedor focado em engenharia de software com experiência prática nas linguagens JavaScript, TypeScript e Python em diversos repositórios públicos. Seu conjunto de tecnologias prioriza o ecossistema Node.js e o framework Express, integrando o uso de bancos de dados MySQL e ferramentas de padronização como ESLint e Prettier. Com quinze projetos publicados, o desenvolvedor mantém um fluxo constante de contribuições técnicas, destacando-se pela manutenção ativa de sistemas como zyra e Baileys.
 
-> _Atualizado em 23 de abr. de 2026, 05:07 (UTC)._
+> _Atualizado em 23 de abr. de 2026, 07:07 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Manutenção de automação para atualização de métricas e assets SVG de perfil.
-- Aprimoramento de segurança e estabilidade em sistemas de mensageria via Node.js.
-- Desenvolvimento de bibliotecas para processamento de mídia e integração de APIs.
+- Automação e manutenção de métricas dinâmicas para visualização de dados em perfis técnicos.
+- Mitigação de vulnerabilidades críticas e implementação de medidas de segurança em bots de mensageria.
+- Desenvolvimento de módulos para processamento de mídia e integração com APIs de streaming de áudio e vídeo.
 
-> _Atualizado em 23 de abr. de 2026, 05:07 (UTC)._
+> _Atualizado em 23 de abr. de 2026, 07:07 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -231,5 +231,5 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 23 de abr. de 2026, 06:06 (UTC) | Fonte: GitHub API._
+> _Atualizado em 23 de abr. de 2026, 07:07 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
