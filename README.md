@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor com foco técnico no ecossistema JavaScript, demonstrando proficiência no uso de ferramentas como Node.js, TypeScript e Express para o desenvolvimento de aplicações web. Seu portfólio abrange o desenvolvimento de sistemas escaláveis e integrações complexas, utilizando linguagens diversificadas que incluem Python, Rust e C para atender diferentes requisitos de performance. Com uma atuação consistente em repositórios ativos, o profissional dedica-se à construção de soluções de software estruturadas, integrando práticas de linting e versionamento para assegurar a manutenção e a qualidade técnica de seus projetos.
+Kaiky Brito é um desenvolvedor focado em tecnologias back-end que mantém quinze repositórios públicos com ênfase nos ecossistemas JavaScript e TypeScript. Seu conjunto de habilidades técnicas inclui a construção de aplicações utilizando Node.js e Express, além do gerenciamento de bancos de dados MySQL e a implementação de padrões de qualidade com ESLint e Prettier. A atuação em projetos como o zyra e contribuições em integrações via Baileys demonstram sua capacidade de aplicar conhecimentos em múltiplas linguagens, incluindo Python e Rust, em diferentes cenários de desenvolvimento.
 
-> _Atualizado em 25 de abr. de 2026, 12:07 (UTC)._
+> _Atualizado em 25 de abr. de 2026, 14:07 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Automação de métricas técnicas e atualização dinâmica de ativos visuais de perfil.
-- Refatoração de sistemas de relatórios de banco de dados e classificação contextual em TypeScript.
-- Mitigação de vulnerabilidades e estabilização de fluxos de sessão em integrações baseadas em WhatsApp.
+- Otimização de relatórios de banco de dados com classificação contextual e sinalização visual no projeto Zyra.
+- Implementação de correções de segurança e mitigação de vulnerabilidades críticas em dependências do ecossistema.
+- Automação de fluxos de integração para processamento de mídia e atualização contínua de métricas de perfil.
 
-> _Atualizado em 25 de abr. de 2026, 12:07 (UTC)._
+> _Atualizado em 25 de abr. de 2026, 14:07 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -231,5 +231,5 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 25 de abr. de 2026, 13:06 (UTC) | Fonte: GitHub API._
+> _Atualizado em 25 de abr. de 2026, 14:07 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
