@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor focado em tecnologias back-end que mantém quinze repositórios públicos com ênfase nos ecossistemas JavaScript e TypeScript. Seu conjunto de habilidades técnicas inclui a construção de aplicações utilizando Node.js e Express, além do gerenciamento de bancos de dados MySQL e a implementação de padrões de qualidade com ESLint e Prettier. A atuação em projetos como o zyra e contribuições em integrações via Baileys demonstram sua capacidade de aplicar conhecimentos em múltiplas linguagens, incluindo Python e Rust, em diferentes cenários de desenvolvimento.
+Kaiky Brito é um desenvolvedor júnior focado no ecossistema de JavaScript e TypeScript, com atuação voltada para o desenvolvimento back-end e automação. Sua base tecnológica abrange ferramentas como Node.js, Express e Python, aplicadas em um conjunto de quinze repositórios públicos que demonstram versatilidade técnica. A manutenção constante de projetos de alta atividade evidencia sua consistência no desenvolvimento de software e a aplicação prática de conceitos de programação modernos.
 
-> _Atualizado em 25 de abr. de 2026, 14:07 (UTC)._
+> _Atualizado em 25 de abr. de 2026, 16:07 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Otimização de relatórios de banco de dados com classificação contextual e sinalização visual no projeto Zyra.
-- Implementação de correções de segurança e mitigação de vulnerabilidades críticas em dependências do ecossistema.
-- Automação de fluxos de integração para processamento de mídia e atualização contínua de métricas de perfil.
+- Refatoração de relatórios e classificação contextual no projeto Zyra.
+- Mitigação de vulnerabilidades e ajustes de estabilidade em integrações de mensageria.
+- Automação de métricas de perfil e manutenção contínua de assets SVG.
 
-> _Atualizado em 25 de abr. de 2026, 14:07 (UTC)._
+> _Atualizado em 25 de abr. de 2026, 16:07 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -116,21 +116,21 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 4: [ayana-bot](https://github.com/kaikybrofc/ayana-bot)
+### Projeto 4: [yt-wrapper](https://github.com/kaikybrofc/yt-wrapper)
 
-**Descrição:** 🤖 Ayana System é um bot inteligente com temática anime, focado em automação, interações avançadas, jogos e recursos modernos para servidores. Rápido, elegan...
+**Descrição:** TypeScript wrapper for MP3/MP4 conversion workflows with extract/convert/check-task API, polling flow, tests and lint.
 
-![Resumo do Projeto](./assets/badges/projeto/ayana-bot/resumo.svg) ![Atividade](./assets/badges/projeto/ayana-bot/atividade.svg) ![Estrelas](./assets/badges/projeto/ayana-bot/estrelas.svg) ![Atualizado](./assets/badges/projeto/ayana-bot/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/yt-wrapper/resumo.svg) ![Atividade](./assets/badges/projeto/yt-wrapper/atividade.svg) ![Estrelas](./assets/badges/projeto/yt-wrapper/estrelas.svg) ![Atualizado](./assets/badges/projeto/yt-wrapper/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 5: [yt-wrapper](https://github.com/kaikybrofc/yt-wrapper)
+### Projeto 5: [ayana-bot](https://github.com/kaikybrofc/ayana-bot)
 
-**Descrição:** TypeScript wrapper for MP3/MP4 conversion workflows with extract/convert/check-task API, polling flow, tests and lint.
+**Descrição:** 🤖 Ayana System é um bot inteligente com temática anime, focado em automação, interações avançadas, jogos e recursos modernos para servidores. Rápido, elegan...
 
-![Resumo do Projeto](./assets/badges/projeto/yt-wrapper/resumo.svg) ![Atividade](./assets/badges/projeto/yt-wrapper/atividade.svg) ![Estrelas](./assets/badges/projeto/yt-wrapper/estrelas.svg) ![Atualizado](./assets/badges/projeto/yt-wrapper/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/ayana-bot/resumo.svg) ![Atividade](./assets/badges/projeto/ayana-bot/atividade.svg) ![Estrelas](./assets/badges/projeto/ayana-bot/estrelas.svg) ![Atualizado](./assets/badges/projeto/ayana-bot/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
@@ -231,5 +231,5 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 25 de abr. de 2026, 15:06 (UTC) | Fonte: GitHub API._
+> _Atualizado em 25 de abr. de 2026, 16:07 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
