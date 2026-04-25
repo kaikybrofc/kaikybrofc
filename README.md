@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor focado no ecossistema Node.js, utilizando predominantemente TypeScript e JavaScript para o desenvolvimento de aplicações e APIs com Express. Seu portfólio técnico é composto por quinze repositórios públicos que demonstram versatilidade em linguagens como Python, C e Rust, além da integração com bancos de dados MySQL e ferramentas de padronização. Atualmente, o profissional dedica-se a projetos de automação e integração de sistemas, mantendo um fluxo constante de contribuições em repositórios ativos como Zyra e Baileys.
+Kaiky Brito é um desenvolvedor focado no ecossistema JavaScript que mantém uma produção ativa em quinze repositórios públicos voltados para automação e sistemas web. Sua especialidade técnica concentra-se no desenvolvimento backend com Node.js, Express e TypeScript, integrando também linguagens como Python e Rust em seu fluxo de trabalho. Com atuação em projetos como zyra e Baileys, o desenvolvedor demonstra consistência na manutenção de código versionado e na aplicação de padrões de qualidade e padronização.
 
-> _Atualizado em 25 de abr. de 2026, 16:07 (UTC)._
+> _Atualizado em 25 de abr. de 2026, 18:07 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Refatoração de relatórios e classificação contextual no projeto Zyra.
-- Mitigação de vulnerabilidades e ajustes de estabilidade em integrações de mensageria.
-- Automação de métricas de perfil e manutenção contínua de assets SVG.
+- Refatoração de sistemas de relatórios e classificação contextual de dados.
+- Desenvolvimento de fluxos para processamento e conversão de arquivos multimídia.
+- Implementação de mecanismos de resiliência e segurança em integrações de software.
 
-> _Atualizado em 25 de abr. de 2026, 16:07 (UTC)._
+> _Atualizado em 25 de abr. de 2026, 18:07 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -231,5 +231,5 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 25 de abr. de 2026, 17:06 (UTC) | Fonte: GitHub API._
+> _Atualizado em 25 de abr. de 2026, 18:07 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
