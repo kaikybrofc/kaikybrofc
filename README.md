@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor júnior com trajetória voltada ao desenvolvimento web, utilizando majoritariamente JavaScript, TypeScript e Python em seus projetos. Seu conjunto de competências técnicas prioriza o ambiente Node.js e o framework Express, integrando ferramentas de qualidade de software e persistência de dados em sistemas escaláveis. Através de quinze repositórios públicos, evidencia sua capacidade analítica em iniciativas como Zyra e Baileys, mantendo um fluxo de contribuições focado na automação e na eficiência de processos.
+Kaiky Brito é um desenvolvedor focado no ecossistema back-end com sólida base técnica em Node.js, TypeScript e JavaScript. Sua atuação profissional envolve o desenvolvimento de aplicações escaláveis com Express e a integração de bancos de dados como MySQL, além de demonstrar versatilidade em linguagens como Python e Rust. Através de projetos ativos como Zyra e Baileys, mantém uma produção técnica constante voltada para automação, sistemas de integração e qualidade de código.
 
-> _Atualizado em 25 de abr. de 2026, 08:07 (UTC)._
+> _Atualizado em 25 de abr. de 2026, 10:07 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Refinamento de relatórios de banco de dados e classificação contextual no projeto Zyra.
-- Implementação de mitigações de segurança e estabilidade de sessão no Baileys.
-- Automação de pipelines de métricas e processamento de mídia em TypeScript.
+- Automação de pipelines para atualização de métricas e representação visual de dados.
+- Aperfeiçoamento de sistemas de relatórios em bancos de dados e segurança em aplicações de mensageria.
+- Implementação de wrappers para manipulação de mídias e estratégias de resiliência em serviços de streaming.
 
-> _Atualizado em 25 de abr. de 2026, 08:07 (UTC)._
+> _Atualizado em 25 de abr. de 2026, 10:07 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -231,5 +231,5 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 25 de abr. de 2026, 09:06 (UTC) | Fonte: GitHub API._
+> _Atualizado em 25 de abr. de 2026, 10:07 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
