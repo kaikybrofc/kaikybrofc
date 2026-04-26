@@ -20,13 +20,13 @@
   <rect x="52" y="48" width="300" height="34" rx="8" fill="#0b1221" stroke="#22d3ee" stroke-opacity="0.5"/>
   <text x="68" y="71" fill="#bff6ff" font-family="JetBrains Mono, Consolas, monospace" font-size="16" font-weight="700">FOCO ATUAL</text>
   <line x1="52" y1="92" x2="1348" y2="92" stroke="url(#accentFocus)" stroke-width="2" stroke-opacity="0.8"/>
-  <text x="54" y="118" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">• Automação de pipelines para renderização e sincronização de métricas de perfil em SVG.</text>
-<text x="54" y="150" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">• Refatoração de sistemas de relatórios de banco de dados com classificação contextual e</text>
-<text x="54" y="182" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">  semáforos.</text>
-<text x="54" y="214" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">• Fortalecimento de segurança e estabilidade em integrações com o protocolo do WhatsApp via</text>
-<text x="54" y="246" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">  Baileys.</text>
+  <text x="54" y="118" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">• Automação de infraestrutura para atualização dinâmica de métricas e ativos de perfil.</text>
+<text x="54" y="150" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">• Otimização de sistemas de análise de dados com foco em classificação contextual e</text>
+<text x="54" y="182" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">  integridade.</text>
+<text x="54" y="214" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">• Implementação de mecanismos de resiliência em clientes HTTP e fluxos de processamento de</text>
+<text x="54" y="246" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">  mídia.</text>
   <line x1="52" y1="298" x2="1348" y2="298" stroke="#38bdf8" stroke-opacity="0.32"/>
   <text x="54" y="322" fill="#a8d9f4" font-family="JetBrains Mono, Consolas, monospace" font-size="16">
-    atualizado: 59m
+    atualizado: agora
   </text>
 </svg>

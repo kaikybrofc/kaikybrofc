@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor focado no ecossistema JavaScript e TypeScript, mantendo um conjunto de quinze repositórios públicos com ênfase em tecnologias back-end. Sua stack técnica prioritária envolve o uso de Node.js, Express e MySQL, integrada a ferramentas de produtividade e linting como ESLint e Prettier. Atualmente, demonstra versatilidade técnica por meio de contribuições em projetos como zyra e Baileys, além de possuir experiência prática com linguagens complementares como Python, Rust e C.
+Kaiky Brito é um desenvolvedor focado no ecossistema de JavaScript e TypeScript com ênfase em aplicações escaláveis. Sua stack técnica é composta primordialmente por Node.js, Express e MySQL, utilizando ferramentas de automação e padronização para garantir a integridade de seus projetos de código aberto. Com quinze repositórios públicos e projetos ativos de destaque, o desenvolvedor demonstra versatilidade técnica ao trabalhar com múltiplas linguagens, incluindo Python, C e Rust.
 
-> _Atualizado em 26 de abr. de 2026, 12:07 (UTC)._
+> _Atualizado em 26 de abr. de 2026, 14:07 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Automação de pipelines para renderização e sincronização de métricas de perfil em SVG.
-- Refatoração de sistemas de relatórios de banco de dados com classificação contextual e semáforos.
-- Fortalecimento de segurança e estabilidade em integrações com o protocolo do WhatsApp via Baileys.
+- Automação de infraestrutura para atualização dinâmica de métricas e ativos de perfil.
+- Otimização de sistemas de análise de dados com foco em classificação contextual e integridade.
+- Implementação de mecanismos de resiliência em clientes HTTP e fluxos de processamento de mídia.
 
-> _Atualizado em 26 de abr. de 2026, 12:07 (UTC)._
+> _Atualizado em 26 de abr. de 2026, 14:07 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -231,5 +231,5 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 26 de abr. de 2026, 13:06 (UTC) | Fonte: GitHub API._
+> _Atualizado em 26 de abr. de 2026, 14:07 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
