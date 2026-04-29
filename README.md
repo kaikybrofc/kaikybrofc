@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor focado no ecossistema JavaScript e TypeScript, contando com quinze repositórios públicos que demonstram sua experiência prática em tecnologias web. Sua atuação técnica é centralizada em Node.js e Express, integrando ferramentas como MySQL e Python para o desenvolvimento de sistemas estruturados e eficientes. Com participação ativa em projetos como zyra e o repositório homônimo kaikybrofc, o desenvolvedor mantém uma produção consistente voltada para a evolução de soluções de software modernas.
+Kaiky Brito é um desenvolvedor focado no ecossistema de desenvolvimento web com sólido conhecimento em linguagens como JavaScript, TypeScript e Python. Sua atuação técnica destaca-se pelo uso de Node.js e Express na construção de aplicações, integrando ferramentas de padronização como ESLint e Prettier para garantir a qualidade do código. Com 15 repositórios públicos e projetos ativos que demonstram experiência prática em automação e arquitetura de sistemas, o profissional mantém um perfil orientado à entrega de soluções funcionais e organizadas.
 
-> _Atualizado em 29 de abr. de 2026, 07:46 (UTC)._
+> _Atualizado em 29 de abr. de 2026, 09:46 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Implementação de melhorias no processamento de mídias e customização de metadados para stickers no projeto Zyra.
-- Refatoração de lógica de banco de dados e mitigação de vulnerabilidades críticas em dependências de integração.
-- Manutenção de rotinas automatizadas para sincronização de métricas de perfil e ativos visuais via GitHub Actions.
+- Otimização do processamento de mídias e metadados de figurinhas no projeto Zyra.
+- Refatoração de relatórios de banco de dados e unificação de tipos categoriais.
+- Implementação de mecanismos de resiliência e tratamento de erros em clientes HTTP.
 
-> _Atualizado em 29 de abr. de 2026, 06:46 (UTC)._
+> _Atualizado em 29 de abr. de 2026, 09:45 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -231,5 +231,5 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 29 de abr. de 2026, 08:47 (UTC) | Fonte: GitHub API._
+> _Atualizado em 29 de abr. de 2026, 09:46 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
