@@ -1,6 +1,6 @@
-<svg width="1400" height="386" viewBox="0 0 1400 386" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Resumo dinamico da secao Sobre">
+<svg width="1400" height="352" viewBox="0 0 1400 352" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Resumo dinamico da secao Sobre">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="386" gradientUnits="userSpaceOnUse">
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="352" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#040919"/>
       <stop offset="0.58" stop-color="#061328"/>
       <stop offset="1" stop-color="#081b33"/>
@@ -14,20 +14,19 @@
       <animateTransform attributeName="patternTransform" type="translate" dur="16s" repeatCount="indefinite" values="0 0;24 24;0 0"/>
     </pattern>
   </defs>
-  <rect width="1400" height="386" rx="18" fill="url(#bg)"/>
-  <rect width="1400" height="386" rx="18" fill="url(#grid)"/>
-  <rect x="36" y="28" width="1328" height="330" rx="14" fill="#020617" fill-opacity="0.52" stroke="#38bdf8" stroke-opacity="0.28"/>
+  <rect width="1400" height="352" rx="18" fill="url(#bg)"/>
+  <rect width="1400" height="352" rx="18" fill="url(#grid)"/>
+  <rect x="36" y="28" width="1328" height="296" rx="14" fill="#020617" fill-opacity="0.52" stroke="#38bdf8" stroke-opacity="0.28"/>
   <rect x="52" y="48" width="340" height="34" rx="8" fill="#0b1221" stroke="#22d3ee" stroke-opacity="0.5"/>
   <text x="68" y="71" fill="#bff6ff" font-family="JetBrains Mono, Consolas, monospace" font-size="16" font-weight="700">SOBRE DINAMICO</text>
   <line x1="52" y1="92" x2="1348" y2="92" stroke="url(#accent)" stroke-width="2" stroke-opacity="0.8"/>
-  <text x="54" y="118" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">Kaiky Brito é um desenvolvedor focado no ecossistema de desenvolvimento web com sólido</text>
-<text x="54" y="152" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">conhecimento em linguagens como JavaScript, TypeScript e Python. Sua atuação técnica</text>
-<text x="54" y="186" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">destaca-se pelo uso de Node.js e Express na construção de aplicações, integrando ferramentas</text>
-<text x="54" y="220" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">de padronização como ESLint e Prettier para garantir a qualidade do código. Com 15</text>
-<text x="54" y="254" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">repositórios públicos e projetos ativos que demonstram experiência prática em automação e</text>
-<text x="54" y="288" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">arquitetura de sistemas, o profissional mantém um perfil orientado à entrega de soluções...</text>
-  <line x1="52" y1="342" x2="1348" y2="342" stroke="#38bdf8" stroke-opacity="0.32"/>
-  <text x="54" y="366" fill="#a8d9f4" font-family="JetBrains Mono, Consolas, monospace" font-size="16">
-    atualizado: 4h
+  <text x="54" y="118" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">Kaiky Brito é um desenvolvedor voltado ao desenvolvimento de software com domínio principal</text>
+<text x="54" y="152" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">em JavaScript, TypeScript e Python. Sua stack tecnológica é consolidada no ambiente Node.js,</text>
+<text x="54" y="186" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">com ênfase na criação de serviços backend via Express e gerenciamento de dados com MySQL. O</text>
+<text x="54" y="220" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">profissional gerencia quinze repositórios públicos no GitHub, apresentando maior volume de</text>
+<text x="54" y="254" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">contribuições em projetos como o sistema zyra e integrações baseadas na biblioteca Baileys.</text>
+  <line x1="52" y1="308" x2="1348" y2="308" stroke="#38bdf8" stroke-opacity="0.32"/>
+  <text x="54" y="332" fill="#a8d9f4" font-family="JetBrains Mono, Consolas, monospace" font-size="16">
+    atualizado: 59m
   </text>
 </svg>
