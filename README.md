@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor voltado à criação de arquiteturas backend e ferramentas de automação para o ecossistema de software. Sua stack tecnológica é centrada em Node.js, Express e TypeScript, incluindo também experiência com as linguagens JavaScript, Python, C e Rust. Atualmente gerencia quinze repositórios públicos, demonstrando uma atuação consistente em projetos de integração e desenvolvimento de sistemas como o kaikybrofc e a ferramenta zyra.
+Kaiky Brito é um desenvolvedor focado no ecossistema JavaScript e TypeScript, com experiência na construção de aplicações utilizando Node.js e Express. Seu conjunto de habilidades técnicas inclui o domínio de linguagens como Python e Rust, aliado à utilização de ferramentas de padronização de código e gerenciamento de bancos de dados. Com quinze repositórios públicos, o desenvolvedor mantém uma atuação voltada a projetos de automação e integração, destacando-se pela manutenção de ferramentas em ambientes de código aberto.
 
-> _Atualizado em 1 de mai. de 2026, 03:46 (UTC)._
+> _Atualizado em 1 de mai. de 2026, 05:45 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Automação de métricas e atualização dinâmica de ativos visuais de perfil.
-- Desenvolvimento de funcionalidades para processamento de mídia e stickers no projeto Zyra.
-- Otimização de resiliência e tratamento de falhas em módulos de integração Node.js.
+- Manutenção de fluxos automatizados para atualização de métricas e ativos visuais de perfil.
+- Aprimoramento do motor de processamento de figurinhas e segurança de sessão no projeto Zyra.
+- Desenvolvimento de módulos para integração resiliente com APIs de streaming e processamento de mídia.
 
-> _Atualizado em 1 de mai. de 2026, 03:45 (UTC)._
+> _Atualizado em 1 de mai. de 2026, 05:45 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -231,5 +231,5 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 1 de mai. de 2026, 04:45 (UTC) | Fonte: GitHub API._
+> _Atualizado em 1 de mai. de 2026, 05:45 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
