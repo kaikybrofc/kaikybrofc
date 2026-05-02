@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor júnior focado no ecossistema JavaScript com experiência consolidada em tecnologias como Node.js, TypeScript e Express. Seu portfólio técnico contempla a gestão de 15 repositórios públicos e a proficiência em linguagens como Python, Rust e C, com ênfase no desenvolvimento de projetos como zyra e Baileys. O profissional utiliza ferramentas como MySQL, ESLint e Prettier para assegurar a integridade do código e a eficiência operacional em seus sistemas.
+Kaiky Brito é um desenvolvedor focado no ecossistema Node.js, com sólido domínio em JavaScript e TypeScript para a construção de soluções backend eficientes. Sua trajetória técnica inclui o gerenciamento de quinze repositórios públicos, nos quais aplica tecnologias como Express, MySQL e Python em fluxos de trabalho estruturados. Destaca-se por sua atuação constante em projetos de integração e automação, a exemplo dos repositórios zyra e Baileys, priorizando sempre a organização e a qualidade do código produzido.
 
-> _Atualizado em 2 de mai. de 2026, 19:45 (UTC)._
+> _Atualizado em 2 de mai. de 2026, 21:45 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Automação de workflows para atualização de métricas e ativos visuais de perfil.
-- Otimização de sistemas de mensageria com foco em estabilidade de conexão e segurança.
-- Desenvolvimento de bibliotecas para processamento de mídia e streaming local.
+- Otimização de fluxos automatizados para atualização de métricas e ativos dinâmicos.
+- Implementação de persistência e download de mídia para sistemas de mensageria.
+- Refinamento de pipelines de CI/CD e resiliência de conexões em serviços backend.
 
-> _Atualizado em 2 de mai. de 2026, 19:46 (UTC)._
+> _Atualizado em 2 de mai. de 2026, 21:45 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -96,21 +96,21 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 2: [Baileys](https://github.com/kaikybrofc/Baileys)
+### Projeto 2: [zyra](https://github.com/kaikybrofc/zyra)
 
-**Descrição:** Socket-based TS/JavaScript API for WhatsApp Web
+**Descrição:** Zyra Web Bot System Sistema de automação web desenvolvido em TypeScript, com integração direta à API Baileys, oferecendo comunicação eficiente e gerenciament...
 
-![Resumo do Projeto](./assets/badges/projeto/Baileys/resumo.svg) ![Atividade](./assets/badges/projeto/Baileys/atividade.svg) ![Estrelas](./assets/badges/projeto/Baileys/estrelas.svg) ![Atualizado](./assets/badges/projeto/Baileys/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/zyra/resumo.svg) ![Atividade](./assets/badges/projeto/zyra/atividade.svg) ![Estrelas](./assets/badges/projeto/zyra/estrelas.svg) ![Atualizado](./assets/badges/projeto/zyra/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 3: [zyra](https://github.com/kaikybrofc/zyra)
+### Projeto 3: [Baileys](https://github.com/kaikybrofc/Baileys)
 
-**Descrição:** Zyra Web Bot System Sistema de automação web desenvolvido em TypeScript, com integração direta à API Baileys, oferecendo comunicação eficiente e gerenciament...
+**Descrição:** Socket-based TS/JavaScript API for WhatsApp Web
 
-![Resumo do Projeto](./assets/badges/projeto/zyra/resumo.svg) ![Atividade](./assets/badges/projeto/zyra/atividade.svg) ![Estrelas](./assets/badges/projeto/zyra/estrelas.svg) ![Atualizado](./assets/badges/projeto/zyra/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/Baileys/resumo.svg) ![Atividade](./assets/badges/projeto/Baileys/atividade.svg) ![Estrelas](./assets/badges/projeto/Baileys/estrelas.svg) ![Atualizado](./assets/badges/projeto/Baileys/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
@@ -231,5 +231,5 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 2 de mai. de 2026, 20:45 (UTC) | Fonte: GitHub API._
+> _Atualizado em 2 de mai. de 2026, 21:45 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
