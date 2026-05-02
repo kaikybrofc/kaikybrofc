@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://github.com/kaikybrofc"><img src="./assets/badges/contact/github.svg" alt="GitHub"/></a>
-  <a href="https://www.linkedin.com/in/kaiky-gomes/"><img src="./assets/badges/contact/linkedin.svg" alt="LinkedIn"/></a>
+  <a href="https://www.linkedin.com/in/kaikybrofc/"><img src="./assets/badges/contact/linkedin.svg" alt="LinkedIn"/></a>
 </p>
 
 <p align="center">

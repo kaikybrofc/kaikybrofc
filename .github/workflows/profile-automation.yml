@@ -39,7 +39,7 @@ jobs:
           outputs: assets/snake.svg?palette=github-dark
 
       - name: Generate metrics (base)
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           user: kaikybrofc
@@ -53,7 +53,8 @@ jobs:
           plugin_achievements_threshold: C
 
       - name: Generate metrics (extended)
-        uses: lowlighter/metrics@latest
+        continue-on-error: true
+        uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           user: kaikybrofc
