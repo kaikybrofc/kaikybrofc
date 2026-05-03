@@ -20,14 +20,14 @@
   <rect x="52" y="48" width="340" height="34" rx="8" fill="#0b1221" stroke="#22d3ee" stroke-opacity="0.5"/>
   <text x="68" y="71" fill="#bff6ff" font-family="JetBrains Mono, Consolas, monospace" font-size="16" font-weight="700">SOBRE DINAMICO</text>
   <line x1="52" y1="92" x2="1348" y2="92" stroke="url(#accent)" stroke-width="2" stroke-opacity="0.8"/>
-  <text x="54" y="118" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">Kaiky Brito é um desenvolvedor com foco em tecnologias backend e automação, fundamentando</text>
-<text x="54" y="152" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">sua prática profissional nos ecossistemas Node.js e TypeScript. Sua atuação técnica é</text>
-<text x="54" y="186" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">evidenciada pela gestão de 15 repositórios públicos, nos quais aplica arquiteturas</text>
-<text x="54" y="220" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">estruturadas com Express e integração de sistemas escaláveis. Atualmente, dedica-se ao</text>
-<text x="54" y="254" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">desenvolvimento de ferramentas de monitoramento e bibliotecas de comunicação, como o</text>
-<text x="54" y="288" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">news-anime-monitor e o projeto Baileys, visando a eficiência e a qualidade do código...</text>
+  <text x="54" y="118" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">Kaiky Brito é um desenvolvedor focado no ecossistema JavaScript e TypeScript, com sólida</text>
+<text x="54" y="152" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">atuação no desenvolvimento de sistemas utilizando Node.js e Express. Sua trajetória técnica</text>
+<text x="54" y="186" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">abrange quinze repositórios públicos e o domínio de linguagens como Python, C e Rust,</text>
+<text x="54" y="220" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">demonstrando versatilidade na construção de soluções back-end e ferramentas de</text>
+<text x="54" y="254" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">infraestrutura. Atualmente, o profissional mantém projetos ativos voltados para automação e</text>
+<text x="54" y="288" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">monitoramento, evidenciando um compromisso contínuo com a evolução de sua arquitetura de...</text>
   <line x1="52" y1="342" x2="1348" y2="342" stroke="#38bdf8" stroke-opacity="0.32"/>
   <text x="54" y="366" fill="#a8d9f4" font-family="JetBrains Mono, Consolas, monospace" font-size="16">
-    atualizado: 59m
+    atualizado: agora
   </text>
 </svg>

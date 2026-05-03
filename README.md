@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor com foco em tecnologias backend e automação, fundamentando sua prática profissional nos ecossistemas Node.js e TypeScript. Sua atuação técnica é evidenciada pela gestão de 15 repositórios públicos, nos quais aplica arquiteturas estruturadas com Express e integração de sistemas escaláveis. Atualmente, dedica-se ao desenvolvimento de ferramentas de monitoramento e bibliotecas de comunicação, como o news-anime-monitor e o projeto Baileys, visando a eficiência e a qualidade do código produzido.
+Kaiky Brito é um desenvolvedor focado no ecossistema JavaScript e TypeScript, com sólida atuação no desenvolvimento de sistemas utilizando Node.js e Express. Sua trajetória técnica abrange quinze repositórios públicos e o domínio de linguagens como Python, C e Rust, demonstrando versatilidade na construção de soluções back-end e ferramentas de infraestrutura. Atualmente, o profissional mantém projetos ativos voltados para automação e monitoramento, evidenciando um compromisso contínuo com a evolução de sua arquitetura de software e a entrega de código funcional.
 
-> _Atualizado em 3 de mai. de 2026, 21:16 (UTC)._
+> _Atualizado em 3 de mai. de 2026, 23:16 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Otimização de performance, SEO técnico e fluxos de CI/CD no projeto news-anime-monitor.
-- Refinamento de lógica de moderação e correção de regressões em integrações de mensageria.
-- Manutenção de automações para atualização dinâmica de métricas e ativos visuais de perfil.
+- Automatização de processos para atualização de métricas e ativos visuais de perfil.
+- Manutenção de sistemas de mensageria com foco em estabilidade e integração de APIs.
+- Otimização de performance frontend, SEO técnico e fluxos de deploy automatizado.
 
-> _Atualizado em 3 de mai. de 2026, 21:16 (UTC)._
+> _Atualizado em 3 de mai. de 2026, 23:16 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -231,5 +231,5 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 3 de mai. de 2026, 22:15 (UTC) | Fonte: GitHub API._
+> _Atualizado em 3 de mai. de 2026, 23:16 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
