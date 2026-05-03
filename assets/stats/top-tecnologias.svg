@@ -81,10 +81,10 @@
   <text x="1012" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">Python</text>
 </g>
 <g>
-  <rect x="1123" y="298" width="194" height="28" rx="6" fill="url(#statBarGradtoptecnologias)" opacity="0.96"/>
-  <rect x="1123" y="298" width="194" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
-  <text x="1220" y="290" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">2</text>
-  <text x="1220" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">MySQL</text>
+  <rect x="1123" y="256" width="194" height="70" rx="6" fill="url(#statBarGradtoptecnologias)" opacity="0.96"/>
+  <rect x="1123" y="256" width="194" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
+  <text x="1220" y="248" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">5</text>
+  <text x="1220" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">ESLint</text>
 </g>
   <text x="58" y="394" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Tecnologias detectadas: 14.</text>
 <text x="58" y="418" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Top 1: Node.js (10 repos).</text>
@@ -92,6 +92,6 @@
 <text x="58" y="466" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Ranking baseado em linguagem e dependencias dos projetos.</text>
   <line x1="52" y1="506" x2="1348" y2="506" stroke="#38bdf8" stroke-opacity="0.32"/>
   <text x="54" y="530" fill="#a8d9f4" font-family="JetBrains Mono, Consolas, monospace" font-size="16">
-    atualizado: 59m
+    atualizado: agora
   </text>
 </svg>
