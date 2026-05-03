@@ -32,19 +32,19 @@
   <text x="68" y="186" fill="#93c5fd" font-family="JetBrains Mono, Consolas, monospace" font-size="12" font-weight="700">MEDIA DE DIAS ENTRE ATUALIZACOES</text>
   <g>
   <line x1="82" y1="182" x2="1318" y2="182" stroke="#7dd3fc" stroke-opacity="0.14" stroke-width="1"/>
-  <text x="74" y="186" text-anchor="end" fill="#8fb0c8" font-family="JetBrains Mono, Consolas, monospace" font-size="11">2.69</text>
+  <text x="74" y="186" text-anchor="end" fill="#8fb0c8" font-family="JetBrains Mono, Consolas, monospace" font-size="11">3.38</text>
 </g>
 <g>
   <line x1="82" y1="218" x2="1318" y2="218" stroke="#7dd3fc" stroke-opacity="0.14" stroke-width="1"/>
-  <text x="74" y="222" text-anchor="end" fill="#8fb0c8" font-family="JetBrains Mono, Consolas, monospace" font-size="11">2.01</text>
+  <text x="74" y="222" text-anchor="end" fill="#8fb0c8" font-family="JetBrains Mono, Consolas, monospace" font-size="11">2.53</text>
 </g>
 <g>
   <line x1="82" y1="254" x2="1318" y2="254" stroke="#7dd3fc" stroke-opacity="0.14" stroke-width="1"/>
-  <text x="74" y="258" text-anchor="end" fill="#8fb0c8" font-family="JetBrains Mono, Consolas, monospace" font-size="11">1.34</text>
+  <text x="74" y="258" text-anchor="end" fill="#8fb0c8" font-family="JetBrains Mono, Consolas, monospace" font-size="11">1.69</text>
 </g>
 <g>
   <line x1="82" y1="290" x2="1318" y2="290" stroke="#7dd3fc" stroke-opacity="0.14" stroke-width="1"/>
-  <text x="74" y="294" text-anchor="end" fill="#8fb0c8" font-family="JetBrains Mono, Consolas, monospace" font-size="11">0.67</text>
+  <text x="74" y="294" text-anchor="end" fill="#8fb0c8" font-family="JetBrains Mono, Consolas, monospace" font-size="11">0.84</text>
 </g>
 <g>
   <line x1="82" y1="326" x2="1318" y2="326" stroke="#7dd3fc" stroke-opacity="0.32" stroke-width="1"/>
@@ -63,35 +63,35 @@
   <text x="388" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">kaikybrofc</text>
 </g>
 <g>
-  <rect x="499" y="289" width="194" height="37" rx="6" fill="url(#statBarGradentregamanutencao)" opacity="0.96"/>
-  <rect x="499" y="289" width="194" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
-  <text x="596" y="281" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">0.7</text>
+  <rect x="499" y="295" width="194" height="31" rx="6" fill="url(#statBarGradentregamanutencao)" opacity="0.96"/>
+  <rect x="499" y="295" width="194" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
+  <text x="596" y="287" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">0.74</text>
   <text x="596" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">zyra</text>
 </g>
 <g>
-  <rect x="707" y="220" width="194" height="106" rx="6" fill="url(#statBarGradentregamanutencao)" opacity="0.96"/>
-  <rect x="707" y="220" width="194" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
-  <text x="804" y="212" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">2.04</text>
+  <rect x="707" y="242" width="194" height="84" rx="6" fill="url(#statBarGradentregamanutencao)" opacity="0.96"/>
+  <rect x="707" y="242" width="194" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
+  <text x="804" y="234" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">2.04</text>
   <text x="804" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">news-anim...</text>
 </g>
 <g>
-  <rect x="915" y="209" width="194" height="117" rx="6" fill="url(#statBarGradentregamanutencao)" opacity="0.96"/>
-  <rect x="915" y="209" width="194" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
-  <text x="1012" y="201" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">2.24</text>
+  <rect x="915" y="233" width="194" height="93" rx="6" fill="url(#statBarGradentregamanutencao)" opacity="0.96"/>
+  <rect x="915" y="233" width="194" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
+  <text x="1012" y="225" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">2.24</text>
   <text x="1012" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">ayana-bot</text>
 </g>
 <g>
   <rect x="1123" y="186" width="194" height="140" rx="6" fill="url(#statBarGradentregamanutencao)" opacity="0.96"/>
   <rect x="1123" y="186" width="194" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
-  <text x="1220" y="178" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">2.69</text>
+  <text x="1220" y="178" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">3.38</text>
   <text x="1220" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">Baileys</text>
 </g>
   <text x="58" y="394" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Repositorios com cadencia calculada: 8.</text>
-<text x="58" y="418" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Intervalo medio: 6.2 dias.</text>
+<text x="58" y="418" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Intervalo medio: 6.3 dias.</text>
 <text x="58" y="442" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Mais frequente: kaikybrofc/yt-wrapper (0.0d).</text>
 <text x="58" y="466" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Menos frequente: kaikybrofc/jsontree (38.5d).</text>
   <line x1="52" y1="506" x2="1348" y2="506" stroke="#38bdf8" stroke-opacity="0.32"/>
   <text x="54" y="530" fill="#a8d9f4" font-family="JetBrains Mono, Consolas, monospace" font-size="16">
-    atualizado: 59m
+    atualizado: agora
   </text>
 </svg>
