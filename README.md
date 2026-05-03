@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor focado no ecossistema Node.js, com sólido domínio em JavaScript e TypeScript para a construção de soluções backend eficientes. Sua trajetória técnica inclui o gerenciamento de quinze repositórios públicos, nos quais aplica tecnologias como Express, MySQL e Python em fluxos de trabalho estruturados. Destaca-se por sua atuação constante em projetos de integração e automação, a exemplo dos repositórios zyra e Baileys, priorizando sempre a organização e a qualidade do código produzido.
+Kaiky Brito é um desenvolvedor focado no ecossistema JavaScript e TypeScript, com sólida experiência no desenvolvimento de aplicações utilizando Node.js e frameworks como Express. Seu portfólio técnico é composto por 15 repositórios públicos que demonstram versatilidade em linguagens como Python, Rust e C, além de proficiência em ferramentas de padronização e bancos de dados. Atualmente, o profissional dedica-se à manutenção de projetos de automação e integração, mantendo um fluxo constante de contribuições em repositórios ativos como Zyra e Baileys.
 
-> _Atualizado em 2 de mai. de 2026, 21:45 (UTC)._
+> _Atualizado em 3 de mai. de 2026, 01:15 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Otimização de fluxos automatizados para atualização de métricas e ativos dinâmicos.
-- Implementação de persistência e download de mídia para sistemas de mensageria.
-- Refinamento de pipelines de CI/CD e resiliência de conexões em serviços backend.
+- Otimização de pipelines de resumo e monitoramento com foco em resiliência e métricas de processamento.
+- Fortalecimento da infraestrutura de CI/CD e estabilidade de serviços em ambientes de produção.
+- Refinamento de UX e documentação técnica para ecossistemas baseados em Node.js e TypeScript.
 
-> _Atualizado em 2 de mai. de 2026, 21:45 (UTC)._
+> _Atualizado em 3 de mai. de 2026, 01:15 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -116,7 +116,17 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 4: [ayana-bot](https://github.com/kaikybrofc/ayana-bot)
+### Projeto 4: [news-anime-monitor](https://github.com/kaikybrofc/news-anime-monitor)
+
+**Descrição:** Este projeto realiza o monitoramento automático da página de notícias de animes
+
+![Resumo do Projeto](./assets/badges/projeto/news-anime-monitor/resumo.svg) ![Atividade](./assets/badges/projeto/news-anime-monitor/atividade.svg) ![Estrelas](./assets/badges/projeto/news-anime-monitor/estrelas.svg) ![Atualizado](./assets/badges/projeto/news-anime-monitor/atualizado.svg)
+
+<p align="center">
+  <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
+</p>
+
+### Projeto 5: [ayana-bot](https://github.com/kaikybrofc/ayana-bot)
 
 **Descrição:** 🤖 Ayana System é um bot inteligente com temática anime, focado em automação, interações avançadas, jogos e recursos modernos para servidores. Rápido, elegan...
 
@@ -126,21 +136,11 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 5: [yt-wrapper](https://github.com/kaikybrofc/yt-wrapper)
+### Projeto 6: [yt-wrapper](https://github.com/kaikybrofc/yt-wrapper)
 
 **Descrição:** TypeScript wrapper for MP3/MP4 conversion workflows with extract/convert/check-task API, polling flow, tests and lint.
 
 ![Resumo do Projeto](./assets/badges/projeto/yt-wrapper/resumo.svg) ![Atividade](./assets/badges/projeto/yt-wrapper/atividade.svg) ![Estrelas](./assets/badges/projeto/yt-wrapper/estrelas.svg) ![Atualizado](./assets/badges/projeto/yt-wrapper/atualizado.svg)
-
-<p align="center">
-  <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
-</p>
-
-### Projeto 6: [news-anime-monitor](https://github.com/kaikybrofc/news-anime-monitor)
-
-**Descrição:** Este projeto realiza o monitoramento automático da página de notícias de animes
-
-![Resumo do Projeto](./assets/badges/projeto/news-anime-monitor/resumo.svg) ![Atividade](./assets/badges/projeto/news-anime-monitor/atividade.svg) ![Estrelas](./assets/badges/projeto/news-anime-monitor/estrelas.svg) ![Atualizado](./assets/badges/projeto/news-anime-monitor/atualizado.svg)
 <!--FEATURED_PROJECTS_END-->
 
 
@@ -231,5 +231,5 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 3 de mai. de 2026, 00:15 (UTC) | Fonte: GitHub API._
+> _Atualizado em 3 de mai. de 2026, 01:15 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
