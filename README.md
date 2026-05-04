@@ -35,7 +35,7 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor focado no ecossistema JavaScript e TypeScript, com sólida atuação no desenvolvimento de sistemas utilizando Node.js e Express. Sua trajetória técnica abrange quinze repositórios públicos e o domínio de linguagens como Python, C e Rust, demonstrando versatilidade na construção de soluções back-end e ferramentas de infraestrutura. Atualmente, o profissional mantém projetos ativos voltados para automação e monitoramento, evidenciando um compromisso contínuo com a evolução de sua arquitetura de software e a entrega de código funcional.
+Kaiky Brito é um desenvolvedor focado em tecnologias back-end, especializado na construção de aplicações utilizando Node.js, Express e o ecossistema TypeScript. Sua base técnica inclui proficiência em linguagens como JavaScript, Python e Rust, aplicadas no desenvolvimento de ferramentas de automação e integração de sistemas. Com quinze repositórios públicos, o profissional mantém uma atuação constante em projetos de monitoramento e gerenciamento de dados, demonstrando compromisso com a qualidade e a evolução técnica.
 
 > _Atualizado em 3 de mai. de 2026, 23:16 (UTC)._
 <!--ABOUT_AI_END-->
@@ -106,21 +106,21 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 3: [Baileys](https://github.com/kaikybrofc/Baileys)
+### Projeto 3: [zyra](https://github.com/kaikybrofc/zyra)
 
-**Descrição:** Socket-based TS/JavaScript API for WhatsApp Web
+**Descrição:** Zyra Web Bot System Sistema de automação web desenvolvido em TypeScript, com integração direta à API Baileys, oferecendo comunicação eficiente e gerenciament...
 
-![Resumo do Projeto](./assets/badges/projeto/Baileys/resumo.svg) ![Atividade](./assets/badges/projeto/Baileys/atividade.svg) ![Estrelas](./assets/badges/projeto/Baileys/estrelas.svg) ![Atualizado](./assets/badges/projeto/Baileys/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/zyra/resumo.svg) ![Atividade](./assets/badges/projeto/zyra/atividade.svg) ![Estrelas](./assets/badges/projeto/zyra/estrelas.svg) ![Atualizado](./assets/badges/projeto/zyra/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 4: [zyra](https://github.com/kaikybrofc/zyra)
+### Projeto 4: [Baileys](https://github.com/kaikybrofc/Baileys)
 
-**Descrição:** Zyra Web Bot System Sistema de automação web desenvolvido em TypeScript, com integração direta à API Baileys, oferecendo comunicação eficiente e gerenciament...
+**Descrição:** Socket-based TS/JavaScript API for WhatsApp Web
 
-![Resumo do Projeto](./assets/badges/projeto/zyra/resumo.svg) ![Atividade](./assets/badges/projeto/zyra/atividade.svg) ![Estrelas](./assets/badges/projeto/zyra/estrelas.svg) ![Atualizado](./assets/badges/projeto/zyra/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/Baileys/resumo.svg) ![Atividade](./assets/badges/projeto/Baileys/atividade.svg) ![Estrelas](./assets/badges/projeto/Baileys/estrelas.svg) ![Atualizado](./assets/badges/projeto/Baileys/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
@@ -231,5 +231,5 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 3 de mai. de 2026, 23:16 (UTC) | Fonte: GitHub API._
+> _Atualizado em 4 de mai. de 2026, 00:15 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
