@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor focado no ecossistema de JavaScript e TypeScript, com atuação em 15 repositórios públicos que demonstram sua base técnica. Seu conjunto de habilidades inclui o desenvolvimento de aplicações com Node.js e Express, além de integração com bancos de dados MySQL e conhecimentos em Python e Rust. O profissional concentra seus esforços atuais em projetos de automação e sistemas de monitoramento, aplicando ferramentas de padronização para garantir a qualidade do código entregue.
+Kaiky Brito é um desenvolvedor focado no desenvolvimento de aplicações robustas e escaláveis, utilizando uma abordagem técnica fundamentada em boas práticas de engenharia de software. Seu conjunto de competências prioriza o ecossistema Node.js, com domínio em TypeScript, Express e bancos de dados relacionais, estendendo-se também ao uso de Python e Rust para necessidades específicas de performance e automação. Com quinze repositórios públicos ativos, sua produção técnica recente destaca-se pela implementação de sistemas de monitoramento e ferramentas de integração, evidenciando uma evolução constante em tecnologias de backend e infraestrutura.
 
-> _Atualizado em 4 de mai. de 2026, 13:16 (UTC)._
+> _Atualizado em 4 de mai. de 2026, 15:16 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Desenvolvimento de sistemas para manipulação de stickers e persistência de mídias em bancos de dados.
-- Otimização de performance em interfaces web com foco em SEO técnico e redução de reflow.
-- Manutenção de utilitários para integração com APIs de mensageria e automação de métricas de perfil.
+- Automação de métricas dinâmicas e manutenção contínua de ativos de perfil.
+- Desenvolvimento de persistência e gestão de mídias em sistemas de mensageria.
+- Otimização de performance frontend e automação de fluxos de entrega contínua.
 
-> _Atualizado em 4 de mai. de 2026, 13:15 (UTC)._
+> _Atualizado em 4 de mai. de 2026, 15:16 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -231,5 +231,5 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 4 de mai. de 2026, 14:15 (UTC) | Fonte: GitHub API._
+> _Atualizado em 4 de mai. de 2026, 15:16 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
