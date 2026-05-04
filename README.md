@@ -43,9 +43,9 @@ Kaiky Brito é um desenvolvedor com foco técnico no ecossistema Node.js, utiliz
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Manutenção e automação de métricas dinâmicas e ativos SVG em repositórios de perfil.
-- Desenvolvimento de recursos para manipulação de stickers e persistência de mídia no projeto Zyra.
-- Otimização de performance frontend e implementação de workflows para automação de deploy.
+- Automação de métricas de perfil e manutenção de ativos SVG dinâmicos.
+- Desenvolvimento de sistemas de persistência e manipulação de figurinhas no projeto Zyra.
+- Otimização de performance frontend, SEO técnico e estruturação de pipelines de deploy.
 
 > _Atualizado em 4 de mai. de 2026, 09:16 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
@@ -231,5 +231,5 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 4 de mai. de 2026, 09:16 (UTC) | Fonte: GitHub API._
+> _Atualizado em 4 de mai. de 2026, 10:15 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
