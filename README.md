@@ -43,9 +43,9 @@ Kaiky Brito é um desenvolvedor focado no desenvolvimento back-end com experiên
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Manutenção de fluxos de automação para atualização dinâmica de ativos e métricas de perfil.
-- Desenvolvimento de persistência de dados e manipulação de mídias em aplicações de mensageria.
-- Otimização de performance e implementação de pipelines de deploy para sistemas de monitoramento.
+- Automação de fluxos para atualização dinâmica de métricas e ativos visuais de perfil via GitHub Actions.
+- Implementação de persistência em banco de dados e lógica de manipulação de stickers no projeto Zyra.
+- Otimização de performance frontend, SEO técnico e estruturação de pipelines de deploy contínuo.
 
 > _Atualizado em 5 de mai. de 2026, 02:16 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
@@ -231,5 +231,5 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 5 de mai. de 2026, 02:16 (UTC) | Fonte: GitHub API._
+> _Atualizado em 5 de mai. de 2026, 03:15 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
