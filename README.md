@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor com foco em tecnologias back-end, possuindo experiência prática com o ecossistema Node.js, TypeScript e Express. Sua trajetória técnica inclui o gerenciamento de quinze repositórios públicos e a utilização de diversas linguagens de programação, incluindo Python, C e Rust. Atualmente, dedica-se ao desenvolvimento de soluções voltadas para automação e integração de sistemas, mantendo uma participação ativa em projetos de monitoramento e ferramentas de mensageria.
+Kaiky Brito é um desenvolvedor voltado para a construção de soluções em software moderno, com sólida base técnica no desenvolvimento de aplicações escaláveis. Sua stack principal é composta por JavaScript e TypeScript, com ênfase no uso de Node.js e Express, além de experiência complementar em linguagens como Python e Rust. Com diversos repositórios públicos e contribuições constantes em projetos como o news-anime-monitor, ele demonstra um compromisso contínuo com a excelência técnica e a entrega de código funcional.
 
-> _Atualizado em 5 de mai. de 2026, 16:16 (UTC)._
+> _Atualizado em 5 de mai. de 2026, 18:16 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Manutenção automatizada de métricas e ativos visuais do perfil via GitHub Actions.
-- Implementação de persistência de mídia e suporte a newsletters no projeto Zyra.
-- Otimização de performance técnica, SEO e estruturação de pipelines de CI/CD.
+- Desenvolvimento de persistência de mídia e manipulação de templates de stickers no ecossistema Zyra.
+- Otimização de performance frontend, SEO técnico e workflows de deploy no news-anime-monitor.
+- Automação de infraestrutura para monitoramento e atualização de métricas de perfil em tempo real.
 
-> _Atualizado em 5 de mai. de 2026, 16:16 (UTC)._
+> _Atualizado em 5 de mai. de 2026, 18:16 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -96,21 +96,21 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 2: [news-anime-monitor](https://github.com/kaikybrofc/news-anime-monitor)
+### Projeto 2: [Baileys](https://github.com/kaikybrofc/Baileys)
 
-**Descrição:** Monitor de notícias de anime com API REST, pipeline inteligente, frontend Next.js e deploy automatizado.
+**Descrição:** Socket-based TS/JavaScript API for WhatsApp Web
 
-![Resumo do Projeto](./assets/badges/projeto/news-anime-monitor/resumo.svg) ![Atividade](./assets/badges/projeto/news-anime-monitor/atividade.svg) ![Estrelas](./assets/badges/projeto/news-anime-monitor/estrelas.svg) ![Atualizado](./assets/badges/projeto/news-anime-monitor/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/Baileys/resumo.svg) ![Atividade](./assets/badges/projeto/Baileys/atividade.svg) ![Estrelas](./assets/badges/projeto/Baileys/estrelas.svg) ![Atualizado](./assets/badges/projeto/Baileys/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 3: [Baileys](https://github.com/kaikybrofc/Baileys)
+### Projeto 3: [news-anime-monitor](https://github.com/kaikybrofc/news-anime-monitor)
 
-**Descrição:** Socket-based TS/JavaScript API for WhatsApp Web
+**Descrição:** Monitor de notícias de anime com API REST, pipeline inteligente, frontend Next.js e deploy automatizado.
 
-![Resumo do Projeto](./assets/badges/projeto/Baileys/resumo.svg) ![Atividade](./assets/badges/projeto/Baileys/atividade.svg) ![Estrelas](./assets/badges/projeto/Baileys/estrelas.svg) ![Atualizado](./assets/badges/projeto/Baileys/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/news-anime-monitor/resumo.svg) ![Atividade](./assets/badges/projeto/news-anime-monitor/atividade.svg) ![Estrelas](./assets/badges/projeto/news-anime-monitor/estrelas.svg) ![Atualizado](./assets/badges/projeto/news-anime-monitor/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
@@ -231,5 +231,5 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 5 de mai. de 2026, 17:15 (UTC) | Fonte: GitHub API._
+> _Atualizado em 5 de mai. de 2026, 18:16 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
