@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor focado em engenharia de software e automação, mantendo um portfólio de 15 repositórios públicos com ênfase no desenvolvimento de soluções escaláveis. Sua expertise técnica está centrada no ecossistema Node.js, utilizando TypeScript, JavaScript e Express para a construção de APIs robustas integradas a bancos de dados MySQL. Atualmente, o desenvolvedor concentra seus esforços na manutenção de projetos como o Baileys e o sistema Zyra, demonstrando versatilidade em linguagens que abrangem desde Python até linguagens de sistemas como Rust e C.
+Kaiky Brito é um desenvolvedor focado nos ecossistemas JavaScript e TypeScript, com experiência na construção de aplicações backend estruturadas em Node.js e Express. Sua stack tecnológica abrange a integração de bancos de dados MySQL e o uso de linguagens como Python e Rust para o desenvolvimento de soluções diversificadas. Através da manutenção de projetos ativos e do emprego de ferramentas de padronização, demonstra um compromisso técnico com a automação e a qualidade de software.
 
-> _Atualizado em 5 de mai. de 2026, 22:16 (UTC)._
+> _Atualizado em 6 de mai. de 2026, 00:16 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Manutenção de automações para atualização dinâmica de métricas e ativos de perfil.
-- Evolução de sistemas de mensageria com foco em manipulação de stickers e integração de APIs.
-- Refinamento de performance web, SEO técnico e estratégias de persistência de dados.
+- Automação de fluxos para atualização dinâmica de métricas e ativos visuais no perfil.
+- Implementação de persistência e manipulação de mídias em sistemas de mensageria.
+- Otimização de performance frontend e consolidação de pipelines de deploy contínuo.
 
-> _Atualizado em 5 de mai. de 2026, 22:15 (UTC)._
+> _Atualizado em 6 de mai. de 2026, 00:16 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -231,5 +231,5 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 5 de mai. de 2026, 23:15 (UTC) | Fonte: GitHub API._
+> _Atualizado em 6 de mai. de 2026, 00:16 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
