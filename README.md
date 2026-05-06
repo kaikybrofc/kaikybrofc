@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor júnior especializado no ecossistema JavaScript e TypeScript, com ênfase no desenvolvimento de aplicações backend utilizando Node.js e Express. Seu perfil técnico é composto por quinze repositórios públicos que integram ferramentas de automação e bancos de dados relacionais para a criação de sistemas eficientes. No momento, o profissional direciona sua atuação para projetos ativos como o Baileys e o Zyra, enquanto expande seu domínio técnico em linguagens como Python e Rust.
+Kaiky Brito é um desenvolvedor júnior focado em soluções de backend e integração de sistemas, com atuação predominante nos ecossistemas JavaScript e TypeScript. Sua stack tecnológica principal é composta por Node.js e Express para o desenvolvimento de APIs, complementada por conhecimentos em Python e gerenciamento de bancos de dados MySQL. Com um portfólio de 15 repositórios públicos, o profissional demonstra engajamento constante em projetos de automação e arquitetura de software, priorizando a qualidade e a evolução técnica.
 
-> _Atualizado em 6 de mai. de 2026, 10:16 (UTC)._
+> _Atualizado em 6 de mai. de 2026, 12:16 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Implementação de recursos para manipulação de stickers e persistência de mídia.
-- Otimização de performance frontend e aprimoramento de SEO técnico.
-- Automação de métricas de perfil e manutenção de pipelines de CI/CD.
+- Automação de métricas de perfil e renderização dinâmica de ativos SVG.
+- Implementação de persistência de mídias e integração de newsletters em mensageria.
+- Otimização de performance frontend, SEO técnico e automação de pipelines de deploy.
 
-> _Atualizado em 6 de mai. de 2026, 10:15 (UTC)._
+> _Atualizado em 6 de mai. de 2026, 12:16 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -231,5 +231,5 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 6 de mai. de 2026, 11:15 (UTC) | Fonte: GitHub API._
+> _Atualizado em 6 de mai. de 2026, 12:16 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
