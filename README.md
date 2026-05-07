@@ -43,9 +43,9 @@ Kaiky Brito é um desenvolvedor focado no ecossistema Node.js e TypeScript, poss
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Automação de fluxos para atualização de métricas e geração de assets SVG.
-- Desenvolvimento de recursos para persistência e gestão de mídias em sistemas de mensageria.
-- Refino de performance frontend e estruturação de processos de deploy automatizado.
+- Automação de workflows para atualização dinâmica de métricas e ativos SVG.
+- Implementação de persistência e manipulação de templates em APIs de mensageria.
+- Otimização de performance frontend e estruturação de pipelines de CI/CD.
 
 > _Atualizado em 7 de mai. de 2026, 21:16 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
@@ -231,5 +231,5 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 7 de mai. de 2026, 21:16 (UTC) | Fonte: GitHub API._
+> _Atualizado em 7 de mai. de 2026, 22:15 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
