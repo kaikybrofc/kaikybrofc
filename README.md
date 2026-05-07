@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor com foco em soluções de back-end e automação, utilizando predominantemente JavaScript e TypeScript em seus fluxos de trabalho. Sua stack tecnológica é centrada no ecossistema Node.js e no framework Express, com experiência complementar em linguagens como Python, Rust e C. Atualmente mantém 15 repositórios públicos e projetos ativos voltados para monitoramento e integração de dados, demonstrando uma base técnica diversificada e orientada à eficiência sistêmica.
+Kaiky Brito é um desenvolvedor focado no ecossistema Node.js, TypeScript e Express. Seu perfil técnico abrange o gerenciamento de quinze repositórios públicos com implementações em diversas linguagens, incluindo Python, C e Rust. Atualmente, concentra sua atividade em projetos de automação e monitoramento desenvolvidos principalmente em JavaScript e TypeScript.
 
-> _Atualizado em 7 de mai. de 2026, 12:15 (UTC)._
+> _Atualizado em 7 de mai. de 2026, 15:16 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Automação de processos para atualização de métricas e ativos visuais do perfil.
-- Implementação de lógica de persistência e manipulação de mídia no projeto Zyra.
-- Otimização de performance e estruturação de pipelines de CI/CD em projetos Node.js e TypeScript.
+- Automação e manutenção de métricas dinâmicas e ativos visuais para o perfil.
+- Otimização de performance web, SEO técnico e estruturação de fluxos de deploy.
+- Desenvolvimento de recursos para integração com APIs de mensageria e gestão de mídia.
 
-> _Atualizado em 7 de mai. de 2026, 12:16 (UTC)._
+> _Atualizado em 7 de mai. de 2026, 15:16 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -231,5 +231,5 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 7 de mai. de 2026, 14:19 (UTC) | Fonte: GitHub API._
+> _Atualizado em 7 de mai. de 2026, 15:16 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
