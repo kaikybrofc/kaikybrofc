@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor focado no ecossistema JavaScript e TypeScript, com sólida base técnica na construção de aplicações backend utilizando Node.js e Express. Sua trajetória inclui o gerenciamento de quinze repositórios públicos, onde integra conhecimentos em bancos de dados como MySQL e ferramentas de qualidade como ESLint e Prettier. Atualmente, demonstra competência técnica em projetos de monitoramento e automação, evidenciando uma prática profissional orientada à eficiência e à constante evolução em múltiplas linguagens de programação.
+Kaiky Brito é um desenvolvedor focado em soluções back-end e arquiteturas escaláveis utilizando Node.js e Express. Sua experiência técnica contempla o uso recorrente de TypeScript e Python em diversos repositórios, além do gerenciamento de dados com MySQL. Atualmente, mantém uma trajetória de contribuições frequentes em projetos de automação e monitoramento de sistemas, buscando constantemente o aprimoramento em novas linguagens como Rust e C.
 
-> _Atualizado em 9 de mai. de 2026, 05:16 (UTC)._
+> _Atualizado em 9 de mai. de 2026, 07:16 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Automação de métricas dinâmicas e manutenção de ativos visuais do perfil.
-- Desenvolvimento de persistência e manipulação de templates de mídia no projeto Zyra.
-- Otimização de performance frontend e refinamento de SEO técnico em aplicações web.
+- Otimização de automações para atualização dinâmica de métricas e ativos de perfil.
+- Desenvolvimento de recursos para manipulação de mídia e persistência de dados em bots.
+- Melhoria de performance web, SEO técnico e estruturação de pipelines de deploy.
 
-> _Atualizado em 9 de mai. de 2026, 05:16 (UTC)._
+> _Atualizado em 9 de mai. de 2026, 07:16 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -231,5 +231,5 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 9 de mai. de 2026, 06:15 (UTC) | Fonte: GitHub API._
+> _Atualizado em 9 de mai. de 2026, 07:16 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
