@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor com foco em soluções de back-end e automação, mantendo um portfólio de 15 repositórios públicos que demonstram sua evolução técnica constante. Sua stack principal baseia-se no ecossistema JavaScript e TypeScript, com ênfase em Node.js, Express e integração de bancos de dados como MySQL, além de possuir experiência prática com Python e Rust. Atualmente, o desenvolvedor concentra sua atividade na manutenção de sistemas de monitoramento e ferramentas de comunicação, destacando-se pela contribuição em projetos como o news-anime-monitor e implementações baseadas em Baileys.
+Kaiky Brito é um desenvolvedor júnior focado no ecossistema de desenvolvimento com JavaScript e TypeScript, especializado na construção de aplicações utilizando Node.js e Express. Sua trajetória técnica inclui o gerenciamento de 15 repositórios públicos e a proficiência em linguagens como Python, Rust e C, com ênfase na integração de sistemas e bancos de dados MySQL. Atualmente, mantém uma atividade constante em projetos como zyra e Baileys, consolidando sua experiência em arquitetura backend e ferramentas de padronização como ESLint e Prettier.
 
-> _Atualizado em 9 de mai. de 2026, 21:16 (UTC)._
+> _Atualizado em 9 de mai. de 2026, 23:16 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Automação da coleta e renderização de métricas de perfil em arquivos SVG.
-- Implementação de persistência de mídias e gestão de templates de stickers.
-- Refinamento de performance web e automação de fluxos de deploy via Actions.
+- Manutenção do projeto Zyra com foco na integração do Baileys e estabilidade do ambiente de CI.
+- Automação de métricas de perfil e atualização periódica de ativos visuais via workflows.
+- Otimização de performance, SEO técnico e fluxos de deploy em aplicações Node.js e React.
 
-> _Atualizado em 9 de mai. de 2026, 21:16 (UTC)._
+> _Atualizado em 9 de mai. de 2026, 23:16 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -96,7 +96,17 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 2: [Baileys](https://github.com/kaikybrofc/Baileys)
+### Projeto 2: [zyra](https://github.com/kaikybrofc/zyra)
+
+**Descrição:** Zyra Web Bot System Sistema de automação web desenvolvido em TypeScript, com integração direta à API Baileys, oferecendo comunicação eficiente e gerenciament...
+
+![Resumo do Projeto](./assets/badges/projeto/zyra/resumo.svg) ![Atividade](./assets/badges/projeto/zyra/atividade.svg) ![Estrelas](./assets/badges/projeto/zyra/estrelas.svg) ![Atualizado](./assets/badges/projeto/zyra/atualizado.svg)
+
+<p align="center">
+  <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
+</p>
+
+### Projeto 3: [Baileys](https://github.com/kaikybrofc/Baileys)
 
 **Descrição:** Socket-based TS/JavaScript API for WhatsApp Web
 
@@ -106,21 +116,11 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 3: [news-anime-monitor](https://github.com/kaikybrofc/news-anime-monitor)
+### Projeto 4: [news-anime-monitor](https://github.com/kaikybrofc/news-anime-monitor)
 
 **Descrição:** Monitor de notícias de anime com API REST, pipeline inteligente, frontend Next.js e deploy automatizado.
 
 ![Resumo do Projeto](./assets/badges/projeto/news-anime-monitor/resumo.svg) ![Atividade](./assets/badges/projeto/news-anime-monitor/atividade.svg) ![Estrelas](./assets/badges/projeto/news-anime-monitor/estrelas.svg) ![Atualizado](./assets/badges/projeto/news-anime-monitor/atualizado.svg)
-
-<p align="center">
-  <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
-</p>
-
-### Projeto 4: [zyra](https://github.com/kaikybrofc/zyra)
-
-**Descrição:** Zyra Web Bot System Sistema de automação web desenvolvido em TypeScript, com integração direta à API Baileys, oferecendo comunicação eficiente e gerenciament...
-
-![Resumo do Projeto](./assets/badges/projeto/zyra/resumo.svg) ![Atividade](./assets/badges/projeto/zyra/atividade.svg) ![Estrelas](./assets/badges/projeto/zyra/estrelas.svg) ![Atualizado](./assets/badges/projeto/zyra/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
@@ -231,5 +231,5 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 9 de mai. de 2026, 22:15 (UTC) | Fonte: GitHub API._
+> _Atualizado em 9 de mai. de 2026, 23:16 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
