@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor focado no ecossistema de desenvolvimento web com ênfase em tecnologias Node.js e Express. Sua trajetória técnica abrange quinze repositórios públicos que demonstram proficiência em linguagens como JavaScript, TypeScript e Python, integrando ferramentas de padronização e bancos de dados relacionais. O profissional apresenta um histórico de atividade constante em projetos de automação e integração de sistemas, destacando-se na criação de ferramentas de monitoramento e manutenção de bibliotecas de comunicação.
+Kaiky Brito é um desenvolvedor focado em tecnologias back-end com experiência na construção de sistemas e ferramentas de automação. Seu ecossistema tecnológico prioriza o uso de Node.js e Express, empregando JavaScript e TypeScript para o desenvolvimento de serviços e APIs. Com quinze repositórios públicos, o profissional demonstra competência técnica em múltiplas linguagens por meio de projetos de monitoramento e integrações como o news-anime-monitor e Baileys.
 
-> _Atualizado em 9 de mai. de 2026, 01:16 (UTC)._
+> _Atualizado em 9 de mai. de 2026, 03:16 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Automatização de fluxos para atualização de métricas e ativos visuais de perfil.
-- Implementação de persistência e gestão de mídia em ecossistemas de mensageria.
-- Otimização de performance web, SEO técnico e estruturação de pipelines CI/CD.
+- Automação de métricas e atualização de assets SVG via GitHub Actions.
+- Desenvolvimento de persistência de mídia e processamento de templates em sistemas de mensageria.
+- Otimização de performance frontend e aprimoramento de SEO técnico em aplicações TypeScript.
 
-> _Atualizado em 9 de mai. de 2026, 01:16 (UTC)._
+> _Atualizado em 9 de mai. de 2026, 03:16 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -231,5 +231,5 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 9 de mai. de 2026, 02:15 (UTC) | Fonte: GitHub API._
+> _Atualizado em 9 de mai. de 2026, 03:16 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
