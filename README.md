@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor júnior especializado no ecossistema Node.js, com sólida base técnica em JavaScript, TypeScript e Python. Sua atuação envolve o desenvolvimento de aplicações utilizando frameworks como Express e integração com bancos de dados MySQL, priorizando a qualidade de código através de ferramentas de linting e formatação. Com 15 repositórios públicos, o profissional mantém projetos ativos voltados para automação e monitoramento, demonstrando consistência técnica e foco em resultados objetivos.
+Kaiky Brito é um desenvolvedor focado no ecossistema JavaScript, com experiência em Node.js, TypeScript e Express para o desenvolvimento de aplicações back-end. Seu portfólio técnico contempla quinze repositórios públicos e abrange o uso de linguagens como Python, C e Rust em diferentes contextos de software. Entre suas atividades mais frequentes, destaca-se a manutenção de sistemas de monitoramento e a integração de ferramentas automatizadas, refletindo uma trajetória orientada à entrega de soluções funcionais.
 
-> _Atualizado em 9 de mai. de 2026, 13:16 (UTC)._
+> _Atualizado em 9 de mai. de 2026, 15:16 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Automação de métricas de perfil e atualização de ativos visuais via CI/CD.
-- Otimização de performance frontend e refinamento de SEO técnico em projetos web.
-- Desenvolvimento de recursos de persistência e manipulação de mídia em integrações de mensageria.
+- Automação de fluxos para atualização de métricas e ativos visuais dinâmicos no perfil.
+- Implementação de persistência de mídia e suporte a protocolos de newsletter em sistemas de mensageria.
+- Otimização de performance frontend e estruturação de pipelines de deploy automatizado.
 
-> _Atualizado em 9 de mai. de 2026, 13:16 (UTC)._
+> _Atualizado em 9 de mai. de 2026, 15:16 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -231,5 +231,5 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 9 de mai. de 2026, 14:15 (UTC) | Fonte: GitHub API._
+> _Atualizado em 9 de mai. de 2026, 15:16 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
