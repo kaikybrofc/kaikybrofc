@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor com foco em backend e automação que utiliza as linguagens JavaScript e TypeScript no desenvolvimento de suas aplicações. Sua stack tecnológica é centrada no ecossistema Node.js e no framework Express, incluindo a integração com bancos de dados MySQL e o uso de ferramentas de linting para garantir a consistência do código. O profissional mantém quinze repositórios públicos, com destaque para projetos de monitoramento de informações e manutenção de infraestrutura voltada para sistemas de mensageria.
+Kaiky Brito é um desenvolvedor com foco em soluções de back-end e automação, mantendo um portfólio de 15 repositórios públicos que demonstram sua evolução técnica constante. Sua stack principal baseia-se no ecossistema JavaScript e TypeScript, com ênfase em Node.js, Express e integração de bancos de dados como MySQL, além de possuir experiência prática com Python e Rust. Atualmente, o desenvolvedor concentra sua atividade na manutenção de sistemas de monitoramento e ferramentas de comunicação, destacando-se pela contribuição em projetos como o news-anime-monitor e implementações baseadas em Baileys.
 
-> _Atualizado em 9 de mai. de 2026, 19:16 (UTC)._
+> _Atualizado em 9 de mai. de 2026, 21:16 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Automação de ativos e atualização contínua de métricas de perfil via GitHub Actions.
-- Implementação de funcionalidades de persistência e manipulação de mídia em projetos Node.js e TypeScript.
-- Otimização de infraestrutura CI/CD, performance técnica e SEO em aplicações web.
+- Automação da coleta e renderização de métricas de perfil em arquivos SVG.
+- Implementação de persistência de mídias e gestão de templates de stickers.
+- Refinamento de performance web e automação de fluxos de deploy via Actions.
 
-> _Atualizado em 9 de mai. de 2026, 19:15 (UTC)._
+> _Atualizado em 9 de mai. de 2026, 21:16 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -231,5 +231,5 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 9 de mai. de 2026, 20:15 (UTC) | Fonte: GitHub API._
+> _Atualizado em 9 de mai. de 2026, 21:16 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
