@@ -35,7 +35,7 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor com foco em tecnologias modernas, possuindo experiência prática em linguagens como JavaScript, TypeScript e Python. Sua stack técnica prioritária abrange Node.js, Express e bancos de dados relacionais, sendo aplicada no desenvolvimento de ferramentas de automação e integração de APIs. Com um portfólio de 15 repositórios públicos, o profissional demonstra uma produção ativa e consistente voltada para a construção de soluções no ecossistema de software.
+Kaiky Brito é um desenvolvedor com foco em backend e automação que utiliza as linguagens JavaScript e TypeScript no desenvolvimento de suas aplicações. Sua stack tecnológica é centrada no ecossistema Node.js e no framework Express, incluindo a integração com bancos de dados MySQL e o uso de ferramentas de linting para garantir a consistência do código. O profissional mantém quinze repositórios públicos, com destaque para projetos de monitoramento de informações e manutenção de infraestrutura voltada para sistemas de mensageria.
 
 > _Atualizado em 9 de mai. de 2026, 19:16 (UTC)._
 <!--ABOUT_AI_END-->
@@ -96,21 +96,21 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 2: [news-anime-monitor](https://github.com/kaikybrofc/news-anime-monitor)
+### Projeto 2: [Baileys](https://github.com/kaikybrofc/Baileys)
 
-**Descrição:** Monitor de notícias de anime com API REST, pipeline inteligente, frontend Next.js e deploy automatizado.
+**Descrição:** Socket-based TS/JavaScript API for WhatsApp Web
 
-![Resumo do Projeto](./assets/badges/projeto/news-anime-monitor/resumo.svg) ![Atividade](./assets/badges/projeto/news-anime-monitor/atividade.svg) ![Estrelas](./assets/badges/projeto/news-anime-monitor/estrelas.svg) ![Atualizado](./assets/badges/projeto/news-anime-monitor/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/Baileys/resumo.svg) ![Atividade](./assets/badges/projeto/Baileys/atividade.svg) ![Estrelas](./assets/badges/projeto/Baileys/estrelas.svg) ![Atualizado](./assets/badges/projeto/Baileys/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 3: [Baileys](https://github.com/kaikybrofc/Baileys)
+### Projeto 3: [news-anime-monitor](https://github.com/kaikybrofc/news-anime-monitor)
 
-**Descrição:** Socket-based TS/JavaScript API for WhatsApp Web
+**Descrição:** Monitor de notícias de anime com API REST, pipeline inteligente, frontend Next.js e deploy automatizado.
 
-![Resumo do Projeto](./assets/badges/projeto/Baileys/resumo.svg) ![Atividade](./assets/badges/projeto/Baileys/atividade.svg) ![Estrelas](./assets/badges/projeto/Baileys/estrelas.svg) ![Atualizado](./assets/badges/projeto/Baileys/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/news-anime-monitor/resumo.svg) ![Atividade](./assets/badges/projeto/news-anime-monitor/atividade.svg) ![Estrelas](./assets/badges/projeto/news-anime-monitor/estrelas.svg) ![Atualizado](./assets/badges/projeto/news-anime-monitor/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
@@ -231,5 +231,5 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 9 de mai. de 2026, 19:16 (UTC) | Fonte: GitHub API._
+> _Atualizado em 9 de mai. de 2026, 20:15 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
