@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor especializado em tecnologias web e backend, com experiência consolidada no ecossistema Node.js, TypeScript e Express. Seu portfólio técnico é composto por quinze repositórios públicos que evidenciam versatilidade em múltiplas linguagens, incluindo Python, C e Rust, além da integração de bancos de dados como MySQL. Sua atuação recente destaca-se pelo alto engajamento em projetos de automação e ferramentas de comunicação, refletindo um compromisso contínuo com a manutenção de sistemas ativos e a evolução de arquiteturas escaláveis.
+Kaiky Brito é um desenvolvedor focado em tecnologias modernas com experiência em 15 repositórios públicos e atuação consolidada nos ecossistemas JavaScript e TypeScript. Seu stack principal envolve Node.js, Express e integração com bancos de dados como MySQL, demonstrando versatilidade técnica através do uso complementar de linguagens como Python e Rust. Os projetos kaikybrofc, zyra e news-anime-monitor figuram como suas iniciativas mais ativas, evidenciando uma prática voltada para a automação e o gerenciamento eficiente de repositórios no GitHub.
 
-> _Atualizado em 10 de mai. de 2026, 11:16 (UTC)._
+> _Atualizado em 10 de mai. de 2026, 13:16 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Implementação de sistemas de moderação com antilink e persistência híbrida no projeto Zyra.
-- Integração de monitoramento com métricas Prometheus e automação de testes em ambientes CI.
-- Manutenção de fluxos automatizados para atualização de ativos visuais e métricas de perfil técnico.
+- Automação de fluxos para atualização de métricas e ativos SVG em perfis GitHub.
+- Desenvolvimento de funcionalidades de moderação com persistência híbrida e métricas Prometheus.
+- Manutenção de infraestrutura de CI/CD e resolução de conflitos de dependências em Node.js.
 
-> _Atualizado em 10 de mai. de 2026, 11:16 (UTC)._
+> _Atualizado em 10 de mai. de 2026, 13:16 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -106,21 +106,21 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 3: [Baileys](https://github.com/kaikybrofc/Baileys)
+### Projeto 3: [news-anime-monitor](https://github.com/kaikybrofc/news-anime-monitor)
 
-**Descrição:** Socket-based TS/JavaScript API for WhatsApp Web
+**Descrição:** Monitor de notícias de anime com API REST, pipeline inteligente, frontend Next.js e deploy automatizado.
 
-![Resumo do Projeto](./assets/badges/projeto/Baileys/resumo.svg) ![Atividade](./assets/badges/projeto/Baileys/atividade.svg) ![Estrelas](./assets/badges/projeto/Baileys/estrelas.svg) ![Atualizado](./assets/badges/projeto/Baileys/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/news-anime-monitor/resumo.svg) ![Atividade](./assets/badges/projeto/news-anime-monitor/atividade.svg) ![Estrelas](./assets/badges/projeto/news-anime-monitor/estrelas.svg) ![Atualizado](./assets/badges/projeto/news-anime-monitor/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 4: [news-anime-monitor](https://github.com/kaikybrofc/news-anime-monitor)
+### Projeto 4: [Baileys](https://github.com/kaikybrofc/Baileys)
 
-**Descrição:** Monitor de notícias de anime com API REST, pipeline inteligente, frontend Next.js e deploy automatizado.
+**Descrição:** Socket-based TS/JavaScript API for WhatsApp Web
 
-![Resumo do Projeto](./assets/badges/projeto/news-anime-monitor/resumo.svg) ![Atividade](./assets/badges/projeto/news-anime-monitor/atividade.svg) ![Estrelas](./assets/badges/projeto/news-anime-monitor/estrelas.svg) ![Atualizado](./assets/badges/projeto/news-anime-monitor/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/Baileys/resumo.svg) ![Atividade](./assets/badges/projeto/Baileys/atividade.svg) ![Estrelas](./assets/badges/projeto/Baileys/estrelas.svg) ![Atualizado](./assets/badges/projeto/Baileys/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
@@ -231,5 +231,5 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 10 de mai. de 2026, 12:15 (UTC) | Fonte: GitHub API._
+> _Atualizado em 10 de mai. de 2026, 13:17 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
