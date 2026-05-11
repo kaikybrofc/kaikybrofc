@@ -62,8 +62,8 @@ Kaiky Brito é um desenvolvedor com foco em Node.js e TypeScript que gerencia qu
   <img src="./assets/badges/stack/typescript.svg" alt="Badge stack TypeScript"/>
   <img src="./assets/badges/stack/javascript.svg" alt="Badge stack JavaScript"/>
   <img src="./assets/badges/stack/express.svg" alt="Badge stack Express"/>
-  <img src="./assets/badges/stack/python.svg" alt="Badge stack Python"/>
   <img src="./assets/badges/stack/eslint.svg" alt="Badge stack ESLint"/>
+  <img src="./assets/badges/stack/python.svg" alt="Badge stack Python"/>
   <img src="./assets/badges/stack/mysql.svg" alt="Badge stack MySQL"/>
   <img src="./assets/badges/stack/prettier.svg" alt="Badge stack Prettier"/>
   <img src="./assets/badges/stack/mongodb.svg" alt="Badge stack MongoDB"/>
@@ -126,21 +126,21 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 5: [ayana-bot](https://github.com/kaikybrofc/ayana-bot)
+### Projeto 5: [logger-module](https://github.com/kaikybrofc/logger-module)
 
-**Descrição:** 🤖 Ayana System é um bot inteligente com temática anime, focado em automação, interações avançadas, jogos e recursos modernos para servidores. Rápido, elegan...
+**Descrição:** Production-grade TypeScript logging module for Node.js with Winston, redaction, request tracing, traffic control, and multi-transport observability.
 
-![Resumo do Projeto](./assets/badges/projeto/ayana-bot/resumo.svg) ![Atividade](./assets/badges/projeto/ayana-bot/atividade.svg) ![Estrelas](./assets/badges/projeto/ayana-bot/estrelas.svg) ![Atualizado](./assets/badges/projeto/ayana-bot/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/logger-module/resumo.svg) ![Atividade](./assets/badges/projeto/logger-module/atividade.svg) ![Estrelas](./assets/badges/projeto/logger-module/estrelas.svg) ![Atualizado](./assets/badges/projeto/logger-module/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 6: [yt-wrapper](https://github.com/kaikybrofc/yt-wrapper)
+### Projeto 6: [ayana-bot](https://github.com/kaikybrofc/ayana-bot)
 
-**Descrição:** TypeScript wrapper for MP3/MP4 conversion workflows with extract/convert/check-task API, polling flow, tests and lint.
+**Descrição:** 🤖 Ayana System é um bot inteligente com temática anime, focado em automação, interações avançadas, jogos e recursos modernos para servidores. Rápido, elegan...
 
-![Resumo do Projeto](./assets/badges/projeto/yt-wrapper/resumo.svg) ![Atividade](./assets/badges/projeto/yt-wrapper/atividade.svg) ![Estrelas](./assets/badges/projeto/yt-wrapper/estrelas.svg) ![Atualizado](./assets/badges/projeto/yt-wrapper/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/ayana-bot/resumo.svg) ![Atividade](./assets/badges/projeto/ayana-bot/atividade.svg) ![Estrelas](./assets/badges/projeto/ayana-bot/estrelas.svg) ![Atualizado](./assets/badges/projeto/ayana-bot/atualizado.svg)
 <!--FEATURED_PROJECTS_END-->
 
 
@@ -231,5 +231,5 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 11 de mai. de 2026, 01:16 (UTC) | Fonte: GitHub API._
+> _Atualizado em 11 de mai. de 2026, 01:40 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
