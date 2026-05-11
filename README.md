@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor focado no ecossistema Node.js, com domínio em linguagens como JavaScript, TypeScript e Python para a criação de soluções backend. Sua trajetória técnica é composta por quinze repositórios públicos que integram tecnologias como Express e MySQL, priorizando a escalabilidade e a qualidade de código. Atualmente, destaca-se pela manutenção ativa de projetos de automação e sistemas integrados, consolidando uma base sólida no desenvolvimento de aplicações eficientes.
+Kaiky Brito é um desenvolvedor focado no ecossistema JavaScript e TypeScript, com atuação em Node.js e Express distribuída por quinze repositórios públicos. Seu repertório técnico abrange linguagens como Python, Rust e C, integrando ferramentas de qualidade e padronização como ESLint e Prettier em seus fluxos de trabalho. Atualmente, mantém projetos ativos como o zyra e o Baileys, demonstrando uma prática de desenvolvimento orientada à construção de sistemas e integrações versáteis.
 
-> _Atualizado em 11 de mai. de 2026, 05:00 (UTC)._
+> _Atualizado em 11 de mai. de 2026, 07:00 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Expansão de sistemas de observabilidade com OpenTelemetry, decoradores TypeScript e validação de integridade por auditoria de hashes.
-- Automação de fluxos de documentação técnica e gestão de wikis via GitHub Actions com integração de agentes inteligentes.
-- Otimização de pipelines de CI/CD e implementação de padrões de auditoria assíncrona em ambientes Node.js e TypeScript.
+- Implementação de suporte a OpenTelemetry e processamento em lote para sistemas de log.
+- Desenvolvimento de fluxos automatizados para manutenção de wikis e integração de agentes.
+- Otimização de infraestrutura de CI/CD para atualização dinâmica de ativos e releases.
 
-> _Atualizado em 11 de mai. de 2026, 05:01 (UTC)._
+> _Atualizado em 11 de mai. de 2026, 07:01 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -116,21 +116,21 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 4: [news-anime-monitor](https://github.com/kaikybrofc/news-anime-monitor)
+### Projeto 4: [logger-module](https://github.com/kaikybrofc/logger-module)
 
-**Descrição:** Monitor de notícias de anime com API REST, pipeline inteligente, frontend Next.js e deploy automatizado.
+**Descrição:** Production-grade TypeScript logging module for Node.js with Winston, redaction, request tracing, traffic control, and multi-transport observability.
 
-![Resumo do Projeto](./assets/badges/projeto/news-anime-monitor/resumo.svg) ![Atividade](./assets/badges/projeto/news-anime-monitor/atividade.svg) ![Estrelas](./assets/badges/projeto/news-anime-monitor/estrelas.svg) ![Atualizado](./assets/badges/projeto/news-anime-monitor/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/logger-module/resumo.svg) ![Atividade](./assets/badges/projeto/logger-module/atividade.svg) ![Estrelas](./assets/badges/projeto/logger-module/estrelas.svg) ![Atualizado](./assets/badges/projeto/logger-module/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 5: [logger-module](https://github.com/kaikybrofc/logger-module)
+### Projeto 5: [news-anime-monitor](https://github.com/kaikybrofc/news-anime-monitor)
 
-**Descrição:** Production-grade TypeScript logging module for Node.js with Winston, redaction, request tracing, traffic control, and multi-transport observability.
+**Descrição:** Monitor de notícias de anime com API REST, pipeline inteligente, frontend Next.js e deploy automatizado.
 
-![Resumo do Projeto](./assets/badges/projeto/logger-module/resumo.svg) ![Atividade](./assets/badges/projeto/logger-module/atividade.svg) ![Estrelas](./assets/badges/projeto/logger-module/estrelas.svg) ![Atualizado](./assets/badges/projeto/logger-module/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/news-anime-monitor/resumo.svg) ![Atividade](./assets/badges/projeto/news-anime-monitor/atividade.svg) ![Estrelas](./assets/badges/projeto/news-anime-monitor/estrelas.svg) ![Atualizado](./assets/badges/projeto/news-anime-monitor/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
@@ -231,5 +231,5 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 11 de mai. de 2026, 06:00 (UTC) | Fonte: GitHub API._
+> _Atualizado em 11 de mai. de 2026, 07:01 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
