@@ -88,7 +88,7 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--FEATURED_PROJECTS_START-->
 ### Projeto 1: [kaikybrofc](https://github.com/kaikybrofc/kaikybrofc)
 
-**Descrição:** Aqui você encontra informações sobre mim.
+**Descrição:** Profile repository with projects, background, and technical highlights.
 
 ![Resumo do Projeto](./assets/badges/projeto/kaikybrofc/resumo.svg) ![Atividade](./assets/badges/projeto/kaikybrofc/atividade.svg) ![Estrelas](./assets/badges/projeto/kaikybrofc/estrelas.svg) ![Atualizado](./assets/badges/projeto/kaikybrofc/atualizado.svg)
 
@@ -98,7 +98,7 @@ Classificados automaticamente com base na atividade recente no GitHub.
 
 ### Projeto 2: [zyra](https://github.com/kaikybrofc/zyra)
 
-**Descrição:** Zyra Web Bot System Sistema de automação web desenvolvido em TypeScript, com integração direta à API Baileys, oferecendo comunicação eficiente e gerenciament...
+**Descrição:** High-performance WhatsApp automation platform built with TypeScript, Baileys, MySQL, and Redis.
 
 ![Resumo do Projeto](./assets/badges/projeto/zyra/resumo.svg) ![Atividade](./assets/badges/projeto/zyra/atividade.svg) ![Estrelas](./assets/badges/projeto/zyra/estrelas.svg) ![Atualizado](./assets/badges/projeto/zyra/atualizado.svg)
 
@@ -108,7 +108,7 @@ Classificados automaticamente com base na atividade recente no GitHub.
 
 ### Projeto 3: [news-anime-monitor](https://github.com/kaikybrofc/news-anime-monitor)
 
-**Descrição:** Monitor de notícias de anime com API REST, pipeline inteligente, frontend Next.js e deploy automatizado.
+**Descrição:** Anime news monitoring platform with REST API, intelligent pipeline, and Next.js frontend.
 
 ![Resumo do Projeto](./assets/badges/projeto/news-anime-monitor/resumo.svg) ![Atividade](./assets/badges/projeto/news-anime-monitor/atividade.svg) ![Estrelas](./assets/badges/projeto/news-anime-monitor/estrelas.svg) ![Atualizado](./assets/badges/projeto/news-anime-monitor/atualizado.svg)
 
@@ -118,7 +118,7 @@ Classificados automaticamente com base na atividade recente no GitHub.
 
 ### Projeto 4: [logger-module](https://github.com/kaikybrofc/logger-module)
 
-**Descrição:** Production-grade TypeScript logging module for Node.js with Winston, redaction, request tracing, traffic control, and multi-transport observability.
+**Descrição:** Production-grade TypeScript logging library for Node.js with redaction, tracing, and observability.
 
 ![Resumo do Projeto](./assets/badges/projeto/logger-module/resumo.svg) ![Atividade](./assets/badges/projeto/logger-module/atividade.svg) ![Estrelas](./assets/badges/projeto/logger-module/estrelas.svg) ![Atualizado](./assets/badges/projeto/logger-module/atualizado.svg)
 
@@ -126,21 +126,21 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 5: [Baileys](https://github.com/kaikybrofc/Baileys)
+### Projeto 5: [senpai-api](https://github.com/kaikybrofc/senpai-api)
 
-**Descrição:** Socket-based TS/JavaScript API for WhatsApp Web
+**Descrição:** Fork of Senpai API with custom adaptations and experiments.
 
-![Resumo do Projeto](./assets/badges/projeto/Baileys/resumo.svg) ![Atividade](./assets/badges/projeto/Baileys/atividade.svg) ![Estrelas](./assets/badges/projeto/Baileys/estrelas.svg) ![Atualizado](./assets/badges/projeto/Baileys/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/senpai-api/resumo.svg) ![Atividade](./assets/badges/projeto/senpai-api/atividade.svg) ![Estrelas](./assets/badges/projeto/senpai-api/estrelas.svg) ![Atualizado](./assets/badges/projeto/senpai-api/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 6: [ayana-bot](https://github.com/kaikybrofc/ayana-bot)
+### Projeto 6: [Wust](https://github.com/kaikybrofc/Wust)
 
-**Descrição:** 🤖 Ayana System é um bot inteligente com temática anime, focado em automação, interações avançadas, jogos e recursos modernos para servidores. Rápido, elegan...
+**Descrição:** Fork of Wust: WhatsApp bot in Rust with clean architecture and domain-focused design.
 
-![Resumo do Projeto](./assets/badges/projeto/ayana-bot/resumo.svg) ![Atividade](./assets/badges/projeto/ayana-bot/atividade.svg) ![Estrelas](./assets/badges/projeto/ayana-bot/estrelas.svg) ![Atualizado](./assets/badges/projeto/ayana-bot/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/Wust/resumo.svg) ![Atividade](./assets/badges/projeto/Wust/atividade.svg) ![Estrelas](./assets/badges/projeto/Wust/estrelas.svg) ![Atualizado](./assets/badges/projeto/Wust/atualizado.svg)
 <!--FEATURED_PROJECTS_END-->
 
 
@@ -231,5 +231,5 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 15 de mai. de 2026, 04:55 (UTC) | Fonte: GitHub API._
+> _Atualizado em 15 de mai. de 2026, 05:55 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
