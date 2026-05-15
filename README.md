@@ -86,17 +86,7 @@ Kaiky Brito é um desenvolvedor com foco no ecossistema JavaScript e TypeScript,
 Classificados automaticamente com base na atividade recente no GitHub.
 
 <!--FEATURED_PROJECTS_START-->
-### Projeto 1: [zyra](https://github.com/kaikybrofc/zyra)
-
-**Descrição:** High-performance WhatsApp automation platform built with TypeScript, Baileys, MySQL, and Redis.
-
-![Resumo do Projeto](./assets/badges/projeto/zyra/resumo.svg) ![Atividade](./assets/badges/projeto/zyra/atividade.svg) ![Estrelas](./assets/badges/projeto/zyra/estrelas.svg) ![Atualizado](./assets/badges/projeto/zyra/atualizado.svg)
-
-<p align="center">
-  <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
-</p>
-
-### Projeto 2: [kaikybrofc](https://github.com/kaikybrofc/kaikybrofc)
+### Projeto 1: [kaikybrofc](https://github.com/kaikybrofc/kaikybrofc)
 
 **Descrição:** Profile repository with projects, background, and technical highlights.
 
@@ -106,21 +96,31 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 3: [webp-conv](https://github.com/kaikybrofc/webp-conv)
+### Projeto 2: [zyra](https://github.com/kaikybrofc/zyra)
 
-**Descrição:** Fork of webp-conv for converting static and animated WebP into GIF/PNG.
+**Descrição:** High-performance WhatsApp automation platform built with TypeScript, Baileys, MySQL, and Redis.
 
-![Resumo do Projeto](./assets/badges/projeto/webp-conv/resumo.svg) ![Atividade](./assets/badges/projeto/webp-conv/atividade.svg) ![Estrelas](./assets/badges/projeto/webp-conv/estrelas.svg) ![Atualizado](./assets/badges/projeto/webp-conv/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/zyra/resumo.svg) ![Atividade](./assets/badges/projeto/zyra/atividade.svg) ![Estrelas](./assets/badges/projeto/zyra/estrelas.svg) ![Atualizado](./assets/badges/projeto/zyra/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 4: [yt-dls](https://github.com/kaikybrofc/yt-dls)
+### Projeto 3: [news-anime-monitor](https://github.com/kaikybrofc/news-anime-monitor)
 
-**Descrição:** Lightweight Node.js API for YouTube media downloads powered by yt-dlp.
+**Descrição:** Anime news monitoring platform with REST API, intelligent pipeline, and Next.js frontend.
 
-![Resumo do Projeto](./assets/badges/projeto/yt-dls/resumo.svg) ![Atividade](./assets/badges/projeto/yt-dls/atividade.svg) ![Estrelas](./assets/badges/projeto/yt-dls/estrelas.svg) ![Atualizado](./assets/badges/projeto/yt-dls/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/news-anime-monitor/resumo.svg) ![Atividade](./assets/badges/projeto/news-anime-monitor/atividade.svg) ![Estrelas](./assets/badges/projeto/news-anime-monitor/estrelas.svg) ![Atualizado](./assets/badges/projeto/news-anime-monitor/atualizado.svg)
+
+<p align="center">
+  <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
+</p>
+
+### Projeto 4: [logger-module](https://github.com/kaikybrofc/logger-module)
+
+**Descrição:** Production-grade TypeScript logging library for Node.js with redaction, tracing, and observability.
+
+![Resumo do Projeto](./assets/badges/projeto/logger-module/resumo.svg) ![Atividade](./assets/badges/projeto/logger-module/atividade.svg) ![Estrelas](./assets/badges/projeto/logger-module/estrelas.svg) ![Atualizado](./assets/badges/projeto/logger-module/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
@@ -231,5 +231,5 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 15 de mai. de 2026, 10:55 (UTC) | Fonte: GitHub API._
+> _Atualizado em 15 de mai. de 2026, 11:55 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
