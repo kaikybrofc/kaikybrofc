@@ -32,60 +32,66 @@
   <text x="68" y="186" fill="#93c5fd" font-family="JetBrains Mono, Consolas, monospace" font-size="12" font-weight="700">REPOSITORIOS POR CATEGORIA</text>
   <g>
   <line x1="82" y1="182" x2="1318" y2="182" stroke="#7dd3fc" stroke-opacity="0.14" stroke-width="1"/>
-  <text x="74" y="186" text-anchor="end" fill="#8fb0c8" font-family="JetBrains Mono, Consolas, monospace" font-size="11">6</text>
+  <text x="74" y="186" text-anchor="end" fill="#8fb0c8" font-family="JetBrains Mono, Consolas, monospace" font-size="11">5</text>
 </g>
 <g>
   <line x1="82" y1="218" x2="1318" y2="218" stroke="#7dd3fc" stroke-opacity="0.14" stroke-width="1"/>
-  <text x="74" y="222" text-anchor="end" fill="#8fb0c8" font-family="JetBrains Mono, Consolas, monospace" font-size="11">4.5</text>
+  <text x="74" y="222" text-anchor="end" fill="#8fb0c8" font-family="JetBrains Mono, Consolas, monospace" font-size="11">3.75</text>
 </g>
 <g>
   <line x1="82" y1="254" x2="1318" y2="254" stroke="#7dd3fc" stroke-opacity="0.14" stroke-width="1"/>
-  <text x="74" y="258" text-anchor="end" fill="#8fb0c8" font-family="JetBrains Mono, Consolas, monospace" font-size="11">3</text>
+  <text x="74" y="258" text-anchor="end" fill="#8fb0c8" font-family="JetBrains Mono, Consolas, monospace" font-size="11">2.5</text>
 </g>
 <g>
   <line x1="82" y1="290" x2="1318" y2="290" stroke="#7dd3fc" stroke-opacity="0.14" stroke-width="1"/>
-  <text x="74" y="294" text-anchor="end" fill="#8fb0c8" font-family="JetBrains Mono, Consolas, monospace" font-size="11">1.5</text>
+  <text x="74" y="294" text-anchor="end" fill="#8fb0c8" font-family="JetBrains Mono, Consolas, monospace" font-size="11">1.25</text>
 </g>
 <g>
   <line x1="82" y1="326" x2="1318" y2="326" stroke="#7dd3fc" stroke-opacity="0.32" stroke-width="1"/>
   <text x="74" y="330" text-anchor="end" fill="#8fb0c8" font-family="JetBrains Mono, Consolas, monospace" font-size="11">0</text>
 </g>
 <g>
-  <rect x="84" y="186" width="233" height="140" rx="6" fill="url(#statBarGraddistribuicaoprojetos)" opacity="0.96"/>
-  <rect x="84" y="186" width="233" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
-  <text x="201" y="178" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">6</text>
-  <text x="201" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">Automacao</text>
+  <rect x="83" y="186" width="194" height="140" rx="6" fill="url(#statBarGraddistribuicaoprojetos)" opacity="0.96"/>
+  <rect x="83" y="186" width="194" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
+  <text x="180" y="178" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">5</text>
+  <text x="180" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">API/Backend</text>
 </g>
 <g>
-  <rect x="334" y="209" width="233" height="117" rx="6" fill="url(#statBarGraddistribuicaoprojetos)" opacity="0.96"/>
-  <rect x="334" y="209" width="233" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
-  <text x="451" y="201" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">5</text>
-  <text x="451" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">API/Backend</text>
+  <rect x="291" y="186" width="194" height="140" rx="6" fill="url(#statBarGraddistribuicaoprojetos)" opacity="0.96"/>
+  <rect x="291" y="186" width="194" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
+  <text x="388" y="178" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">5</text>
+  <text x="388" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">Automacao</text>
 </g>
 <g>
-  <rect x="584" y="279" width="233" height="47" rx="6" fill="url(#statBarGraddistribuicaoprojetos)" opacity="0.96"/>
-  <rect x="584" y="279" width="233" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
-  <text x="701" y="271" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">2</text>
-  <text x="701" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">Outros</text>
+  <rect x="499" y="270" width="194" height="56" rx="6" fill="url(#statBarGraddistribuicaoprojetos)" opacity="0.96"/>
+  <rect x="499" y="270" width="194" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
+  <text x="596" y="262" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">2</text>
+  <text x="596" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">Apps/Sist...</text>
 </g>
 <g>
-  <rect x="834" y="303" width="233" height="23" rx="6" fill="url(#statBarGraddistribuicaoprojetos)" opacity="0.96"/>
-  <rect x="834" y="303" width="233" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
-  <text x="951" y="295" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">1</text>
-  <text x="951" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">Frontend/Web</text>
+  <rect x="707" y="298" width="194" height="28" rx="6" fill="url(#statBarGraddistribuicaoprojetos)" opacity="0.96"/>
+  <rect x="707" y="298" width="194" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
+  <text x="804" y="290" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">1</text>
+  <text x="804" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">Frontend/Web</text>
 </g>
 <g>
-  <rect x="1084" y="303" width="233" height="23" rx="6" fill="url(#statBarGraddistribuicaoprojetos)" opacity="0.96"/>
-  <rect x="1084" y="303" width="233" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
-  <text x="1201" y="295" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">1</text>
-  <text x="1201" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">Apps/Sist...</text>
+  <rect x="915" y="298" width="194" height="28" rx="6" fill="url(#statBarGraddistribuicaoprojetos)" opacity="0.96"/>
+  <rect x="915" y="298" width="194" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
+  <text x="1012" y="290" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">1</text>
+  <text x="1012" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">Infra/DevOps</text>
+</g>
+<g>
+  <rect x="1123" y="298" width="194" height="28" rx="6" fill="url(#statBarGraddistribuicaoprojetos)" opacity="0.96"/>
+  <rect x="1123" y="298" width="194" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
+  <text x="1220" y="290" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">1</text>
+  <text x="1220" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">Outros</text>
 </g>
   <text x="58" y="394" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Repositorios classificados: 15.</text>
-<text x="58" y="418" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Categoria lider: Automacao (6).</text>
-<text x="58" y="442" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Top categorias: Automacao 6 | API/Backend 5 | Outros 2.</text>
+<text x="58" y="418" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Categoria lider: API/Backend (5).</text>
+<text x="58" y="442" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Top categorias: API/Backend 5 | Automacao 5 | Apps/Sistemas 2.</text>
 <text x="58" y="466" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Classificacao heuristica por nome, descricao e linguagem.</text>
   <line x1="52" y1="506" x2="1348" y2="506" stroke="#38bdf8" stroke-opacity="0.32"/>
   <text x="54" y="530" fill="#a8d9f4" font-family="JetBrains Mono, Consolas, monospace" font-size="16">
-    atualizado: 59m
+    atualizado: agora
   </text>
 </svg>
