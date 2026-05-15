@@ -35,7 +35,7 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito atua como desenvolvedor com foco primordial em JavaScript e TypeScript, desenvolvendo soluções de back-end por meio do ecossistema Node.js e Express. Seu perfil técnico inclui o conhecimento em múltiplas linguagens como Python e Rust, além da utilização de bancos de dados MySQL e ferramentas de linting para assegurar a integridade do código. Com participação ativa em projetos como Zyra e News Anime Monitor, ele concentra seus esforços na entrega de sistemas funcionais e na consolidação de sua trajetória profissional na área de tecnologia.
+Kaiky Brito é um desenvolvedor com foco em tecnologias web, especializado em linguagens como JavaScript, TypeScript e Python. Sua atuação técnica destaca-se pelo uso de Node.js e Express para o desenvolvimento de aplicações, integrando ferramentas de padronização como ESLint e bancos de dados MySQL. Com um portfólio de 15 repositórios públicos, o profissional mantém uma cadência de contribuições ativa em projetos de automação e monitoramento de dados.
 
 > _Atualizado em 15 de mai. de 2026, 22:55 (UTC)._
 <!--ABOUT_AI_END-->
@@ -231,5 +231,5 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 15 de mai. de 2026, 22:55 (UTC) | Fonte: GitHub API._
+> _Atualizado em 15 de mai. de 2026, 23:55 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
