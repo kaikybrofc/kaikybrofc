@@ -43,11 +43,11 @@ Kaiky Brito é um desenvolvedor júnior com experiência em quinze repositórios
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Otimização de sistemas anti-ban e gestão de limites de taxa em aplicações Node.js.
-- Automação de métricas de perfil e refinamento de workflows de integração contínua.
-- Implementação de diretrizes de conduta e documentação técnica em projetos ativos.
+- Manutenção e segurança no sistema Zyra, priorizando a otimização de limites anti-ban e integridade de dados em processos de backfill.
+- Automação de ativos dinâmicos e sincronização de métricas de perfil via GitHub Actions.
+- Refinamento de pipelines CI/CD e mitigação de vulnerabilidades em dependências de projetos Node.js e TypeScript.
 
-> _Atualizado em 15 de mai. de 2026, 12:55 (UTC)._
+> _Atualizado em 15 de mai. de 2026, 12:56 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -231,5 +231,5 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 15 de mai. de 2026, 12:55 (UTC) | Fonte: GitHub API._
+> _Atualizado em 15 de mai. de 2026, 13:55 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
