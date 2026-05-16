@@ -126,21 +126,21 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 5: [senpai-api](https://github.com/kaikybrofc/senpai-api)
+### Projeto 5: [Baileys](https://github.com/kaikybrofc/Baileys)
 
-**Descrição:** Fork of Senpai API with custom adaptations and experiments.
+**Descrição:** Fork of Baileys: TypeScript/JavaScript WhatsApp Web API implementation.
 
-![Resumo do Projeto](./assets/badges/projeto/senpai-api/resumo.svg) ![Atividade](./assets/badges/projeto/senpai-api/atividade.svg) ![Estrelas](./assets/badges/projeto/senpai-api/estrelas.svg) ![Atualizado](./assets/badges/projeto/senpai-api/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/Baileys/resumo.svg) ![Atividade](./assets/badges/projeto/Baileys/atividade.svg) ![Estrelas](./assets/badges/projeto/Baileys/estrelas.svg) ![Atualizado](./assets/badges/projeto/Baileys/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 6: [Wust](https://github.com/kaikybrofc/Wust)
+### Projeto 6: [senpai-api](https://github.com/kaikybrofc/senpai-api)
 
-**Descrição:** Fork of Wust: WhatsApp bot in Rust with clean architecture and domain-focused design.
+**Descrição:** Fork of Senpai API with custom adaptations and experiments.
 
-![Resumo do Projeto](./assets/badges/projeto/Wust/resumo.svg) ![Atividade](./assets/badges/projeto/Wust/atividade.svg) ![Estrelas](./assets/badges/projeto/Wust/estrelas.svg) ![Atualizado](./assets/badges/projeto/Wust/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/senpai-api/resumo.svg) ![Atividade](./assets/badges/projeto/senpai-api/atividade.svg) ![Estrelas](./assets/badges/projeto/senpai-api/estrelas.svg) ![Atualizado](./assets/badges/projeto/senpai-api/atualizado.svg)
 <!--FEATURED_PROJECTS_END-->
 
 
@@ -231,5 +231,5 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 16 de mai. de 2026, 17:56 (UTC) | Fonte: GitHub API._
+> _Atualizado em 16 de mai. de 2026, 19:03 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
