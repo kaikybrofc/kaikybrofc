@@ -20,12 +20,12 @@
   <rect x="52" y="48" width="300" height="34" rx="8" fill="#0b1221" stroke="#22d3ee" stroke-opacity="0.5"/>
   <text x="68" y="71" fill="#bff6ff" font-family="JetBrains Mono, Consolas, monospace" font-size="16" font-weight="700">FOCO ATUAL</text>
   <line x1="52" y1="92" x2="1348" y2="92" stroke="url(#accentFocus)" stroke-width="2" stroke-opacity="0.8"/>
-  <text x="54" y="118" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">• Automação de pipelines para atualização de métricas e ativos visuais de perfil.</text>
-<text x="54" y="150" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">• Otimização de fluxos de CI/CD e aplicação de correções de segurança em sistemas Node.js.</text>
-<text x="54" y="182" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">• Desenvolvimento de pipelines para descoberta de tendências e extração automatizada de</text>
-<text x="54" y="214" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">  dados.</text>
+  <text x="54" y="118" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">• Aprimoramento da gestão de memória e resiliência em aplicações Node.js de longa execução.</text>
+<text x="54" y="150" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">• Refinamento de sistemas de moderação automática e segurança para ferramentas de</text>
+<text x="54" y="182" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">  mensageria.</text>
+<text x="54" y="214" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">• Padronização de infraestrutura com Docker e pipelines de validação de ambiente.</text>
   <line x1="52" y1="266" x2="1348" y2="266" stroke="#38bdf8" stroke-opacity="0.32"/>
   <text x="54" y="290" fill="#a8d9f4" font-family="JetBrains Mono, Consolas, monospace" font-size="16">
-    atualizado: 59m
+    atualizado: agora
   </text>
 </svg>
