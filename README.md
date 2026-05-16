@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor focado no ecossistema JavaScript com experiência em Node.js, TypeScript e Express para a construção de soluções back-end. Seu portfólio técnico é composto por dezesseis repositórios que demonstram versatilidade em múltiplas linguagens, incluindo implementações em Python e Rust. O desenvolvedor mantém uma produção constante em projetos de destaque como o zyra e sistemas de monitoramento, priorizando a escalabilidade e a automação em suas entregas.
+Kaiky Brito é um desenvolvedor focado no desenvolvimento de software com ênfase nos ecossistemas JavaScript e TypeScript. Sua stack tecnológica principal é composta por Node.js e Express, com experiência complementar em linguagens como Python e Rust distribuída em dezesseis repositórios públicos. Atualmente, o desenvolvedor mantém projetos ativos voltados para automação e monitoramento, demonstrando uma atuação técnica objetiva em ferramentas modernas de engenharia.
 
-> _Atualizado em 16 de mai. de 2026, 15:55 (UTC)._
+> _Atualizado em 16 de mai. de 2026, 17:56 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Otimização de performance em aplicações Node.js e mitigação de vazamentos de memória em sistemas de larga escala.
-- Evolução de pipelines de processamento de dados com foco em extração automatizada e scoring de conteúdo.
-- Automação de infraestrutura com Docker e gerenciamento de fluxos de CI/CD para atualização de métricas de perfil.
+- Otimização de performance e mitigação de vazamentos de memória em aplicações Node.js.
+- Desenvolvimento de pipelines de descoberta de conteúdo e scoring editorial automatizado.
+- Aprimoramento de fluxos de validação de ambiente e arquitetura de contêineres.
 
-> _Atualizado em 16 de mai. de 2026, 15:56 (UTC)._
+> _Atualizado em 16 de mai. de 2026, 17:56 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -231,5 +231,5 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 16 de mai. de 2026, 16:55 (UTC) | Fonte: GitHub API._
+> _Atualizado em 16 de mai. de 2026, 17:56 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
