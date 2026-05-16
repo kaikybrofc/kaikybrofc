@@ -35,16 +35,16 @@
 <line x1="86" y1="251" x2="1320" y2="251" stroke="#7dd3fc" stroke-opacity="0.12" stroke-width="1"/>
 <line x1="86" y1="287" x2="1320" y2="287" stroke="#7dd3fc" stroke-opacity="0.12" stroke-width="1"/>
 <line x1="86" y1="322" x2="1320" y2="322" stroke="#7dd3fc" stroke-opacity="0.28" stroke-width="1"/>
-<path d="M 86 201 L 333 260 L 580 180 L 826 242 L 1073 253 L 1320 187 L 1320 322 L 86 322 Z" fill="url(#statAreahorariospico)"/>
-<path d="M 86 201 L 333 260 L 580 180 L 826 242 L 1073 253 L 1320 187" fill="none" stroke="#22d3ee" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 86 201 L 333 274 L 580 180 L 826 228 L 1073 253 L 1320 187 L 1320 322 L 86 322 Z" fill="url(#statAreahorariospico)"/>
+<path d="M 86 201 L 333 274 L 580 180 L 826 228 L 1073 253 L 1320 187" fill="none" stroke="#22d3ee" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <g>
   <circle cx="86" cy="201" r="4.6" fill="#22d3ee" stroke="#ecfeff" stroke-opacity="0.7"/>
   <text x="86" y="192" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">35</text>
   <text x="86" y="344" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="10.8" font-weight="600">00-03</text>
 </g>
 <g>
-  <circle cx="333" cy="260" r="4.6" fill="#22d3ee" stroke="#ecfeff" stroke-opacity="0.7"/>
-  <text x="333" y="251" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">18</text>
+  <circle cx="333" cy="274" r="4.6" fill="#22d3ee" stroke="#ecfeff" stroke-opacity="0.7"/>
+  <text x="333" y="265" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">14</text>
   <text x="333" y="344" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="10.8" font-weight="600">04-07</text>
 </g>
 <g>
@@ -53,8 +53,8 @@
   <text x="580" y="344" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="10.8" font-weight="600">08-11</text>
 </g>
 <g>
-  <circle cx="826" cy="242" r="4.6" fill="#22d3ee" stroke="#ecfeff" stroke-opacity="0.7"/>
-  <text x="826" y="233" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">23</text>
+  <circle cx="826" cy="228" r="4.6" fill="#22d3ee" stroke="#ecfeff" stroke-opacity="0.7"/>
+  <text x="826" y="219" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">27</text>
   <text x="826" y="344" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="10.8" font-weight="600">12-15</text>
 </g>
 <g>
