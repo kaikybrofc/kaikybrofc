@@ -65,10 +65,10 @@ Kaiky Brito é um desenvolvedor focado no ecossistema JavaScript e TypeScript, c
   <img src="./assets/badges/stack/eslint.svg" alt="Badge stack ESLint"/>
   <img src="./assets/badges/stack/python.svg" alt="Badge stack Python"/>
   <img src="./assets/badges/stack/mysql.svg" alt="Badge stack MySQL"/>
+  <img src="./assets/badges/stack/react.svg" alt="Badge stack React"/>
   <img src="./assets/badges/stack/prettier.svg" alt="Badge stack Prettier"/>
   <img src="./assets/badges/stack/mongodb.svg" alt="Badge stack MongoDB"/>
   <img src="./assets/badges/stack/nextjs.svg" alt="Badge stack Next.js"/>
-  <img src="./assets/badges/stack/react.svg" alt="Badge stack React"/>
   <img src="./assets/badges/stack/redis.svg" alt="Badge stack Redis"/>
   <img src="./assets/badges/stack/tailwindcss.svg" alt="Badge stack Tailwind CSS"/>
   <img src="./assets/badges/stack/c.svg" alt="Badge stack C"/>
@@ -231,5 +231,5 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 16 de mai. de 2026, 00:56 (UTC) | Fonte: GitHub API._
+> _Atualizado em 16 de mai. de 2026, 01:55 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
