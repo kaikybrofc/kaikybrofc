@@ -20,13 +20,13 @@
   <rect x="52" y="48" width="300" height="34" rx="8" fill="#0b1221" stroke="#22d3ee" stroke-opacity="0.5"/>
   <text x="68" y="71" fill="#bff6ff" font-family="JetBrains Mono, Consolas, monospace" font-size="16" font-weight="700">FOCO ATUAL</text>
   <line x1="52" y1="92" x2="1348" y2="92" stroke="url(#accentFocus)" stroke-width="2" stroke-opacity="0.8"/>
-  <text x="54" y="118" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">• Otimização de pipelines de extração e persistência de metadados para monitoramento</text>
-<text x="54" y="150" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">  editorial.</text>
-<text x="54" y="182" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">• Expansão de métricas de observabilidade e auditoria em sistemas de moderação automatizada.</text>
-<text x="54" y="214" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">• Refinamento de regras de alerta e endurecimento de deploys em ambientes Node.js e</text>
-<text x="54" y="246" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">  TypeScript.</text>
+  <text x="54" y="118" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">• Refinamento de algoritmos de antiban e convergência de métricas no ecossistema Zyra.</text>
+<text x="54" y="150" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">• Implementação de pipelines para extração automatizada de dados e suporte multimodelo em</text>
+<text x="54" y="182" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">  sistemas de monitoramento.</text>
+<text x="54" y="214" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">• Expansão da observabilidade operacional e automação de ativos de perfil via GitHub</text>
+<text x="54" y="246" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="600">  Actions.</text>
   <line x1="52" y1="298" x2="1348" y2="298" stroke="#38bdf8" stroke-opacity="0.32"/>
   <text x="54" y="322" fill="#a8d9f4" font-family="JetBrains Mono, Consolas, monospace" font-size="16">
-    atualizado: 20h
+    atualizado: agora
   </text>
 </svg>

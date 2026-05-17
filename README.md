@@ -43,11 +43,11 @@ Kaiky Brito é um desenvolvedor com foco no ecossistema JavaScript, especializad
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Otimização de pipelines de extração e persistência de metadados para monitoramento editorial.
-- Expansão de métricas de observabilidade e auditoria em sistemas de moderação automatizada.
-- Refinamento de regras de alerta e endurecimento de deploys em ambientes Node.js e TypeScript.
+- Refinamento de algoritmos de antiban e convergência de métricas no ecossistema Zyra.
+- Implementação de pipelines para extração automatizada de dados e suporte multimodelo em sistemas de monitoramento.
+- Expansão da observabilidade operacional e automação de ativos de perfil via GitHub Actions.
 
-> _Atualizado em 16 de mai. de 2026, 22:16 (UTC)._
+> _Atualizado em 17 de mai. de 2026, 19:29 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -231,5 +231,5 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 17 de mai. de 2026, 18:29 (UTC) | Fonte: GitHub API._
+> _Atualizado em 17 de mai. de 2026, 19:29 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
