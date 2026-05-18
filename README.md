@@ -35,9 +35,9 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor focado em tecnologias web, especializado no desenvolvimento de aplicações utilizando JavaScript e TypeScript. Sua stack técnica é centrada no ecossistema Node.js, integrando ferramentas como Express, React e bancos de dados MySQL em diversos projetos de automação e infraestrutura. Com dezesseis repositórios públicos e uma atuação consistente em sistemas de monitoramento, o desenvolvedor prioriza a entrega de soluções eficientes e a manutenção de código estruturado.
+Kaiky Brito é um desenvolvedor com foco em tecnologias JavaScript e TypeScript, possuindo dezesseis repositórios públicos voltados para o desenvolvimento de soluções no ecossistema Node.js. Sua stack técnica compreende o uso de frameworks como Express e React, integrados a bancos de dados relacionais e ferramentas de automação para a construção de aplicações robustas. Atualmente, mantém projetos ativos como o sistema Zyra e o monitor de notícias News Anime Monitor, evidenciando uma atuação técnica direcionada à integração de sistemas e à entrega de software funcional.
 
-> _Atualizado em 18 de mai. de 2026, 08:29 (UTC)._
+> _Atualizado em 18 de mai. de 2026, 09:29 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
@@ -116,17 +116,7 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 4: [logger-module](https://github.com/kaikybrofc/logger-module)
-
-**Descrição:** Production-grade TypeScript logging library for Node.js with redaction, tracing, and observability.
-
-![Resumo do Projeto](./assets/badges/projeto/logger-module/resumo.svg) ![Atividade](./assets/badges/projeto/logger-module/atividade.svg) ![Estrelas](./assets/badges/projeto/logger-module/estrelas.svg) ![Atualizado](./assets/badges/projeto/logger-module/atualizado.svg)
-
-<p align="center">
-  <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
-</p>
-
-### Projeto 5: [Baileys](https://github.com/kaikybrofc/Baileys)
+### Projeto 4: [Baileys](https://github.com/kaikybrofc/Baileys)
 
 **Descrição:** Fork of Baileys: TypeScript/JavaScript WhatsApp Web API implementation.
 
@@ -136,11 +126,21 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 6: [senpai-api](https://github.com/kaikybrofc/senpai-api)
+### Projeto 5: [baileys.wiki-site](https://github.com/kaikybrofc/baileys.wiki-site)
 
-**Descrição:** Fork of Senpai API with custom adaptations and experiments.
+**Descrição:** A guide for the lightweight full-featured typescript/javascript WhatsApp Web API
 
-![Resumo do Projeto](./assets/badges/projeto/senpai-api/resumo.svg) ![Atividade](./assets/badges/projeto/senpai-api/atividade.svg) ![Estrelas](./assets/badges/projeto/senpai-api/estrelas.svg) ![Atualizado](./assets/badges/projeto/senpai-api/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/baileys.wiki-site/resumo.svg) ![Atividade](./assets/badges/projeto/baileys.wiki-site/atividade.svg) ![Estrelas](./assets/badges/projeto/baileys.wiki-site/estrelas.svg) ![Atualizado](./assets/badges/projeto/baileys.wiki-site/atualizado.svg)
+
+<p align="center">
+  <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
+</p>
+
+### Projeto 6: [webp-conv](https://github.com/kaikybrofc/webp-conv)
+
+**Descrição:** Fork of webp-conv for converting static and animated WebP into GIF/PNG.
+
+![Resumo do Projeto](./assets/badges/projeto/webp-conv/resumo.svg) ![Atividade](./assets/badges/projeto/webp-conv/atividade.svg) ![Estrelas](./assets/badges/projeto/webp-conv/estrelas.svg) ![Atualizado](./assets/badges/projeto/webp-conv/atualizado.svg)
 <!--FEATURED_PROJECTS_END-->
 
 
@@ -231,5 +231,5 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 18 de mai. de 2026, 08:29 (UTC) | Fonte: GitHub API._
+> _Atualizado em 18 de mai. de 2026, 09:29 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
