@@ -43,11 +43,11 @@ Kaiky Brito é um desenvolvedor com foco em tecnologias JavaScript e TypeScript,
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Expansão de funcionalidades e métricas de observabilidade no projeto Zyra.
-- Implementação de pipelines para processamento de dados e troca automática de modelos de IA.
-- Automação de fluxos para atualização de métricas e ativos dinâmicos do perfil.
+- Implementação de funcionalidades de mídia e reforço em mecanismos antiban no projeto Zyra.
+- Otimização de pipelines de integração contínua e automação de métricas de desempenho.
+- Desenvolvimento de sistemas de extração de dados e troca dinâmica de modelos de IA.
 
-> _Atualizado em 18 de mai. de 2026, 08:29 (UTC)._
+> _Atualizado em 18 de mai. de 2026, 10:29 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -116,7 +116,17 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 4: [Baileys](https://github.com/kaikybrofc/Baileys)
+### Projeto 4: [senpai-api](https://github.com/kaikybrofc/senpai-api)
+
+**Descrição:** Fork of Senpai API with custom adaptations and experiments.
+
+![Resumo do Projeto](./assets/badges/projeto/senpai-api/resumo.svg) ![Atividade](./assets/badges/projeto/senpai-api/atividade.svg) ![Estrelas](./assets/badges/projeto/senpai-api/estrelas.svg) ![Atualizado](./assets/badges/projeto/senpai-api/atualizado.svg)
+
+<p align="center">
+  <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
+</p>
+
+### Projeto 5: [Baileys](https://github.com/kaikybrofc/Baileys)
 
 **Descrição:** Fork of Baileys: TypeScript/JavaScript WhatsApp Web API implementation.
 
@@ -126,21 +136,11 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 5: [baileys.wiki-site](https://github.com/kaikybrofc/baileys.wiki-site)
+### Projeto 6: [Wust](https://github.com/kaikybrofc/Wust)
 
-**Descrição:** A guide for the lightweight full-featured typescript/javascript WhatsApp Web API
+**Descrição:** Fork of Wust: WhatsApp bot in Rust with clean architecture and domain-focused design.
 
-![Resumo do Projeto](./assets/badges/projeto/baileys.wiki-site/resumo.svg) ![Atividade](./assets/badges/projeto/baileys.wiki-site/atividade.svg) ![Estrelas](./assets/badges/projeto/baileys.wiki-site/estrelas.svg) ![Atualizado](./assets/badges/projeto/baileys.wiki-site/atualizado.svg)
-
-<p align="center">
-  <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
-</p>
-
-### Projeto 6: [webp-conv](https://github.com/kaikybrofc/webp-conv)
-
-**Descrição:** Fork of webp-conv for converting static and animated WebP into GIF/PNG.
-
-![Resumo do Projeto](./assets/badges/projeto/webp-conv/resumo.svg) ![Atividade](./assets/badges/projeto/webp-conv/atividade.svg) ![Estrelas](./assets/badges/projeto/webp-conv/estrelas.svg) ![Atualizado](./assets/badges/projeto/webp-conv/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/Wust/resumo.svg) ![Atividade](./assets/badges/projeto/Wust/atividade.svg) ![Estrelas](./assets/badges/projeto/Wust/estrelas.svg) ![Atualizado](./assets/badges/projeto/Wust/atualizado.svg)
 <!--FEATURED_PROJECTS_END-->
 
 
@@ -231,5 +231,5 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 18 de mai. de 2026, 09:29 (UTC) | Fonte: GitHub API._
+> _Atualizado em 18 de mai. de 2026, 10:29 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
