@@ -35,9 +35,9 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor com foco em tecnologias web, destacando-se pela atuação com JavaScript e TypeScript em diversos repositórios públicos. Sua experiência técnica abrange o ecossistema Node.js, incluindo o uso de Express para o desenvolvimento de APIs e integração com bancos de dados como MySQL. O profissional mantém um portfólio ativo com 16 projetos, entre os quais se sobressaem o monitoramento de notícias e ferramentas de automação, evidenciando uma trajetória de evolução técnica consistente.
+Kaiky Brito é um desenvolvedor focado no ecossistema JavaScript e TypeScript, possuindo sólida base técnica em tecnologias como Node.js, Express e React. Sua atuação abrange o desenvolvimento de aplicações backend e integração de bancos de dados, estendendo-se também a projetos em linguagens como Python e Rust. Atualmente, dedica-se à manutenção de sistemas de automação e ferramentas de código aberto, com ênfase na entrega de soluções estruturadas e funcionais.
 
-> _Atualizado em 18 de mai. de 2026, 13:29 (UTC)._
+> _Atualizado em 18 de mai. de 2026, 13:30 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
@@ -231,5 +231,5 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 18 de mai. de 2026, 13:29 (UTC) | Fonte: GitHub API._
+> _Atualizado em 18 de mai. de 2026, 14:29 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
