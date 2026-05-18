@@ -35,19 +35,19 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor com foco em tecnologias JavaScript e TypeScript, possuindo dezesseis repositórios públicos voltados para o desenvolvimento de soluções no ecossistema Node.js. Sua stack técnica compreende o uso de frameworks como Express e React, integrados a bancos de dados relacionais e ferramentas de automação para a construção de aplicações robustas. Atualmente, mantém projetos ativos como o sistema Zyra e o monitor de notícias News Anime Monitor, evidenciando uma atuação técnica direcionada à integração de sistemas e à entrega de software funcional.
+Kaiky Brito é um desenvolvedor focado no ecossistema Node.js, com experiência prática em TypeScript, JavaScript e no framework Express para a construção de serviços backend. Sua stack tecnológica abrange o uso de bancos de dados MySQL e o desenvolvimento de scripts em Python, aliados à aplicação de ferramentas de qualidade como ESLint. O profissional mantém uma produção constante em repositórios como Zyra e News Anime Monitor, demonstrando versatilidade técnica em diversos projetos públicos.
 
-> _Atualizado em 18 de mai. de 2026, 09:29 (UTC)._
+> _Atualizado em 18 de mai. de 2026, 11:29 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Implementação de funcionalidades de mídia e reforço em mecanismos antiban no projeto Zyra.
-- Otimização de pipelines de integração contínua e automação de métricas de desempenho.
-- Desenvolvimento de sistemas de extração de dados e troca dinâmica de modelos de IA.
+- Manutenção automatizada de assets SVG e métricas dinâmicas de perfil.
+- Implementação de comandos de mídia e otimização de resiliência no Zyra.
+- Evolução de pipelines de extração e processamento de linguagem natural no News Anime Monitor.
 
-> _Atualizado em 18 de mai. de 2026, 10:29 (UTC)._
+> _Atualizado em 18 de mai. de 2026, 11:29 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -116,11 +116,11 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 4: [senpai-api](https://github.com/kaikybrofc/senpai-api)
+### Projeto 4: [logger-module](https://github.com/kaikybrofc/logger-module)
 
-**Descrição:** Fork of Senpai API with custom adaptations and experiments.
+**Descrição:** Production-grade TypeScript logging library for Node.js with redaction, tracing, and observability.
 
-![Resumo do Projeto](./assets/badges/projeto/senpai-api/resumo.svg) ![Atividade](./assets/badges/projeto/senpai-api/atividade.svg) ![Estrelas](./assets/badges/projeto/senpai-api/estrelas.svg) ![Atualizado](./assets/badges/projeto/senpai-api/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/logger-module/resumo.svg) ![Atividade](./assets/badges/projeto/logger-module/atividade.svg) ![Estrelas](./assets/badges/projeto/logger-module/estrelas.svg) ![Atualizado](./assets/badges/projeto/logger-module/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
@@ -136,11 +136,11 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 6: [Wust](https://github.com/kaikybrofc/Wust)
+### Projeto 6: [senpai-api](https://github.com/kaikybrofc/senpai-api)
 
-**Descrição:** Fork of Wust: WhatsApp bot in Rust with clean architecture and domain-focused design.
+**Descrição:** Fork of Senpai API with custom adaptations and experiments.
 
-![Resumo do Projeto](./assets/badges/projeto/Wust/resumo.svg) ![Atividade](./assets/badges/projeto/Wust/atividade.svg) ![Estrelas](./assets/badges/projeto/Wust/estrelas.svg) ![Atualizado](./assets/badges/projeto/Wust/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/senpai-api/resumo.svg) ![Atividade](./assets/badges/projeto/senpai-api/atividade.svg) ![Estrelas](./assets/badges/projeto/senpai-api/estrelas.svg) ![Atualizado](./assets/badges/projeto/senpai-api/atualizado.svg)
 <!--FEATURED_PROJECTS_END-->
 
 
@@ -231,5 +231,5 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 18 de mai. de 2026, 10:29 (UTC) | Fonte: GitHub API._
+> _Atualizado em 18 de mai. de 2026, 11:29 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
