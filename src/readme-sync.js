@@ -228,7 +228,17 @@ function buildProjectDivider() {
 
 function buildFeaturedProjectsTable(summary) {
   const ranked = Array.isArray(summary.projectsByActivity) ? summary.projectsByActivity : [];
-  const projects = ranked.slice(0, Math.max(3, Math.min(6, ranked.length)));
+  const preferredOrder = ["zyra", "news-anime-monitor", "logger-module", "yt-wrapper", "ayana-bot", "monitor-c", "yt-dls"];
+  const login = String(summary?.user?.login || "").trim().toLowerCase();
+  const eligible = ranked.filter((project) => {
+    const name = String(project?.name || "").trim().toLowerCase();
+    return Boolean(name) && name !== login && !project?.fork && !project?.archived;
+  });
+  const preferred = preferredOrder
+    .map((name) => eligible.find((project) => project.name === name))
+    .filter(Boolean);
+  const remaining = eligible.filter((project) => !preferredOrder.includes(project.name));
+  const projects = [...preferred, ...remaining].slice(0, Math.max(3, Math.min(6, eligible.length)));
 
   if (!projects.length) {
     return "_Sem projetos públicos para destacar no momento._";

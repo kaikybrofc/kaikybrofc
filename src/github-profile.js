@@ -779,6 +779,8 @@ function toRepoEntry(repo) {
     name: repo.name,
     fullName: repo.full_name,
     private: Boolean(repo.private),
+    fork: Boolean(repo.fork),
+    archived: Boolean(repo.archived),
     htmlUrl: repo.html_url,
     description: repo.description || "",
     language: repo.language || "N/A",

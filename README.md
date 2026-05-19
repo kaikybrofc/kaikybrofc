@@ -3,30 +3,18 @@
 </p>
 
 <p align="center">
-  <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
-</p>
-
-<p align="center">
   <a href="https://github.com/kaikybrofc"><img src="./assets/badges/contact/github.svg" alt="GitHub"/></a>
   <a href="https://www.linkedin.com/in/kaikybrofc/"><img src="./assets/badges/contact/linkedin.svg" alt="LinkedIn"/></a>
-</p>
-
-<p align="center">
   <a href="mailto:kaikygomesribeiroof@gmail.com"><img src="./assets/badges/contact/email.svg" alt="Email"/></a>
-  <a href="https://wa.me/5595991122954"><img src="./assets/badges/contact/whatsapp.svg" alt="WhatsApp"/></a>
 </p>
 
-<p align="center">
-  <img src="./assets/badges/seguidores.svg" alt="Badge seguidores"/>
-  <img src="./assets/badges/repos.svg" alt="Badge repositórios"/>
-  <img src="./assets/badges/estrelas.svg" alt="Badge estrelas"/>
-</p>
+## Kaiky Brito
 
-<p align="center">
-  <img src="./assets/badges/linguagem.svg" alt="Badge linguagem principal"/>
-  <img src="./assets/badges/atividade.svg" alt="Badge atividade recente"/>
-  <img src="./assets/badges/sync.svg" alt="Badge sincronização do README"/>
-</p>
+Software developer focused on backend systems, automation, and TypeScript/Node.js applications.
+
+- Building automation platforms, API integrations, and developer-oriented tools.
+- Main stack: TypeScript, Node.js, Express, MySQL, Redis, React, and Next.js.
+- Interested in observability, scalable architecture, and maintainable backend design.
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
@@ -35,7 +23,7 @@
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor júnior focado no desenvolvimento de software e automação, mantendo atualmente dezesseis repositórios públicos com ênfase em tecnologias web. Sua expertise técnica abrange o domínio de linguagens como JavaScript, TypeScript e Python, utilizando prioritariamente Node.js, Express e MySQL em suas implementações. O profissional demonstra alta atividade em projetos como o sistema Zyra e monitores automatizados, priorizando a entrega de soluções eficientes e a aplicação de boas práticas de programação.
+Kaiky Brito é um desenvolvedor focado no desenvolvimento de software com ênfase em arquiteturas modernas e escaláveis. Sua stack tecnológica é composta primordialmente por Node.js, TypeScript e Express, possuindo também experiência em Python e integração com bancos de dados MySQL e bibliotecas como React. Atualmente, destaca-se pela manutenção de projetos de automação e monitoramento, evidenciando uma prática consistente de versionamento e evolução técnica em seu portfólio no GitHub.
 
 > _Atualizado em 19 de mai. de 2026, 01:29 (UTC)._
 <!--ABOUT_AI_END-->
@@ -83,20 +71,10 @@ Kaiky Brito é um desenvolvedor júnior focado no desenvolvimento de software e 
 
 ## Projetos em Destaque
 
-Classificados automaticamente com base na atividade recente no GitHub.
+Projetos autorais priorizados por relevância técnica e atividade recente.
 
 <!--FEATURED_PROJECTS_START-->
-### Projeto 1: [kaikybrofc](https://github.com/kaikybrofc/kaikybrofc)
-
-**Descrição:** Profile repository with projects, background, and technical highlights.
-
-![Resumo do Projeto](./assets/badges/projeto/kaikybrofc/resumo.svg) ![Atividade](./assets/badges/projeto/kaikybrofc/atividade.svg) ![Estrelas](./assets/badges/projeto/kaikybrofc/estrelas.svg) ![Atualizado](./assets/badges/projeto/kaikybrofc/atualizado.svg)
-
-<p align="center">
-  <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
-</p>
-
-### Projeto 2: [zyra](https://github.com/kaikybrofc/zyra)
+### Projeto 1: [zyra](https://github.com/kaikybrofc/zyra)
 
 **Descrição:** High-performance WhatsApp automation platform built with TypeScript, Baileys, MySQL, and Redis.
 
@@ -106,7 +84,7 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 3: [news-anime-monitor](https://github.com/kaikybrofc/news-anime-monitor)
+### Projeto 2: [news-anime-monitor](https://github.com/kaikybrofc/news-anime-monitor)
 
 **Descrição:** Anime news monitoring platform with REST API, intelligent pipeline, and Next.js frontend.
 
@@ -116,7 +94,7 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 4: [logger-module](https://github.com/kaikybrofc/logger-module)
+### Projeto 3: [logger-module](https://github.com/kaikybrofc/logger-module)
 
 **Descrição:** Production-grade TypeScript logging library for Node.js with redaction, tracing, and observability.
 
@@ -126,21 +104,31 @@ Classificados automaticamente com base na atividade recente no GitHub.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 5: [Baileys](https://github.com/kaikybrofc/Baileys)
+### Projeto 4: [ayana-bot](https://github.com/kaikybrofc/ayana-bot)
 
-**Descrição:** Fork of Baileys: TypeScript/JavaScript WhatsApp Web API implementation.
+**Descrição:** Anime-themed Discord bot focused on automation, moderation, and interactive features.
 
-![Resumo do Projeto](./assets/badges/projeto/Baileys/resumo.svg) ![Atividade](./assets/badges/projeto/Baileys/atividade.svg) ![Estrelas](./assets/badges/projeto/Baileys/estrelas.svg) ![Atualizado](./assets/badges/projeto/Baileys/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/ayana-bot/resumo.svg) ![Atividade](./assets/badges/projeto/ayana-bot/atividade.svg) ![Estrelas](./assets/badges/projeto/ayana-bot/estrelas.svg) ![Atualizado](./assets/badges/projeto/ayana-bot/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 6: [senpai-api](https://github.com/kaikybrofc/senpai-api)
+### Projeto 5: [yt-dls](https://github.com/kaikybrofc/yt-dls)
 
-**Descrição:** Fork of Senpai API with custom adaptations and experiments.
+**Descrição:** Lightweight Node.js API for YouTube media downloads powered by yt-dlp.
 
-![Resumo do Projeto](./assets/badges/projeto/senpai-api/resumo.svg) ![Atividade](./assets/badges/projeto/senpai-api/atividade.svg) ![Estrelas](./assets/badges/projeto/senpai-api/estrelas.svg) ![Atualizado](./assets/badges/projeto/senpai-api/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/yt-dls/resumo.svg) ![Atividade](./assets/badges/projeto/yt-dls/atividade.svg) ![Estrelas](./assets/badges/projeto/yt-dls/estrelas.svg) ![Atualizado](./assets/badges/projeto/yt-dls/atualizado.svg)
+
+<p align="center">
+  <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
+</p>
+
+### Projeto 6: [sss-tiktok](https://github.com/kaikybrofc/sss-tiktok)
+
+**Descrição:** Python automation tool using Playwright to download TikTok videos without watermark.
+
+![Resumo do Projeto](./assets/badges/projeto/sss-tiktok/resumo.svg) ![Atividade](./assets/badges/projeto/sss-tiktok/atividade.svg) ![Estrelas](./assets/badges/projeto/sss-tiktok/estrelas.svg) ![Atualizado](./assets/badges/projeto/sss-tiktok/atualizado.svg)
 <!--FEATURED_PROJECTS_END-->
 
 
@@ -231,5 +219,5 @@ Classificados automaticamente com base na atividade recente no GitHub.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 19 de mai. de 2026, 01:29 (UTC) | Fonte: GitHub API._
+> _Atualizado em 19 de mai. de 2026, 01:44 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
