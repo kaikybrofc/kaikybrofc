@@ -23,19 +23,19 @@ Software developer focused on backend systems, automation, and TypeScript/Node.j
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor de software especializado no desenvolvimento de sistemas backend e automações, com foco predominante no ecossistema Node.js e TypeScript. Sua stack tecnológica integra linguagens como JavaScript, Python e Rust, utilizando frameworks como Express e bancos de dados MySQL para construir soluções escaláveis. Com 16 repositórios públicos e projetos ativos em monitoramento e infraestrutura, o profissional demonstra uma trajetória consistente na entrega de ferramentas técnicas e manutenção de código de alta atividade.
+Kaiky Brito é um desenvolvedor de software especializado na arquitetura de sistemas backend, automações e aplicações escaláveis utilizando majoritariamente Node.js e TypeScript. Sua atuação técnica envolve o domínio de tecnologias como Express, JavaScript e Python, integrando soluções robustas com suporte a bancos de dados relacionais e interfaces modernas. Com um portfólio de dezesseis repositórios públicos, o desenvolvedor mantém foco constante na evolução de ferramentas de monitoramento e integração de sistemas para a otimização de fluxos de trabalho.
 
-> _Atualizado em 19 de mai. de 2026, 21:29 (UTC)._
+> _Atualizado em 19 de mai. de 2026, 23:29 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Manutenção do sistema Zyra com foco em estabilidade de conexão e mecanismos de antiban.
-- Desenvolvimento de pipelines de processamento de dados e suporte multi-modelo em coletores de notícias.
-- Automação de métricas de desempenho e refinamento de fluxos de observabilidade em projetos Node.js.
+- Refatoração de mecanismos antiban e suporte a resolução de mídias no Zyra.
+- Implementação de troca dinâmica de modelos de IA no News Anime Monitor.
+- Automação e atualização de métricas de ativos SVG via GitHub Actions.
 
-> _Atualizado em 19 de mai. de 2026, 21:29 (UTC)._
+> _Atualizado em 19 de mai. de 2026, 23:29 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -119,16 +119,6 @@ Projetos autorais priorizados por relevância técnica e atividade recente.
 **Descrição:** Lightweight Node.js API for YouTube media downloads powered by yt-dlp.
 
 ![Resumo do Projeto](./assets/badges/projeto/yt-dls/resumo.svg) ![Atividade](./assets/badges/projeto/yt-dls/atividade.svg) ![Estrelas](./assets/badges/projeto/yt-dls/estrelas.svg) ![Atualizado](./assets/badges/projeto/yt-dls/atualizado.svg)
-
-<p align="center">
-  <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
-</p>
-
-### Projeto 6: [sss-tiktok](https://github.com/kaikybrofc/sss-tiktok)
-
-**Descrição:** Python automation tool using Playwright to download TikTok videos without watermark.
-
-![Resumo do Projeto](./assets/badges/projeto/sss-tiktok/resumo.svg) ![Atividade](./assets/badges/projeto/sss-tiktok/atividade.svg) ![Estrelas](./assets/badges/projeto/sss-tiktok/estrelas.svg) ![Atualizado](./assets/badges/projeto/sss-tiktok/atualizado.svg)
 <!--FEATURED_PROJECTS_END-->
 
 
@@ -219,5 +209,5 @@ Projetos autorais priorizados por relevância técnica e atividade recente.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 19 de mai. de 2026, 22:29 (UTC) | Fonte: GitHub API._
+> _Atualizado em 19 de mai. de 2026, 23:30 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
