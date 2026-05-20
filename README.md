@@ -23,19 +23,19 @@ Software developer focused on backend systems, automation, and TypeScript/Node.j
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor de software focado em sistemas de backend e automação, com ênfase no desenvolvimento de aplicações em TypeScript e Node.js. Seu portfólio é composto por 16 repositórios públicos que utilizam tecnologias como Express, Python e bancos de dados relacionais, refletindo uma atuação técnica diversificada. Atualmente, dedica-se a projetos como Zyra e News Anime Monitor, onde aplica conhecimentos em JavaScript e TypeScript para a construção de ferramentas e serviços automatizados.
+Kaiky Brito é um desenvolvedor de software especializado na arquitetura de sistemas backend e na automação de processos utilizando predominantemente o ecossistema Node.js e TypeScript. SeuKaiky Brito é um desenvolvedor de software focado em sistemas de backend, automação e aplicações utilizando o ecossistema Node.js e TypeScript. Com um portfólio de dezesseis repositórios públicos, o profissional demonstra experiência em projetos de integração e monitoramento, apresentando domínio em linguagens como JavaScript e Python. Sua stack tecnológica é complementada por frameworks como Express e tecnologias de persistência de dados, consolidando uma atuação voltada para a construção de soluções técnicas otimizadas.
 
-> _Atualizado em 20 de mai. de 2026, 05:29 (UTC)._
+> _Atualizado em 20 de mai. de 2026, 07:29 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Implementação de transações atômicas e materialização de usuários em bancos SQL.
-- Evolução de pipelines para extração de metadados e troca dinâmica de modelos de IA.
-- Refinamento de observabilidade técnica e mitigação de vulnerabilidades em infraestrutura.
+- Manutenção de automações para atualização dinâmica de métricas e assets visuais de perfil.
+- Desenvolvimento de arquitetura para materialização atômica de dados e transações SQL no projeto Zyra.
+- Evolução de pipelines de ingestão de conteúdo e extração de metadados com integração de modelos de IA.
 
-> _Atualizado em 20 de mai. de 2026, 05:29 (UTC)._
+> _Atualizado em 20 de mai. de 2026, 07:29 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -209,5 +209,5 @@ Projetos autorais priorizados por relevância técnica e atividade recente.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 20 de mai. de 2026, 06:29 (UTC) | Fonte: GitHub API._
+> _Atualizado em 20 de mai. de 2026, 07:29 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
