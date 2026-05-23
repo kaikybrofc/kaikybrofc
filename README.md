@@ -23,19 +23,19 @@ Software developer focused on backend systems, automation, and TypeScript/Node.j
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor de software especializado em sistemas de backend, automação e no desenvolvimento de aplicações fundamentadas em TypeScript e Node.js. Seu conjunto tecnológico prioritário abrange o ecossistema JavaScript, o framework Express e a linguagem Python, aplicados na estruturação de APIs e ferramentas de automação. Com um portfólio de 16 repositórios públicos, sua atuação técnica destaca-se em projetos como Zyra e News Anime Monitor, voltados para a implementação de serviços integrados e fluxos de dados eficientes.
+Kaiky Brito é um desenvolvedor de software especializado em sistemas backend e automação, com sólida proficiência técnica em TypeScript, Node.js e JavaScript. Seu portfólio no GitHub é composto por dezesseis repositórios públicos que integram tecnologias como Express, MySQL e Python para a construção de aplicações robustas. O profissional destaca-se pelo desenvolvimento de projetos de monitoramento e integração, mantendo um foco constante na entrega de soluções eficientes e na qualidade técnica de seus sistemas.
 
-> _Atualizado em 23 de mai. de 2026, 07:29 (UTC)._
+> _Atualizado em 23 de mai. de 2026, 09:29 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Manutenção de fluxos de automação para métricas e ativos visuais de perfil.
-- Implementação de transações atômicas e materialização de estados em bancos SQL.
-- Desenvolvimento de pipelines para extração de metadados e processamento de dados via IA.
+- Otimização de materialização atômica e transações em bancos SQL.
+- Aprimoramento de observabilidade e refatoração de dependências.
+- Implementação de pipelines para automação e processamento de dados.
 
-> _Atualizado em 23 de mai. de 2026, 07:29 (UTC)._
+> _Atualizado em 23 de mai. de 2026, 09:29 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -209,5 +209,5 @@ Projetos autorais priorizados por relevância técnica e atividade recente.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 23 de mai. de 2026, 08:29 (UTC) | Fonte: GitHub API._
+> _Atualizado em 23 de mai. de 2026, 09:29 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
