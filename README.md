@@ -31,9 +31,9 @@ Kaiky Brito é um desenvolvedor de software especializado em sistemas backend, a
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Otimização de sistemas de persistência e transações atômicas SQL no projeto Zyra.
-- Implementação de pipelines automatizados para extração de dados e suporte a múltiplos modelos de IA.
-- Manutenção de fluxos de integração contínua e atualização automatizada de métricas de performance.
+- Persistência atômica e tratamento de transações em repositórios SQL.
+- Automação de pipelines para descoberta de conteúdo e extração de metadados.
+- Otimização de observabilidade e refatoração de arquitetura de logging em Node.js.
 
 > _Atualizado em 23 de mai. de 2026, 11:29 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
@@ -209,5 +209,5 @@ Projetos autorais priorizados por relevância técnica e atividade recente.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 23 de mai. de 2026, 11:29 (UTC) | Fonte: GitHub API._
+> _Atualizado em 23 de mai. de 2026, 12:29 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
