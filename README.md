@@ -31,9 +31,9 @@ Kaiky Brito é um desenvolvedor de software especializado no desenvolvimento de 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Automação de infraestrutura de deploy integrado e fluxos de atualização de ativos.
-- Refinamento de motores de síntese de conteúdo com integração de modelos de linguagem.
-- Otimização de arquiteturas de conexões múltiplas e padronização de documentação técnica.
+- Implementação de camada editorial e integração de LLMs para sumarização no monitor de notícias.
+- Otimização de fluxos de deploy em infraestrutura VPS e automação de métricas de perfil.
+- Refinamento de sistemas multi-conexão e ampliação da documentação técnica com TSDoc.
 
 > _Atualizado em 24 de mai. de 2026, 21:29 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
@@ -209,5 +209,5 @@ Projetos autorais priorizados por relevância técnica e atividade recente.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 24 de mai. de 2026, 21:29 (UTC) | Fonte: GitHub API._
+> _Atualizado em 24 de mai. de 2026, 22:29 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
