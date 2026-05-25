@@ -23,19 +23,19 @@ Software developer focused on backend systems, automation, and TypeScript/Node.j
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor de software focado no desenvolvimento de sistemas backend, automação e aplicações utilizando TypeScript e Node.js. O profissional gerencia dezesseis repositórios públicos que destacam o uso de tecnologias como Express, JavaScript e Python para a estruturação de serviços técnicos. Sua atividade é pautada pelo engajamento em projetos de monitoramento e automação, refletindo uma atuação constante voltada para a eficiência no ecossistema de desenvolvimento moderno.
+Kaiky Brito é um desenvolvedor de software especializado em sistemas backend e automação, com foco principal em tecnologias como Node.js, TypeScript e JavaScript. Sua experiência técnica envolve a criação de aplicações escaláveis com Express e integração com bancos de dados, refletida em dezesseis repositórios públicos ativos. Com projetos voltados para monitoramento e infraestrutura, o profissional mantém um fluxo constante de desenvolvimento orientado à eficiência e qualidade técnica em suas entregas.
 
-> _Atualizado em 25 de mai. de 2026, 07:29 (UTC)._
+> _Atualizado em 25 de mai. de 2026, 09:29 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Automação de métricas de perfil e manutenção de ativos visuais.
-- Otimização de pipelines de deploy e integração de IA no monitor de notícias.
-- Aprimoramento da resiliência de conexões e gerenciamento de webhooks.
+- Automação de fluxos para atualização de ativos visuais e métricas de perfil.
+- Otimização de pipelines de deploy com foco em infraestrutura e segurança.
+- Refinamento de lógica de coleta e integração de modelos para sumarização inteligente.
 
-> _Atualizado em 25 de mai. de 2026, 07:29 (UTC)._
+> _Atualizado em 25 de mai. de 2026, 09:29 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -209,5 +209,5 @@ Projetos autorais priorizados por relevância técnica e atividade recente.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 25 de mai. de 2026, 08:29 (UTC) | Fonte: GitHub API._
+> _Atualizado em 25 de mai. de 2026, 09:29 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
