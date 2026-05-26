@@ -23,19 +23,19 @@ Software developer focused on backend systems, automation, and TypeScript/Node.j
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor de software especializado em sistemas backend e automação, com domínio principal nas tecnologias Node.js e TypeScript. Sua experiência técnica abrange o desenvolvimento de aplicações com Express e MySQL, integrando linguagens como JavaScript, Python e Rust em um portfólio de dezesseis repositórios públicos. Atualmente, foca sua atuação em projetos de monitoramento e infraestrutura, mantendo uma produção constante voltada para a eficiência e funcionalidade de sistemas digitais.
+Kaiky Brito é um desenvolvedor de software especializado no desenvolvimento de sistemas backend e automações fundamentadas em Node.js e TypeScript. Sua trajetória técnica inclui a gestão de dezesseis repositórios públicos que integram tecnologias como JavaScript, Express, Python e Rust para a construção de soluções robustas. Atualmente, o profissional concentra seus esforços em projetos de alta atividade voltados para monitoramento e arquitetura de sistemas escaláveis, priorizando a eficiência e a qualidade técnica na entrega de aplicações.
 
-> _Atualizado em 26 de mai. de 2026, 05:29 (UTC)._
+> _Atualizado em 26 de mai. de 2026, 07:29 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Desenvolvimento de engine para monitoramento de notícias com otimização de SEO, cache e internacionalização.
-- Aprimoramento de fluxos de pareamento e escalabilidade de conexões em tempo real via Webhooks e PM2.
-- Automação de fluxos de integração contínua para atualização dinâmica de ativos e métricas de desempenho.
+- Automação e sincronização de métricas de perfil utilizando assets dinâmicos e integração contínua.
+- Expansão de sistemas de monitoramento com foco em descoberta de domínios, SEO e tradução de dados.
+- Otimização de fluxos de comunicação via socket e gerenciamento de múltiplas conexões persistentes.
 
-> _Atualizado em 26 de mai. de 2026, 05:29 (UTC)._
+> _Atualizado em 26 de mai. de 2026, 07:29 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -209,5 +209,5 @@ Projetos autorais priorizados por relevância técnica e atividade recente.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 26 de mai. de 2026, 06:29 (UTC) | Fonte: GitHub API._
+> _Atualizado em 26 de mai. de 2026, 07:29 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
