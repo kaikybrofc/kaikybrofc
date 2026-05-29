@@ -23,19 +23,19 @@ Software developer focused on backend systems, automation, and TypeScript/Node.j
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor de software especializado na arquitetura de sistemas de backend e automação utilizando predominantemente o ecossistema Node.js com TypeScript e JavaScript. Seu portfólio técnico reúne dezesseis repositórios públicos, com destaque para projetos de monitoramento e integração que demonstram sólido domínio em ferramentas como Express e MySQL. A atuação do desenvolvedor prioriza a construção de aplicações escaláveis e eficientes, mantendo um foco constante na qualidade de código e na implementação de soluções robustas para desafios complexos de engenharia.
+Kaiky Brito é um desenvolvedor de software especializado no desenvolvimento de sistemas backend, automações e aplicações utilizando prioritariamente as tecnologias TypeScript e Node.js. Com um portfólio de dezesseis repositórios públicos, ele demonstra experiência técnica sólida em ferramentas como Express, JavaScript e Python, integrando soluções de persistência com MySQL e interfaces modernas em React. Atualmente foca seus esforços em projetos de alta atividade como o monitor de notícias e o sistema Zyra, priorizando a entrega de arquiteturas eficientes e automações de alto desempenho.
 
-> _Atualizado em 29 de mai. de 2026, 15:29 (UTC)._
+> _Atualizado em 29 de mai. de 2026, 17:29 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Automação de métricas e atualização contínua de ativos visuais em SVG.
-- Desenvolvimento de interfaces dinâmicas com filtros e busca avançada no projeto news-anime-monitor.
-- Aprimoramento de resumos estruturados e lógica de tendências temporais com processamento de metadados.
+- Automação e manutenção de métricas de perfil através do processamento de assets SVG.
+- Desenvolvimento de funcionalidades de busca dinâmica e algoritmos de tendências no news-anime-monitor.
+- Otimização de fluxos de conexão multi-instância e padronização de documentação técnica no projeto Zyra.
 
-> _Atualizado em 29 de mai. de 2026, 16:29 (UTC)._
+> _Atualizado em 29 de mai. de 2026, 17:29 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -209,5 +209,5 @@ Projetos autorais priorizados por relevância técnica e atividade recente.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 29 de mai. de 2026, 16:29 (UTC) | Fonte: GitHub API._
+> _Atualizado em 29 de mai. de 2026, 17:29 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
