@@ -23,19 +23,19 @@ Software developer focused on backend systems, automation, and TypeScript/Node.j
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor de software com sólida atuação em sistemas backend, automação e desenvolvimento de aplicações utilizando o ecossistema TypeScript e Node.js. Sua experiência técnica abrange o uso de tecnologias como Express, Python e bancos de dados relacionais, complementada pela exploração de linguagens de alto desempenho como Rust. Atualmente, gerencia dezesseis repositórios públicos com foco em projetos de monitoramento e integração que reforçam seu perfil voltado à criação de arquiteturas robustas e eficientes.
+Kaiky Brito é um desenvolvedor de software focado em sistemas de backend e automação, com sólida experiência técnica em ecossistemas Node.js, TypeScript e JavaScript. Seu portfólio de dezesseis repositórios públicos abrange o uso de frameworks como Express e a integração com bancos de dados, além de demonstrar competência em linguagens como Python e Rust. Entre suas produções mais relevantes estão os projetos zyra e news-anime-monitor, que evidenciam uma atuação consistente no desenvolvimento de aplicações funcionais e tecnicamente alinhadas às necessidades de infraestrutura.
 
-> _Atualizado em 30 de mai. de 2026, 14:55 (UTC)._
+> _Atualizado em 30 de mai. de 2026, 16:55 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Desenvolvimento de lógica para filtragem dinâmica e integração de endpoints de calendário em sistemas de monitoramento.
-- Implementação de camada de webhooks e gestão de conexões seguras via HMAC em arquiteturas baseadas em Node.js.
-- Otimização de persistência com Redis e automação de fluxos de manutenção de métricas e infraestrutura de repositórios.
+- Desenvolvimento de camadas de API e integração de webhooks globais no projeto Zyra.
+- Otimização do News Anime Monitor com novos sistemas de busca, filtragem por calendário e resiliência a falhas de conexão.
+- Automação da pipeline de métricas e atualização de ativos estáticos para monitoramento de repositórios.
 
-> _Atualizado em 30 de mai. de 2026, 14:55 (UTC)._
+> _Atualizado em 30 de mai. de 2026, 16:55 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -209,5 +209,5 @@ Projetos autorais priorizados por relevância técnica e atividade recente.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 30 de mai. de 2026, 15:55 (UTC) | Fonte: GitHub API._
+> _Atualizado em 30 de mai. de 2026, 16:55 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
