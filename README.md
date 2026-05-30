@@ -23,19 +23,19 @@ Desenvolvedor de software focado em sistemas backend, automação e aplicações
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor de software especializado em sistemas backend, automação e aplicações fundamentadas em TypeScript e Node.js. Seu portfólio técnico é composto por 17 repositórios públicos que demonstram proficiência em linguagens como JavaScript, Python e Rust para a construção de soluções escaláveis. O foco profissional atual reside no desenvolvimento de arquiteturas com Express e na manutenção de projetos ativos voltados ao monitoramento e à integração de serviços automatizados.
+Kaiky Brito é um desenvolvedor de software especializado em sistemas de backend e automação, com ênfase no desenvolvimento de aplicações utilizando Node.js e TypeScript. Sua trajetória técnica engloba a implementação de soluções com JavaScript, Express e Python, focando na eficiência de processos e na integração de sistemas de banco de dados. Atualmente, mantém 17 repositórios públicos que refletem sua experiência prática em projetos de monitoramento e ferramentas de infraestrutura, demonstrando versatilidade em múltiplas linguagens de programação.
 
-> _Atualizado em 30 de mai. de 2026, 20:55 (UTC)._
+> _Atualizado em 30 de mai. de 2026, 22:54 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Implementação de dashboards analíticos em tempo real e automação de testes de conectividade no projeto Speed-pro utilizando Python.
-- Otimização da compatibilidade de bibliotecas C (glibc/musl) e fortalecimento da observabilidade antiban na arquitetura do sistema Zyra.
-- Evolução de serviços de monitoramento com novos endpoints dinâmicos e lógica de resiliência no tratamento de falhas em fontes externas.
+- Automatização de métricas de perfil e renderização dinâmica de ativos SVG para atualização contínua do portfólio.
+- Implementação de dashboards analíticos e monitoramento de performance em tempo real no projeto speed-pro.
+- Manutenção do ecossistema Zyra com foco em integração de webhooks e compatibilidade entre ambientes glibc/musl.
 
-> _Atualizado em 30 de mai. de 2026, 20:55 (UTC)._
+> _Atualizado em 30 de mai. de 2026, 22:55 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -209,5 +209,5 @@ Projetos autorais priorizados por relevância técnica e atividade recente.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 30 de mai. de 2026, 21:55 (UTC) | Fonte: GitHub API._
+> _Atualizado em 30 de mai. de 2026, 22:55 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
