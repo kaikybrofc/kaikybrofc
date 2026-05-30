@@ -23,19 +23,19 @@ Software developer focused on backend systems, automation, and TypeScript/Node.j
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor de software focado na construção de sistemas de backend, automação e aplicações estruturadas em Node.js e TypeScript. Sua atuação técnica abrange o uso consolidado de JavaScript e Python para o desenvolvimento de APIs com Express, integração de bancos de dados MySQL e implementação de interfaces modernas com React. Com dezessete repositórios públicos, demonstra consistência em projetos de monitoramento e sistemas modulares, destacando-se pela manutenção ativa de ferramentas como o News Anime Monitor e o ecossistema Zyra.
+Kaiky Brito é um desenvolvedor de software especializado em sistemas backend, automação e aplicações fundamentadas em TypeScript e Node.js. Seu portfólio técnico é composto por 17 repositórios públicos que demonstram proficiência em linguagens como JavaScript, Python e Rust para a construção de soluções escaláveis. O foco profissional atual reside no desenvolvimento de arquiteturas com Express e na manutenção de projetos ativos voltados ao monitoramento e à integração de serviços automatizados.
 
-> _Atualizado em 30 de mai. de 2026, 18:55 (UTC)._
+> _Atualizado em 30 de mai. de 2026, 20:55 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Desenvolvimento da ferramenta speed-pro para monitoramento de performance de rede e automação de fluxos de trabalho em Python.
-- Implementação de camadas de API REST e integração de webhooks com foco em segurança, autenticação HMAC e gestão de conexões.
-- Automação de pipelines para atualização de métricas de perfil e manutenção preventiva de dependências em projetos Node.js e TypeScript.
+- Implementação de dashboards analíticos em tempo real e automação de testes de conectividade no projeto Speed-pro utilizando Python.
+- Otimização da compatibilidade de bibliotecas C (glibc/musl) e fortalecimento da observabilidade antiban na arquitetura do sistema Zyra.
+- Evolução de serviços de monitoramento com novos endpoints dinâmicos e lógica de resiliência no tratamento de falhas em fontes externas.
 
-> _Atualizado em 30 de mai. de 2026, 18:55 (UTC)._
+> _Atualizado em 30 de mai. de 2026, 20:55 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -209,5 +209,5 @@ Projetos autorais priorizados por relevância técnica e atividade recente.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 30 de mai. de 2026, 19:55 (UTC) | Fonte: GitHub API._
+> _Atualizado em 30 de mai. de 2026, 20:55 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
