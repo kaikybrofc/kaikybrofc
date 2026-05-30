@@ -23,19 +23,19 @@ Software developer focused on backend systems, automation, and TypeScript/Node.j
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor de software focado em sistemas backend e automações, com sólida experiência em arquiteturas baseadas em Node.js e TypeScript. Sua stack tecnológica integra prioritariamente JavaScript, Express e Python, utilizando ferramentas como MySQL, React e Rust para o desenvolvimento de aplicações técnicas diversificadas. Com um portfólio de 16 repositórios públicos, destaca-se pela manutenção ativa de projetos como o monitor de notícias de animes e a biblioteca Zyra, evidenciando compromisso com a entrega de soluções estruturadas.
+Kaiky Brito é um desenvolvedor de software focado na construção de sistemas de backend, automação e aplicações estruturadas em Node.js e TypeScript. Sua atuação técnica abrange o uso consolidado de JavaScript e Python para o desenvolvimento de APIs com Express, integração de bancos de dados MySQL e implementação de interfaces modernas com React. Com dezessete repositórios públicos, demonstra consistência em projetos de monitoramento e sistemas modulares, destacando-se pela manutenção ativa de ferramentas como o News Anime Monitor e o ecossistema Zyra.
 
-> _Atualizado em 30 de mai. de 2026, 16:55 (UTC)._
+> _Atualizado em 30 de mai. de 2026, 18:55 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Desenvolvimento de camadas de API e integração de webhooks globais no projeto Zyra.
-- Otimização do News Anime Monitor com novos sistemas de busca, filtragem por calendário e resiliência a falhas de conexão.
-- Automação da pipeline de métricas e atualização de ativos estáticos para monitoramento de repositórios.
+- Desenvolvimento do speed-pro para automação e monitoramento de testes de velocidade em Python.
+- Implementação de arquitetura de API REST e webhooks para gerenciamento de conexões no projeto Zyra.
+- Aperfeiçoamento de lógica de filtragem e tratamento de falhas em sistemas de monitoramento de dados.
 
-> _Atualizado em 30 de mai. de 2026, 16:55 (UTC)._
+> _Atualizado em 30 de mai. de 2026, 18:55 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -50,8 +50,8 @@ Kaiky Brito é um desenvolvedor de software focado em sistemas backend e automa�
   <img src="./assets/badges/stack/typescript.svg" alt="Badge stack TypeScript"/>
   <img src="./assets/badges/stack/javascript.svg" alt="Badge stack JavaScript"/>
   <img src="./assets/badges/stack/express.svg" alt="Badge stack Express"/>
-  <img src="./assets/badges/stack/eslint.svg" alt="Badge stack ESLint"/>
   <img src="./assets/badges/stack/python.svg" alt="Badge stack Python"/>
+  <img src="./assets/badges/stack/eslint.svg" alt="Badge stack ESLint"/>
   <img src="./assets/badges/stack/mysql.svg" alt="Badge stack MySQL"/>
   <img src="./assets/badges/stack/react.svg" alt="Badge stack React"/>
   <img src="./assets/badges/stack/prettier.svg" alt="Badge stack Prettier"/>
@@ -104,21 +104,21 @@ Projetos autorais priorizados por relevância técnica e atividade recente.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 4: [ayana-bot](https://github.com/kaikybrofc/ayana-bot)
+### Projeto 4: [yt-dls](https://github.com/kaikybrofc/yt-dls)
 
-**Descrição:** Anime-themed Discord bot focused on automation, moderation, and interactive features.
+**Descrição:** Lightweight Node.js API for YouTube media downloads powered by yt-dlp.
 
-![Resumo do Projeto](./assets/badges/projeto/ayana-bot/resumo.svg) ![Atividade](./assets/badges/projeto/ayana-bot/atividade.svg) ![Estrelas](./assets/badges/projeto/ayana-bot/estrelas.svg) ![Atualizado](./assets/badges/projeto/ayana-bot/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/yt-dls/resumo.svg) ![Atividade](./assets/badges/projeto/yt-dls/atividade.svg) ![Estrelas](./assets/badges/projeto/yt-dls/estrelas.svg) ![Atualizado](./assets/badges/projeto/yt-dls/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 5: [yt-dls](https://github.com/kaikybrofc/yt-dls)
+### Projeto 5: [speed-pro](https://github.com/kaikybrofc/speed-pro)
 
-**Descrição:** Lightweight Node.js API for YouTube media downloads powered by yt-dlp.
+**Descrição:** Network speed testing CLI in Python for measuring ping, download, and upload bandwidth.
 
-![Resumo do Projeto](./assets/badges/projeto/yt-dls/resumo.svg) ![Atividade](./assets/badges/projeto/yt-dls/atividade.svg) ![Estrelas](./assets/badges/projeto/yt-dls/estrelas.svg) ![Atualizado](./assets/badges/projeto/yt-dls/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/speed-pro/resumo.svg) ![Atividade](./assets/badges/projeto/speed-pro/atividade.svg) ![Estrelas](./assets/badges/projeto/speed-pro/estrelas.svg) ![Atualizado](./assets/badges/projeto/speed-pro/atualizado.svg)
 <!--FEATURED_PROJECTS_END-->
 
 
@@ -209,5 +209,5 @@ Projetos autorais priorizados por relevância técnica e atividade recente.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 30 de mai. de 2026, 17:55 (UTC) | Fonte: GitHub API._
+> _Atualizado em 30 de mai. de 2026, 18:55 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
