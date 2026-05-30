@@ -31,9 +31,9 @@ Kaiky Brito é um desenvolvedor de software focado na construção de sistemas d
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Desenvolvimento do speed-pro para automação e monitoramento de testes de velocidade em Python.
-- Implementação de arquitetura de API REST e webhooks para gerenciamento de conexões no projeto Zyra.
-- Aperfeiçoamento de lógica de filtragem e tratamento de falhas em sistemas de monitoramento de dados.
+- Desenvolvimento da ferramenta speed-pro para monitoramento de performance de rede e automação de fluxos de trabalho em Python.
+- Implementação de camadas de API REST e integração de webhooks com foco em segurança, autenticação HMAC e gestão de conexões.
+- Automação de pipelines para atualização de métricas de perfil e manutenção preventiva de dependências em projetos Node.js e TypeScript.
 
 > _Atualizado em 30 de mai. de 2026, 18:55 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
@@ -209,5 +209,5 @@ Projetos autorais priorizados por relevância técnica e atividade recente.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 30 de mai. de 2026, 18:55 (UTC) | Fonte: GitHub API._
+> _Atualizado em 30 de mai. de 2026, 19:55 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
