@@ -10,11 +10,11 @@
 
 ## Kaiky Brito
 
-Software developer focused on backend systems, automation, and TypeScript/Node.js applications.
+Desenvolvedor de software focado em sistemas backend, automação e aplicações com TypeScript/Node.js.
 
-- Building automation platforms, API integrations, and developer-oriented tools.
-- Main stack: TypeScript, Node.js, Express, MySQL, Redis, React, and Next.js.
-- Interested in observability, scalable architecture, and maintainable backend design.
+- Construindo plataformas de automação, integrações de API e ferramentas voltadas para desenvolvedores.
+- Stack principal: TypeScript, Node.js, Express, MySQL, Redis, React e Next.js.
+- Interesse em observabilidade, arquitetura escalável e design de backend sustentável.
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
@@ -209,5 +209,5 @@ Projetos autorais priorizados por relevância técnica e atividade recente.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 30 de mai. de 2026, 20:55 (UTC) | Fonte: GitHub API._
+> _Atualizado em 30 de mai. de 2026, 21:55 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
