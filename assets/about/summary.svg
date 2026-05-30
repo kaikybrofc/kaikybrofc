@@ -21,13 +21,13 @@
   <text x="68" y="71" fill="#bff6ff" font-family="JetBrains Mono, Consolas, monospace" font-size="16" font-weight="700">SOBRE DINAMICO</text>
   <line x1="52" y1="92" x2="1348" y2="92" stroke="url(#accent)" stroke-width="2" stroke-opacity="0.8"/>
   <text x="54" y="118" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">Kaiky Brito é um desenvolvedor de software especializado no desenvolvimento de sistemas</text>
-<text x="54" y="152" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">backend, automação e aplicações estruturadas em Node.js e TypeScript. Seu portfólio no</text>
-<text x="54" y="186" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">GitHub conta com dezesseis repositórios públicos, demonstrando proficiência técnica em</text>
-<text x="54" y="220" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">tecnologias como Express e MySQL, além de versatilidade em linguagens como JavaScript e</text>
-<text x="54" y="254" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">Python. A atuação profissional é pautada pela criação de soluções escaláveis e pelo</text>
-<text x="54" y="288" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">gerenciamento de projetos ativos focados em monitoramento e integração de serviços.</text>
+<text x="54" y="152" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">backend, automação e aplicações escaláveis com foco em TypeScript e Node.js. Seu portfólio</text>
+<text x="54" y="186" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">de dezesseis repositórios públicos demonstra proficiência técnica em tecnologias como</text>
+<text x="54" y="220" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">Express, Python e ecossistemas JavaScript, aplicadas em projetos de monitoramento e</text>
+<text x="54" y="254" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">integração de dados. Atualmente, dedica-se à construção de soluções eficientes que priorizam</text>
+<text x="54" y="288" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">a qualidade do código e a robustez arquitetural em diversos ambientes de desenvolvimento.</text>
   <line x1="52" y1="342" x2="1348" y2="342" stroke="#38bdf8" stroke-opacity="0.32"/>
   <text x="54" y="366" fill="#a8d9f4" font-family="JetBrains Mono, Consolas, monospace" font-size="16">
-    atualizado: 59m
+    atualizado: agora
   </text>
 </svg>
