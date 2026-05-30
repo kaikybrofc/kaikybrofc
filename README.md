@@ -31,9 +31,9 @@ Kaiky Brito é um desenvolvedor de software focado no desenvolvimento de sistema
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Implementação de endpoints de calendário e lógica de filtragem por data no projeto news-anime-monitor.
-- Evolução da camada de integração do Zyra com suporte a webhooks globais e segurança via HMAC.
-- Otimização de resiliência em conexões Redis e tratamento de falhas em fontes de dados externas.
+- Desenvolvimento de endpoints de calendário e lógica de filtragem dinâmica para monitoramento de dados.
+- Implementação de arquitetura de webhooks e gerenciamento de conexões com integração Redis.
+- Otimização de resiliência em APIs através de tratamento avançado de erros e limites de taxa.
 
 > _Atualizado em 30 de mai. de 2026, 02:55 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
@@ -209,5 +209,5 @@ Projetos autorais priorizados por relevância técnica e atividade recente.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 30 de mai. de 2026, 02:55 (UTC) | Fonte: GitHub API._
+> _Atualizado em 30 de mai. de 2026, 03:55 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
