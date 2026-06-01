@@ -23,19 +23,19 @@ Desenvolvedor de software focado em sistemas backend, automação e aplicações
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor de software focado no desenvolvimento de sistemas backend, automações e aplicações escaláveis utilizando predominantemente Node.js e TypeScript. Seu conjunto de competências técnicas inclui proficiência em JavaScript e Python, além de experiência prática com o framework Express e bancos de dados SQL. Atualmente, mantém dezessete repositórios públicos dedicados a soluções de integração e monitoramento que evidenciam seu comprometimento com a entrega de ferramentas funcionais e arquiteturas eficientes.
+Kaiky Brito é um desenvolvedor de software especializado no desenvolvimento de sistemas de backend e automação com foco em Node.js e TypeScript. Seu portfólio no GitHub é composto por 17 repositórios públicos que demonstram experiência em linguagens como JavaScript, Python e Rust, além de frameworks como Express. O engajamento constante em projetos como news-anime-monitor e zyra evidencia sua capacidade técnica na entrega de soluções eficientes e sua participação ativa na comunidade de software.
 
-> _Atualizado em 1 de jun. de 2026, 02:54 (UTC)._
+> _Atualizado em 1 de jun. de 2026, 04:54 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Automatização de fluxos para atualização dinâmica de métricas e ativos de perfil.
-- Desenvolvimento de sistemas de monitoramento e análise de performance em tempo real.
-- Aprimoramento de resiliência e observabilidade em arquiteturas de integração e webhooks.
+- Automação de fluxos para atualização de métricas e assets SVG via GitHub Actions.
+- Otimização de pipelines de CI/CD e gestão de dependências em projetos Node.js.
+- Desenvolvimento de dashboards analíticos e sistemas de monitoramento de performance.
 
-> _Atualizado em 1 de jun. de 2026, 02:54 (UTC)._
+> _Atualizado em 1 de jun. de 2026, 04:54 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -209,5 +209,5 @@ Projetos autorais priorizados por relevância técnica e atividade recente.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 1 de jun. de 2026, 03:54 (UTC) | Fonte: GitHub API._
+> _Atualizado em 1 de jun. de 2026, 04:54 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
