@@ -23,9 +23,9 @@ Desenvolvedor de software focado em sistemas backend, automação e aplicações
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor de software especializado em sistemas de backend, automação e aplicações estruturadas com TypeScript e Node.js. Seu portfólio técnico abrange o domínio de JavaScript, Python e frameworks como Express, aplicados na construção de dezessete repositórios públicos voltados para soluções de integração e persistência de dados. O profissional mantém uma atuação consistente em projetos de monitoramento e sistemas automatizados, demonstrando competência técnica na entrega de arquiteturas eficientes e funcionais.
+Kaiky Brito é um desenvolvedor de software focado no desenvolvimento de sistemas de backend, automação e aplicações utilizando TypeScript e Node.js. Sua trajetória técnica inclui o domínio de ecossistemas baseados em JavaScript e Python, com experiência na implementação de soluções utilizando Express e bancos de dados relacionais. Atualmente, mantém dezessete repositórios públicos voltados para o monitoramento de dados e o desenvolvimento de ferramentas integradas.
 
-> _Atualizado em 1 de jun. de 2026, 08:54 (UTC)._
+> _Atualizado em 1 de jun. de 2026, 08:55 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
@@ -209,5 +209,5 @@ Projetos autorais priorizados por relevância técnica e atividade recente.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 1 de jun. de 2026, 08:55 (UTC) | Fonte: GitHub API._
+> _Atualizado em 1 de jun. de 2026, 09:54 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
