@@ -20,14 +20,14 @@
   <rect x="52" y="48" width="340" height="34" rx="8" fill="#0b1221" stroke="#22d3ee" stroke-opacity="0.5"/>
   <text x="68" y="71" fill="#bff6ff" font-family="JetBrains Mono, Consolas, monospace" font-size="16" font-weight="700">SOBRE DINAMICO</text>
   <line x1="52" y1="92" x2="1348" y2="92" stroke="url(#accent)" stroke-width="2" stroke-opacity="0.8"/>
-  <text x="54" y="118" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">Kaiky Brito é um desenvolvedor de software especializado em sistemas backend, automação e</text>
-<text x="54" y="152" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">aplicações construídas com TypeScript e Node.js. Sua atuação técnica abrange um ecossistema</text>
-<text x="54" y="186" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">de 17 repositórios públicos, destacando-se o domínio de tecnologias como JavaScript, Express</text>
-<text x="54" y="220" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">e Python para o desenvolvimento de soluções robustas. Atualmente, mantém projetos ativos</text>
-<text x="54" y="254" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">como o news-anime-monitor e o zyra, demonstrando experiência prática em fluxos de trabalho</text>
-<text x="54" y="288" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">modernos e arquiteturas escaláveis.</text>
+  <text x="54" y="118" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">Kaiky Brito é um desenvolvedor de software focado em sistemas backend e automação, com</text>
+<text x="54" y="152" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">experiência consolidada no ecossistema TypeScript e Node.js. Seu histórico técnico inclui a</text>
+<text x="54" y="186" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">gestão de 17 repositórios públicos que utilizam uma stack diversificada composta por</text>
+<text x="54" y="220" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">Express, Python, Rust e bancos de dados relacionais. Atualmente, mantém uma rotina de</text>
+<text x="54" y="254" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">desenvolvimento ativa em projetos como o news-anime-monitor e o sistema zyra, priorizando a</text>
+<text x="54" y="288" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">entrega de soluções eficientes e escaláveis.</text>
   <line x1="52" y1="342" x2="1348" y2="342" stroke="#38bdf8" stroke-opacity="0.32"/>
   <text x="54" y="366" fill="#a8d9f4" font-family="JetBrains Mono, Consolas, monospace" font-size="16">
-    atualizado: 59m
+    atualizado: agora
   </text>
 </svg>
