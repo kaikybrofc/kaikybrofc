@@ -31,9 +31,9 @@ Kaiky Brito é um desenvolvedor de software especializado em sistemas de backend
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Expansão de funcionalidades administrativas e moderação automatizada na API Zyra.
-- Desenvolvimento de dashboards analíticos e monitoramento em tempo real para ferramentas de performance.
-- Otimização de fluxos de CI/CD e automação de métricas de infraestrutura para projetos ativos.
+- Expansão das funcionalidades de moderação e gerenciamento de mensagens na API Zyra.
+- Implementação de endpoints de calendário e novos destaques no News Anime Monitor.
+- Desenvolvimento de dashboards em tempo real e métricas de rede para o Speed Pro.
 
 > _Atualizado em 5 de jun. de 2026, 08:22 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
@@ -209,5 +209,5 @@ Projetos autorais priorizados por relevância técnica e atividade recente.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 5 de jun. de 2026, 08:22 (UTC) | Fonte: GitHub API._
+> _Atualizado em 5 de jun. de 2026, 09:21 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
