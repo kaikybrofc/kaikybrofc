@@ -35,11 +35,11 @@
 <line x1="86" y1="251" x2="1320" y2="251" stroke="#7dd3fc" stroke-opacity="0.12" stroke-width="1"/>
 <line x1="86" y1="287" x2="1320" y2="287" stroke="#7dd3fc" stroke-opacity="0.12" stroke-width="1"/>
 <line x1="86" y1="322" x2="1320" y2="322" stroke="#7dd3fc" stroke-opacity="0.28" stroke-width="1"/>
-<path d="M 86 305 L 262 322 L 439 257 L 615 307 L 791 312 L 967 322 L 1144 180 L 1320 220 L 1320 322 L 86 322 Z" fill="url(#statAreaevolucaomensal)"/>
-<path d="M 86 305 L 262 322 L 439 257 L 615 307 L 791 312 L 967 322 L 1144 180 L 1320 220" fill="none" stroke="#00e5ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 86 303 L 262 322 L 439 252 L 615 306 L 791 311 L 967 322 L 1144 180 L 1320 201 L 1320 322 L 86 322 Z" fill="url(#statAreaevolucaomensal)"/>
+<path d="M 86 303 L 262 322 L 439 252 L 615 306 L 791 311 L 967 322 L 1144 180 L 1320 201" fill="none" stroke="#00e5ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <g>
-  <circle cx="86" cy="305" r="4.6" fill="#00e5ff" stroke="#ecfeff" stroke-opacity="0.7"/>
-  <text x="86" y="296" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">7</text>
+  <circle cx="86" cy="303" r="4.6" fill="#00e5ff" stroke="#ecfeff" stroke-opacity="0.7"/>
+  <text x="86" y="294" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">7</text>
   <text x="86" y="344" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="10.8" font-weight="600">nov/25</text>
 </g>
 <g>
@@ -48,18 +48,18 @@
   <text x="262" y="344" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="10.8" font-weight="600">dez/25</text>
 </g>
 <g>
-  <circle cx="439" cy="257" r="4.6" fill="#00e5ff" stroke="#ecfeff" stroke-opacity="0.7"/>
-  <text x="439" y="248" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">26</text>
+  <circle cx="439" cy="252" r="4.6" fill="#00e5ff" stroke="#ecfeff" stroke-opacity="0.7"/>
+  <text x="439" y="243" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">26</text>
   <text x="439" y="344" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="10.8" font-weight="600">jan/26</text>
 </g>
 <g>
-  <circle cx="615" cy="307" r="4.6" fill="#00e5ff" stroke="#ecfeff" stroke-opacity="0.7"/>
+  <circle cx="615" cy="306" r="4.6" fill="#00e5ff" stroke="#ecfeff" stroke-opacity="0.7"/>
   
   <text x="615" y="344" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="10.8" font-weight="600">fev/26</text>
 </g>
 <g>
-  <circle cx="791" cy="312" r="4.6" fill="#00e5ff" stroke="#ecfeff" stroke-opacity="0.7"/>
-  <text x="791" y="303" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">4</text>
+  <circle cx="791" cy="311" r="4.6" fill="#00e5ff" stroke="#ecfeff" stroke-opacity="0.7"/>
+  <text x="791" y="302" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">4</text>
   <text x="791" y="344" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="10.8" font-weight="600">mar/26</text>
 </g>
 <g>
@@ -69,20 +69,20 @@
 </g>
 <g>
   <circle cx="1144" cy="180" r="4.6" fill="#00e5ff" stroke="#ecfeff" stroke-opacity="0.7"/>
-  <text x="1144" y="171" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">57</text>
+  <text x="1144" y="171" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">53</text>
   <text x="1144" y="344" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="10.8" font-weight="600">mai/26</text>
 </g>
 <g>
-  <circle cx="1320" cy="220" r="4.6" fill="#00e5ff" stroke="#ecfeff" stroke-opacity="0.7"/>
-  <text x="1320" y="211" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">41</text>
+  <circle cx="1320" cy="201" r="4.6" fill="#00e5ff" stroke="#ecfeff" stroke-opacity="0.7"/>
+  <text x="1320" y="192" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">45</text>
   <text x="1320" y="344" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="10.8" font-weight="600">jun/26</text>
 </g>
-  <text x="58" y="394" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Mes atual (jun. de 26): 41 registros.</text>
-<text x="58" y="418" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Mes anterior (mai. de 26): 57 registros.</text>
-<text x="58" y="442" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Variacao mensal: -16.</text>
-<text x="58" y="466" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Pico no periodo: mai. de 26 (57).</text>
+  <text x="58" y="394" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Mes atual (jun. de 26): 45 registros.</text>
+<text x="58" y="418" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Mes anterior (mai. de 26): 53 registros.</text>
+<text x="58" y="442" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Variacao mensal: -8.</text>
+<text x="58" y="466" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Pico no periodo: mai. de 26 (53).</text>
   <line x1="52" y1="506" x2="1348" y2="506" stroke="#38bdf8" stroke-opacity="0.32"/>
   <text x="54" y="530" fill="#a8d9f4" font-family="JetBrains Mono, Consolas, monospace" font-size="16">
-    atualizado: 59m
+    atualizado: agora
   </text>
 </svg>
