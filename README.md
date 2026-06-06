@@ -23,19 +23,19 @@ Desenvolvedor de software focado em sistemas backend, automação e aplicações
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor de software focado em sistemas de backend e automação, com sólida base técnica em Node.js, TypeScript e JavaScript. Sua experiência abrange o desenvolvimento de aplicações escaláveis utilizando Express e Python, complementada por conhecimentos em bancos de dados relacionais como MySQL e linguagens de sistema como Rust. Atualmente gerencia dezessete repositórios públicos, destacando-se pela atuação constante em projetos como Zyra e Speed-Pro, que reforçam sua capacidade de entrega de soluções técnicas eficientes.
+Kaiky Brito é um desenvolvedor de software focado em sistemas backend, automação e aplicações fundamentadas em TypeScript e Node.js. Sua experiência técnica contempla o uso de JavaScript, Python e Express para o desenvolvimento de APIs e a gestão de bancos de dados relacionais. Com dezessete repositórios públicos, o profissional demonstra consistência em projetos voltados para infraestrutura e automação, com ênfase nas ferramentas Zyra e Speed-pro.
 
-> _Atualizado em 6 de jun. de 2026, 14:22 (UTC)._
+> _Atualizado em 6 de jun. de 2026, 16:21 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Automação de fluxos para atualização dinâmica de métricas e ativos visuais de perfil.
-- Expansão de funcionalidades administrativas e gerenciamento de estados em APIs TypeScript.
-- Implementação de dashboards analíticos e sistemas de monitoramento em tempo real.
+- Automação de rotinas para atualização de métricas e ativos visuais do perfil GitHub.
+- Expansão de funcionalidades administrativas e gestão de mensagens no ecossistema Zyra.
+- Implementação de dashboards e sistemas de análise para monitoramento de performance no projeto Speed-Pro.
 
-> _Atualizado em 6 de jun. de 2026, 14:22 (UTC)._
+> _Atualizado em 6 de jun. de 2026, 16:21 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -209,5 +209,5 @@ Projetos autorais priorizados por relevância técnica e atividade recente.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 6 de jun. de 2026, 15:21 (UTC) | Fonte: GitHub API._
+> _Atualizado em 6 de jun. de 2026, 16:21 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
