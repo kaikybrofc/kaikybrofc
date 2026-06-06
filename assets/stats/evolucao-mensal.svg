@@ -35,8 +35,8 @@
 <line x1="86" y1="251" x2="1320" y2="251" stroke="#7dd3fc" stroke-opacity="0.12" stroke-width="1"/>
 <line x1="86" y1="287" x2="1320" y2="287" stroke="#7dd3fc" stroke-opacity="0.12" stroke-width="1"/>
 <line x1="86" y1="322" x2="1320" y2="322" stroke="#7dd3fc" stroke-opacity="0.28" stroke-width="1"/>
-<path d="M 86 303 L 262 322 L 439 250 L 615 305 L 791 311 L 967 322 L 1144 180 L 1320 191 L 1320 322 L 86 322 Z" fill="url(#statAreaevolucaomensal)"/>
-<path d="M 86 303 L 262 322 L 439 250 L 615 305 L 791 311 L 967 322 L 1144 180 L 1320 191" fill="none" stroke="#00e5ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 86 303 L 262 322 L 439 251 L 615 306 L 791 311 L 967 322 L 1144 196 L 1320 180 L 1320 322 L 86 322 Z" fill="url(#statAreaevolucaomensal)"/>
+<path d="M 86 303 L 262 322 L 439 251 L 615 306 L 791 311 L 967 322 L 1144 196 L 1320 180" fill="none" stroke="#00e5ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <g>
   <circle cx="86" cy="303" r="4.6" fill="#00e5ff" stroke="#ecfeff" stroke-opacity="0.7"/>
   <text x="86" y="294" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">7</text>
@@ -48,12 +48,12 @@
   <text x="262" y="344" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="10.8" font-weight="600">dez/25</text>
 </g>
 <g>
-  <circle cx="439" cy="250" r="4.6" fill="#00e5ff" stroke="#ecfeff" stroke-opacity="0.7"/>
-  <text x="439" y="241" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">26</text>
+  <circle cx="439" cy="251" r="4.6" fill="#00e5ff" stroke="#ecfeff" stroke-opacity="0.7"/>
+  <text x="439" y="242" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">26</text>
   <text x="439" y="344" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="10.8" font-weight="600">jan/26</text>
 </g>
 <g>
-  <circle cx="615" cy="305" r="4.6" fill="#00e5ff" stroke="#ecfeff" stroke-opacity="0.7"/>
+  <circle cx="615" cy="306" r="4.6" fill="#00e5ff" stroke="#ecfeff" stroke-opacity="0.7"/>
   
   <text x="615" y="344" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="10.8" font-weight="600">fev/26</text>
 </g>
@@ -68,21 +68,21 @@
   <text x="967" y="344" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="10.8" font-weight="600">abr/26</text>
 </g>
 <g>
-  <circle cx="1144" cy="180" r="4.6" fill="#00e5ff" stroke="#ecfeff" stroke-opacity="0.7"/>
-  <text x="1144" y="171" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">51</text>
+  <circle cx="1144" cy="196" r="4.6" fill="#00e5ff" stroke="#ecfeff" stroke-opacity="0.7"/>
+  <text x="1144" y="187" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">46</text>
   <text x="1144" y="344" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="10.8" font-weight="600">mai/26</text>
 </g>
 <g>
-  <circle cx="1320" cy="191" r="4.6" fill="#00e5ff" stroke="#ecfeff" stroke-opacity="0.7"/>
-  <text x="1320" y="182" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">47</text>
+  <circle cx="1320" cy="180" r="4.6" fill="#00e5ff" stroke="#ecfeff" stroke-opacity="0.7"/>
+  <text x="1320" y="171" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">52</text>
   <text x="1320" y="344" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="10.8" font-weight="600">jun/26</text>
 </g>
-  <text x="58" y="394" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Mes atual (jun. de 26): 47 registros.</text>
-<text x="58" y="418" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Mes anterior (mai. de 26): 51 registros.</text>
-<text x="58" y="442" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Variacao mensal: -4.</text>
-<text x="58" y="466" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Pico no periodo: mai. de 26 (51).</text>
+  <text x="58" y="394" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Mes atual (jun. de 26): 52 registros.</text>
+<text x="58" y="418" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Mes anterior (mai. de 26): 46 registros.</text>
+<text x="58" y="442" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Variacao mensal: +6.</text>
+<text x="58" y="466" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Pico no periodo: jun. de 26 (52).</text>
   <line x1="52" y1="506" x2="1348" y2="506" stroke="#38bdf8" stroke-opacity="0.32"/>
   <text x="54" y="530" fill="#a8d9f4" font-family="JetBrains Mono, Consolas, monospace" font-size="16">
-    atualizado: 59m
+    atualizado: agora
   </text>
 </svg>
