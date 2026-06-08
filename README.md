@@ -23,19 +23,19 @@ Desenvolvedor de software focado em sistemas backend, automação e aplicações
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor de software focado em sistemas de backend e automação, com domínio consolidado no ecossistema Node.js e TypeScript. Sua experiência técnica compreende o desenvolvimento de aplicações com Express e Python, destacando-se pela execução de projetos como o framework Zyra e o utilitário Speed-Pro. Com um portfólio composto por 17 repositórios públicos, o profissional demonstra versatilidade em múltiplas linguagens, incluindo JavaScript e Rust, sempre priorizando a eficiência e a escalabilidade das soluções.
+Kaiky Brito é um desenvolvedor de software especializado em sistemas backend, automação e aplicações fundamentadas em TypeScript e Node.js. Com um portfólio de 17 repositórios públicos, sua atuação abrange o desenvolvimento de soluções escaláveis utilizando Express, Python e Rust. Atualmente, mantém foco em projetos como Zyra e Speed-Pro, priorizando a eficiência técnica e a integração sólida de tecnologias para a otimização de sistemas.
 
-> _Atualizado em 8 de jun. de 2026, 06:21 (UTC)._
+> _Atualizado em 8 de jun. de 2026, 08:22 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Manutenção de fluxos automatizados para atualização de métricas e ativos visuais de perfil.
-- Expansão da infraestrutura de API e suporte a containers Docker no ecossistema Zyra.
-- Desenvolvimento de ferramentas de monitoramento e análise de dados em tempo real.
+- Automação de métricas e atualização dinâmica de ativos visuais em SVG para perfis.
+- Desenvolvimento de APIs com suporte a Docker, webhooks e mecanismos de segurança.
+- Otimização de fluxos de CI/CD para publicação de pacotes e automação de releases.
 
-> _Atualizado em 8 de jun. de 2026, 06:21 (UTC)._
+> _Atualizado em 8 de jun. de 2026, 08:21 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -209,5 +209,5 @@ Projetos autorais priorizados por relevância técnica e atividade recente.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 8 de jun. de 2026, 07:21 (UTC) | Fonte: GitHub API._
+> _Atualizado em 8 de jun. de 2026, 08:22 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
