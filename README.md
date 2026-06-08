@@ -23,19 +23,19 @@ Desenvolvedor de software focado em sistemas backend, automação e aplicações
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor de software especializado em sistemas de backend e automação, com foco predominante no desenvolvimento de aplicações utilizando Node.js e TypeScript. Sua experiência técnica abrange o ecossistema JavaScript, incluindo o uso de frameworks como Express e a implementação de soluções integradas com bancos de dados relacionais como MySQL. Com um portfólio de dezessete repositórios públicos, o desenvolvedor mantém projetos ativos voltados para ferramentas utilitárias e infraestrutura, demonstrando versatilidade em linguagens como Python e Rust.
+Kaiky Brito é um desenvolvedor de software especializado na arquitetura de sistemas backend, automação de processos e construção de aplicações utilizando Node.js e TypeScript. Sua competência técnica é evidenciada pelo gerenciamento de dezessete repositórios públicos que integram tecnologias como Express, JavaScript, Python e Rust para solucionar desafios complexos de engenharia. O profissional mantém uma cadência constante de contribuições em projetos de alta atividade, priorizando a performance e a escalabilidade em ambientes de desenvolvimento modernos.
 
-> _Atualizado em 8 de jun. de 2026, 02:21 (UTC)._
+> _Atualizado em 8 de jun. de 2026, 04:21 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Automação de métricas e atualização dinâmica de ativos SVG para o perfil via GitHub Actions.
-- Evolução da biblioteca Zyra com suporte a Docker, idempotência de mensagens e fluxos de publicação em registros de pacotes.
-- Desenvolvimento de dashboards analíticos e monitoramento de performance em tempo real para ferramentas de rede e dados.
+- Otimização de fluxos de CI/CD para publicação automatizada de pacotes e suporte a containers Docker.
+- Implementação de recursos avançados em APIs, incluindo idempotência de mensagens e gestão de mídias.
+- Desenvolvimento de dashboards em tempo real para monitoramento de métricas e análise de performance.
 
-> _Atualizado em 8 de jun. de 2026, 02:21 (UTC)._
+> _Atualizado em 8 de jun. de 2026, 04:21 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -209,5 +209,5 @@ Projetos autorais priorizados por relevância técnica e atividade recente.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 8 de jun. de 2026, 03:21 (UTC) | Fonte: GitHub API._
+> _Atualizado em 8 de jun. de 2026, 04:22 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
