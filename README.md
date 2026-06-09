@@ -31,9 +31,9 @@ Kaiky Brito é um desenvolvedor de software focado no desenvolvimento de sistema
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Automação e manutenção de métricas dinâmicas de perfil via ativos SVG.
-- Otimização de fluxos de CI/CD e suporte a Docker para distribuição de pacotes.
-- Desenvolvimento de sistemas de mensageria com idempotência e dashboards de análise.
+- Manutenção de automações para coleta de métricas e geração dinâmica de ativos visuais em SVG.
+- Desenvolvimento de APIs em Node.js com foco em suporte a Docker, fluxos de release e estabilidade de mensageria.
+- Aperfeiçoamento de pipelines de CI/CD para deploy em VPS e integração de analytics para monitoramento de performance.
 
 > _Atualizado em 9 de jun. de 2026, 00:22 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
@@ -209,5 +209,5 @@ Projetos autorais priorizados por relevância técnica e atividade recente.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 9 de jun. de 2026, 00:22 (UTC) | Fonte: GitHub API._
+> _Atualizado em 9 de jun. de 2026, 01:21 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
