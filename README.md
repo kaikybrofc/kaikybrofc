@@ -23,19 +23,19 @@ Desenvolvedor de software focado em sistemas backend, automação e aplicações
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito atua com foco em desenvolvimento Full-Stack, automações e integrações, transformando necessidades operacionais em soluções práticas e estáveis. A base técnica mais recorrente inclui Node.js, TypeScript, JavaScript, Express, Python. No momento, kaikybrofc aparece entre os projetos com maior atividade no GitHub.
+Kaiky Brito é um desenvolvedor de software especializado no desenvolvimento de sistemas backend, automações e aplicações estruturadas com TypeScript e Node.js. Seu portfólio técnico conta com dezoito repositórios públicos e destaca o domínio de tecnologias como Express, JavaScript, Python, MySQL e React. Entre suas iniciativas de maior volume de atividade e desenvolvimento recente, sobressaem-se o projeto zyra e ferramentas de monitoramento baseadas principalmente nos ecossistemas de JavaScript e TypeScript.
 
-> _Atualizado em 5 de jul. de 2026, 17:03 (UTC)._
+> _Atualizado em 5 de jul. de 2026, 17:06 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Evolução contínua de funcionalidades nos projetos kaikybrofc e zyra.
-- Ajustes e correções incrementais com base nos commits mais recentes publicados.
-- Consolidação da stack principal (Node.js, TypeScript, JavaScript) nas entregas atuais.
+- Manutenção e automatização periódica de assets SVG e métricas de perfil.
+- Ajuste de runtime e redução de escritas SQL com correção de testes de auditoria no projeto Zyra.
+- Implementação de opções de sincronização de histórico e resolução de conflitos de porta em webhooks de API.
 
-> _Atualizado em 5 de jul. de 2026, 17:03 (UTC)._
+> _Atualizado em 5 de jul. de 2026, 17:06 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -219,5 +219,5 @@ Projetos autorais priorizados por relevância técnica e atividade recente.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 5 de jul. de 2026, 17:03 (UTC) | Fonte: GitHub API._
+> _Atualizado em 5 de jul. de 2026, 17:06 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
