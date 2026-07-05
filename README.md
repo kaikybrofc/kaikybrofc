@@ -23,19 +23,19 @@ Desenvolvedor de software focado em sistemas backend, automação e aplicações
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor de software focado em sistemas backend, automação e arquitetura de aplicações com Node.js e TypeScript. Sua experiência técnica inclui o desenvolvimento com frameworks como Express e a utilização de linguagens como Python e Rust para a criação de soluções eficientes. Com 17 repositórios públicos, demonstra consistência técnica através de projetos voltados para integração de sistemas e otimização de fluxos de trabalho.
+Kaiky Brito atua com foco em desenvolvimento Full-Stack, automações e integrações, transformando necessidades operacionais em soluções práticas e estáveis. A base técnica mais recorrente inclui Node.js, TypeScript, JavaScript, Express, Python. No momento, kaikybrofc aparece entre os projetos com maior atividade no GitHub.
 
-> _Atualizado em 9 de jun. de 2026, 06:22 (UTC)._
+> _Atualizado em 5 de jul. de 2026, 16:47 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Automatização de métricas e ativos visuais dinâmicos para o perfil.
-- Expansão de infraestrutura de API e workflows de publicação no projeto Zyra.
-- Implementação de dashboards analíticos e refinamento de pipelines CI/CD.
+- Evolução contínua de funcionalidades nos projetos kaikybrofc e zyra.
+- Ajustes e correções incrementais com base nos commits mais recentes publicados.
+- Consolidação da stack principal (Node.js, TypeScript, JavaScript) nas entregas atuais.
 
-> _Atualizado em 9 de jun. de 2026, 06:21 (UTC)._
+> _Atualizado em 5 de jul. de 2026, 16:47 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -104,7 +104,17 @@ Projetos autorais priorizados por relevância técnica e atividade recente.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 4: [yt-dls](https://github.com/kaikybrofc/yt-dls)
+### Projeto 4: [yt-wrapper](https://github.com/kaikybrofc/yt-wrapper)
+
+**Descrição:** TypeScript wrapper for MP3/MP4 conversion workflows with extract, convert, and task polling APIs.
+
+![Resumo do Projeto](./assets/badges/projeto/yt-wrapper/resumo.svg) ![Atividade](./assets/badges/projeto/yt-wrapper/atividade.svg) ![Estrelas](./assets/badges/projeto/yt-wrapper/estrelas.svg) ![Atualizado](./assets/badges/projeto/yt-wrapper/atualizado.svg)
+
+<p align="center">
+  <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
+</p>
+
+### Projeto 5: [yt-dls](https://github.com/kaikybrofc/yt-dls)
 
 **Descrição:** Lightweight Node.js API for YouTube media downloads powered by yt-dlp.
 
@@ -114,7 +124,7 @@ Projetos autorais priorizados por relevância técnica e atividade recente.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 5: [speed-pro](https://github.com/kaikybrofc/speed-pro)
+### Projeto 6: [speed-pro](https://github.com/kaikybrofc/speed-pro)
 
 **Descrição:** Network speed testing CLI in Python for measuring ping, download, and upload bandwidth.
 
@@ -209,5 +219,5 @@ Projetos autorais priorizados por relevância técnica e atividade recente.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 9 de jun. de 2026, 06:22 (UTC) | Fonte: GitHub API._
+> _Atualizado em 5 de jul. de 2026, 16:47 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
