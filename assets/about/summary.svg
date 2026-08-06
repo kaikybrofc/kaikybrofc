@@ -20,14 +20,14 @@
   <rect x="52" y="48" width="340" height="34" rx="8" fill="#0b1221" stroke="#22d3ee" stroke-opacity="0.5"/>
   <text x="68" y="71" fill="#bff6ff" font-family="JetBrains Mono, Consolas, monospace" font-size="16" font-weight="700">SOBRE DINAMICO</text>
   <line x1="52" y1="92" x2="1348" y2="92" stroke="url(#accent)" stroke-width="2" stroke-opacity="0.8"/>
-  <text x="54" y="118" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">Kaiky Brito é um desenvolvedor de software especializado em sistemas de backend, automação e</text>
-<text x="54" y="152" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">desenvolvimento de aplicações com Node.js e TypeScript. Em seu perfil no GitHub, que conta</text>
-<text x="54" y="186" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">com dezoito repositórios públicos, suas linguagens e ferramentas principais incluem</text>
-<text x="54" y="220" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">JavaScript, Python, Express, MySQL e React. Sua atuação técnica é evidenciada em projetos</text>
-<text x="54" y="254" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">ativos como zyra e news-anime-monitor, que refletem seu foco prático no desenvolvimento de</text>
-<text x="54" y="288" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">arquiteturas eficientes e soluções automatizadas.</text>
+  <text x="54" y="118" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">Kaiky Brito é um desenvolvedor de software focado em sistemas de backend, automação e no</text>
+<text x="54" y="152" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">desenvolvimento de aplicações com as tecnologias Node.js e TypeScript. Com dezoito</text>
+<text x="54" y="186" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">repositórios públicos no GitHub, seu trabalho demonstra proficiência prática em ecossistemas</text>
+<text x="54" y="220" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">modernos utilizando JavaScript, Express, Python e MySQL. Atualmente, seus projetos de maior</text>
+<text x="54" y="254" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">atividade concentram-se em automações e serviços web estruturados, refletindo consistência</text>
+<text x="54" y="288" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="23" font-weight="600">na entrega de soluções de software eficientes.</text>
   <line x1="52" y1="342" x2="1348" y2="342" stroke="#38bdf8" stroke-opacity="0.32"/>
   <text x="54" y="366" fill="#a8d9f4" font-family="JetBrains Mono, Consolas, monospace" font-size="16">
-    atualizado: agora
+    atualizado: 31d
   </text>
 </svg>

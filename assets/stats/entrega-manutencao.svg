@@ -32,19 +32,19 @@
   <text x="68" y="186" fill="#93c5fd" font-family="JetBrains Mono, Consolas, monospace" font-size="12" font-weight="700">MEDIA DE DIAS ENTRE ATUALIZACOES</text>
   <g>
   <line x1="82" y1="182" x2="1318" y2="182" stroke="#7dd3fc" stroke-opacity="0.14" stroke-width="1"/>
-  <text x="74" y="186" text-anchor="end" fill="#8fb0c8" font-family="JetBrains Mono, Consolas, monospace" font-size="11">13.9</text>
+  <text x="74" y="186" text-anchor="end" fill="#8fb0c8" font-family="JetBrains Mono, Consolas, monospace" font-size="11">11.6</text>
 </g>
 <g>
   <line x1="82" y1="218" x2="1318" y2="218" stroke="#7dd3fc" stroke-opacity="0.14" stroke-width="1"/>
-  <text x="74" y="222" text-anchor="end" fill="#8fb0c8" font-family="JetBrains Mono, Consolas, monospace" font-size="11">10.4</text>
+  <text x="74" y="222" text-anchor="end" fill="#8fb0c8" font-family="JetBrains Mono, Consolas, monospace" font-size="11">8.67</text>
 </g>
 <g>
   <line x1="82" y1="254" x2="1318" y2="254" stroke="#7dd3fc" stroke-opacity="0.14" stroke-width="1"/>
-  <text x="74" y="258" text-anchor="end" fill="#8fb0c8" font-family="JetBrains Mono, Consolas, monospace" font-size="11">6.95</text>
+  <text x="74" y="258" text-anchor="end" fill="#8fb0c8" font-family="JetBrains Mono, Consolas, monospace" font-size="11">5.78</text>
 </g>
 <g>
   <line x1="82" y1="290" x2="1318" y2="290" stroke="#7dd3fc" stroke-opacity="0.14" stroke-width="1"/>
-  <text x="74" y="294" text-anchor="end" fill="#8fb0c8" font-family="JetBrains Mono, Consolas, monospace" font-size="11">3.47</text>
+  <text x="74" y="294" text-anchor="end" fill="#8fb0c8" font-family="JetBrains Mono, Consolas, monospace" font-size="11">2.89</text>
 </g>
 <g>
   <line x1="82" y1="326" x2="1318" y2="326" stroke="#7dd3fc" stroke-opacity="0.32" stroke-width="1"/>
@@ -53,41 +53,41 @@
 <g>
   <rect x="83" y="321" width="194" height="5" rx="6" fill="url(#statBarGradentregamanutencao)" opacity="0.96"/>
   <rect x="83" y="321" width="194" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
-  <text x="180" y="313" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">0.03</text>
+  <text x="180" y="313" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">0.05</text>
   <text x="180" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">kaikybrofc</text>
 </g>
 <g>
-  <rect x="291" y="316" width="194" height="10" rx="6" fill="url(#statBarGradentregamanutencao)" opacity="0.96"/>
-  <rect x="291" y="316" width="194" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
-  <text x="388" y="308" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">1</text>
-  <text x="388" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">osint-bra...</text>
+  <rect x="291" y="317" width="194" height="9" rx="6" fill="url(#statBarGradentregamanutencao)" opacity="0.96"/>
+  <rect x="291" y="317" width="194" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
+  <text x="388" y="309" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">0.75</text>
+  <text x="388" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">takeshi-bot</text>
 </g>
 <g>
-  <rect x="499" y="315" width="194" height="11" rx="6" fill="url(#statBarGradentregamanutencao)" opacity="0.96"/>
-  <rect x="499" y="315" width="194" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
-  <text x="596" y="307" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">1.12</text>
-  <text x="596" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">zyra</text>
+  <rect x="499" y="314" width="194" height="12" rx="6" fill="url(#statBarGradentregamanutencao)" opacity="0.96"/>
+  <rect x="499" y="314" width="194" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
+  <text x="596" y="306" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">1</text>
+  <text x="596" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">osint-bra...</text>
 </g>
 <g>
-  <rect x="707" y="315" width="194" height="11" rx="6" fill="url(#statBarGradentregamanutencao)" opacity="0.96"/>
-  <rect x="707" y="315" width="194" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
-  <text x="804" y="307" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">1.13</text>
+  <rect x="707" y="312" width="194" height="14" rx="6" fill="url(#statBarGradentregamanutencao)" opacity="0.96"/>
+  <rect x="707" y="312" width="194" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
+  <text x="804" y="304" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">1.13</text>
   <text x="804" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">news-anim...</text>
 </g>
 <g>
-  <rect x="915" y="210" width="194" height="116" rx="6" fill="url(#statBarGradentregamanutencao)" opacity="0.96"/>
-  <rect x="915" y="210" width="194" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
-  <text x="1012" y="202" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">11.6</text>
-  <text x="1012" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">Wust</text>
+  <rect x="915" y="296" width="194" height="30" rx="6" fill="url(#statBarGradentregamanutencao)" opacity="0.96"/>
+  <rect x="915" y="296" width="194" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
+  <text x="1012" y="288" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">2.49</text>
+  <text x="1012" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">zyra</text>
 </g>
 <g>
   <rect x="1123" y="186" width="194" height="140" rx="6" fill="url(#statBarGradentregamanutencao)" opacity="0.96"/>
   <rect x="1123" y="186" width="194" height="2" rx="2" fill="#ffffff" opacity="0.35"/>
-  <text x="1220" y="178" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">13.9</text>
-  <text x="1220" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">senpai-api</text>
+  <text x="1220" y="178" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">11.6</text>
+  <text x="1220" y="346" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600">Wust</text>
 </g>
   <text x="58" y="394" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Repositorios com cadencia calculada: 8.</text>
-<text x="58" y="418" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Intervalo medio: 8.4 dias.</text>
+<text x="58" y="418" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Intervalo medio: 6.4 dias.</text>
 <text x="58" y="442" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Mais frequente: kaikybrofc/kaikybrofc (0.0d).</text>
 <text x="58" y="466" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Menos frequente: kaikybrofc/instaloader (20.6d).</text>
   <line x1="52" y1="506" x2="1348" y2="506" stroke="#38bdf8" stroke-opacity="0.32"/>

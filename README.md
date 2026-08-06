@@ -23,19 +23,19 @@ Desenvolvedor de software focado em sistemas backend, automação e aplicações
 ## Sobre
 
 <!--ABOUT_AI_START-->
-Kaiky Brito é um desenvolvedor de software focado em sistemas de backend, automação e no desenvolvimento de aplicações com as tecnologias Node.js e TypeScript. Com dezoito repositórios públicos no GitHub, seu trabalho demonstra proficiência prática em ecossistemas modernos utilizando JavaScript, Express, Python e MySQL. Atualmente, seus projetos de maior atividade concentram-se em automações e serviços web estruturados, refletindo consistência na entrega de soluções de software eficientes.
+Kaiky Brito é um desenvolvedor de software focado na construção de sistemas backend, automações e aplicações com Node.js e TypeScript. Seu ecossistema técnico destaca-se pelo domínio de JavaScript, Express e Python, integrando ferramentas de qualidade de código e bancos de dados relacionais como MySQL. Com dezenove repositórios públicos no GitHub, seu portfólio demonstra atuação constante em projetos de automação, com destaque recente para o desenvolvimento e manutenção do projeto zyra em TypeScript.
 
-> _Atualizado em 6 de jul. de 2026, 10:38 (UTC)._
+> _Atualizado em 6 de ago. de 2026, 19:18 (UTC)._
 <!--ABOUT_AI_END-->
 
 ## Foco Atual
 
 <!--FOCUS_DYNAMIC_START-->
-- Otimização de escritas SQL, redução de runtime e ajuste de testes de auditoria no projeto Zyra.
-- Configuração de sincronização de histórico e tratamento de conflitos de porta na API do webhook.
-- Automação da geração de métricas SVG e atualização contínua de recursos visuais do perfil.
+- Automação e sincronização dinâmica de métricas de perfil e ativos gráficos no GitHub.
+- Implementação de recursos de gerência de grupos e otimização de runtime no projeto Zyra.
+- Manutenção preventiva de dependências, segurança de pacotes e refatoração de integração com bancos de dados.
 
-> _Atualizado em 6 de jul. de 2026, 10:39 (UTC)._
+> _Atualizado em 6 de ago. de 2026, 19:18 (UTC)._
 <!--FOCUS_DYNAMIC_END-->
 
 <p align="center">
@@ -54,12 +54,12 @@ Kaiky Brito é um desenvolvedor de software focado em sistemas de backend, autom
   <img src="./assets/badges/stack/eslint.svg" alt="Badge stack ESLint"/>
   <img src="./assets/badges/stack/mysql.svg" alt="Badge stack MySQL"/>
   <img src="./assets/badges/stack/react.svg" alt="Badge stack React"/>
+  <img src="./assets/badges/stack/redis.svg" alt="Badge stack Redis"/>
   <img src="./assets/badges/stack/prettier.svg" alt="Badge stack Prettier"/>
   <img src="./assets/badges/stack/mongodb.svg" alt="Badge stack MongoDB"/>
   <img src="./assets/badges/stack/nextjs.svg" alt="Badge stack Next.js"/>
-  <img src="./assets/badges/stack/redis.svg" alt="Badge stack Redis"/>
+  <img src="./assets/badges/stack/postgresql.svg" alt="Badge stack PostgreSQL"/>
   <img src="./assets/badges/stack/tailwindcss.svg" alt="Badge stack Tailwind CSS"/>
-  <img src="./assets/badges/stack/c.svg" alt="Badge stack C"/>
 </p>
 
 <p align="center"><sub>Stack dinâmica baseada nas tecnologias detectadas nos repositórios.</sub></p>
@@ -94,27 +94,17 @@ Projetos autorais priorizados por relevância técnica e atividade recente.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 3: [logger-module](https://github.com/kaikybrofc/logger-module)
+### Projeto 3: [ayana-bot](https://github.com/kaikybrofc/ayana-bot)
 
-**Descrição:** Production-grade TypeScript logging library for Node.js with redaction, tracing, and observability.
+**Descrição:** Anime-themed Discord bot focused on automation, moderation, and interactive features.
 
-![Resumo do Projeto](./assets/badges/projeto/logger-module/resumo.svg) ![Atividade](./assets/badges/projeto/logger-module/atividade.svg) ![Estrelas](./assets/badges/projeto/logger-module/estrelas.svg) ![Atualizado](./assets/badges/projeto/logger-module/atualizado.svg)
-
-<p align="center">
-  <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
-</p>
-
-### Projeto 4: [yt-wrapper](https://github.com/kaikybrofc/yt-wrapper)
-
-**Descrição:** TypeScript wrapper for MP3/MP4 conversion workflows with extract, convert, and task polling APIs.
-
-![Resumo do Projeto](./assets/badges/projeto/yt-wrapper/resumo.svg) ![Atividade](./assets/badges/projeto/yt-wrapper/atividade.svg) ![Estrelas](./assets/badges/projeto/yt-wrapper/estrelas.svg) ![Atualizado](./assets/badges/projeto/yt-wrapper/atualizado.svg)
+![Resumo do Projeto](./assets/badges/projeto/ayana-bot/resumo.svg) ![Atividade](./assets/badges/projeto/ayana-bot/atividade.svg) ![Estrelas](./assets/badges/projeto/ayana-bot/estrelas.svg) ![Atualizado](./assets/badges/projeto/ayana-bot/atualizado.svg)
 
 <p align="center">
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 5: [yt-dls](https://github.com/kaikybrofc/yt-dls)
+### Projeto 4: [yt-dls](https://github.com/kaikybrofc/yt-dls)
 
 **Descrição:** Lightweight Node.js API for YouTube media downloads powered by yt-dlp.
 
@@ -124,7 +114,7 @@ Projetos autorais priorizados por relevância técnica e atividade recente.
   <img src="./assets/banners/divider.svg" width="100%" alt="Divisor neon animado gerado pelo servidor"/>
 </p>
 
-### Projeto 6: [speed-pro](https://github.com/kaikybrofc/speed-pro)
+### Projeto 5: [speed-pro](https://github.com/kaikybrofc/speed-pro)
 
 **Descrição:** Network speed testing CLI in Python for measuring ping, download, and upload bandwidth.
 
@@ -219,5 +209,5 @@ Projetos autorais priorizados por relevância técnica e atividade recente.
 <!--ORGS_DYNAMIC_START-->
 _Sem organizações vinculadas no momento._
 
-> _Atualizado em 6 de jul. de 2026, 10:39 (UTC) | Fonte: GitHub API._
+> _Atualizado em 6 de ago. de 2026, 19:18 (UTC) | Fonte: GitHub API._
 <!--ORGS_DYNAMIC_END-->
