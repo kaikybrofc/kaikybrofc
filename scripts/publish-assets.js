@@ -49,7 +49,7 @@ function runCommand(command, args, options = {}) {
 }
 
 function getGitPushToken() {
-  return String(process.env.GITHUB_PUSH_TOKEN || process.env.GITHUB_TOKEN || "").trim();
+  return String(process.env.GITHUB_PUSH_TOKEN || process.env.GITHUB_TOKEN || process.env.GH_TOKEN || "").trim();
 }
 
 function isGithubHttpsRemote(remoteUrl) {
@@ -143,7 +143,7 @@ function describePushFailure(errorMessage) {
   if (/Authentication failed|401|403/i.test(message)) {
     return {
       reason: "auth_failed",
-      hint: "Falha de autenticacao no push. Verifique GITHUB_PUSH_TOKEN/GITHUB_TOKEN."
+      hint: "Falha de autenticacao no push. Verifique GITHUB_PUSH_TOKEN/GITHUB_TOKEN/GH_TOKEN."
     };
   }
 
@@ -339,7 +339,7 @@ async function run() {
   const pushToken = getGitPushToken();
   if (isGithubHttpsRemote(remoteUrl) && !pushToken) {
     throw new Error(
-      "Remote HTTPS do GitHub detectado sem token. Defina GITHUB_PUSH_TOKEN ou GITHUB_TOKEN no ambiente."
+      "Remote HTTPS do GitHub detectado sem token. Defina GITHUB_PUSH_TOKEN, GITHUB_TOKEN ou GH_TOKEN no ambiente."
     );
   }
 

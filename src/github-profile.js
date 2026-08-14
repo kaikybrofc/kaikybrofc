@@ -863,11 +863,11 @@ function buildProjectsByActivity(publicRepos, events) {
 }
 
 async function fetchProfileSummary(options = {}) {
-  const token = options.token || process.env.GITHUB_TOKEN;
+  const token = options.token || process.env.GITHUB_TOKEN || process.env.GH_TOKEN;
   const apiUrl = process.env.GITHUB_API_URL || DEFAULT_API_URL;
 
   if (!token) {
-    throw new Error("GITHUB_TOKEN is missing. Add it to .env or process environment.");
+    throw new Error("GITHUB_TOKEN or GH_TOKEN is missing. Add one of them to .env or process environment.");
   }
 
   const user = await fetchJson(`${apiUrl}/user`, token);

@@ -35,7 +35,7 @@ function getGithubApiUrl() {
 }
 
 function getGithubToken() {
-  return String(process.env.GITHUB_TOKEN || "").trim();
+  return String(process.env.GITHUB_TOKEN || process.env.GH_TOKEN || "").trim();
 }
 
 function getUserAgent() {

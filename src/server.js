@@ -2185,8 +2185,8 @@ function runLocalAssetSync(reason) {
 app.listen(port, host, () => {
   console.log(`perfil-server listening on http://${host}:${port}`);
 
-  if (!process.env.GITHUB_TOKEN) {
-    console.warn("[readme-sync] GITHUB_TOKEN not found. Dynamic profile sync disabled.");
+  if (!process.env.GITHUB_TOKEN && !process.env.GH_TOKEN) {
+    console.warn("[readme-sync] GITHUB_TOKEN/GH_TOKEN not found. Dynamic profile sync disabled.");
     return;
   }
 
