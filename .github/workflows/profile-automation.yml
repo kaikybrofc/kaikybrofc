@@ -48,9 +48,6 @@ jobs:
           base: header, activity, community, repositories, metadata
           base_indepth: yes
           config_timezone: America/Manaus
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_achievements_threshold: C
 
       - name: Generate metrics (extended)
         continue-on-error: true
