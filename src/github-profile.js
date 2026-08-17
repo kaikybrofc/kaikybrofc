@@ -15,6 +15,8 @@ const PUBLIC_EVENTS_MAX_ITEMS = 300;
 const ORGANIZATIONS_LIMIT_DEFAULT = 8;
 const ORG_REPOS_LIMIT_DEFAULT = 4;
 const GH_CLI_TIMEOUT_MS_DEFAULT = 20000;
+const GITHUB_RETRY_ATTEMPTS_DEFAULT = 3;
+const GITHUB_RETRY_DELAY_MS_DEFAULT = 750;
 
 const DEPENDENCY_TECH_MAP = Object.freeze({
   express: { name: "Express", badgeKey: "express" },
@@ -113,31 +115,80 @@ function createHeaders(token) {
   return headers;
 }
 
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, Math.max(0, Number(ms) || 0)));
+}
+
+function getRetryConfig() {
+  const attempts = Math.max(
+    1,
+    parseNumber(process.env.GITHUB_RETRY_ATTEMPTS, GITHUB_RETRY_ATTEMPTS_DEFAULT)
+  );
+  const delayMs = Math.max(
+    0,
+    parseNumber(process.env.GITHUB_RETRY_DELAY_MS, GITHUB_RETRY_DELAY_MS_DEFAULT)
+  );
+
+  return { attempts, delayMs };
+}
+
+function shouldRetryGithubResponse(status) {
+  return status >= 500 || status === 429;
+}
+
 async function fetchJson(url, token, options = {}) {
   const timeoutMs = parseNumber(process.env.GITHUB_TIMEOUT_MS, DEFAULT_TIMEOUT_MS);
-  const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), timeoutMs);
+  const { attempts, delayMs } = getRetryConfig();
+  let lastError = null;
 
-  try {
-    const response = await fetch(url, {
-      method: "GET",
-      headers: createHeaders(token),
-      signal: controller.signal
-    });
+  for (let attempt = 1; attempt <= attempts; attempt += 1) {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), timeoutMs);
 
-    if (options.allow404 && response.status === 404) {
-      return null;
+    try {
+      const response = await fetch(url, {
+        method: "GET",
+        headers: createHeaders(token),
+        signal: controller.signal
+      });
+
+      if (options.allow404 && response.status === 404) {
+        return null;
+      }
+
+      if (!response.ok) {
+        const body = await response.text();
+        const error = new Error(`GitHub API ${response.status} on ${url}: ${body.slice(0, 280)}`);
+
+        if (!shouldRetryGithubResponse(response.status) || attempt === attempts) {
+          throw error;
+        }
+
+        lastError = error;
+      } else {
+        return await response.json();
+      }
+    } catch (error) {
+      lastError = error;
+
+      const shouldRetry =
+        attempt < attempts &&
+        (error?.name === "AbortError" ||
+          /fetch failed|network|ECONNRESET|ETIMEDOUT|EAI_AGAIN/i.test(String(error?.message || "")));
+
+      if (!shouldRetry) {
+        throw error;
+      }
+    } finally {
+      clearTimeout(timeout);
     }
 
-    if (!response.ok) {
-      const body = await response.text();
-      throw new Error(`GitHub API ${response.status} on ${url}: ${body.slice(0, 280)}`);
+    if (attempt < attempts && delayMs > 0) {
+      await sleep(delayMs * attempt);
     }
-
-    return await response.json();
-  } finally {
-    clearTimeout(timeout);
   }
+
+  throw lastError || new Error(`GitHub API request failed on ${url}`);
 }
 
 async function fetchOwnedRepos(apiUrl, token) {
