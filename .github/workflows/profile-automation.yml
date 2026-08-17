@@ -32,6 +32,7 @@ jobs:
           sed -i -E "s#(<!--LAST_UPDATED_START-->).*(<!--LAST_UPDATED_END-->)#\\1${stamp}\\2#" README.md
 
       - name: Generate contribution snake
+        continue-on-error: true
         uses: Platane/snk@v3
         with:
           github_user_name: kaikybrofc
