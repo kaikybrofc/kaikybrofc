@@ -35,8 +35,8 @@
 <line x1="86" y1="251" x2="1320" y2="251" stroke="#7dd3fc" stroke-opacity="0.12" stroke-width="1"/>
 <line x1="86" y1="287" x2="1320" y2="287" stroke="#7dd3fc" stroke-opacity="0.12" stroke-width="1"/>
 <line x1="86" y1="322" x2="1320" y2="322" stroke="#7dd3fc" stroke-opacity="0.28" stroke-width="1"/>
-<path d="M 86 311 L 262 322 L 439 322 L 615 180 L 791 219 L 967 294 L 1144 289 L 1320 233 L 1320 322 L 86 322 Z" fill="url(#statAreaevolucaomensal)"/>
-<path d="M 86 311 L 262 322 L 439 322 L 615 180 L 791 219 L 967 294 L 1144 289 L 1320 233" fill="none" stroke="#00e5ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 86 311 L 262 322 L 439 322 L 615 180 L 791 219 L 967 294 L 1144 291 L 1320 230 L 1320 322 L 86 322 Z" fill="url(#statAreaevolucaomensal)"/>
+<path d="M 86 311 L 262 322 L 439 322 L 615 180 L 791 219 L 967 294 L 1144 291 L 1320 230" fill="none" stroke="#00e5ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <g>
   <circle cx="86" cy="311" r="4.6" fill="#00e5ff" stroke="#ecfeff" stroke-opacity="0.7"/>
   <text x="86" y="302" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">4</text>
@@ -68,18 +68,18 @@
   <text x="967" y="344" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="10.8" font-weight="600">jul/26</text>
 </g>
 <g>
-  <circle cx="1144" cy="289" r="4.6" fill="#00e5ff" stroke="#ecfeff" stroke-opacity="0.7"/>
-  <text x="1144" y="280" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">12</text>
+  <circle cx="1144" cy="291" r="4.6" fill="#00e5ff" stroke="#ecfeff" stroke-opacity="0.7"/>
+  <text x="1144" y="282" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">11</text>
   <text x="1144" y="344" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="10.8" font-weight="600">ago/26</text>
 </g>
 <g>
-  <circle cx="1320" cy="233" r="4.6" fill="#00e5ff" stroke="#ecfeff" stroke-opacity="0.7"/>
-  <text x="1320" y="224" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">32</text>
+  <circle cx="1320" cy="230" r="4.6" fill="#00e5ff" stroke="#ecfeff" stroke-opacity="0.7"/>
+  <text x="1320" y="221" text-anchor="middle" fill="#d7f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" font-weight="700">33</text>
   <text x="1320" y="344" text-anchor="middle" fill="#9fc6dd" font-family="JetBrains Mono, Consolas, monospace" font-size="10.8" font-weight="600">set/26</text>
 </g>
-  <text x="58" y="394" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Mes atual (set. de 26): 32 registros.</text>
-<text x="58" y="418" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Mes anterior (ago. de 26): 12 registros.</text>
-<text x="58" y="442" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Variacao mensal: +20.</text>
+  <text x="58" y="394" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Mes atual (set. de 26): 33 registros.</text>
+<text x="58" y="418" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Mes anterior (ago. de 26): 11 registros.</text>
+<text x="58" y="442" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Variacao mensal: +22.</text>
 <text x="58" y="466" fill="#d9f4ff" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="600">- Pico no periodo: mai. de 26 (51).</text>
   <line x1="52" y1="506" x2="1348" y2="506" stroke="#38bdf8" stroke-opacity="0.32"/>
   <text x="54" y="530" fill="#a8d9f4" font-family="JetBrains Mono, Consolas, monospace" font-size="16">
