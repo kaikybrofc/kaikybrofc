@@ -49,7 +49,7 @@ function runCommand(command, args, options = {}) {
 }
 
 function getGitPushToken() {
-  return String(process.env.GITHUB_PUSH_TOKEN || process.env.GITHUB_TOKEN || process.env.GH_TOKEN || "").trim();
+  return String(process.env.GITHUB_TOKEN || process.env.GITHUB_PUSH_TOKEN || process.env.GH_TOKEN || "").trim();
 }
 
 function isGithubHttpsRemote(remoteUrl) {
