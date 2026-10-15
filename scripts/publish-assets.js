@@ -4,6 +4,7 @@ const fs = require("node:fs");
 const path = require("node:path");
 const { spawn } = require("node:child_process");
 const dotenv = require("dotenv");
+const { getGithubToken } = require("../src/github-auth");
 
 dotenv.config({ path: path.resolve(process.cwd(), ".env"), quiet: true });
 
@@ -49,7 +50,7 @@ function runCommand(command, args, options = {}) {
 }
 
 function getGitPushToken() {
-  return String(process.env.GITHUB_TOKEN || process.env.GITHUB_PUSH_TOKEN || process.env.GH_TOKEN || "").trim();
+  return getGithubToken();
 }
 
 function isGithubHttpsRemote(remoteUrl) {

@@ -1,5 +1,6 @@
 const fs = require("node:fs/promises");
 const path = require("node:path");
+const { getGithubToken: resolveGithubToken } = require("./github-auth");
 const { runGeminiCliPrompt } = require("./gemini-cli");
 
 const DEFAULT_GITHUB_API_URL = "https://api.github.com";
@@ -25,7 +26,7 @@ function getCachePath() {
 }
 
 function getGithubToken() {
-  return String(process.env.GITHUB_TOKEN || process.env.GH_TOKEN || "").trim();
+  return resolveGithubToken();
 }
 
 function getGithubApiUrl() {

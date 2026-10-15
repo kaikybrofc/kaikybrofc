@@ -1,5 +1,6 @@
 const fs = require("node:fs/promises");
 const path = require("node:path");
+const { getGithubToken: resolveGithubToken } = require("./github-auth");
 
 const DEFAULT_GITHUB_API_URL = "https://api.github.com";
 const DEFAULT_USER_AGENT = "perfil-server";
@@ -35,7 +36,7 @@ function getGithubApiUrl() {
 }
 
 function getGithubToken() {
-  return String(process.env.GITHUB_TOKEN || process.env.GH_TOKEN || "").trim();
+  return resolveGithubToken();
 }
 
 function getUserAgent() {

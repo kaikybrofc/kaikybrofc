@@ -4,6 +4,7 @@ const dotenv = require("dotenv");
 const express = require("express");
 const simpleIcons = require("simple-icons");
 
+const { getGithubToken } = require("./github-auth");
 const { fetchProfileSummary } = require("./github-profile");
 const { getAiAboutSummary } = require("./ai-about");
 const { getAiFocusSummary } = require("./ai-focus");
@@ -2185,8 +2186,8 @@ function runLocalAssetSync(reason) {
 app.listen(port, host, () => {
   console.log(`perfil-server listening on http://${host}:${port}`);
 
-  if (!process.env.GITHUB_TOKEN && !process.env.GH_TOKEN) {
-    console.warn("[readme-sync] GITHUB_TOKEN/GH_TOKEN not found. Dynamic profile sync disabled.");
+  if (!getGithubToken()) {
+    console.warn("[readme-sync] GitHub authentication not found. Dynamic profile sync disabled.");
     return;
   }
 
